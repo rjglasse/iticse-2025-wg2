@@ -2,6 +2,8 @@ import argparse
 import re
 from collections import defaultdict
 from pathlib import Path
+import matplotlib.pyplot as plt
+import numpy as np
 
 def extract_topics_from_file(topics_file):
     """Extract topics from a file (one topic per line)."""
@@ -87,6 +89,60 @@ def analyze_topic_frequency(entries, topics, case_sensitive=False):
     
     return topic_frequency, topic_entries
 
+def create_bar_chart(sorted_topics, output_file='topic_frequency_chart.png', max_topics=20):
+    """Create a horizontal bar chart of topic frequencies and save as PNG."""
+    try:
+        # Limit the number of topics to display for readability
+        display_topics = sorted_topics[:max_topics]
+        
+        if not display_topics:
+            print("No topics to plot.")
+            return False
+        
+        # Extract topics and frequencies
+        topics = [item[0] for item in display_topics]
+        frequencies = [item[1] for item in display_topics]
+        
+        # Create figure with vertical layout for horizontal bars
+        plt.figure(figsize=(12, 20))
+        
+        # Create horizontal bar chart
+        bars = plt.barh(topics, frequencies, color='steelblue', alpha=0.8)
+        
+        # Customize the chart
+        plt.title('Topic Frequency Analysis', fontsize=16, fontweight='bold', pad=20)
+        plt.xlabel('Frequency', fontsize=12, fontweight='bold')
+        plt.ylabel('Topics', fontsize=12, fontweight='bold')
+        
+        # Invert y-axis so highest frequency is on top
+        plt.gca().invert_yaxis()
+        
+        # Add value labels at the end of bars
+        for bar, freq in zip(bars, frequencies):
+            plt.text(bar.get_width() + 0.1, bar.get_y() + bar.get_height()/2,
+                    str(freq), ha='left', va='center', fontweight='bold')
+        
+        # Add grid for better readability
+        plt.grid(axis='x', alpha=0.3, linestyle='--')
+        
+        # Adjust layout to prevent label cutoff
+        plt.tight_layout()
+        
+        # Save the chart
+        plt.savefig(output_file, dpi=300, bbox_inches='tight', 
+                   facecolor='white', edgecolor='none')
+        plt.close()  # Close the figure to free memory
+        
+        print(f"Bar chart saved to: {output_file}")
+        return True
+        
+    except ImportError:
+        print("Error: matplotlib is required for plotting. Install with: pip install matplotlib")
+        return False
+    except Exception as e:
+        print(f"Error creating bar chart: {e}")
+        return False
+
 def main():
     parser = argparse.ArgumentParser(description='Analyze topic frequency in BibTeX entries')
     parser.add_argument('-t', '--topics', required=True, help='File containing topics (one per line)')
@@ -95,6 +151,11 @@ def main():
     parser.add_argument('-c', '--case-sensitive', action='store_true', help='Use case-sensitive matching')
     parser.add_argument('-v', '--verbose', action='store_true', help='Show detailed output with DOIs')
     parser.add_argument('-s', '--specific-topic', help='Show papers for a specific topic')
+    parser.add_argument('-p', '--plot-chart', action='store_true', help='Export bar chart to PNG')
+    parser.add_argument('--chart-output', help='Output file for chart (default: topic_frequency_chart.png)', 
+                       default='topic_frequency_chart.png')
+    parser.add_argument('--max-topics', type=int, default=20, 
+                       help='Maximum number of topics to display in chart (default: 20)')
     args = parser.parse_args()
     
     # Load topics
@@ -136,11 +197,14 @@ def main():
             print(f"\nNo papers found containing topic '{specific_topic}'")
         
         # If specific topic only requested, exit
-        if not args.verbose and not args.output:
+        if not args.verbose and not args.output and not args.plot_chart:
             return
     
     # Sort topics by frequency (descending)
     sorted_topics = sorted(topic_frequency.items(), key=lambda x: x[1], reverse=True)
+    
+    # Filter out topics with 0 frequency for plotting
+    sorted_topics = [(topic, freq) for topic, freq in sorted_topics if freq > 0]
     
     # Print results for all topics
     if args.verbose or not args.specific_topic:
@@ -158,6 +222,10 @@ def main():
                 for entry in topic_entries[topic]:
                     doi = entry.get('doi', 'No DOI available')
                     print(f"    - {doi}")
+    
+    # Create bar chart if requested
+    if args.plot_chart:
+        create_bar_chart(sorted_topics, args.chart_output, args.max_topics)
     
     # Write results to file if requested
     if args.output:

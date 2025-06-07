@@ -1,0 +1,4530 @@
+TF-IDF Analysis Results
+==================================================
+
+Top 20 Terms Globally:
+------------------------------
+software: 2.4516
+genai: 2.4314
+llms: 2.1932
+code: 2.1730
+programming: 2.1712
+chatgpt: 2.1569
+tools: 1.8110
+computing: 1.7296
+engineering: 1.6709
+generative: 1.5954
+students: 1.5260
+learning: 1.4945
+models: 1.4294
+use: 1.4092
+data: 1.3924
+student: 1.3868
+course: 1.3077
+feedback: 1.3043
+teaching: 1.3031
+research: 1.2643
+
+Per-Document Analysis:
+------------------------------
+
+Document 1:
+Title: proceedings of the 2025 symposium on eye tracking research and applications...
+DOI: 10.1145/3715669.3725868
+Top 10 terms:
+  summarization: 0.1345
+  eye: 0.1043
+  tracking: 0.0957
+  comprehension: 0.0633
+  code: 0.0479
+  2025: 0.0448
+  maintenance: 0.0448
+  gemini: 0.0448
+  influence: 0.0425
+  varying: 0.0406
+
+
+Document 2:
+Title: using generative ai to design programming assignments in introduction to computer science...
+Top 10 terms:
+  stands: 0.0952
+  constructs: 0.0874
+  popularity: 0.0819
+  programming: 0.0778
+  gained: 0.0776
+  recognizing: 0.0741
+  implementations: 0.0741
+  face: 0.0643
+  essential: 0.0608
+  debugging: 0.0608
+
+
+Document 3:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701853
+Top 10 terms:
+  project: 0.0815
+  freshmen: 0.0762
+  alone: 0.0700
+  final: 0.0621
+  strengths: 0.0593
+  limitations: 0.0579
+  submitted: 0.0500
+  create: 0.0424
+  generative: 0.0407
+  cs0: 0.0381
+
+
+Document 4:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705076
+Top 10 terms:
+  bots: 0.1637
+  staff: 0.1228
+  responses: 0.0876
+  forums: 0.0667
+  talk: 0.0589
+  1000: 0.0409
+  preventing: 0.0409
+  trained: 0.0409
+  reviewed: 0.0409
+  studentsthis: 0.0409
+
+
+Document 5:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701859
+Top 10 terms:
+  tools: 0.0921
+  serving: 0.0745
+  formal: 0.0684
+  minority: 0.0684
+  instruction: 0.0566
+  generative: 0.0511
+  reported: 0.0475
+  outputs: 0.0432
+  institutions: 0.0406
+  positive: 0.0398
+
+
+Document 6:
+Title: proceedings of the 28th international conference on evaluation and assessment in software engineerin...
+DOI: 10.1145/3661167.3661273
+Top 10 terms:
+  smart: 0.0937
+  testing: 0.0815
+  tests: 0.0763
+  assistant: 0.0606
+  game: 0.0469
+  guidance: 0.0345
+  example: 0.0326
+  software: 0.0307
+  writing: 0.0268
+  trying: 0.0255
+
+
+Document 7:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705061
+Top 10 terms:
+  assessments: 0.0547
+  simulations: 0.0450
+  mastering: 0.0450
+  overcoming: 0.0450
+  showcase: 0.0413
+  posed: 0.0413
+  mimic: 0.0413
+  cs50: 0.0413
+  opened: 0.0413
+  presentation: 0.0413
+
+
+Document 8:
+Title: proceedings of the 6th european conference on software engineering education...
+DOI: 10.1145/3723010.3723012
+Top 10 terms:
+  software: 0.0910
+  project: 0.0811
+  way: 0.0586
+  engineering: 0.0582
+  expanded: 0.0505
+  accordingly: 0.0505
+  6th: 0.0464
+  meaningful: 0.0464
+  every: 0.0435
+  tools: 0.0417
+
+
+Document 9:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3633409
+Top 10 terms:
+  disruptive: 0.0841
+  workshop: 0.0642
+  design: 0.0636
+  activities: 0.0626
+  lesson: 0.0516
+  opens: 0.0516
+  soft: 0.0516
+  applications: 0.0454
+  deal: 0.0444
+  threats: 0.0444
+
+
+Document 10:
+Title: enhancing undergraduate computing education with lmms and chatgpt4o...
+Top 10 terms:
+  lmms: 0.1078
+  inputs: 0.0627
+  impacted: 0.0627
+  brainstorming: 0.0627
+  architectures: 0.0576
+  multimedia: 0.0576
+  alike: 0.0576
+  chatgpt4o: 0.0576
+  persist: 0.0576
+  educators: 0.0553
+
+
+Document 11:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705201
+Top 10 terms:
+  skill: 0.0528
+  aiassisted: 0.0483
+  ethical: 0.0443
+  framework: 0.0443
+  structured: 0.0443
+  training: 0.0330
+  usage: 0.0306
+  supportive: 0.0297
+  alleviated: 0.0297
+  appreciated: 0.0297
+
+
+Document 12:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701863
+Top 10 terms:
+  finetuned: 0.0727
+  foundational: 0.0493
+  languages: 0.0441
+  generation: 0.0402
+  increasingly: 0.0402
+  coderelated: 0.0396
+  debug: 0.0396
+  tasks: 0.0364
+  showing: 0.0364
+  nlp: 0.0364
+
+
+Document 13:
+Title: extended abstracts of the chi conference on human factors in computing systems...
+DOI: 10.1145/3613905.3647967
+Top 10 terms:
+  shown: 0.0617
+  messages: 0.0548
+  gpt4: 0.0507
+  errors: 0.0471
+  make: 0.0461
+  greatly: 0.0406
+  extend: 0.0406
+  cryptic: 0.0406
+  automated: 0.0391
+  hci: 0.0373
+
+
+Document 14:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630927
+Top 10 terms:
+  software: 0.1297
+  engineering: 0.1053
+  ethics: 0.0533
+  argue: 0.0332
+  urgency: 0.0332
+  adaptable: 0.0332
+  remain: 0.0305
+  expand: 0.0305
+  pose: 0.0305
+  policymakers: 0.0286
+
+
+Document 15:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701917
+Top 10 terms:
+  retrievalaugmented: 0.0815
+  systems: 0.0811
+  answering: 0.0747
+  instructor: 0.0656
+  activities: 0.0607
+  what: 0.0546
+  reflecting: 0.0459
+  deploying: 0.0459
+  proliferation: 0.0459
+  factor: 0.0459
+
+
+Document 16:
+Title: proceedings of the 2024 16th international conference on education technology and computers...
+DOI: 10.1145/3702163.3702188
+Top 10 terms:
+  tools: 0.0595
+  survey: 0.0469
+  revolutionize: 0.0413
+  routines: 0.0413
+  highlighted: 0.0413
+  16th: 0.0413
+  computers: 0.0379
+  campus: 0.0379
+  policymakers: 0.0355
+  preparation: 0.0355
+
+
+Document 17:
+Title: proceedings of the 18th innovations in software engineering conference...
+DOI: 10.1145/3717383.3721236
+Top 10 terms:
+  workshop: 0.1232
+  2025: 0.1136
+  held: 0.1136
+  18th: 0.1136
+  software: 0.0991
+  utilizing: 0.0802
+  examine: 0.0802
+  engineering: 0.0761
+  edition: 0.0660
+  acquisition: 0.0660
+
+
+Document 18:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 2...
+DOI: 10.1145/3649409.3691093
+Top 10 terms:
+  metrics: 0.1638
+  standards: 0.0583
+  measure: 0.0494
+  written: 0.0457
+  past: 0.0405
+  assistance: 0.0377
+  skills: 0.0367
+  evaluating: 0.0361
+  merely: 0.0317
+  submit: 0.0317
+
+
+Document 19:
+Title: proceedings of the 2023 conference on innovation and technology in computer science education v 1...
+DOI: 10.1145/3587102.3588815
+Top 10 terms:
+  software: 0.0811
+  engineering: 0.0648
+  thus: 0.0575
+  unsupervised: 0.0450
+  accepting: 0.0450
+  limit: 0.0450
+  potential: 0.0421
+  approaches: 0.0414
+  negatively: 0.0413
+  profiles: 0.0413
+
+
+Document 20:
+Title: proceedings of the 14th learning analytics and knowledge conference...
+DOI: 10.1145/3636555.3636882
+Top 10 terms:
+  aipowered: 0.0673
+  grading: 0.0627
+  programming: 0.0515
+  underexplored: 0.0450
+  chatgpt: 0.0438
+  tasks: 0.0414
+  independently: 0.0413
+  difficulties: 0.0413
+  selected: 0.0387
+  popularity: 0.0387
+
+
+Document 21:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 2...
+DOI: 10.1145/3649409.3691074
+Top 10 terms:
+  ethical: 0.0690
+  genai: 0.0577
+  panel: 0.0499
+  technologies: 0.0445
+  responsible: 0.0411
+  ethics: 0.0371
+  spans: 0.0346
+  conducting: 0.0346
+  collective: 0.0346
+  curricula: 0.0329
+
+
+Document 22:
+Title: proceedings of the 2024 acm conference on international computing education research volume 2...
+DOI: 10.1145/3632621.3671424
+Top 10 terms:
+  parallel: 0.1324
+  exercises: 0.0719
+  affordances: 0.0441
+  processes: 0.0420
+  required: 0.0357
+  solution: 0.0325
+  concurrency: 0.0321
+  advanced: 0.0291
+  programming: 0.0288
+  students’: 0.0285
+
+
+Document 23:
+Top 10 terms:
+  faculty: 0.1791
+  going: 0.0884
+  googles: 0.0884
+  appropriately: 0.0812
+  classroom: 0.0767
+  away: 0.0761
+  cybersecurity: 0.0761
+  tutorial: 0.0721
+  responsibly: 0.0721
+  shaping: 0.0721
+
+
+Document 24:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705064
+Top 10 terms:
+  phase: 0.1268
+  genai: 0.0859
+  attitudes: 0.0564
+  toward: 0.0550
+  introduction: 0.0525
+  tools: 0.0486
+  preliminary: 0.0376
+  comprehension: 0.0358
+  thinking: 0.0328
+  presenting: 0.0295
+
+
+Document 25:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3633418
+Top 10 terms:
+  videos: 0.2130
+  video: 0.1956
+  platform: 0.0556
+  curate: 0.0489
+  instructional: 0.0383
+  instructors: 0.0312
+  textbook: 0.0266
+  greatly: 0.0266
+  scripts: 0.0266
+  datadriven: 0.0266
+
+
+Document 26:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705252
+Top 10 terms:
+  intro: 0.1598
+  sociotechnical: 0.1374
+  literacy: 0.1193
+  implementing: 0.1150
+  integrates: 0.1150
+  society: 0.1112
+  offering: 0.1078
+  policies: 0.1020
+  number: 0.0994
+  introductory: 0.0920
+
+
+Document 27:
+Title: proceedings of the 18th wipsce conference on primary and secondary computing education research...
+DOI: 10.1145/3605468.3609775
+Top 10 terms:
+  k12: 0.1293
+  perceptions: 0.0689
+  constructive: 0.0619
+  wipsce: 0.0619
+  timeliness: 0.0619
+  outlined: 0.0568
+  achievement: 0.0568
+  thorough: 0.0568
+  secondary: 0.0532
+  necessitates: 0.0532
+
+
+Document 28:
+Title: proceedings of the 26th western canadian conference on computing education...
+DOI: 10.1145/3660650.3660668
+Top 10 terms:
+  policy: 0.2261
+  aiusage: 0.1624
+  stance: 0.0745
+  proactive: 0.0745
+  promotes: 0.0745
+  overcome: 0.0698
+  western: 0.0698
+  canadian: 0.0698
+  debate: 0.0662
+  academic: 0.0658
+
+
+Document 29:
+Title: proceedings of the 26th australasian computing education conference...
+DOI: 10.1145/3636243.3636248
+Top 10 terms:
+  helpseeking: 0.2385
+  resources: 0.0592
+  new: 0.0481
+  available: 0.0450
+  n47: 0.0396
+  acquire: 0.0396
+  proliferation: 0.0364
+  dimensions: 0.0364
+  generative: 0.0362
+  depending: 0.0341
+
+
+Document 30:
+Title: proceedings of the 6th european conference on software engineering education...
+DOI: 10.1145/3723010.3723036
+Top 10 terms:
+  european: 0.1230
+  semantic: 0.0997
+  domain: 0.0892
+  informatics: 0.0854
+  resulting: 0.0784
+  recommendation: 0.0784
+  business: 0.0664
+  model: 0.0578
+  play: 0.0545
+  way: 0.0495
+
+
+Document 31:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701873
+Top 10 terms:
+  pedagogy: 0.0898
+  literacy: 0.0771
+  reading: 0.0771
+  challenge: 0.0574
+  whole: 0.0516
+  subjects: 0.0516
+  bottomup: 0.0516
+  look: 0.0516
+  drawing: 0.0474
+  comparisons: 0.0474
+
+
+Document 32:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701785
+Top 10 terms:
+  genai: 0.1235
+  tools: 0.0611
+  assignment: 0.0451
+  part: 0.0413
+  drawn: 0.0297
+  habits: 0.0297
+  empowers: 0.0297
+  permitted: 0.0297
+  unsupervised: 0.0297
+  determined: 0.0297
+
+
+Document 33:
+Title: proceedings of the acmieee 27th international conference on model driven engineering languages and s...
+DOI: 10.1145/3652620.3687776
+Top 10 terms:
+  scaffolding: 0.2157
+  uml: 0.1151
+  modeling: 0.0873
+  software: 0.0753
+  function: 0.0627
+  acmieee: 0.0627
+  enhancing: 0.0614
+  advance: 0.0576
+  comprising: 0.0576
+  engineering: 0.0541
+
+
+Document 34:
+Title: generative pretrained transformer gpt models as a code review feedback tool in computer science prog...
+Top 10 terms:
+  reviews: 0.1838
+  art: 0.1532
+  feedback: 0.0549
+  review: 0.0542
+  transformer: 0.0532
+  pretrained: 0.0513
+  automatic: 0.0423
+  gpt: 0.0381
+  volunteers: 0.0356
+  timeliness: 0.0356
+
+
+Document 35:
+Title: bob or bot exploring chatgpts answers to university computer science assessment...
+DOI: 10.1145/3633287
+Top 10 terms:
+  scripts: 0.2008
+  chatgptgenerated: 0.0863
+  received: 0.0818
+  cheating: 0.0723
+  passing: 0.0614
+  detector: 0.0614
+  university: 0.0589
+  every: 0.0576
+  grade: 0.0545
+  least: 0.0521
+
+
+Document 36:
+Title: proceedings of the 2023 working group reports on innovation and technology in computer science educa...
+DOI: 10.1145/3623762.3633499
+Top 10 terms:
+  genai: 0.0333
+  report: 0.0321
+  five: 0.0270
+  leverage: 0.0255
+  computing: 0.0253
+  pedagogy: 0.0232
+  working: 0.0222
+  group: 0.0218
+  around: 0.0210
+  forms: 0.0200
+
+
+Document 37:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635543
+Top 10 terms:
+  gai: 0.1536
+  openais: 0.0466
+  writing: 0.0351
+  named: 0.0335
+  array: 0.0335
+  vast: 0.0335
+  hand: 0.0307
+  music: 0.0307
+  turbo: 0.0307
+  existing: 0.0303
+
+
+Document 38:
+Title: reviewing and revising your undergraduate cs major a structured design process for creating distinct...
+Top 10 terms:
+  changes: 0.1134
+  major: 0.0976
+  reviewing: 0.0858
+  institutional: 0.0727
+  programs: 0.0698
+  body: 0.0698
+  stem: 0.0467
+  corresponding: 0.0467
+  revise: 0.0467
+  distinctive: 0.0467
+
+
+Document 39:
+Title: proceedings of the ieeeacm 46th international conference on software engineering...
+DOI: 10.1145/3597503.3639201
+Top 10 terms:
+  participants: 0.0634
+  ieeeacm: 0.0604
+  pitfalls: 0.0604
+  violations: 0.0604
+  academics: 0.0604
+  consequences: 0.0604
+  embrace: 0.0604
+  betweensubjects: 0.0604
+  selfefficacy: 0.0554
+  revolutionizing: 0.0554
+
+
+Document 40:
+Title: ls 24 proceedings of the eleventh acm conference on learning scale...
+Top 10 terms:
+  scale: 0.1450
+  learning: 0.0496
+  interventions: 0.0434
+  informal: 0.0434
+  studies: 0.0433
+  systems: 0.0352
+  online: 0.0316
+  massive: 0.0290
+  contexts: 0.0285
+  methods: 0.0279
+
+
+Document 41:
+Title: ai intersections ethics education and technological philopsophy...
+Top 10 terms:
+  panel: 0.1585
+  technological: 0.0822
+  ethics: 0.0589
+  philosophy: 0.0550
+  multifaceted: 0.0550
+  bringing: 0.0550
+  panelists: 0.0550
+  viewpoints: 0.0550
+  historical: 0.0505
+  explainability: 0.0505
+
+
+Document 42:
+Title: proceedings of the 26th international academic mindtrek conference...
+DOI: 10.1145/3616961.3616974
+Top 10 terms:
+  chatbots: 0.0856
+  steps: 0.0598
+  aipowered: 0.0548
+  chatgpt: 0.0499
+  implications: 0.0491
+  natural: 0.0471
+  tutoring: 0.0468
+  processing: 0.0435
+  students’: 0.0435
+  outputs: 0.0426
+
+
+Document 43:
+Title: siggraph asia 2024 educators forum...
+DOI: 10.1145/3680533.3697064
+Top 10 terms:
+  visual: 0.0773
+  reasoning: 0.0700
+  multimodal: 0.0598
+  gpt4o: 0.0598
+  graphics: 0.0573
+  lmms: 0.0492
+  requiring: 0.0467
+  perception: 0.0428
+  investigated: 0.0428
+  abilities: 0.0428
+
+
+Document 44:
+Title: proceedings of the 9th conference on computing education practice...
+DOI: 10.1145/3702212.3702214
+Top 10 terms:
+  learners: 0.1281
+  product: 0.1004
+  genai: 0.0836
+  components: 0.0723
+  project: 0.0716
+  apprenticeship: 0.0669
+  want: 0.0545
+  end: 0.0482
+  software: 0.0402
+  assessment: 0.0382
+
+
+Document 45:
+Title: proceedings of the 27th australasian computing education conference...
+DOI: 10.1145/3716640.3716656
+Top 10 terms:
+  goals: 0.2091
+  achievement: 0.1410
+  mastery: 0.1152
+  cs1: 0.0855
+  genai: 0.0799
+  prior: 0.0792
+  correlate: 0.0768
+  exam: 0.0735
+  interest: 0.0699
+  findings: 0.0486
+
+
+Document 46:
+Title: prompting collaboration development of an multidisciplinary applied ai minor program...
+Top 10 terms:
+  minor: 0.0929
+  panel: 0.0669
+  fields: 0.0627
+  program: 0.0570
+  humanities: 0.0532
+  ethical: 0.0463
+  considerations: 0.0446
+  processes: 0.0406
+  collaboration: 0.0385
+  across: 0.0376
+
+
+Document 47:
+Title: proceedings of the 2024 acm conference on international computing education research volume 2...
+DOI: 10.1145/3632621.3671415
+Top 10 terms:
+  youth: 0.0962
+  sense: 0.0962
+  encourage: 0.0614
+  computational: 0.0558
+  thinking: 0.0535
+  emerging: 0.0487
+  continuously: 0.0481
+  routines: 0.0481
+  philosophy: 0.0481
+  eliciting: 0.0481
+
+
+Document 48:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653596
+Top 10 terms:
+  bias: 0.1995
+  harms: 0.1127
+  biases: 0.1001
+  fall: 0.0819
+  types: 0.0728
+  data: 0.0648
+  observed: 0.0570
+  variety: 0.0537
+  collected: 0.0537
+  gender: 0.0409
+
+
+Document 49:
+Title: proceedings of the 26th western canadian conference on computing education...
+DOI: 10.1145/3660650.3660673
+Top 10 terms:
+  essays: 0.1536
+  peers: 0.0991
+  detect: 0.0939
+  aiusage: 0.0768
+  genai: 0.0639
+  writing: 0.0605
+  generated: 0.0599
+  policy: 0.0535
+  well: 0.0399
+  whether: 0.0396
+
+
+Document 50:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635369
+Top 10 terms:
+  birds: 0.0909
+  feather: 0.0909
+  goal: 0.0506
+  integrity: 0.0486
+  leaders: 0.0454
+  advancing: 0.0454
+  faces: 0.0454
+  unravel: 0.0454
+  coordinated: 0.0454
+  community: 0.0438
+
+
+Document 51:
+Title: proceedings of the eleventh acm conference on learning scale...
+DOI: 10.1145/3657604.3662036
+Top 10 terms:
+  llmpowered: 0.0820
+  assistants: 0.0655
+  semesterlong: 0.0527
+  looked: 0.0527
+  shortterm: 0.0527
+  conducting: 0.0527
+  betweensubjects: 0.0527
+  examined: 0.0484
+  augment: 0.0453
+  sparked: 0.0429
+
+
+Document 52:
+Title: proceedings of the 8th conference on computing education practice...
+DOI: 10.1145/3633053.3633057
+Top 10 terms:
+  apprenticeship: 0.0909
+  learners: 0.0870
+  interest: 0.0552
+  assessments: 0.0552
+  programme: 0.0454
+  prepared: 0.0454
+  formally: 0.0454
+  similarly: 0.0454
+  exploiting: 0.0417
+  workplace: 0.0417
+
+
+Document 53:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3704754
+Top 10 terms:
+  justice: 0.1981
+  social: 0.1264
+  data: 0.0717
+  majors: 0.0692
+  program: 0.0521
+  certificate: 0.0520
+  scientists: 0.0461
+  share: 0.0371
+  materials: 0.0361
+  focus: 0.0287
+
+
+Document 54:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653624
+Top 10 terms:
+  case: 0.0709
+  action: 0.0561
+  competencies: 0.0498
+  ethics: 0.0491
+  perspective: 0.0440
+  discussion: 0.0416
+  discussions: 0.0401
+  educators: 0.0359
+  llm: 0.0352
+  report: 0.0327
+
+
+Document 55:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3704765
+Top 10 terms:
+  gpt: 0.1000
+  stakes: 0.0934
+  firsthand: 0.0934
+  impactful: 0.0934
+  ratio: 0.0934
+  emulate: 0.0934
+  teachertostudent: 0.0934
+  cs50: 0.0858
+  universitys: 0.0858
+  harvard: 0.0858
+
+
+Document 56:
+Title: proceedings of the 2024 7th international conference on educational technology management...
+DOI: 10.1145/3711403.3711428
+Top 10 terms:
+  digital: 0.1503
+  technique: 0.1238
+  humans: 0.0799
+  human: 0.0707
+  emotional: 0.0619
+  educational: 0.0617
+  interactive: 0.0418
+  enabling: 0.0395
+  application: 0.0359
+  teachers: 0.0352
+
+
+Document 57:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701810
+Top 10 terms:
+  experiential: 0.0758
+  lab: 0.0618
+  robotics: 0.0464
+  group: 0.0413
+  individual: 0.0393
+  initiative: 0.0378
+  control: 0.0378
+  cs1: 0.0375
+  engagement: 0.0371
+  collaborative: 0.0323
+
+
+Document 58:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653575
+Top 10 terms:
+  genai: 0.1363
+  capture: 0.0611
+  policy: 0.0570
+  emerging: 0.0415
+  snapshot: 0.0409
+  surveyed: 0.0409
+  influences: 0.0409
+  university: 0.0360
+  discuss: 0.0360
+  period: 0.0352
+
+
+Document 59:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705025
+Top 10 terms:
+  problems: 0.0779
+  lessons: 0.0643
+  authoring: 0.0615
+  browserbased: 0.0615
+  instructors: 0.0480
+  allowing: 0.0479
+  tool: 0.0431
+  interactive: 0.0415
+  create: 0.0342
+  test: 0.0336
+
+
+Document 60:
+Title: proceedings of the 26th australasian computing education conference...
+DOI: 10.1145/3636243.3636247
+Top 10 terms:
+  visual: 0.1194
+  problems: 0.0995
+  bard: 0.0961
+  gpt4v: 0.0884
+  parsons: 0.0688
+  struggling: 0.0590
+  lmms: 0.0507
+  multimodal: 0.0411
+  issues: 0.0407
+  uses: 0.0398
+
+
+Document 61:
+Title: proceedings of the 24th koli calling international conference on computing education research...
+DOI: 10.1145/3699538.3699588
+Top 10 terms:
+  cse: 0.1166
+  automatic: 0.0753
+  responsibly: 0.0517
+  sparked: 0.0517
+  rise: 0.0517
+  adopted: 0.0494
+  receive: 0.0494
+  opensource: 0.0494
+  assessment: 0.0483
+  koli: 0.0474
+
+
+Document 62:
+Title: an evaluation on the impact of large language models on computer science curricula...
+Top 10 terms:
+  services: 0.1163
+  designs: 0.0538
+  impact: 0.0500
+  offered: 0.0494
+  observations: 0.0494
+  llm: 0.0465
+  curriculum: 0.0420
+  various: 0.0415
+  manual: 0.0402
+  result: 0.0402
+
+
+Document 63:
+Title: proceedings of the 2024 conference on united kingdom amp ireland computing education research...
+DOI: 10.1145/3689535.3689538
+Top 10 terms:
+  teachers: 0.1580
+  genai: 0.0927
+  project: 0.0893
+  schools: 0.0866
+  authorship: 0.0556
+  appreciate: 0.0511
+  teachers’: 0.0479
+  kingdom: 0.0479
+  amp: 0.0479
+  established: 0.0453
+
+
+Document 64:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701858
+Top 10 terms:
+  projects: 0.0860
+  teacher: 0.0549
+  generated: 0.0526
+  supports: 0.0503
+  instructional: 0.0485
+  ideas: 0.0485
+  college: 0.0485
+  perspective: 0.0485
+  curriculum: 0.0394
+  teachers: 0.0383
+
+
+Document 65:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705266
+Top 10 terms:
+  helpseeking: 0.0926
+  genai: 0.0747
+  usage: 0.0740
+  resource: 0.0484
+  online: 0.0391
+  help: 0.0381
+  n47: 0.0359
+  figure: 0.0359
+  american: 0.0359
+  decline: 0.0359
+
+
+Document 66:
+Title: 2024 working group reports on innovation and technology in computer science education...
+DOI: 10.1145/3689187.3709607
+Top 10 terms:
+  competencies: 0.0734
+  professionals: 0.0550
+  curricula: 0.0427
+  professional: 0.0410
+  ais: 0.0367
+  countries: 0.0350
+  emerging: 0.0342
+  included: 0.0313
+  interviews: 0.0313
+  concerns: 0.0306
+
+
+Document 67:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701823
+Top 10 terms:
+  genai: 0.1539
+  policy: 0.0772
+  guidance: 0.0748
+  instructors: 0.0721
+  policies: 0.0472
+  being: 0.0381
+  restricted: 0.0370
+  variation: 0.0370
+  hindering: 0.0370
+  looked: 0.0370
+
+
+Document 68:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705215
+Top 10 terms:
+  level: 0.0852
+  reasonably: 0.0750
+  component: 0.0750
+  theres: 0.0750
+  framework: 0.0748
+  match: 0.0689
+  knowledge: 0.0661
+  identifies: 0.0645
+  low: 0.0645
+  though: 0.0584
+
+
+Document 69:
+Title: proceedings of the 25th western canadian conference on computing education...
+DOI: 10.1145/3593342.3593360
+Top 10 terms:
+  postsecondary: 0.1376
+  chatgpt: 0.0624
+  emergent: 0.0459
+  canada: 0.0459
+  summary: 0.0459
+  mandatory: 0.0459
+  proactively: 0.0459
+  higher: 0.0435
+  departments: 0.0421
+  25th: 0.0421
+
+
+Document 70:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 2...
+DOI: 10.1145/3649409.3691094
+Top 10 terms:
+  appropriateness: 0.0652
+  tutoring: 0.0645
+  baseline: 0.0364
+  pedagogical: 0.0354
+  question: 0.0265
+  intent: 0.0253
+  questionanswer: 0.0253
+  constructive: 0.0253
+  generic: 0.0253
+  adequately: 0.0232
+
+
+Document 71:
+Title: proceedings of the 27th australasian computing education conference...
+DOI: 10.1145/3716640.3716654
+Top 10 terms:
+  gemini: 0.1348
+  lmms: 0.1078
+  samples: 0.0863
+  problems: 0.0661
+  textbased: 0.0627
+  images: 0.0511
+  benchmark: 0.0511
+  vision: 0.0488
+  achieved: 0.0488
+  structure: 0.0488
+
+
+Document 72:
+Title: proceedings of the 2024 7th international conference on big data and education...
+DOI: 10.1145/3704289.3704293
+Top 10 terms:
+  theoretical: 0.1132
+  genai: 0.0982
+  frameworks: 0.0821
+  psychology: 0.0786
+  adoption: 0.0437
+  review: 0.0398
+  comprehensive: 0.0398
+  signifies: 0.0393
+  refining: 0.0393
+  7th: 0.0393
+
+
+Document 73:
+Title: proceedings of the 27th australasian computing education conference...
+DOI: 10.1145/3716640.3716658
+Top 10 terms:
+  genai: 0.1316
+  expressed: 0.0572
+  overrely: 0.0351
+  accordingly: 0.0351
+  product: 0.0351
+  metacognition: 0.0351
+  takehome: 0.0351
+  outlines: 0.0351
+  validity: 0.0351
+  metacognitive: 0.0322
+
+
+Document 74:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 2...
+DOI: 10.1145/3649405.3659534
+Top 10 terms:
+  genai: 0.0912
+  tools: 0.0542
+  new: 0.0532
+  prompting: 0.0488
+  attempt: 0.0438
+  disrupting: 0.0438
+  appear: 0.0438
+  pedagogical: 0.0409
+  approaches: 0.0403
+  consensus: 0.0402
+
+
+Document 75:
+Title: large language modelsupported software testing with the cs matrix taxonomy...
+Top 10 terms:
+  testing: 0.0952
+  taxonomy: 0.0822
+  stronger: 0.0548
+  synthesis: 0.0548
+  software: 0.0537
+  code: 0.0493
+  outcomes: 0.0462
+  supports: 0.0446
+  suggestions: 0.0415
+  guide: 0.0403
+
+
+Document 76:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3633407
+Top 10 terms:
+  genai: 0.1488
+  session: 0.0763
+  instruction: 0.0518
+  embracing: 0.0511
+  presenters: 0.0511
+  special: 0.0511
+  organizations: 0.0511
+  three: 0.0509
+  participant: 0.0469
+  showcase: 0.0469
+
+
+Document 77:
+Title: proceedings of the 29th acm international conference on architectural support for programming langua...
+DOI: 10.1145/3620666.3655589
+Top 10 terms:
+  chart: 0.0774
+  accelerators: 0.0774
+  sustainability: 0.0774
+  today: 0.0774
+  servers: 0.0774
+  29th: 0.0774
+  operating: 0.0710
+  compute: 0.0710
+  specialized: 0.0710
+  unprecedented: 0.0665
+
+
+Document 78:
+Title: proceedings of the 2024 conference on united kingdom amp ireland computing education research...
+DOI: 10.1145/3689535.3689543
+Top 10 terms:
+  readiness: 0.1837
+  teachers’: 0.1291
+  k12: 0.0697
+  teachers: 0.0568
+  teach: 0.0568
+  live: 0.0500
+  debates: 0.0500
+  eight: 0.0500
+  look: 0.0500
+  describes: 0.0459
+
+
+Document 79:
+Title: chatgpt as an assembly language interpreter for computing education...
+Top 10 terms:
+  gpt: 0.0535
+  inconsistencies: 0.0500
+  architecture: 0.0500
+  reverse: 0.0500
+  lowlevel: 0.0500
+  embedded: 0.0500
+  architectures: 0.0459
+  fill: 0.0459
+  done: 0.0459
+  gpt4s: 0.0459
+
+
+Document 80:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 2...
+DOI: 10.1145/3649409.3691090
+Top 10 terms:
+  quiz: 0.1061
+  questions: 0.0801
+  educationally: 0.0707
+  bert: 0.0650
+  precision: 0.0551
+  java: 0.0493
+  assessment: 0.0404
+  python: 0.0386
+  scope: 0.0354
+  automated: 0.0341
+
+
+Document 81:
+Title: adjunct proceedings of the 26th international conference on mobile humancomputer interaction...
+DOI: 10.1145/3640471.3680462
+Top 10 terms:
+  cognitive: 0.0895
+  humancentered: 0.0761
+  ubiquitous: 0.0721
+  social: 0.0564
+  interaction: 0.0564
+  workshop: 0.0550
+  human: 0.0505
+  chart: 0.0442
+  prototype: 0.0442
+  altering: 0.0442
+
+
+Document 82:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 2...
+DOI: 10.1145/3649405.3659517
+Top 10 terms:
+  describe: 0.1563
+  scenarios: 0.0915
+  way: 0.0809
+  github: 0.0776
+  automation: 0.0698
+  thoughts: 0.0698
+  fair: 0.0640
+  motivated: 0.0640
+  scenario: 0.0600
+  cost: 0.0568
+
+
+Document 83:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 2...
+DOI: 10.1145/3649405.3659473
+Top 10 terms:
+  objectoriented: 0.1835
+  paradigms: 0.0917
+  bard: 0.0917
+  advent: 0.0841
+  methodologies: 0.0810
+  suitable: 0.0784
+  gpt35: 0.0683
+  created: 0.0639
+  evaluating: 0.0639
+  project: 0.0602
+
+
+Document 84:
+Title: 2024 working group reports on innovation and technology in computer science education...
+DOI: 10.1145/3689187.3709614
+Top 10 terms:
+  genai: 0.1334
+  expanding: 0.0535
+  literature: 0.0486
+  explain: 0.0362
+  new: 0.0353
+  rapidly: 0.0338
+  teach: 0.0331
+  create: 0.0324
+  usage: 0.0301
+  tools: 0.0300
+
+
+Document 85:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3633433
+Top 10 terms:
+  gpt: 0.0964
+  stakes: 0.0900
+  firsthand: 0.0900
+  impactful: 0.0900
+  ratio: 0.0900
+  emulate: 0.0900
+  teachertostudent: 0.0900
+  cs50: 0.0827
+  universitys: 0.0827
+  harvard: 0.0827
+
+
+Document 86:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701872
+Top 10 terms:
+  assignments: 0.1154
+  claude: 0.0574
+  assignment: 0.0389
+  genuine: 0.0384
+  proved: 0.0384
+  starter: 0.0384
+  adapted: 0.0352
+  balancing: 0.0352
+  varied: 0.0352
+  struggled: 0.0352
+
+
+Document 87:
+Title: proceedings of the 27th australasian computing education conference...
+DOI: 10.1145/3716640.3716649
+Top 10 terms:
+  english: 0.1197
+  native: 0.0997
+  nnes: 0.0997
+  barriers: 0.0926
+  speakers: 0.0915
+  nonnative: 0.0665
+  because: 0.0463
+  term: 0.0463
+  programming: 0.0434
+  problems: 0.0421
+
+
+Document 88:
+Title: perspectives on technologys impact on financial services and the future workforce...
+Top 10 terms:
+  financial: 0.4043
+  services: 0.2183
+  on•: 0.1011
+  thoughts: 0.1011
+  organizations: 0.1011
+  market: 0.1011
+  journey: 0.1011
+  cloud: 0.1011
+  impact: 0.0940
+  his: 0.0928
+
+
+Document 89:
+Title: proceedings of the 1st international workshop on large language models for code...
+DOI: 10.1145/3643795.3648379
+Top 10 terms:
+  usefulness: 0.0725
+  code: 0.0475
+  academic: 0.0394
+  software: 0.0389
+  llms: 0.0381
+  integrate: 0.0368
+  generation: 0.0328
+  focus: 0.0328
+  prohibit: 0.0324
+  influencing: 0.0297
+
+
+Document 90:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630854
+Top 10 terms:
+  reports: 0.1089
+  capstone: 0.0676
+  recommendations: 0.0578
+  texts: 0.0553
+  linguistic: 0.0476
+  submitted: 0.0363
+  quality: 0.0350
+  gpt35: 0.0336
+  level: 0.0314
+  survey: 0.0314
+
+
+Document 91:
+Title: proceedings of the extended abstracts of the chi conference on human factors in computing systems...
+DOI: 10.1145/3706599.3720291
+Top 10 terms:
+  hybrid: 0.0722
+  tas: 0.0641
+  oversight: 0.0641
+  structured: 0.0587
+  structures: 0.0502
+  human: 0.0449
+  algorithms: 0.0421
+  instruction: 0.0398
+  verification: 0.0393
+  scoring: 0.0393
+
+
+Document 92:
+Title: proceedings of the 2023 conference on united kingdom amp ireland computing education research...
+DOI: 10.1145/3610969.3610973
+Top 10 terms:
+  k12: 0.1668
+  self: 0.1598
+  teachers’: 0.1374
+  preparedness: 0.1374
+  motivation: 0.1374
+  theory: 0.1150
+  teach: 0.0907
+  raises: 0.0733
+  kingdom: 0.0687
+  amp: 0.0687
+
+
+Document 93:
+Title: the effectiveness of coding llms and the challenges in teaching cs12 a case study...
+Top 10 terms:
+  coding: 0.0931
+  generators: 0.0900
+  effectiveness: 0.0787
+  challenges: 0.0589
+  case: 0.0569
+  llms: 0.0495
+  ten: 0.0490
+  assesses: 0.0490
+  assign: 0.0490
+  weekly: 0.0490
+
+
+Document 94:
+Title: proceedings of the xxiii brazilian symposium on software quality...
+DOI: 10.1145/3701625.3701681
+Top 10 terms:
+  computational: 0.1041
+  thinking: 0.0799
+  method: 0.0639
+  identifying: 0.0446
+  solid: 0.0359
+  intricate: 0.0359
+  delineating: 0.0359
+  formulation: 0.0359
+  abstraction: 0.0329
+  performing: 0.0329
+
+
+Document 95:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 2...
+DOI: 10.1145/3649405.3659504
+Top 10 terms:
+  analogies: 0.2663
+  concepts: 0.1109
+  relating: 0.0533
+  interesting: 0.0489
+  introducing: 0.0489
+  namely: 0.0458
+  responsive: 0.0458
+  familiar: 0.0434
+  connections: 0.0434
+  determine: 0.0414
+
+
+Document 96:
+Title: proceedings of the 2025 chi conference on human factors in computing systems...
+DOI: 10.1145/3706598.3713644
+Top 10 terms:
+  agent: 0.0707
+  system: 0.0627
+  university: 0.0600
+  habits: 0.0454
+  comparable: 0.0454
+  benefits: 0.0445
+  facilitates: 0.0417
+  persona: 0.0417
+  refine: 0.0417
+  2025: 0.0391
+
+
+Document 97:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3704749
+Top 10 terms:
+  project: 0.0716
+  development: 0.0559
+  software: 0.0469
+  objectives: 0.0466
+  developers: 0.0452
+  special: 0.0446
+  skills: 0.0430
+  responsible: 0.0397
+  shift: 0.0364
+  curriculum: 0.0348
+
+
+Document 98:
+Title: empowering computing students with large language models by developing an escape room game...
+Top 10 terms:
+  project: 0.0848
+  api: 0.0727
+  experience: 0.0693
+  application: 0.0689
+  software: 0.0476
+  create: 0.0441
+  user: 0.0424
+  learn: 0.0416
+  developing: 0.0409
+  parameters: 0.0396
+
+
+Document 99:
+Title: proceedings of the 2023 acm conference on international computing education research volume 2...
+DOI: 10.1145/3568812.3603476
+Top 10 terms:
+  scenarios: 0.0698
+  program: 0.0490
+  digital: 0.0431
+  buggy: 0.0414
+  tutors: 0.0398
+  student’s: 0.0355
+  bugs: 0.0326
+  specific: 0.0322
+  stateoftheart: 0.0316
+  publicly: 0.0305
+
+
+Document 100:
+Title: proceedings of the 26th western canadian conference on computing education...
+DOI: 10.1145/3660650.3660657
+Top 10 terms:
+  literature: 0.0546
+  field: 0.0497
+  sphere: 0.0490
+  valid: 0.0490
+  regulate: 0.0490
+  utilizes: 0.0490
+  administrators: 0.0490
+  manage: 0.0450
+  plagiarized: 0.0450
+  growth: 0.0422
+
+
+Document 101:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701800
+Top 10 terms:
+  copilot: 0.1577
+  trust: 0.0952
+  upperdivision: 0.0917
+  features: 0.0725
+  github: 0.0510
+  code: 0.0505
+  base: 0.0498
+  feature: 0.0498
+  asking: 0.0476
+  chat: 0.0457
+
+
+Document 102:
+Title: getting started with large language models for the cs curriculum...
+Top 10 terms:
+  transformers: 0.0819
+  library: 0.0767
+  demand: 0.0667
+  pretrained: 0.0643
+  ecosystem: 0.0446
+  on•: 0.0446
+  hosted: 0.0446
+  late: 0.0446
+  bots: 0.0446
+  employers: 0.0446
+
+
+Document 103:
+Title: proceedings of the 26th australasian computing education conference...
+DOI: 10.1145/3636243.3636257
+Top 10 terms:
+  chatgpt: 0.0521
+  employ: 0.0446
+  comprehensively: 0.0446
+  adopts: 0.0446
+  suggested: 0.0410
+  longterm: 0.0410
+  obtain: 0.0410
+  outlook: 0.0410
+  applicable: 0.0384
+  garnered: 0.0384
+
+
+Document 104:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705250
+Top 10 terms:
+  requirement: 0.1357
+  elicitation: 0.1357
+  tool: 0.0776
+  personas: 0.0679
+  persona: 0.0679
+  diagrams: 0.0636
+  simulated: 0.0636
+  predefined: 0.0636
+  synthetic: 0.0602
+  database: 0.0575
+
+
+Document 105:
+Title: proceedings of the 46th international conference on software engineering software engineering educat...
+DOI: 10.1145/3639474.3640076
+Top 10 terms:
+  participants: 0.0972
+  uml: 0.0637
+  chatgpt: 0.0630
+  cs1: 0.0516
+  resources: 0.0461
+  chatgpts: 0.0346
+  access: 0.0324
+  analyzed: 0.0322
+  tasks: 0.0284
+  creating: 0.0263
+
+
+Document 106:
+Title: proceedings of the 2023 conference on human centered artificial intelligence education and practice...
+DOI: 10.1145/3633083.3633099
+Top 10 terms:
+  ireland: 0.1204
+  gai: 0.0947
+  yet: 0.0552
+  signifies: 0.0516
+  hcai: 0.0516
+  centered: 0.0516
+  humancentred: 0.0516
+  leaving: 0.0516
+  approached: 0.0516
+  prominence: 0.0516
+
+
+Document 107:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630761
+Top 10 terms:
+  survey: 0.1212
+  cs1: 0.1110
+  covid19: 0.0854
+  languages: 0.0713
+  instructors: 0.0666
+  total: 0.0638
+  global: 0.0506
+  what: 0.0466
+  globe: 0.0427
+  notoriously: 0.0427
+
+
+Document 108:
+Title: proceedings of the 2024 acm conference on international computing education research volume 2...
+DOI: 10.1145/3632621.3671429
+Top 10 terms:
+  mooc: 0.1152
+  arises: 0.1057
+  combine: 0.1057
+  decomposition: 0.0939
+  change: 0.0829
+  volume: 0.0716
+  environment: 0.0716
+  landscape: 0.0716
+  propose: 0.0699
+  teach: 0.0654
+
+
+Document 109:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 2...
+DOI: 10.1145/3649409.3691086
+Top 10 terms:
+  seen: 0.0802
+  problem: 0.0722
+  gpt4o: 0.0685
+  solution: 0.0499
+  algorithmic: 0.0472
+  natural: 0.0421
+  algorithms: 0.0351
+  ambiguous: 0.0328
+  commands: 0.0328
+  complex: 0.0316
+
+
+Document 110:
+Title: proceedings of the 54th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3545947.3569630
+Top 10 terms:
+  enable: 0.0720
+  attendees: 0.0720
+  explanations: 0.0607
+  llms: 0.0505
+  carefully: 0.0500
+  brainstorming: 0.0500
+  breakthroughs: 0.0459
+  54th: 0.0459
+  careers: 0.0408
+  generate: 0.0390
+
+
+Document 111:
+Title: proceedings of the eleventh acm conference on learning scale...
+DOI: 10.1145/3657604.3664663
+Top 10 terms:
+  scale: 0.0799
+  software: 0.0754
+  cycle: 0.0718
+  life: 0.0585
+  development: 0.0562
+  roles: 0.0517
+  members: 0.0517
+  team: 0.0471
+  online: 0.0391
+  phases: 0.0359
+
+
+Document 112:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653602
+Top 10 terms:
+  published: 0.0708
+  instructors: 0.0565
+  cs1: 0.0538
+  pace: 0.0498
+  primary: 0.0493
+  genai: 0.0482
+  relatively: 0.0472
+  being: 0.0448
+  teaching: 0.0430
+  others: 0.0417
+
+
+Document 113:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 2...
+DOI: 10.1145/3649409.3691073
+Top 10 terms:
+  trends: 0.1308
+  informatics: 0.1069
+  k12: 0.0992
+  experts: 0.0919
+  policy: 0.0744
+  areas: 0.0682
+  identify: 0.0634
+  european: 0.0513
+  current: 0.0499
+  working: 0.0396
+
+
+Document 114:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701829
+Top 10 terms:
+  training: 0.1555
+  iterations: 0.1198
+  tas: 0.0976
+  agile: 0.0799
+  iterative: 0.0687
+  design: 0.0492
+  implementation: 0.0485
+  relies: 0.0399
+  approved: 0.0399
+  respective: 0.0399
+
+
+Document 115:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635511
+Top 10 terms:
+  internet: 0.0874
+  want: 0.0776
+  generally: 0.0663
+  plagiarism: 0.0625
+  assignments: 0.0537
+  they: 0.0526
+  surveyed: 0.0476
+  intensive: 0.0476
+  saw: 0.0476
+  sequence: 0.0476
+
+
+Document 116:
+Title: proceedings of the 40th acmsigapp symposium on applied computing...
+DOI: 10.1145/3672608.3707736
+Top 10 terms:
+  grading: 0.1642
+  answers: 0.1254
+  individual: 0.1223
+  grades: 0.1179
+  disagreement: 0.1179
+  graders: 0.0786
+  final: 0.0641
+  human: 0.0598
+  answer: 0.0515
+  short: 0.0502
+
+
+Document 117:
+Title: companion proceedings of the acm on web conference 2025...
+DOI: 10.1145/3701716.3715199
+Top 10 terms:
+  personalized: 0.0725
+  digital: 0.0640
+  adaptive: 0.0572
+  guidance: 0.0474
+  scalable: 0.0474
+  tailored: 0.0437
+  challenging: 0.0407
+  fail: 0.0351
+  delivering: 0.0351
+  multiagent: 0.0351
+
+
+Document 118:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 1...
+DOI: 10.1145/3649165.3703622
+Top 10 terms:
+  retention: 0.0739
+  practices: 0.0641
+  institutional: 0.0575
+  community: 0.0534
+  importance: 0.0449
+  global: 0.0438
+  recruitment: 0.0370
+  biased: 0.0370
+  paramount: 0.0370
+  academics: 0.0370
+
+
+Document 119:
+Title: proceedings of the 2023 acm conference on international computing education research volume 2...
+DOI: 10.1145/3568812.3603453
+Top 10 terms:
+  responsive: 0.1131
+  culturally: 0.0982
+  modifications: 0.0438
+  elementary: 0.0438
+  insight: 0.0402
+  middle: 0.0402
+  extracting: 0.0402
+  fill: 0.0402
+  opened: 0.0402
+  universitylevel: 0.0402
+
+
+Document 120:
+Title: proceedings of the eleventh acm conference on learning scale...
+DOI: 10.1145/3657604.3664660
+Top 10 terms:
+  feedback: 0.1866
+  formative: 0.1206
+  received: 0.0877
+  half: 0.0838
+  instructor: 0.0706
+  scale: 0.0599
+  supportive: 0.0538
+  recursion: 0.0538
+  condition: 0.0538
+  sophomorelevel: 0.0538
+
+
+Document 121:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 1...
+DOI: 10.1145/3649165.3690101
+Top 10 terms:
+  chatbot: 0.2292
+  chatbots: 0.0551
+  usage: 0.0547
+  majority: 0.0509
+  courses: 0.0417
+  worst: 0.0354
+  whereas: 0.0354
+  relate: 0.0354
+  scaffolded: 0.0354
+  otherwise: 0.0354
+
+
+Document 122:
+Title: proceedings of the 2023 acm conference on international computing education research volume 2...
+DOI: 10.1145/3568812.3603474
+Top 10 terms:
+  visual: 0.1153
+  capabilities: 0.0513
+  programming: 0.0488
+  python: 0.0466
+  hour: 0.0427
+  textbased: 0.0427
+  domains: 0.0420
+  stateoftheart: 0.0380
+  works: 0.0348
+  neural: 0.0307
+
+
+Document 123:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630960
+Top 10 terms:
+  feedback: 0.1211
+  individualized: 0.0786
+  guiding: 0.0566
+  gpt4: 0.0491
+  submissions: 0.0489
+  instruction: 0.0398
+  followup: 0.0393
+  rated: 0.0393
+  gpt4s: 0.0361
+  varied: 0.0361
+
+
+Document 124:
+Title: proceedings of the winter simulation conference...
+Top 10 terms:
+  chatbot: 0.1039
+  behaviors: 0.0718
+  attempts: 0.0481
+  simulation: 0.0481
+  statistics: 0.0481
+  correlate: 0.0481
+  association: 0.0481
+  connection: 0.0441
+  winter: 0.0441
+  posed: 0.0441
+
+
+Document 125:
+Title: proceedings of the 25th annual conference on information technology education...
+DOI: 10.1145/3686852.3686864
+Top 10 terms:
+  rag: 0.1253
+  faculty: 0.0623
+  aids: 0.0615
+  retrieval: 0.0501
+  investigation: 0.0501
+  augmented: 0.0460
+  members: 0.0443
+  assistants: 0.0383
+  conversational: 0.0373
+  teaching: 0.0365
+
+
+Document 126:
+Title: proceedings of the 2023 conference on innovation and technology in computer science education v 1...
+DOI: 10.1145/3587102.3588773
+Top 10 terms:
+  seems: 0.0456
+  possibilities: 0.0419
+  novices: 0.0329
+  practice: 0.0325
+  possible: 0.0291
+  identifying: 0.0284
+  deep: 0.0277
+  much: 0.0271
+  opportunities: 0.0267
+  recruitment: 0.0228
+
+
+Document 127:
+Title: current challenges in computing education...
+Top 10 terms:
+  current: 0.3084
+  themes: 0.2839
+  focusing: 0.1915
+  three: 0.1645
+  topics: 0.1566
+  issues: 0.1519
+  discussion: 0.1496
+  related: 0.1474
+  challenges: 0.0991
+  computing: 0.0760
+
+
+Document 128:
+Title: guiding students in using llms in supported learning environments effects on interaction dynamics le...
+DOI: 10.1145/3687038
+Top 10 terms:
+  trust: 0.0896
+  learners: 0.0735
+  confidence: 0.0705
+  direct: 0.0574
+  guidance: 0.0518
+  interaction: 0.0490
+  environments: 0.0455
+  increasing: 0.0436
+  performance: 0.0390
+  n145: 0.0384
+
+
+Document 129:
+Title: nurturing code quality leveraging static analysis and large language models for software quality in ...
+DOI: 10.1145/3722229
+Top 10 terms:
+  quality: 0.0774
+  pmd: 0.0722
+  review: 0.0664
+  issues: 0.0482
+  fixing: 0.0481
+  bug: 0.0451
+  static: 0.0451
+  categories: 0.0427
+  software: 0.0393
+  experiment: 0.0391
+
+
+Document 130:
+Title: proceedings of the 25th australasian computing education conference...
+DOI: 10.1145/3576123.3576134
+Top 10 terms:
+  codex: 0.1476
+  exams: 0.0738
+  performs: 0.0689
+  structures: 0.0479
+  cs2: 0.0479
+  exam: 0.0479
+  cs1: 0.0418
+  github: 0.0417
+  algorithms: 0.0401
+  openai: 0.0401
+
+
+Document 131:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705282
+Top 10 terms:
+  misleading: 0.1790
+  detect: 0.0953
+  names: 0.0780
+  variable: 0.0780
+  manually: 0.0607
+  precision: 0.0607
+  dataset: 0.0452
+  able: 0.0452
+  select: 0.0390
+  measuring: 0.0390
+
+
+Document 132:
+Title: distinguishing llmgenerated from humanwritten code by contrastive learning...
+DOI: 10.1145/3705300
+Top 10 terms:
+  chatgptgenerated: 0.1628
+  humanwritten: 0.1158
+  pairs: 0.0869
+  code: 0.0753
+  distinguishing: 0.0631
+  characteristics: 0.0514
+  llmgenerated: 0.0414
+  content: 0.0405
+  proposing: 0.0315
+  impressive: 0.0315
+
+
+Document 133:
+Title: proceedings of the 1st international workshop on large language models for code...
+DOI: 10.1145/3643795.3648375
+Top 10 terms:
+  graders: 0.0718
+  chatgpt4: 0.0718
+  graduate: 0.0536
+  grading: 0.0500
+  efficiency: 0.0458
+  case: 0.0416
+  intent: 0.0359
+  properly: 0.0359
+  acting: 0.0359
+  complementary: 0.0359
+
+
+Document 134:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 1...
+DOI: 10.1145/3649165.3690125
+Top 10 terms:
+  selfreported: 0.0573
+  syntax: 0.0548
+  prompts: 0.0511
+  natural: 0.0490
+  relationship: 0.0446
+  broad: 0.0428
+  difficulty: 0.0412
+  less: 0.0386
+  range: 0.0332
+  prompting: 0.0319
+
+
+Document 135:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705125
+Top 10 terms:
+  solo: 0.1084
+  taxonomy: 0.0996
+  responses: 0.0580
+  programmers: 0.0411
+  moderate: 0.0361
+  corrected: 0.0361
+  accuracy: 0.0338
+  fixing: 0.0332
+  metacognitive: 0.0332
+  simulate: 0.0332
+
+
+Document 136:
+Title: proceedings of the 2024 acm conference on international computing education research volume 1...
+DOI: 10.1145/3632620.3671112
+Top 10 terms:
+  resources: 0.0949
+  influence: 0.0665
+  perceived: 0.0551
+  factors: 0.0484
+  external: 0.0468
+  perceptions: 0.0454
+  measure: 0.0423
+  web: 0.0407
+  attitudes: 0.0347
+  genai: 0.0340
+
+
+Document 137:
+Title: the book review column...
+DOI: 10.1145/3710795.3710797
+Top 10 terms:
+  university: 0.0879
+  book: 0.0799
+  mathematics: 0.0651
+  2023: 0.0587
+  continuous: 0.0399
+  tables: 0.0399
+  preference: 0.0399
+  edition: 0.0399
+  refers: 0.0399
+  theories: 0.0399
+
+
+Document 138:
+Title: proceedings of the xxiii brazilian symposium on software quality...
+DOI: 10.1145/3701625.3701687
+Top 10 terms:
+  requirements: 0.2640
+  elicitation: 0.0866
+  chatgpt: 0.0642
+  reported: 0.0602
+  software: 0.0566
+  welldefined: 0.0472
+  requirement: 0.0433
+  trend: 0.0433
+  proper: 0.0433
+  engineering: 0.0407
+
+
+Document 139:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635618
+Top 10 terms:
+  community: 0.1425
+  latinx: 0.1109
+  connections: 0.0904
+  elementary: 0.0739
+  technology: 0.0561
+  deeper: 0.0499
+  associated: 0.0472
+  focus: 0.0375
+  youth: 0.0370
+  days: 0.0370
+
+
+Document 140:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701946
+Top 10 terms:
+  problems: 0.1039
+  theory: 0.0985
+  solve: 0.0670
+  gpt4o: 0.0572
+  structures: 0.0524
+  algorithm: 0.0426
+  ranging: 0.0394
+  topics: 0.0389
+  model: 0.0371
+  already: 0.0369
+
+
+Document 141:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630803
+Top 10 terms:
+  adopts: 0.0805
+  answer: 0.0528
+  exams: 0.0528
+  assignments: 0.0454
+  unreliability: 0.0403
+  concentrated: 0.0403
+  compromise: 0.0403
+  consequences: 0.0403
+  chatgpt: 0.0392
+  questions: 0.0391
+
+
+Document 142:
+Title: proceedings of the 2024 on acm sigsac conference on computer and communications security...
+DOI: 10.1145/3658644.3670392
+Top 10 terms:
+  benchmarking: 0.0688
+  scientific: 0.0592
+  abstracts: 0.0592
+  linguistic: 0.0592
+  detecting: 0.0535
+  experiments: 0.0479
+  conduct: 0.0464
+  content: 0.0441
+  deep: 0.0418
+  literature: 0.0383
+
+
+Document 143:
+Title: proceedings of the extended abstracts of the chi conference on human factors in computing systems...
+DOI: 10.1145/3706599.3720282
+Top 10 terms:
+  culturally: 0.1072
+  schools: 0.0838
+  cultural: 0.0804
+  responsive: 0.0617
+  reliability: 0.0559
+  public: 0.0471
+  culturallyrelevant: 0.0359
+  understudied: 0.0359
+  programs: 0.0358
+  values: 0.0329
+
+
+Document 144:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705074
+Top 10 terms:
+  aienhanced: 0.0778
+  capstone: 0.0634
+  hallucinations: 0.0476
+  iterative: 0.0446
+  design: 0.0426
+  biases: 0.0423
+  curriculum: 0.0405
+  refinement: 0.0404
+  skills: 0.0400
+  talk: 0.0373
+
+
+Document 145:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630826
+Top 10 terms:
+  detection: 0.0810
+  deep: 0.0512
+  machine: 0.0460
+  detect: 0.0459
+  detecting: 0.0438
+  code: 0.0413
+  cheating: 0.0405
+  traditional: 0.0401
+  chatgpt: 0.0383
+  plagiarism: 0.0369
+
+
+Document 146:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705236
+Top 10 terms:
+  gap: 0.1602
+  exacerbated: 0.0900
+  stem: 0.0900
+  gender: 0.0900
+  enrollment: 0.0827
+  middle: 0.0827
+  persists: 0.0827
+  decades: 0.0774
+  targeted: 0.0734
+  participation: 0.0701
+
+
+Document 147:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705183
+Top 10 terms:
+  user: 0.2227
+  story: 0.1665
+  scope: 0.0832
+  criteria: 0.0764
+  acceptance: 0.0580
+  users: 0.0531
+  feedback: 0.0481
+  creating: 0.0473
+  welldefined: 0.0416
+  items: 0.0416
+
+
+Document 148:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635356
+Top 10 terms:
+  static: 0.0991
+  detect: 0.0626
+  yet: 0.0616
+  quality: 0.0486
+  adoption: 0.0427
+  review: 0.0389
+  bugfix: 0.0384
+  coding: 0.0364
+  cultivate: 0.0352
+  pmd: 0.0352
+
+
+Document 149:
+Title: proceedings of the 2024 acm conference on international computing education research volume 1...
+DOI: 10.1145/3632620.3671097
+Top 10 terms:
+  benchmarking: 0.0865
+  concept: 0.0744
+  llm: 0.0623
+  design: 0.0444
+  informal: 0.0433
+  feasibility: 0.0397
+  evaluation: 0.0392
+  infrastructure: 0.0372
+  expected: 0.0352
+  expert: 0.0301
+
+
+Document 150:
+Title: proceedings of the 2024 conference on human centred artificial intelligence education and practice...
+DOI: 10.1145/3701268.3701273
+Top 10 terms:
+  k12: 0.0867
+  lens: 0.0698
+  hcai: 0.0623
+  centered: 0.0623
+  humancentred: 0.0623
+  model: 0.0506
+  developed: 0.0500
+  much: 0.0369
+  computational: 0.0361
+  human: 0.0356
+
+
+Document 151:
+Title: proceedings of the 46th international conference on software engineering software engineering educat...
+DOI: 10.1145/3639474.3640084
+Top 10 terms:
+  plagiarism: 0.1746
+  detection: 0.1150
+  modeling: 0.0742
+  assignments: 0.0600
+  exacerbated: 0.0533
+  combines: 0.0533
+  easier: 0.0533
+  automated: 0.0513
+  plagiarized: 0.0489
+  ever: 0.0489
+
+
+Document 152:
+Title: mm 24 proceedings of the 32nd acm international conference on multimedia...
+Top 10 terms:
+  multimedia: 0.1306
+  keynote: 0.0594
+  industry: 0.0392
+  you: 0.0388
+  papers: 0.0316
+  main: 0.0262
+  conference: 0.0261
+  days: 0.0259
+  exciting: 0.0259
+  ieee: 0.0259
+
+
+Document 153:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705080
+Top 10 terms:
+  bias: 0.1240
+  incontext: 0.0713
+  content: 0.0457
+  empirical: 0.0433
+  educational: 0.0406
+  examples: 0.0405
+  ethics: 0.0381
+  properties: 0.0356
+  formulation: 0.0356
+  work: 0.0339
+
+
+Document 154:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701957
+Top 10 terms:
+  office: 0.1608
+  hours: 0.1181
+  meetings: 0.0643
+  smart: 0.0590
+  semesters: 0.0553
+  support: 0.0425
+  supporting: 0.0410
+  tools: 0.0398
+  llm: 0.0370
+  group: 0.0351
+
+
+Document 155:
+Title: proceedings of the 24th koli calling international conference on computing education research...
+DOI: 10.1145/3699538.3699546
+Top 10 terms:
+  genai: 0.0882
+  courses: 0.0625
+  time: 0.0413
+  goals: 0.0412
+  taking: 0.0396
+  use: 0.0340
+  different: 0.0331
+  across: 0.0322
+  goal: 0.0295
+  tools: 0.0273
+
+
+Document 156:
+Title: proceedings of the 1st international workshop on large language models for code...
+DOI: 10.1145/3643795.3648389
+Top 10 terms:
+  coding: 0.0777
+  exercises: 0.0612
+  stateoftheart: 0.0486
+  best: 0.0486
+  assignments: 0.0461
+  experimented: 0.0409
+  misused: 0.0409
+  wellknown: 0.0409
+  extraordinary: 0.0409
+  hand: 0.0376
+
+
+Document 157:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630789
+Top 10 terms:
+  virtual: 0.0756
+  tas: 0.0704
+  direct: 0.0430
+  human: 0.0329
+  openai: 0.0308
+  warrants: 0.0288
+  proved: 0.0288
+  assists: 0.0288
+  reliable: 0.0288
+  targeting: 0.0288
+
+
+Document 158:
+Title: proceedings of the xxiii brazilian symposium on software quality...
+DOI: 10.1145/3701625.3701657
+Top 10 terms:
+  exploratory: 0.1204
+  test: 0.1013
+  personas: 0.0853
+  software: 0.0743
+  testing: 0.0593
+  usefulness: 0.0462
+  scenarios: 0.0406
+  quality: 0.0392
+  application: 0.0359
+  creating: 0.0352
+
+
+Document 159:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701841
+Top 10 terms:
+  accessibility: 0.1989
+  lack: 0.0816
+  awareness: 0.0629
+  digital: 0.0582
+  knowledge: 0.0563
+  practical: 0.0503
+  web: 0.0477
+  proposing: 0.0320
+  physical: 0.0320
+  attributed: 0.0320
+
+
+Document 160:
+Title: proceedings of the 3rd international workshop on data systems education bridging education practice ...
+DOI: 10.1145/3663649.3664368
+Top 10 terms:
+  sql: 0.2098
+  database: 0.1633
+  query: 0.0771
+  timeconsuming: 0.0684
+  teachers: 0.0477
+  examples: 0.0477
+  creating: 0.0477
+  languages: 0.0467
+  story: 0.0420
+  databases: 0.0420
+
+
+Document 161:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630928
+Top 10 terms:
+  proof: 0.0990
+  mathematical: 0.0568
+  struggle: 0.0568
+  blocks: 0.0538
+  shown: 0.0502
+  exercises: 0.0493
+  solve: 0.0485
+  remains: 0.0460
+  types: 0.0392
+  llms: 0.0389
+
+
+Document 162:
+Title: proceedings of the 27th australasian computing education conference...
+DOI: 10.1145/3716640.3716651
+Top 10 terms:
+  instructor: 0.0841
+  oversight: 0.0627
+  discussion: 0.0465
+  realtime: 0.0418
+  forums: 0.0418
+  responses: 0.0412
+  forum: 0.0399
+  features: 0.0304
+  present: 0.0304
+  online: 0.0280
+
+
+Document 163:
+Title: proceedings of the acm turing award celebration conference china 2024...
+DOI: 10.1145/3674399.3674423
+Top 10 terms:
+  disciplinary: 0.1061
+  assessment: 0.0808
+  evaluation: 0.0802
+  datadriven: 0.0707
+  system: 0.0651
+  cse: 0.0650
+  scientific: 0.0608
+  professionals: 0.0577
+  contributions: 0.0577
+  discipline: 0.0551
+
+
+Document 164:
+Title: with great power comes great responsibility the role of software engineers...
+DOI: 10.1145/3715112
+Top 10 terms:
+  engineers: 0.1495
+  responsibility: 0.0860
+  profound: 0.0860
+  transformation: 0.0860
+  shifts: 0.0779
+  evolution: 0.0779
+  software: 0.0751
+  roles: 0.0720
+  role: 0.0661
+  evolving: 0.0593
+
+
+Document 165:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630817
+Top 10 terms:
+  programmers: 0.0598
+  early: 0.0575
+  verification: 0.0527
+  seems: 0.0527
+  move: 0.0484
+  motivated: 0.0484
+  promises: 0.0484
+  call: 0.0484
+  abstraction: 0.0484
+  proper: 0.0484
+
+
+Document 166:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635403
+Top 10 terms:
+  placement: 0.1779
+  institutions: 0.0809
+  concept: 0.0765
+  tests: 0.0665
+  test: 0.0647
+  cs0: 0.0593
+  mastery: 0.0593
+  concepts: 0.0494
+  cs2: 0.0379
+  additional: 0.0352
+
+
+Document 167:
+Title: proceedings of the 2024 acm conference on international computing education research volume 1...
+DOI: 10.1145/3632620.3671103
+Top 10 terms:
+  interests: 0.1246
+  exercises: 0.1241
+  personalization: 0.0623
+  contextually: 0.0536
+  programming: 0.0458
+  problems: 0.0394
+  needs: 0.0387
+  students’: 0.0369
+  created: 0.0354
+  personalized: 0.0321
+
+
+Document 168:
+Title: proceedings of the 15th international learning analytics and knowledge conference...
+DOI: 10.1145/3706468.3706500
+Top 10 terms:
+  openended: 0.2617
+  test: 0.1166
+  coding: 0.0845
+  knowledge: 0.0784
+  student’s: 0.0713
+  passes: 0.0713
+  simultaneously: 0.0654
+  analyze: 0.0649
+  case: 0.0620
+  submission: 0.0613
+
+
+Document 169:
+Title: proceedings of the 26th australasian computing education conference...
+DOI: 10.1145/3636243.3636263
+Top 10 terms:
+  questions: 0.0864
+  assessment: 0.0790
+  choices: 0.0593
+  graphics: 0.0593
+  dataset: 0.0516
+  gpt4: 0.0494
+  question: 0.0467
+  decisions: 0.0462
+  performance: 0.0401
+  types: 0.0352
+
+
+Document 170:
+Title: proceedings of the 1st international workshop on large language models for code...
+DOI: 10.1145/3643795.3648393
+Top 10 terms:
+  chatbots: 0.1233
+  ieee: 0.1189
+  languages: 0.0882
+  chapter: 0.0792
+  unfamiliar: 0.0792
+  software: 0.0714
+  tech: 0.0646
+  rapid: 0.0493
+  workshop: 0.0493
+  design: 0.0488
+
+
+Document 171:
+Title: proceedings of the 33rd acm sigsoft international symposium on software testing and analysis...
+DOI: 10.1145/3650212.3680328
+Top 10 terms:
+  repair: 0.2653
+  llms’: 0.0884
+  tutor: 0.0688
+  information: 0.0568
+  demonstrates: 0.0459
+  guidance: 0.0398
+  conversational: 0.0358
+  capabilities: 0.0354
+  types: 0.0350
+  introduce: 0.0328
+
+
+Document 172:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635380
+Top 10 terms:
+  sigcse: 0.1062
+  outcomes: 0.0672
+  changes: 0.0527
+  birds: 0.0434
+  differently: 0.0434
+  black: 0.0434
+  feather: 0.0434
+  women: 0.0434
+  bof: 0.0399
+  expect: 0.0399
+
+
+Document 173:
+Title: proceedings of the 42nd acm international conference on design of communication...
+DOI: 10.1145/3641237.3691673
+Top 10 terms:
+  data: 0.1089
+  responsible: 0.0408
+  search: 0.0374
+  communication: 0.0330
+  lessons: 0.0319
+  bias: 0.0319
+  users: 0.0293
+  exploration: 0.0278
+  students’: 0.0272
+  dataset: 0.0266
+
+
+Document 174:
+Title: proceedings of the ieeeacm 3rd international conference on ai engineering software engineering for a...
+DOI: 10.1145/3644815.3644945
+Top 10 terms:
+  rag: 0.3058
+  retrieval: 0.0917
+  systems: 0.0761
+  failure: 0.0750
+  system: 0.0690
+  points: 0.0645
+  augmented: 0.0561
+  case: 0.0435
+  responses: 0.0401
+  ieeeacm: 0.0375
+
+
+Document 175:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635595
+Top 10 terms:
+  genai: 0.1105
+  creativity: 0.0991
+  physics: 0.0812
+  computational: 0.0770
+  usage: 0.0684
+  pathway: 0.0442
+  connected: 0.0442
+  using: 0.0434
+  connection: 0.0406
+  view: 0.0406
+
+
+Document 176:
+Title: evaluating chatgpt4 vision on brazils national undergraduate computer science exam...
+DOI: 10.1145/3674149
+Top 10 terms:
+  chatgpt4: 0.1244
+  visual: 0.1008
+  vision: 0.0968
+  model’s: 0.0747
+  multimodal: 0.0520
+  exam: 0.0476
+  national: 0.0428
+  multiplechoice: 0.0406
+  reasoning: 0.0406
+  elements: 0.0406
+
+
+Document 177:
+Title: proceedings of the eleventh acm conference on learning scale...
+DOI: 10.1145/3657604.3662039
+Top 10 terms:
+  eipe: 0.1179
+  code: 0.0704
+  description: 0.0688
+  plain: 0.0541
+  comprehension: 0.0537
+  purpose: 0.0459
+  english: 0.0425
+  grading: 0.0411
+  ability: 0.0401
+  evaluate: 0.0389
+
+
+Document 178:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705277
+Top 10 terms:
+  ethics: 0.0828
+  gpt4o: 0.0718
+  submitted: 0.0677
+  identify: 0.0612
+  outputs: 0.0599
+  outcomes: 0.0532
+  interrater: 0.0516
+  critical: 0.0475
+  codes: 0.0474
+  agreement: 0.0474
+
+
+Document 179:
+Title: ethics governance and user mental models for large language models in computing education...
+DOI: 10.1145/3688089
+Top 10 terms:
+  disrupting: 0.1905
+  governance: 0.1749
+  mental: 0.1749
+  industries: 0.1552
+  evolve: 0.1482
+  policy: 0.1326
+  user: 0.1019
+  ethics: 0.1019
+  outcomes: 0.0982
+  improve: 0.0851
+
+
+Document 180:
+Title: proceedings of the 27th australasian computing education conference...
+DOI: 10.1145/3716640.3716652
+Top 10 terms:
+  feedback: 0.1156
+  formative: 0.1121
+  process: 0.0751
+  data: 0.0713
+  programming: 0.0490
+  automating: 0.0375
+  underexplored: 0.0375
+  70b: 0.0375
+  incremental: 0.0375
+  remain: 0.0344
+
+
+Document 181:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630784
+Top 10 terms:
+  awareness: 0.0524
+  educators: 0.0470
+  chatgpt: 0.0466
+  teach: 0.0454
+  survey: 0.0454
+  grapple: 0.0399
+  abuse: 0.0399
+  pursuits: 0.0399
+  moving: 0.0399
+  modify: 0.0399
+
+
+Document 182:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 1...
+DOI: 10.1145/3649165.3690116
+Top 10 terms:
+  formal: 0.1568
+  pass: 0.1045
+  chatgpts: 0.0850
+  theory: 0.0820
+  choices: 0.0569
+  determined: 0.0569
+  automata: 0.0569
+  questions: 0.0553
+  scored: 0.0523
+  adequate: 0.0490
+
+
+Document 183:
+Title: proceedings of the eleventh acm conference on learning scale...
+DOI: 10.1145/3657604.3662042
+Top 10 terms:
+  reflection: 0.2305
+  facilitate: 0.0558
+  slides: 0.0456
+  experiment: 0.0341
+  scores: 0.0318
+  experiments: 0.0318
+  scalable: 0.0308
+  activities: 0.0277
+  llm: 0.0263
+  assignment: 0.0231
+
+
+Document 184:
+Title: proceedings of the 18th acmieee international symposium on empirical software engineering and measur...
+DOI: 10.1145/3674805.3690741
+Top 10 terms:
+  diagrams: 0.1026
+  textual: 0.0895
+  uml: 0.0822
+  agents: 0.0729
+  llm: 0.0601
+  syntactic: 0.0597
+  reference: 0.0597
+  difference: 0.0548
+  generated: 0.0466
+  semantic: 0.0464
+
+
+Document 185:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705195
+Top 10 terms:
+  classrooms: 0.0980
+  creating: 0.0611
+  retention: 0.0538
+  articulate: 0.0538
+  worked: 0.0494
+  opening: 0.0494
+  empower: 0.0494
+  timeintensive: 0.0494
+  humanlike: 0.0463
+  hard: 0.0463
+
+
+Document 186:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653600
+Top 10 terms:
+  textbook: 0.1440
+  culturallyrelevant: 0.1152
+  cultural: 0.0860
+  textbooks: 0.0793
+  incorporation: 0.0576
+  resources: 0.0574
+  culture: 0.0448
+  relevance: 0.0448
+  culturally: 0.0430
+  relevant: 0.0342
+
+
+Document 187:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705132
+Top 10 terms:
+  performance: 0.0653
+  decline: 0.0643
+  quiz: 0.0643
+  correlation: 0.0590
+  quizzes: 0.0590
+  struggled: 0.0590
+  ultimately: 0.0553
+  latest: 0.0524
+  reliance: 0.0524
+  across: 0.0522
+
+
+Document 188:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635408
+Top 10 terms:
+  sql: 0.2476
+  queries: 0.1345
+  trees: 0.0758
+  abstract: 0.0575
+  objective: 0.0575
+  grading: 0.0575
+  syntax: 0.0527
+  submissions: 0.0513
+  cosine: 0.0413
+  stands: 0.0413
+
+
+Document 189:
+Title: proceedings of the 27th australasian computing education conference...
+DOI: 10.1145/3716640.3716647
+Top 10 terms:
+  synthetic: 0.1712
+  data: 0.1045
+  real: 0.0836
+  submissions: 0.0560
+  test: 0.0491
+  student: 0.0486
+  privacy: 0.0418
+  gpt4o: 0.0418
+  datasets: 0.0394
+  case: 0.0348
+
+
+Document 190:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635343
+Top 10 terms:
+  community: 0.0775
+  college: 0.0695
+  faculty: 0.0651
+  data: 0.0611
+  modules: 0.0553
+  genai: 0.0536
+  initiative: 0.0480
+  team: 0.0422
+  collaboration: 0.0400
+  curriculum: 0.0376
+
+
+Document 191:
+Title: proceedings of the 23rd koli calling international conference on computing education research...
+DOI: 10.1145/3631802.3631845
+Top 10 terms:
+  review: 0.0772
+  downsides: 0.0762
+  23rd: 0.0700
+  reviews: 0.0655
+  ready: 0.0655
+  content: 0.0652
+  received: 0.0621
+  peer: 0.0593
+  chatgpt: 0.0593
+  koli: 0.0569
+
+
+Document 192:
+Title: proceedings of the 2023 conference on innovation and technology in computer science education v 1...
+DOI: 10.1145/3587102.3588814
+Top 10 terms:
+  oriented: 0.1425
+  portuguese: 0.0713
+  gpt3: 0.0682
+  written: 0.0513
+  classes: 0.0443
+  since: 0.0423
+  able: 0.0413
+  set: 0.0381
+  function: 0.0356
+  composition: 0.0356
+
+
+Document 193:
+Title: proceedings of the 24th koli calling international conference on computing education research...
+DOI: 10.1145/3699538.3699581
+Top 10 terms:
+  alignment: 0.1749
+  forums: 0.1035
+  llms’: 0.0635
+  utilised: 0.0635
+  2500: 0.0635
+  questionanswer: 0.0635
+  hinder: 0.0635
+  pedagogical: 0.0593
+  suitability: 0.0583
+  constructivism: 0.0583
+
+
+Document 194:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701827
+Top 10 terms:
+  error: 0.1130
+  compiler: 0.0854
+  sidekick: 0.0762
+  dcc: 0.0762
+  explanations: 0.0694
+  conversational: 0.0694
+  messages: 0.0514
+  cs1: 0.0424
+  seven: 0.0381
+  llmenhanced: 0.0381
+
+
+Document 195:
+Title: proceedings of the 5th european conference on software engineering education...
+DOI: 10.1145/3593663.3593695
+Top 10 terms:
+  exams: 0.1061
+  examination: 0.0791
+  exam: 0.0620
+  move: 0.0594
+  smaller: 0.0557
+  format: 0.0528
+  grade: 0.0528
+  gpt: 0.0520
+  report: 0.0346
+  regarding: 0.0346
+
+
+Document 196:
+Title: mining action rules for defect reduction planning...
+DOI: 10.1145/3660809
+Top 10 terms:
+  action: 0.1428
+  defect: 0.1296
+  reduction: 0.1190
+  plans: 0.1190
+  mining: 0.1037
+  planning: 0.0892
+  scores: 0.0542
+  f1score: 0.0519
+  rules: 0.0476
+  recall: 0.0476
+
+
+Document 197:
+Title: the effect of chatgpt student perspective and performance achievement...
+Top 10 terms:
+  achievement: 0.1949
+  networking: 0.1415
+  perspective: 0.1019
+  performance: 0.0718
+  november: 0.0707
+  chatgpt: 0.0688
+  impact: 0.0658
+  department: 0.0608
+  effect: 0.0577
+  encouraged: 0.0551
+
+
+Document 198:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630897
+Top 10 terms:
+  english: 0.1238
+  problems: 0.0871
+  sample: 0.0743
+  nnes: 0.0688
+  nonnative: 0.0688
+  speakers: 0.0632
+  languages: 0.0574
+  exercise: 0.0514
+  generation: 0.0465
+  create: 0.0383
+
+
+Document 199:
+Title: improving introductory java programming education through chatgpt...
+Top 10 terms:
+  java: 0.0750
+  journey: 0.0538
+  complementing: 0.0538
+  promptly: 0.0538
+  trajectory: 0.0538
+  ramifications: 0.0494
+  empower: 0.0494
+  delve: 0.0494
+  pose: 0.0494
+  classroom: 0.0467
+
+
+Document 200:
+Title: rethinking computer science education in the age of genai...
+DOI: 10.1145/3732792
+Top 10 terms:
+  ten: 0.1615
+  theories: 0.1615
+  cse: 0.1483
+  genai: 0.1345
+  competencies: 0.0877
+  disruptive: 0.0877
+  cognitive: 0.0727
+  pedagogy: 0.0625
+  properties: 0.0538
+  piece: 0.0538
+
+
+Document 201:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701844
+Top 10 terms:
+  rag: 0.1106
+  slm: 0.1018
+  privacy: 0.0709
+  slms: 0.0678
+  deployed: 0.0553
+  retrievalaugmented: 0.0553
+  scalability: 0.0553
+  agent: 0.0528
+  small: 0.0472
+  data: 0.0430
+
+
+Document 202:
+Title: practice and experience in advanced research computing 2024 human powered computing...
+DOI: 10.1145/3626203.3670628
+Top 10 terms:
+  base: 0.1292
+  hpc: 0.1022
+  knowledge: 0.0698
+  regression: 0.0646
+  response: 0.0481
+  limited: 0.0460
+  statistically: 0.0396
+  resources: 0.0395
+  access: 0.0370
+  construction: 0.0364
+
+
+Document 203:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653527
+Top 10 terms:
+  considered: 0.2643
+  innovation: 0.1453
+  programming: 0.1156
+  2024: 0.1073
+  technology: 0.1073
+  models: 0.0343
+  large: 0.0323
+  language: 0.0304
+  computer: 0.0248
+  science: 0.0230
+
+
+Document 204:
+Title: proceedings of the 2024 conference on united kingdom amp ireland computing education research...
+DOI: 10.1145/3689535.3689554
+Top 10 terms:
+  error: 0.1946
+  messages: 0.1208
+  message: 0.0973
+  compiler: 0.0891
+  fix: 0.0513
+  conventional: 0.0513
+  programmers: 0.0508
+  resolve: 0.0446
+  gpt4: 0.0373
+  explanations: 0.0362
+
+
+Document 205:
+Title: practice and experience in advanced research computing 2024 human powered computing...
+DOI: 10.1145/3626203.3670577
+Top 10 terms:
+  largelanguage: 0.0909
+  ondemand: 0.0741
+  running: 0.0707
+  advanced: 0.0618
+  users: 0.0580
+  enabling: 0.0580
+  open: 0.0506
+  llms: 0.0459
+  reducing: 0.0454
+  quick: 0.0454
+
+
+Document 206:
+Title: proceedings of the 26th australasian computing education conference...
+DOI: 10.1145/3636243.3636256
+Top 10 terms:
+  gpt4: 0.0665
+  aligned: 0.0651
+  multiplechoice: 0.0651
+  objectives: 0.0556
+  generation: 0.0540
+  assessments: 0.0485
+  python: 0.0436
+  authoring: 0.0399
+  appeared: 0.0399
+  uptodate: 0.0399
+
+
+Document 207:
+Title: proceedings of the 27th australasian computing education conference...
+DOI: 10.1145/3716640.3716657
+Top 10 terms:
+  prompting: 0.0551
+  classes: 0.0411
+  chainofthought: 0.0330
+  noted: 0.0330
+  fills: 0.0330
+  submitting: 0.0330
+  viewed: 0.0303
+  trend: 0.0303
+  obtain: 0.0303
+  drawbacks: 0.0303
+
+
+Document 208:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 1...
+DOI: 10.1145/3649165.3690100
+Top 10 terms:
+  synthetic: 0.1334
+  errors: 0.1187
+  bugs: 0.1127
+  authentic: 0.0819
+  data: 0.0777
+  distributions: 0.0752
+  distribution: 0.0667
+  typical: 0.0637
+  generated: 0.0479
+  llms: 0.0413
+
+
+Document 209:
+Title: proceedings of the xxiii brazilian symposium on software quality...
+DOI: 10.1145/3701625.3701684
+Top 10 terms:
+  management: 0.1822
+  project: 0.1354
+  teaching: 0.0537
+  software: 0.0434
+  chatgpt: 0.0422
+  improving: 0.0419
+  teamwork: 0.0361
+  feel: 0.0361
+  complementary: 0.0361
+  conclusion: 0.0332
+
+
+Document 210:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705178
+Top 10 terms:
+  ethics: 0.1293
+  society: 0.0841
+  discussion: 0.0821
+  social: 0.0771
+  algorithms: 0.0646
+  competence: 0.0604
+  addressed: 0.0604
+  colleagues: 0.0604
+  health: 0.0604
+  identity: 0.0604
+
+
+Document 211:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635624
+Top 10 terms:
+  tracing: 0.1345
+  question: 0.0867
+  preferred: 0.0550
+  reverse: 0.0550
+  nuanced: 0.0550
+  questions: 0.0534
+  ones: 0.0505
+  coverage: 0.0505
+  prompts: 0.0491
+  concept: 0.0473
+
+
+Document 212:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653570
+Top 10 terms:
+  secondary: 0.1374
+  school: 0.1112
+  exploratory: 0.0829
+  principles: 0.0767
+  conversational: 0.0647
+  customization: 0.0533
+  preferred: 0.0533
+  placement: 0.0533
+  grades: 0.0533
+  terminology: 0.0533
+
+
+Document 213:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653612
+Top 10 terms:
+  feedback: 0.1170
+  open: 0.0676
+  gpt4: 0.0632
+  proprietary: 0.0558
+  source: 0.0541
+  automatic: 0.0541
+  powerful: 0.0438
+  produced: 0.0410
+  quality: 0.0385
+  llms: 0.0307
+
+
+Document 214:
+Title: extraction of knowledge models from textbooks...
+DOI: 10.1145/3690177.3690180
+Top 10 terms:
+  professor: 0.3368
+  associate: 0.1834
+  textbooks: 0.1684
+  his: 0.1684
+  extraction: 0.1684
+  department: 0.1577
+  sciences: 0.1370
+  addition: 0.1171
+  assistant: 0.1088
+  primary: 0.1042
+
+
+Document 215:
+Title: proceedings of the 2023 acm conference on international computing education research volume 1...
+DOI: 10.1145/3568813.3600139
+Top 10 terms:
+  gpt35: 0.0755
+  issues: 0.0572
+  codex: 0.0490
+  llms: 0.0461
+  requests: 0.0457
+  threats: 0.0428
+  finding: 0.0387
+  prompted: 0.0358
+  help: 0.0352
+  frequently: 0.0336
+
+
+Document 216:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705281
+Top 10 terms:
+  tool: 0.0850
+  ethics: 0.0779
+  discussion: 0.0660
+  instructors: 0.0568
+  forms: 0.0486
+  expansion: 0.0486
+  identity: 0.0486
+  pertinent: 0.0486
+  student: 0.0449
+  adapted: 0.0446
+
+
+Document 217:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701791
+Top 10 terms:
+  proprietary: 0.1229
+  feedback: 0.0859
+  cer: 0.0819
+  opensource: 0.0694
+  wide: 0.0602
+  efficiency: 0.0569
+  automatic: 0.0529
+  llms: 0.0525
+  range: 0.0518
+  llmasajudge: 0.0446
+
+
+Document 218:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3633436
+Top 10 terms:
+  force: 0.0745
+  themselves: 0.0698
+  storm: 0.0662
+  parsons: 0.0632
+  start: 0.0632
+  ask: 0.0606
+  transformative: 0.0606
+  world: 0.0585
+  taken: 0.0565
+  demonstrating: 0.0565
+
+
+Document 219:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653554
+Top 10 terms:
+  slm: 0.0981
+  rag: 0.0799
+  gpt35turbo: 0.0633
+  gpt432k: 0.0490
+  problemsolving: 0.0457
+  assistant: 0.0436
+  agent: 0.0382
+  security: 0.0366
+  total: 0.0366
+  privacy: 0.0341
+
+
+Document 220:
+Title: proceedings of the 2024 acm conference on international computing education research volume 1...
+DOI: 10.1145/3632620.3671108
+Top 10 terms:
+  details: 0.1121
+  problems: 0.0726
+  contest: 0.0688
+  groups: 0.0418
+  writing: 0.0361
+  unable: 0.0344
+  chapter: 0.0344
+  permitted: 0.0344
+  prohibit: 0.0344
+  competitive: 0.0316
+
+
+Document 221:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 2...
+DOI: 10.1145/3649409.3691076
+Top 10 terms:
+  planning: 0.1331
+  decomposition: 0.0946
+  patterns: 0.0783
+  plans: 0.0710
+  skill: 0.0688
+  common: 0.0673
+  developments: 0.0602
+  instruction: 0.0392
+  subproblems: 0.0387
+  acquiring: 0.0387
+
+
+Document 222:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705107
+Top 10 terms:
+  interpersonal: 0.0693
+  meetings: 0.0693
+  requirements: 0.0646
+  elicitation: 0.0636
+  team: 0.0454
+  simulations: 0.0346
+  mimicking: 0.0346
+  teamwork: 0.0346
+  interviewing: 0.0346
+  situations: 0.0346
+
+
+Document 223:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653533
+Top 10 terms:
+  analogies: 0.2979
+  recursion: 0.0745
+  relevant: 0.0663
+  familiar: 0.0607
+  unfamiliar: 0.0372
+  generic: 0.0372
+  otherwise: 0.0372
+  snippet: 0.0372
+  topics: 0.0353
+  ones: 0.0342
+
+
+Document 224:
+Title: proceedings of the 24th koli calling international conference on computing education research...
+DOI: 10.1145/3699538.3699569
+Top 10 terms:
+  distance: 0.1240
+  text: 0.0840
+  programmers: 0.0767
+  submissions: 0.0560
+  generated: 0.0527
+  algorithms: 0.0482
+  whether: 0.0464
+  notoriously: 0.0450
+  cluster: 0.0450
+  submitting: 0.0450
+
+
+Document 225:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635432
+Top 10 terms:
+  colab: 0.2088
+  latest: 0.0729
+  google: 0.0669
+  jupyter: 0.0597
+  everyone: 0.0597
+  features: 0.0531
+  machine: 0.0488
+  giving: 0.0464
+  allows: 0.0430
+  users: 0.0381
+
+
+Document 226:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635604
+Top 10 terms:
+  attitudes: 0.0524
+  adoption: 0.0457
+  perception: 0.0409
+  student: 0.0380
+  toward: 0.0340
+  llms: 0.0322
+  integrity: 0.0293
+  among: 0.0277
+  imperative: 0.0274
+  population: 0.0274
+
+
+Document 227:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3705066
+Top 10 terms:
+  office: 0.0608
+  cs2: 0.0582
+  hours: 0.0558
+  utilized: 0.0473
+  assistants: 0.0378
+  chatgpt: 0.0355
+  comparing: 0.0304
+  replaces: 0.0304
+  self: 0.0304
+  hence: 0.0304
+
+
+Document 228:
+Title: proceedings of the 46th international conference on software engineering software engineering educat...
+DOI: 10.1145/3639474.3640058
+Top 10 terms:
+  execution: 0.0656
+  program: 0.0453
+  similar: 0.0443
+  questions: 0.0424
+  comprehension: 0.0398
+  stateoftheart: 0.0389
+  created: 0.0372
+  creating: 0.0372
+  code: 0.0361
+  fueled: 0.0328
+
+
+Document 229:
+Title: proceedings of the 54th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3545945.3569770
+Top 10 terms:
+  messages: 0.2262
+  error: 0.1767
+  errors: 0.0648
+  areas: 0.0475
+  programming: 0.0426
+  highlight: 0.0391
+  surpass: 0.0372
+  interpretability: 0.0372
+  slow: 0.0372
+  cause: 0.0372
+
+
+Document 230:
+Title: companion of the 2024 on acm international joint conference on pervasive and ubiquitous computing...
+DOI: 10.1145/3675094.3678991
+Top 10 terms:
+  reality: 0.1000
+  devices: 0.1000
+  retrieval: 0.0815
+  inclusive: 0.0779
+  multimodal: 0.0697
+  user: 0.0535
+  inclass: 0.0500
+  pervasive: 0.0500
+  convert: 0.0500
+  information: 0.0482
+
+
+Document 231:
+Title: cybersecurity exercises in the age of llms...
+Top 10 terms:
+  cybersecurity: 0.1936
+  exercises: 0.1122
+  environment: 0.1050
+  means: 0.0876
+  barriers: 0.0784
+  faculty: 0.0760
+  content: 0.0722
+  modified: 0.0563
+  fills: 0.0563
+  current: 0.0526
+
+
+Document 232:
+Title: proceedings of the 26th australasian computing education conference...
+DOI: 10.1145/3636243.3636245
+Top 10 terms:
+  logic: 0.1486
+  errors: 0.1336
+  issue: 0.0469
+  detecting: 0.0448
+  novices: 0.0415
+  detection: 0.0415
+  performance: 0.0390
+  syntax: 0.0368
+  behavior: 0.0368
+  error: 0.0342
+
+
+Document 233:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701883
+Top 10 terms:
+  cheating: 0.0870
+  detection: 0.0652
+  concerning: 0.0519
+  similarity: 0.0470
+  precision: 0.0470
+  scores: 0.0421
+  offering: 0.0408
+  plagiarism: 0.0396
+  performed: 0.0358
+  high: 0.0358
+
+
+Document 234:
+Title: proceedings of the 6th european conference on software engineering education...
+DOI: 10.1145/3723010.3723021
+Top 10 terms:
+  answer: 0.1160
+  short: 0.1129
+  grading: 0.0924
+  automatic: 0.0525
+  user: 0.0473
+  interviewed: 0.0442
+  asag: 0.0442
+  comparable: 0.0442
+  recognized: 0.0442
+  scoring: 0.0442
+
+
+Document 235:
+Title: large language models and introductory lab exercises susceptibility resistance and potential...
+Top 10 terms:
+  personas: 0.1066
+  labs: 0.0774
+  assignments: 0.0727
+  current: 0.0723
+  difficult: 0.0539
+  small: 0.0539
+  changes: 0.0470
+  turn: 0.0387
+  eye: 0.0387
+  followup: 0.0387
+
+
+Document 236:
+Title: proceedings of the 56th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3641554.3701960
+Top 10 terms:
+  cybersecurity: 0.1074
+  curriculum: 0.0812
+  parts: 0.0678
+  they: 0.0460
+  institutions: 0.0454
+  prerequisites: 0.0416
+  2021: 0.0416
+  satisfy: 0.0416
+  closely: 0.0416
+  units: 0.0416
+
+
+Document 237:
+Title: proceedings of the 46th international conference on software engineering software engineering educat...
+DOI: 10.1145/3639474.3640065
+Top 10 terms:
+  functional: 0.0926
+  assignments: 0.0674
+  correctness: 0.0654
+  expected: 0.0585
+  implementations: 0.0559
+  patterns: 0.0484
+  programming: 0.0469
+  efficiency: 0.0458
+  evaluated: 0.0391
+  executable: 0.0359
+
+
+Document 238:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630764
+Top 10 terms:
+  error: 0.2880
+  messages: 0.1748
+  message: 0.1319
+  gpt: 0.0866
+  randomized: 0.0647
+  types: 0.0576
+  generated: 0.0379
+  attempts: 0.0324
+  attempt: 0.0324
+  subsequent: 0.0324
+
+
+Document 239:
+Title: companion proceedings of the 29th international conference on intelligent user interfaces...
+DOI: 10.1145/3640544.3645215
+Top 10 terms:
+  posts: 0.0587
+  tas: 0.0521
+  questions: 0.0517
+  receive: 0.0497
+  forum: 0.0497
+  student: 0.0370
+  responses: 0.0342
+  gpt: 0.0342
+  rendering: 0.0320
+  avenue: 0.0320
+
+
+Document 240:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630909
+Top 10 terms:
+  prompt: 0.1174
+  problems: 0.0851
+  promptly: 0.0576
+  new: 0.0524
+  type: 0.0495
+  shift: 0.0469
+  skill: 0.0342
+  code: 0.0317
+  carefully: 0.0288
+  crafting: 0.0288
+
+
+Document 241:
+Title: proceedings of the 26th australasian computing education conference...
+DOI: 10.1145/3636243.3636249
+Top 10 terms:
+  queries: 0.0669
+  assistance: 0.0649
+  llmpowered: 0.0639
+  type: 0.0471
+  guardrails: 0.0446
+  ondemand: 0.0446
+  help: 0.0388
+  tool: 0.0383
+  intelligent: 0.0349
+  settings: 0.0293
+
+
+Document 242:
+Title: proceedings of the 2023 conference on innovation and technology in computer science education v 1...
+DOI: 10.1145/3587102.3588785
+Top 10 terms:
+  explanations: 0.1349
+  explain: 0.0790
+  code: 0.0699
+  scaffold: 0.0583
+  ability: 0.0575
+  demand: 0.0474
+  skills: 0.0367
+  writing: 0.0333
+  inputs: 0.0317
+  respect: 0.0317
+
+
+Document 243:
+Title: proceedings of the 23rd koli calling international conference on computing education research...
+DOI: 10.1145/3631802.3631816
+Top 10 terms:
+  independent: 0.1081
+  exploration: 0.0607
+  whether: 0.0516
+  lenses: 0.0500
+  situate: 0.0500
+  earlier: 0.0500
+  continuation: 0.0500
+  define: 0.0500
+  modelsnbspllms: 0.0500
+  sound: 0.0500
+
+
+Document 244:
+Title: proceedings of the 30th acm joint european software engineering conference and symposium on the foun...
+DOI: 10.1145/3540250.3569444
+Top 10 terms:
+  symbolic: 0.2476
+  synthesis: 0.2273
+  foundations: 0.2273
+  joint: 0.2018
+  reasoning: 0.2018
+  european: 0.1783
+  interactive: 0.1671
+  software: 0.1487
+  engineering: 0.1426
+  machine: 0.1351
+
+
+Document 245:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630874
+Top 10 terms:
+  prompt: 0.0691
+  steps: 0.0621
+  descriptions: 0.0530
+  performance: 0.0515
+  prompts: 0.0510
+  datasets: 0.0500
+  problems: 0.0482
+  perform: 0.0463
+  assignments: 0.0430
+  subproblems: 0.0381
+
+
+Document 246:
+Title: proceedings of the 2023 9th international conference on esociety elearning and etechnologies...
+DOI: 10.1145/3613944.3613946
+Top 10 terms:
+  contest: 0.0516
+  addresses: 0.0474
+  group: 0.0422
+  control: 0.0385
+  access: 0.0361
+  structures: 0.0329
+  terms: 0.0329
+  number: 0.0321
+  environment: 0.0321
+  programming: 0.0295
+
+
+Document 247:
+Title: reflections on the design of systems that impact computers and society...
+DOI: 10.1145/3585060.3585063
+Top 10 terms:
+  state: 0.1469
+  society: 0.1189
+  year: 0.1090
+  thought: 0.0854
+  march: 0.0784
+  reflecting: 0.0784
+  broaden: 0.0784
+  computers: 0.0784
+  keynote: 0.0784
+  participate: 0.0784
+
+
+Document 248:
+Title: proceedings of the 23rd koli calling international conference on computing education research...
+DOI: 10.1145/3631802.3631830
+Top 10 terms:
+  guardrails: 0.0549
+  ondemand: 0.0549
+  intelligent: 0.0430
+  assistance: 0.0400
+  outputs: 0.0391
+  tool: 0.0354
+  12week: 0.0337
+  replaces: 0.0337
+  overrely: 0.0337
+  complements: 0.0337
+
+
+Document 249:
+Title: proceedings of the 26th australasian computing education conference...
+DOI: 10.1145/3636243.3636252
+Top 10 terms:
+  worked: 0.1872
+  examples: 0.1323
+  highquality: 0.0609
+  range: 0.0507
+  generate: 0.0455
+  broad: 0.0435
+  expert: 0.0406
+  suitable: 0.0406
+  explanations: 0.0354
+  useful: 0.0346
+
+
+Document 250:
+Title: github copilot in the classroom learning to code with ai assistance...
+Top 10 terms:
+  copilot: 0.1006
+  aides: 0.0780
+  mostly: 0.0716
+  scores: 0.0543
+  effects: 0.0473
+  github: 0.0434
+  code: 0.0430
+  solution: 0.0395
+  workflows: 0.0390
+  benefiting: 0.0390
+
+
+Document 251:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635600
+Top 10 terms:
+  advantages: 0.0961
+  poster: 0.0869
+  chatgpt: 0.0579
+  emphasizes: 0.0556
+  responses: 0.0398
+  include: 0.0384
+  provides: 0.0377
+  limitations: 0.0377
+  flexibility: 0.0372
+  situations: 0.0372
+
+
+Document 252:
+Title: proceedings of the 2023 conference on innovation and technology in computer science education v 2...
+DOI: 10.1145/3587103.3594206
+Top 10 terms:
+  thought: 0.0459
+  leaving: 0.0459
+  essays: 0.0459
+  novel: 0.0428
+  sought: 0.0421
+  code: 0.0421
+  art: 0.0394
+  humans: 0.0394
+  highly: 0.0394
+  storm: 0.0374
+
+
+Document 253:
+Title: proceedings of the 24th international conference on autonomous agents and multiagent systems...
+Top 10 terms:
+  satisfaction: 0.1082
+  user: 0.0579
+  conditions: 0.0421
+  conversation: 0.0404
+  communication: 0.0390
+  conversations: 0.0377
+  interaction: 0.0345
+  interactions: 0.0321
+  scale: 0.0301
+  responses: 0.0290
+
+
+Document 254:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653615
+Top 10 terms:
+  aides: 0.1679
+  selfefficacy: 0.1156
+  aide: 0.0839
+  intelligencedriven: 0.0839
+  workload: 0.0684
+  github: 0.0467
+  copilot: 0.0433
+  try: 0.0420
+  withinsubjects: 0.0420
+  revolutionary: 0.0420
+
+
+Document 255:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3635483
+Top 10 terms:
+  dcc: 0.1478
+  compiler: 0.1380
+  sidekick: 0.1109
+  error: 0.1096
+  messages: 0.0998
+  pems: 0.0739
+  debugging: 0.0708
+  interface: 0.0552
+  guidance: 0.0499
+  conversational: 0.0449
+
+
+Document 256:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3633431
+Top 10 terms:
+  online: 0.0893
+  sigcse: 0.0667
+  big: 0.0589
+  better: 0.0556
+  technologies: 0.0525
+  continue: 0.0486
+  project: 0.0438
+  tools: 0.0422
+  turn: 0.0409
+  nsfsupported: 0.0409
+
+
+Document 257:
+Title: proceedings of the 24th annual conference on information technology education...
+DOI: 10.1145/3585059.3611447
+Top 10 terms:
+  job: 0.1199
+  ethical: 0.0977
+  attitudes: 0.0626
+  chatgpt: 0.0572
+  automation: 0.0490
+  ecosystem: 0.0490
+  regulations: 0.0490
+  information: 0.0473
+  impact: 0.0456
+  longterm: 0.0450
+
+
+Document 258:
+Title: proceedings of the xxxvii brazilian symposium on software engineering...
+DOI: 10.1145/3613372.3614189
+Top 10 terms:
+  interpersonal: 0.1126
+  software: 0.0676
+  subjects: 0.0563
+  completely: 0.0563
+  chatgpt: 0.0547
+  facetoface: 0.0517
+  replace: 0.0517
+  professor: 0.0517
+  classroom: 0.0488
+  engineering: 0.0486
+
+
+Document 259:
+Title: proceedings of the 2024 asia pacific conference on computing technologies communications and network...
+DOI: 10.1145/3685767.3685777
+Top 10 terms:
+  big: 0.1603
+  data: 0.0617
+  trends: 0.0511
+  agent: 0.0433
+  analytics: 0.0433
+  ethical: 0.0416
+  sectors: 0.0416
+  technological: 0.0416
+  privacy: 0.0387
+  technologies: 0.0357
+
+
+Document 260:
+Title: proceedings of the 2024 16th international conference on education technology and computers...
+DOI: 10.1145/3702163.3702185
+Top 10 terms:
+  strategies: 0.1589
+  correlation: 0.0758
+  preparation: 0.0710
+  planning: 0.0710
+  participation: 0.0642
+  career: 0.0642
+  practice: 0.0587
+  university: 0.0545
+  collaboration: 0.0513
+  professional: 0.0501
+
+
+Document 261:
+Title: proceedings of the 53rd acm technical symposium on computer science education v 2...
+DOI: 10.1145/3478432.3499265
+Top 10 terms:
+  game: 0.2030
+  run: 0.1376
+  respect: 0.0884
+  collaborative: 0.0847
+  llama: 0.0688
+  engaging: 0.0564
+  chance: 0.0442
+  physical: 0.0442
+  execute: 0.0442
+  blockbased: 0.0442
+
+
+Document 262:
+Title: proceedings of the 2023 conference on innovation and technology in computer science education v 1...
+DOI: 10.1145/3587102.3588827
+Top 10 terms:
+  misuse: 0.0594
+  discuss: 0.0545
+  assistant: 0.0490
+  chatgpt: 0.0482
+  cheat: 0.0413
+  copying: 0.0413
+  exceeded: 0.0413
+  late: 0.0413
+  speed: 0.0413
+  its: 0.0405
+
+
+Document 263:
+Title: proceedings of the 55th acm technical symposium on computer science education v 1...
+DOI: 10.1145/3626252.3630880
+Top 10 terms:
+  interview: 0.0804
+  instructor: 0.0613
+  generation: 0.0474
+  relating: 0.0467
+  planned: 0.0467
+  zealand: 0.0467
+  pedagogical: 0.0436
+  adaptations: 0.0429
+  australia: 0.0429
+  dialogue: 0.0402
+
+
+Document 264:
+Title: proceedings of the 2024 on innovation and technology in computer science education v 1...
+DOI: 10.1145/3649217.3653543
+Top 10 terms:
+  tutor: 0.0680
+  meaningful: 0.0535
+  exercises: 0.0435
+  interactive: 0.0393
+  assistance: 0.0346
+  personalized: 0.0301
+  chainofthought: 0.0291
+  feel: 0.0291
+  complement: 0.0291
+  contextaware: 0.0291
+
+
+Document 265:
+Title: proceedings of the 32nd acm international conference on information and knowledge management...
+DOI: 10.1145/3583780.3615047
+Top 10 terms:
+  detection: 0.0771
+  representation: 0.0737
+  prediction: 0.0691
+  algorithm: 0.0625
+  interpretability: 0.0535
+  network: 0.0492
+  important: 0.0447
+  effectiveness: 0.0430
+  information: 0.0387
+  pretrained: 0.0386
+
+
+Document 266:
+Title: practice and experience in advanced research computing 2024 human powered computing...
+DOI: 10.1145/3626203.3670588
+Top 10 terms:
+  hpc: 0.1279
+  computational: 0.0341
+  cluster: 0.0313
+  departments: 0.0252
+  academic: 0.0222
+  disciplines: 0.0197
+  environment: 0.0195
+  course: 0.0194
+  parallel: 0.0180
+  resources: 0.0176
+
+
+Document 267:
+Title: proceedings of the 18th wipsce conference on primary and secondary computing education research...
+DOI: 10.1145/3605468.3605471
+Top 10 terms:
+  states: 0.0955
+  addressed: 0.0819
+  airelated: 0.0819
+  curricula: 0.0777
+  secondary: 0.0704
+  content: 0.0525
+  growing: 0.0509
+  include: 0.0422
+  contents: 0.0409
+  wipsce: 0.0409
+
+
+Document 268:
+Title: proceedings of the 54th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3545947.3573358
+Top 10 terms:
+  bof: 0.0798
+  goal: 0.0483
+  help: 0.0461
+  leaders: 0.0434
+  detrimental: 0.0434
+  possibly: 0.0434
+  coordinated: 0.0434
+  community: 0.0419
+  researchers: 0.0412
+  54th: 0.0399
+
+
+Document 269:
+Title: proceedings of the 2023 conference on innovation and technology in computer science education v 1...
+DOI: 10.1145/3587102.3588805
+Top 10 terms:
+  parsons: 0.0799
+  codex: 0.0673
+  problems: 0.0650
+  complexities: 0.0471
+  effect: 0.0418
+  variations: 0.0399
+  code: 0.0377
+  problem: 0.0339
+  given: 0.0280
+  openai: 0.0275
+
+
+Document 270:
+Title: proceedings of the 2023 9th international conference on communication and information processing...
+DOI: 10.1145/3638884.3638962
+Top 10 terms:
+  asag: 0.1501
+  regression: 0.1223
+  essay: 0.0750
+  answers: 0.0718
+  bert: 0.0689
+  method: 0.0668
+  started: 0.0645
+  much: 0.0445
+  processing: 0.0445
+  embeddings: 0.0375
+
+
+Document 271:
+Title: proceedings of the eleventh acm conference on learning scale...
+DOI: 10.1145/3657604.3664701
+Top 10 terms:
+  assistance: 0.0646
+  genuine: 0.0544
+  mooc: 0.0544
+  statements: 0.0544
+  elearning: 0.0544
+  interpretation: 0.0544
+  massive: 0.0544
+  coding: 0.0516
+  preserving: 0.0500
+  simultaneously: 0.0500
+
+
+Document 272:
+Title: proceedings of the 56th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3641555.3704769
+Top 10 terms:
+  concurrency: 0.0560
+  cores: 0.0560
+  laptop: 0.0514
+  participate: 0.0514
+  activities: 0.0510
+  modules: 0.0481
+  distributed: 0.0435
+  multiple: 0.0425
+  successfully: 0.0367
+  concepts: 0.0349
+
+
+Document 273:
+Title: proceedings of the 55th acm technical symposium on computer science education v 2...
+DOI: 10.1145/3626253.3631657
+Top 10 terms:
+  panel: 0.1456
+  comprises: 0.1011
+  panelists: 0.1011
+  inclusion: 0.0824
+  opportunities: 0.0789
+  investigating: 0.0755
+  llmbased: 0.0704
+  share: 0.0663
+  areas: 0.0645
+  presented: 0.0645
+
+
+Document 274:
+Title: adaptable metrics to inform introductory cs...
+Top 10 terms:
+  metrics: 0.3435
+  reproducible: 0.1598
+  adaptable: 0.1598
+  projects: 0.1020
+  suitability: 0.0733
+  sudden: 0.0733
+  measured: 0.0733
+  track: 0.0733
+  traditionally: 0.0687
+  begun: 0.0687
+
+
+Document 275:
+Title: proceedings of the 2023 acm conference on international computing education research volume 1...
+DOI: 10.1145/3568813.3600138
+Top 10 terms:
+  perspectives: 0.0550
+  coding: 0.0531
+  gather: 0.0481
+  opinions: 0.0456
+  plan: 0.0435
+  likely: 0.0378
+  instructor: 0.0367
+  adapt: 0.0348
+  tools: 0.0346
+  instructors: 0.0327
+
+
+Document 276:
+Title: proceedings of the 2024 on acm virtual global computing education conference v 1...
+DOI: 10.1145/3649165.3699863
+Top 10 terms:
+  policy: 0.1411
+  united: 0.0470
+  policymakers: 0.0387
+  states: 0.0350
+  talk: 0.0324
+  public: 0.0295
+  social: 0.0287
+  consider: 0.0280
+  global: 0.0267
+  evolving: 0.0267
+
+
+Document 277:
+Title: proceedings of the 20th brazilian symposium on information systems...
+DOI: 10.1145/3658271.3658320
+Top 10 terms:
+  chatbots: 0.2223
+  information: 0.0765
+  theory: 0.0686
+  bard: 0.0517
+  questions: 0.0514
+  built: 0.0474
+  answering: 0.0474
+  upon: 0.0457
+  exam: 0.0405
+  context: 0.0397
+
+
+Document 278:
+Title: proceedings of the 24th australasian computing education conference...
+DOI: 10.1145/3511861.3511863
+Top 10 terms:
+  codex: 0.1242
+  input: 0.0585
+  generates: 0.0421
+  exams: 0.0355
+  code: 0.0348
+  gpt3: 0.0345
+  deep: 0.0329
+  github: 0.0301
+  machine: 0.0295
+  explore: 0.0291
+
+
+Document 279:
+Title: computing education in the era of generative ai...
+DOI: 10.1145/3624720
+Top 10 terms:
+  adapting: 0.1927
+  faced: 0.1927
+  descriptions: 0.1724
+  era: 0.1671
+  capable: 0.1624
+  source: 0.1469
+  accurate: 0.1378
+  generating: 0.1157
+  problem: 0.1090
+  opportunities: 0.0966
+
+
+Document 280:
+Title: proceedings of the 32nd acm international conference on multimedia...
+DOI: 10.1145/3664647.3681205
+Top 10 terms:
+  multimedia: 0.1172
+  core: 0.0711
+  knowledge: 0.0562
+  architecture: 0.0511
+  state: 0.0439
+  prediction: 0.0439
+  performance: 0.0432
+  tracing: 0.0416
+  adaptive: 0.0416
+  simple: 0.0381
+
+
+Document 281:
+Title: review of...
+DOI: 10.1145/3592367.3617935
+Top 10 terms:
+  composition: 0.1905
+  application: 0.1105
+  argue: 0.0952
+  wake: 0.0952
+  wonder: 0.0952
+  book: 0.0952
+  compelling: 0.0874
+  his: 0.0874
+  believe: 0.0776
+  implement: 0.0741
+
+
+Document 282:
+Title: proceedings of the 4th international conference on advanced information science and system...
+DOI: 10.1145/3573834.3574482
+Top 10 terms:
+  representation: 0.1378
+  bert: 0.1378
+  knowledge: 0.1101
+  network: 0.0919
+  parameters: 0.0500
+  4th: 0.0500
+  lightweight: 0.0500
+  classification: 0.0459
+  sentiment: 0.0459
+  related: 0.0447
+
+
+Document 283:
+Title: contextbased adaptive multimodal fusion network for continuous framelevel sentiment prediction...
+DOI: 10.1109/TASLP.2023.3321971
+Top 10 terms:
+  multimodal: 0.1567
+  sentiment: 0.1476
+  prediction: 0.1383
+  adaptive: 0.1048
+  continuous: 0.0643
+  consecutive: 0.0643
+  network: 0.0590
+  video: 0.0590
+  proposed: 0.0586
+  features: 0.0572
+
