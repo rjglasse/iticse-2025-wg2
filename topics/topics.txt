@@ -1,0 +1,69 @@
+Programming
+Introductory Programming
+Coding
+CS0
+CS1
+CS2
+Algorithms
+Data Structures
+Complexity
+Computer Organization
+Computer Architecture
+Microprocessor Systems
+Scientific Computing
+Numerical Methods
+High Performance Computing
+Computer Graphics
+Data Visualization
+Interactive Visualization
+Human-Computer Interaction
+User Interface Design
+Usability Engineering
+Computer Security
+Cybersecurity
+Network Security
+Database
+Data Warehousing
+Intelligent Systems
+Knowledge-Based Systems
+Autonomous Agents
+Artificial Intelligence
+Machine Learning
+Reinforcement Learning
+Natural Language Processing
+Robotics
+Computer Networks
+Network Protocols
+Distributed Systems
+Operating Systems
+Systems Programming
+Mobile Application Development
+Web Application Development
+Cloud Computing
+Programming Languages
+Compilers
+Software Engineering
+Software Design and Architecture
+Systems Programming
+Computer Systems
+Social Issues and Professional Practice
+Ethics in Computing
+Professional Issues in CS
+Technology and Society
+Quantum Computing
+Game Development
+User Experience
+Accessibility
+Computer Vision
+Deep Learning
+Big Data 
+Data Mining
+Information Retrieval
+Formal Methods
+Software Verification
+Devops
+Cryptography
+Embedded Systems
+Real-Time Systems
+Formal Languages and Automata
+Computability Theory
