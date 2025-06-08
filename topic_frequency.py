@@ -1,3 +1,58 @@
+"""
+Topic Frequency Analyzer for BibTeX Files
+
+This utility analyzes the frequency of specific topics within BibTeX files by searching
+through titles, abstracts, keywords, and other content. It's particularly useful for 
+academic research analysis, literature reviews, and understanding topic distributions
+in bibliographic databases.
+
+Features:
+- Extracts and parses BibTeX entries with DOI information
+- Searches for user-defined topics within entry content
+- Generates frequency statistics and detailed reports
+- Creates horizontal bar charts for visual analysis
+- Exports results to CSV format for further analysis
+- Supports case-sensitive and case-insensitive matching
+
+Typical Use Cases:
+- Analyzing research trends in academic literature
+- Identifying popular topics in conference proceedings
+- Literature review preparation and topic clustering
+- Research domain analysis and gap identification
+
+Requirements:
+- Python 3.6+
+- matplotlib (for chart generation): pip install matplotlib
+
+Usage Examples:
+    # Basic frequency analysis
+    python topic_frequency.py -t topics.txt -b papers.bib
+
+    # Generate a bar chart with top 15 topics
+    python topic_frequency.py -t topics.txt -b papers.bib -p --max-topics 15
+
+    # Detailed analysis with CSV export and chart
+    python topic_frequency.py -t topics.txt -b papers.bib -v -o results.csv -p
+
+    # Search for a specific topic with detailed paper list
+    python topic_frequency.py -t topics.txt -b papers.bib -s "machine learning"
+
+    # Case-sensitive analysis with custom chart filename
+    python topic_frequency.py -t topics.txt -b papers.bib -c -p --chart-output analysis.png
+
+Input File Formats:
+    Topics file: Plain text file with one topic per line
+    BibTeX file: Standard BibTeX format (.bib files)
+
+Output Formats:
+    Console: Formatted frequency statistics
+    CSV: Topic,Frequency,DOIs,Titles columns
+    PNG: Horizontal bar chart visualization
+
+Author: GitHub Copilot
+Version: 1.0
+"""
+
 import argparse
 import re
 from collections import defaultdict

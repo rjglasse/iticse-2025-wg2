@@ -1,3 +1,87 @@
+"""
+DOI Finder Utility for Academic Papers
+
+This utility helps researchers find Digital Object Identifiers (DOIs) for academic 
+papers by searching the Crossref database using paper titles. It's particularly 
+useful for building bibliographies, validating citations, and creating reference 
+databases with proper DOI links.
+
+What are DOIs?
+Digital Object Identifiers (DOIs) are persistent identifiers used to uniquely 
+identify academic publications, datasets, and other scholarly objects. They provide 
+stable links to papers even if publishers change URLs, making them essential for 
+reliable academic referencing.
+
+Features:
+- Searches Crossref API using paper titles
+- Handles multiple titles from input files
+- Exports results to CSV format with DOI links
+- Includes error handling for network issues
+- Respects API rate limits with built-in delays
+- Provides detailed progress tracking
+- Generates clickable URLs for found DOIs
+
+Use Cases:
+- Building comprehensive bibliographies with DOI links
+- Validating and updating existing reference lists
+- Creating citation databases for literature reviews
+- Converting title-only references to proper citations
+- Batch processing large sets of academic papers
+- Preparing submissions that require DOI references
+
+Requirements:
+- Python 3.6+
+- requests library: pip install requests
+- Internet connection for Crossref API access
+
+Usage Examples:
+    # Basic DOI lookup from title file
+    python find_dois.py -f paper_titles.txt
+
+    # Verbose output with detailed progress
+    python find_dois.py -f titles.txt -v -o my_dois.csv
+
+    # Process bibliography titles with custom output
+    python find_dois.py -f conference_papers.txt -o conference_dois.csv
+
+Input Format:
+    Text file with one paper title per line, UTF-8 encoded
+    Example content:
+        Deep Learning for Natural Language Processing
+        Machine Learning in Educational Technology
+        Computer Science Education Research Methods
+
+Output Format:
+    CSV file with columns: DOI, URL, Title
+    - DOI: The found DOI or error message
+    - URL: Clickable https://doi.org/ link
+    - Title: Original paper title from input
+
+API Information:
+    Uses Crossref REST API (https://api.crossref.org/works)
+    - Free and open access
+    - No authentication required
+    - Rate limited (respects 1-second delays)
+    - Searches bibliographic metadata
+
+Matching Algorithm:
+    1. Queries Crossref with paper title
+    2. Retrieves top 5 most relevant results
+    3. Compares titles for similarity
+    4. Returns DOI of best match if confident
+    5. Handles partial matches and variations
+
+Error Handling:
+    - Network connection issues
+    - API response errors
+    - File encoding problems
+    - Missing or malformed data
+    - Rate limit compliance
+
+Author: GitHub Copilot
+Version: 1.0
+"""
+
 import requests
 import time
 import argparse

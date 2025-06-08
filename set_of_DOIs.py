@@ -1,3 +1,88 @@
+"""
+DOI Set Extractor for BibTeX Collections
+
+This utility extracts all unique Digital Object Identifiers (DOIs) from BibTeX files
+in a directory and creates a consolidated list. It's particularly useful for creating
+reference lists, analyzing bibliographic collections, and preparing DOI datasets
+for further analysis or validation.
+
+What does it do?
+The tool scans all BibTeX files in a specified directory, extracts DOI fields from
+each entry, removes duplicates, and outputs a clean list of unique DOIs. This helps
+researchers understand their collection's scope and create master DOI lists for
+various academic purposes.
+
+Features:
+- Processes multiple BibTeX files in a directory automatically
+- Extracts DOIs using robust pattern matching
+- Handles various DOI formats (with/without URL prefixes)
+- Removes duplicates to create unique DOI sets
+- Provides file-by-file statistics in verbose mode
+- Exports results to text files for further use
+- Shows sample DOIs for verification
+
+Use Cases:
+- Creating master DOI lists from bibliographic collections
+- Analyzing the scope and coverage of research databases
+- Preparing input files for other analysis tools
+- Validating bibliography completeness across multiple files
+- Building reference datasets for systematic reviews
+- Generating DOI inventories for research management
+
+Requirements:
+- Python 3.6+
+- Directory containing BibTeX (.bib) files with DOI fields
+
+Usage Examples:
+    # Extract DOIs from current directory
+    python set_of_DOIs.py
+
+    # Process specific directory with verbose output
+    python set_of_DOIs.py -d bibfiles/ -v
+
+    # Save unique DOIs to file
+    python set_of_DOIs.py -d bibfiles/ -o unique_dois.txt -v
+
+    # Analyze large bibliography collection
+    python set_of_DOIs.py -d /path/to/papers/ -o master_doi_list.txt
+
+Input Requirements:
+    BibTeX files (.bib) containing entries with DOI fields:
+    Example format:
+        @article{key2023,
+          title={Paper Title},
+          author={Author Name},
+          doi={10.1145/1234567.1234568},
+          year={2023}
+        }
+
+Output Formats:
+    Console: Summary statistics and sample DOIs
+    Text file: One unique DOI per line, sorted alphabetically
+
+Processing Details:
+    - Searches for doi= fields in BibTeX entries
+    - Handles both quoted and braced DOI formats
+    - Removes https://doi.org/ prefixes automatically
+    - Ignores case differences in DOI field names
+    - Eliminates whitespace and formatting issues
+
+Statistics Provided:
+    - Total number of BibTeX files processed
+    - Number of unique DOIs found across all files
+    - Per-file DOI counts (in verbose mode)
+    - Sample DOIs for verification
+
+Error Handling:
+    - File encoding issues (uses UTF-8 with error tolerance)
+    - Missing or malformed BibTeX files
+    - Invalid DOI formats
+    - Directory access problems
+
+Author: GitHub Copilot
+Version: 1.0
+"""
+
 import os
 import re
 import argparse

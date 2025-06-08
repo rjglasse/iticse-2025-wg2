@@ -1,3 +1,80 @@
+"""
+TF-IDF Analysis Tool for BibTeX Files
+
+This utility performs Term Frequency-Inverse Document Frequency (TF-IDF) analysis on 
+academic papers stored in BibTeX format. TF-IDF is a numerical statistic that reflects 
+how important a word is to a document in a collection of documents, making it ideal 
+for identifying key terms and themes in academic literature.
+
+What is TF-IDF?
+TF-IDF combines two metrics:
+- Term Frequency (TF): How often a term appears in a document
+- Inverse Document Frequency (IDF): How rare or common a term is across all documents
+The product gives higher scores to terms that are frequent in specific documents but 
+rare across the entire collection, highlighting distinctive vocabulary.
+
+Features:
+- Extracts text from BibTeX titles, abstracts, and keywords
+- Removes LaTeX commands and normalizes text
+- Filters stopwords and applies document frequency thresholds
+- Calculates TF-IDF scores for comprehensive term analysis
+- Identifies globally important terms across the corpus
+- Generates detailed per-document term rankings
+- Exports comprehensive results to text files
+
+Use Cases:
+- Literature review preparation and topic identification
+- Research trend analysis in academic fields
+- Keyword extraction for paper categorization
+- Content similarity analysis between papers
+- Academic corpus exploration and theme discovery
+- Identifying distinctive terminology in research domains
+
+Requirements:
+- Python 3.6+
+- BibTeX files with title, abstract, or keyword fields
+
+Usage Examples:
+    # Basic TF-IDF analysis
+    python tf-idf.py -f papers.bib
+
+    # Custom filtering and output
+    python tf-idf.py -f papers.bib --min-df 3 --max-df 0.7 -o analysis.txt
+
+    # Detailed verbose output
+    python tf-idf.py -f papers.bib -v --top-n 15
+
+    # Analyze specific academic corpus
+    python tf-idf.py -f bibfiles/acm_chatgpt.bib -o chatgpt_tfidf.txt
+
+Input Requirements:
+    BibTeX file: Standard .bib format with entries containing:
+    - title= fields (required for meaningful analysis)
+    - abstract= fields (highly recommended)
+    - keywords= fields (optional but valuable)
+    - doi= fields (for reference tracking)
+
+Output:
+    Console: Top global terms and statistics
+    Text file: Comprehensive analysis with per-document breakdowns
+    
+Parameters:
+    --min-df: Minimum documents a term must appear in (default: 2)
+    --max-df: Maximum ratio of documents a term can appear in (default: 0.8)
+    --top-n: Number of top terms to show per document (default: 10)
+
+Algorithm Details:
+    1. Text extraction and cleaning (LaTeX removal, normalization)
+    2. Tokenization and stopword filtering
+    3. Vocabulary building with frequency thresholds
+    4. TF calculation: term_freq / total_words_in_doc
+    5. IDF calculation: log(total_docs / docs_containing_term)
+    6. TF-IDF scoring: TF * IDF for each term-document pair
+
+Author: GitHub Copilot
+Version: 1.2
+"""
+
 import argparse
 import re
 import os

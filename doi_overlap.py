@@ -1,3 +1,90 @@
+"""
+DOI Overlap Analyzer for BibTeX Files
+
+This utility compares DOIs from a reference list with DOIs found in BibTeX files
+to identify overlaps and gaps in bibliographic coverage. It's particularly useful
+for literature reviews, bibliography validation, and ensuring comprehensive 
+citation coverage in academic research.
+
+What does it do?
+The tool takes two inputs: a list of target DOIs and a BibTeX file, then analyzes
+how many of the target DOIs are present in the BibTeX collection. This helps
+researchers understand the completeness of their bibliography and identify
+missing papers that should be included.
+
+Features:
+- Extracts DOIs from plain text files and BibTeX entries
+- Handles various DOI formats (with/without URL prefixes)
+- Calculates overlap percentages and coverage statistics
+- Identifies missing DOIs that need to be added
+- Provides detailed verbose output for investigation
+- Supports both console summary and detailed listings
+
+Use Cases:
+- Literature review completeness checking
+- Bibliography validation for academic papers
+- Conference proceedings coverage analysis
+- Research corpus gap identification
+- Citation database quality assessment
+- Systematic review preparation and validation
+
+Requirements:
+- Python 3.6+
+- Two input files: DOI list and BibTeX file
+
+Usage Examples:
+    # Basic overlap analysis
+    python doi_overlap.py -d target_dois.txt -b my_bibliography.bib
+
+    # Detailed analysis with missing DOI list
+    python doi_overlap.py -d important_papers.txt -b conference.bib -v
+
+    # Check literature review coverage
+    python doi_overlap.py -d systematic_review_dois.txt -b collected_papers.bib -v
+
+Input File Formats:
+    DOI file: Plain text file with one DOI per line
+    Example content:
+        10.1145/3287324.3287506
+        https://doi.org/10.1145/3304221.3319786
+        10.1016/j.compedu.2019.103654
+
+    BibTeX file: Standard .bib format with doi= fields
+    Example entry:
+        @article{smith2023,
+          title={Paper Title},
+          author={Smith, John},
+          doi={10.1145/3287324.3287506},
+          year={2023}
+        }
+
+Output Information:
+    Console Summary:
+    - Total DOIs in input list
+    - Total DOIs found in BibTeX
+    - Number and percentage of overlapping DOIs
+    - Number and percentage of missing DOIs
+
+    Verbose Output (with -v flag):
+    - Complete list of DOIs found in BibTeX
+    - Complete list of DOIs missing from BibTeX
+    - Sorted alphabetically for easy review
+
+Analysis Metrics:
+    - Coverage Percentage: (Overlapping DOIs / Total Target DOIs) × 100
+    - Gap Analysis: Shows which important papers are missing
+    - Validation Results: Confirms bibliography completeness
+
+Common Workflows:
+    1. Systematic Review: Check if all identified papers are in your collection
+    2. Conference Analysis: Verify proceedings coverage against known paper list
+    3. Bibliography Audit: Ensure all cited works are properly included
+    4. Research Gap Analysis: Find missing papers in your literature collection
+
+Author: GitHub Copilot
+Version: 1.0
+"""
+
 import argparse
 import re
 import sys
