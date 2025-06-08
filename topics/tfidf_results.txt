@@ -116,8 +116,8 @@ Top 10 terms:
   llms: 0.0642
   enable: 0.0633
   brainstorming: 0.0615
-  54th: 0.0533
   careers: 0.0533
+  54th: 0.0533
   crafted: 0.0513
   breakthroughs: 0.0504
   carefully: 0.0489
@@ -167,8 +167,8 @@ Top 10 terms:
   classes: 0.0549
   programming: 0.0519
   exercises: 0.0502
-  inheritance: 0.0459
   abuse: 0.0459
+  inheritance: 0.0459
 
 
 Document 10:
@@ -183,8 +183,8 @@ Top 10 terms:
   exam: 0.0653
   written: 0.0640
   programming: 0.0542
-  accurately: 0.0525
   changes: 0.0525
+  accurately: 0.0525
 
 
 Document 11:
@@ -200,7 +200,7 @@ Top 10 terms:
   curriculum: 0.0526
   need: 0.0521
   llm: 0.0520
-  disrupt: 0.0510
+  prepares: 0.0510
 
 
 Document 12:
@@ -215,8 +215,8 @@ Top 10 terms:
   dataset: 0.0436
   definitively: 0.0377
   counterexample: 0.0377
-  unveiled: 0.0354
   enumeration: 0.0354
+  unveiled: 0.0354
 
 
 Document 13:
@@ -242,8 +242,8 @@ Top 10 terms:
   responsive: 0.1402
   culturally: 0.1374
   universitylevel: 0.0519
-  middle: 0.0490
   teachers’: 0.0490
+  middle: 0.0490
   elementary: 0.0478
   modifications: 0.0458
   teaching: 0.0455
@@ -263,8 +263,8 @@ Top 10 terms:
   examination: 0.0843
   gpt: 0.0633
   throughput: 0.0632
-  move: 0.0623
   grade: 0.0623
+  move: 0.0623
 
 
 Document 16:
@@ -276,9 +276,9 @@ Top 10 terms:
   qualitative: 0.0990
   text: 0.0749
   humans: 0.0734
-  ponder: 0.0714
-  altogether: 0.0714
   briefly: 0.0714
+  altogether: 0.0714
+  ponder: 0.0714
   analysis: 0.0655
   philosophical: 0.0641
 
@@ -324,8 +324,8 @@ Top 10 terms:
   students’: 0.0839
   introductory: 0.0802
   programming: 0.0783
-  scaffolding: 0.0750
   sense: 0.0750
+  scaffolding: 0.0750
   chinese: 0.0680
   courses: 0.0580
   simulation: 0.0530
@@ -370,11 +370,11 @@ Top 10 terms:
   art: 0.1381
   feedback: 0.0718
   review: 0.0668
-  receptive: 0.0488
   timeliness: 0.0488
+  receptive: 0.0488
   gpt: 0.0465
   transformer: 0.0463
-  diminished: 0.0438
+  cohort: 0.0438
   volunteers: 0.0438
 
 
@@ -418,8 +418,8 @@ Top 10 terms:
   symptoms: 0.1119
   training: 0.0851
   dlbased: 0.0681
-  faults: 0.0668
   fault: 0.0668
+  faults: 0.0668
   software: 0.0643
   fix: 0.0505
   developers’: 0.0499
@@ -437,8 +437,8 @@ Top 10 terms:
   taskspecific: 0.0697
   gpt3: 0.0623
   assigning: 0.0532
-  predetermined: 0.0532
   let: 0.0532
+  predetermined: 0.0532
   challenged: 0.0489
 
 
@@ -465,13 +465,13 @@ Top 10 terms:
   design: 0.0836
   prompt: 0.0625
   engage: 0.0621
-  humantohuman: 0.0556
   outofthebox: 0.0556
+  humantohuman: 0.0556
   fluent: 0.0556
   llmbased: 0.0514
   interactions: 0.0507
-  stemming: 0.0499
   probe: 0.0499
+  stemming: 0.0499
 
 
 Document 29:
@@ -528,14 +528,14 @@ DOI: 10.14778/3611479.3611527
 Top 10 terms:
   management: 0.0669
   database: 0.0642
-  softwares: 0.0543
   angles: 0.0543
+  softwares: 0.0543
   ability: 0.0528
-  disrupt: 0.0510
   disruptions: 0.0510
+  disrupt: 0.0510
   examples: 0.0503
-  hit: 0.0487
   blur: 0.0487
+  hit: 0.0487
 
 
 Document 33:
@@ -593,12 +593,12 @@ Top 10 terms:
   bof: 0.1119
   help: 0.0639
   tools: 0.0576
-  leaders: 0.0560
   excitement: 0.0560
+  leaders: 0.0560
   goal: 0.0557
   community: 0.0532
-  coordinated: 0.0515
   detrimental: 0.0515
+  coordinated: 0.0515
   possibly: 0.0485
 
 
@@ -628,9 +628,9 @@ Top 10 terms:
   effects: 0.0578
   scores: 0.0552
   aide: 0.0534
-  starter: 0.0534
+  humangraded: 0.0534
   commonplace: 0.0534
-  intelligencedriven: 0.0534
+  starter: 0.0534
 
 
 Document 39:
@@ -656,8 +656,8 @@ Top 10 terms:
   openness: 0.1918
   documentation: 0.0935
   scientific: 0.0891
-  rlhf: 0.0882
   degrees: 0.0882
+  rlhf: 0.0882
   projects: 0.0756
   proprietary: 0.0751
   release: 0.0581
@@ -672,8 +672,8 @@ Top 10 terms:
   software: 0.0888
   engineering: 0.0828
   education: 0.0681
-  accepting: 0.0617
   accompany: 0.0617
+  accepting: 0.0617
   graded: 0.0580
   potential: 0.0549
   students: 0.0539
@@ -692,8 +692,8 @@ Top 10 terms:
   displacement: 0.0672
   impact: 0.0656
   practices: 0.0615
-  outlook: 0.0603
   graduates: 0.0603
+  outlook: 0.0603
   pressing: 0.0534
 
 
@@ -703,9 +703,9 @@ DOI: 10.1145/3583780.3615308
 Top 10 terms:
   legal: 0.4190
   management: 0.0628
+  cikm: 0.0510
   drafting: 0.0510
   spirit: 0.0510
-  cikm: 0.0510
   knowledge: 0.0479
   workshop: 0.0444
   contract: 0.0441
@@ -767,13 +767,13 @@ Top 10 terms:
   documentation: 0.2646
   codex: 0.2043
   gpt3: 0.0796
-  206: 0.0722
   112: 0.0722
+  206: 0.0722
   warrants: 0.0648
   automatic: 0.0622
   languages: 0.0615
-  bleu: 0.0605
   timeintensive: 0.0605
+  bleu: 0.0605
 
 
 Document 48:
@@ -789,7 +789,7 @@ Top 10 terms:
   students: 0.0386
   structures: 0.0369
   sophomorelevel: 0.0353
-  passed: 0.0353
+  etechnologies: 0.0353
 
 
 Document 49:
@@ -802,10 +802,10 @@ Top 10 terms:
   recommender: 0.0519
   good: 0.0493
   lead: 0.0493
-  cars: 0.0458
-  gray: 0.0458
-  exception: 0.0458
   alpaca: 0.0458
+  gray: 0.0458
+  cars: 0.0458
+  exception: 0.0458
 
 
 Document 50:
@@ -814,14 +814,14 @@ DOI: 10.1145/3583780.3614963
 Top 10 terms:
   ctr: 0.1260
   memory: 0.1223
-  cross: 0.1176
   codebook: 0.1176
+  cross: 0.1176
   representations: 0.0621
   nlp: 0.0509
   features: 0.0492
   inspires: 0.0468
   mechanism: 0.0449
-  memorization: 0.0440
+  restoring: 0.0440
 
 
 Document 51:
@@ -866,8 +866,8 @@ Top 10 terms:
   platforms: 0.0591
   steep: 0.0497
   systems: 0.0489
-  gesture: 0.0482
   deployments: 0.0482
+  gesture: 0.0482
   system: 0.0482
   data: 0.0478
 
@@ -883,9 +883,9 @@ Top 10 terms:
   behind: 0.1042
   microsoft: 0.0910
   back: 0.0774
-  hiring: 0.0543
+  companys: 0.0543
+  lose: 0.0543
   startup: 0.0543
-  nothing: 0.0543
 
 
 Document 55:
@@ -896,9 +896,9 @@ Top 10 terms:
   error: 0.1917
   programming: 0.0759
   errors: 0.0701
+  novicefriendly: 0.0510
   knows: 0.0510
   downsides: 0.0510
-  novicefriendly: 0.0510
   areas: 0.0486
   stream: 0.0480
   benefits: 0.0479
@@ -944,8 +944,8 @@ Top 10 terms:
   explainability: 0.0824
   workshop: 0.0806
   interdisciplinary: 0.0774
-  italian: 0.0617
   sigchi: 0.0617
+  italian: 0.0617
   ethical: 0.0601
   collaboration: 0.0590
   chapter: 0.0580
@@ -964,8 +964,8 @@ Top 10 terms:
   introductory: 0.0424
   gpt3: 0.0409
   generates: 0.0379
-  unpublished: 0.0371
   outscores: 0.0371
+  unpublished: 0.0371
 
 
 Document 60:
@@ -979,8 +979,8 @@ Top 10 terms:
   ability: 0.0564
   skills: 0.0541
   demand: 0.0483
-  exemplar: 0.0435
   studentcreated: 0.0435
+  exemplar: 0.0435
   writing: 0.0423
 
 
@@ -1008,10 +1008,10 @@ Top 10 terms:
   materials: 0.0868
   curating: 0.0746
   cohen’s: 0.0746
-  undergo: 0.0701
   bank: 0.0701
   kappa: 0.0701
   recursion: 0.0701
+  undergo: 0.0701
   instructors: 0.0697
   unlabeled: 0.0580
 
@@ -1024,10 +1024,10 @@ Top 10 terms:
   lccs: 0.1413
   gai: 0.1058
   hcai: 0.0707
-  signifies: 0.0707
   humancentred: 0.0707
-  scoping: 0.0664
+  signifies: 0.0707
   prominence: 0.0664
+  scoping: 0.0664
   experiences: 0.0616
   2018: 0.0611
 
@@ -1042,8 +1042,8 @@ Top 10 terms:
   use: 0.0689
   told: 0.0685
   toolsin: 0.0685
-  gave: 0.0644
   upperlevel: 0.0644
+  gave: 0.0644
   access: 0.0628
   vol: 0.0615
 
@@ -1061,7 +1061,7 @@ Top 10 terms:
   demanding: 0.0970
   reach: 0.0891
   reasonable: 0.0849
-  billions: 0.0825
+  parallelism: 0.0825
 
 
 Document 66:
@@ -1092,8 +1092,8 @@ Top 10 terms:
   graduation: 0.1170
   universitys: 0.1100
   march: 0.1050
+  sigcse: 0.1012
   spent: 0.1012
-  department: 0.1012
 
 
 Document 68:
@@ -1152,11 +1152,11 @@ Top 10 terms:
   run: 0.1567
   collaborative: 0.0839
   respect: 0.0800
-  llama: 0.0716
   engaging: 0.0716
+  llama: 0.0716
   educational: 0.0663
-  animate: 0.0606
   53rd: 0.0606
+  animate: 0.0606
   computer: 0.0600
 
 
@@ -1186,10 +1186,10 @@ Top 10 terms:
   test: 0.1274
   suite: 0.1022
   llmgenerated: 0.0886
-  posit: 0.0717
   specify: 0.0717
+  posit: 0.0717
   proportion: 0.0690
-  deficiencies: 0.0669
+  india: 0.0669
 
 
 Document 74:
@@ -1203,8 +1203,8 @@ Top 10 terms:
   ireland: 0.1411
   expressed: 0.1290
   attitudes: 0.1259
-  degree: 0.1245
   united: 0.1245
+  degree: 0.1245
   amp: 0.1172
 
 
@@ -1216,12 +1216,12 @@ Top 10 terms:
   chatgpt: 0.1194
   education: 0.0694
   use: 0.0631
-  debated: 0.0628
   canada: 0.0628
-  mandatory: 0.0591
+  debated: 0.0628
   departments: 0.0591
-  proactively: 0.0543
-  reporting: 0.0543
+  mandatory: 0.0591
+  western: 0.0543
+  canadian: 0.0543
 
 
 Document 76:
@@ -1234,8 +1234,8 @@ Top 10 terms:
   library: 0.0870
   programming: 0.0775
   exercises: 0.0750
-  overwhelm: 0.0730
   install: 0.0730
+  overwhelm: 0.0730
   sites: 0.0655
   python: 0.0631
 
@@ -1249,10 +1249,10 @@ Top 10 terms:
   texttoimage: 0.1262
   creativity: 0.1148
   write: 0.1040
-  scheduled: 0.0956
-  entitled: 0.0956
-  art”: 0.0956
   imagegeneration: 0.0956
+  scheduled: 0.0956
+  art”: 0.0956
+  entitled: 0.0956
   “ai: 0.0898
 
 
@@ -1311,8 +1311,8 @@ Top 10 terms:
   writing: 0.2417
   plans: 0.1106
   persuasiveness: 0.1103
-  argumentative: 0.1037
   writers: 0.1037
+  argumentative: 0.1037
   revise: 0.0954
   organize: 0.0954
   brainstorm: 0.0899
@@ -1363,8 +1363,8 @@ Top 10 terms:
   hospital: 0.1006
   health: 0.0642
   interfaces: 0.0621
-  hospitals: 0.0565
   enter: 0.0565
+  hospitals: 0.0565
   search: 0.0516
 
 
@@ -1394,9 +1394,9 @@ Top 10 terms:
   around: 0.0542
   survey: 0.0507
   pathway: 0.0458
-  heavy: 0.0422
   lastly: 0.0422
   investment: 0.0422
+  heavy: 0.0422
   roadmap: 0.0422
 
 
@@ -1429,7 +1429,7 @@ Top 10 terms:
   workloads: 0.1344
   driving: 0.1307
   gpus: 0.1254
-  optimized: 0.1169
+  gpt3: 0.1169
 
 
 Document 89:
@@ -1441,8 +1441,8 @@ Top 10 terms:
   llms: 0.0557
   phrasing: 0.0510
   generalization: 0.0490
-  movie: 0.0458
   disparity: 0.0458
+  movie: 0.0458
   book: 0.0428
   domains: 0.0419
   demonstrated: 0.0405
@@ -1457,9 +1457,9 @@ Top 10 terms:
   synthesis: 0.0913
   program: 0.0674
   graphs: 0.0639
-  topologies: 0.0634
-  inspect: 0.0634
   cohesive: 0.0634
+  inspect: 0.0634
+  topologies: 0.0634
   communication: 0.0593
   steep: 0.0548
 
@@ -1535,8 +1535,8 @@ Top 10 terms:
   test: 0.1746
   testing: 0.1081
   mutation: 0.0835
-  unit: 0.0715
   coverage: 0.0715
+  unit: 0.0715
   sets: 0.0657
   java: 0.0619
   automated: 0.0601
@@ -1555,9 +1555,9 @@ Top 10 terms:
   systemsin: 0.0538
   flourishing: 0.0538
   output: 0.0532
-  boosted: 0.0483
-  promoted: 0.0483
   quantities: 0.0483
+  promoted: 0.0483
+  boosted: 0.0483
 
 
 Document 97:
@@ -1571,8 +1571,8 @@ Top 10 terms:
   discovery: 0.0780
   revolution: 0.0628
   trial: 0.0583
-  care: 0.0543
   drug: 0.0543
+  care: 0.0543
   patients: 0.0520
 
 
@@ -1618,9 +1618,9 @@ Top 10 terms:
   requests: 0.1042
   serving: 0.1042
   operating: 0.0926
-  keyvalue: 0.0789
-  inefficiently: 0.0789
+  batching: 0.0789
   wasted: 0.0789
+  waste: 0.0789
 
 
 Document 101:
@@ -1667,8 +1667,8 @@ Top 10 terms:
   intelligently: 0.0565
   user: 0.0534
   notifications: 0.0532
-  agenda: 0.0508
   disruption: 0.0508
+  attentive: 0.0508
 
 
 Document 104:
@@ -1696,10 +1696,10 @@ Top 10 terms:
   llm: 0.0549
   art: 0.0519
   extraction: 0.0502
-  lakes: 0.0458
   sheer: 0.0458
-  110x: 0.0458
   cheap: 0.0458
+  lakes: 0.0458
+  110x: 0.0458
   generality: 0.0412
 
 
@@ -1805,14 +1805,14 @@ DOI: 10.1145/3544548.3580817
 Top 10 terms:
   abstraction: 0.1831
   grounded: 0.1240
-  codegenerating: 0.1149
   naturalistic: 0.1149
+  codegenerating: 0.1149
   matching: 0.1052
   query: 0.0665
   infinite: 0.0611
   utterance: 0.0575
   predictable: 0.0575
-  framing: 0.0549
+  utterances: 0.0549
 
 
 Document 113:
@@ -1890,8 +1890,8 @@ Top 10 terms:
   recommend: 0.0571
   filtering: 0.0537
   items: 0.0515
-  hallucinated: 0.0406
   deciding: 0.0406
+  hallucinated: 0.0406
   ids: 0.0382
 
 
@@ -1907,7 +1907,7 @@ Top 10 terms:
   clearer: 0.0443
   attempted: 0.0417
   towards: 0.0401
-  picture: 0.0398
+  draft: 0.0398
 
 
 Document 119:
@@ -2090,8 +2090,8 @@ DOI: 10.1145/3604237.3626898
 Top 10 terms:
   financial: 0.1121
   order: 0.1066
-  tokenized: 0.0875
   lob: 0.0875
+  tokenized: 0.0875
   messages: 0.0796
   highfrequency: 0.0757
   book: 0.0734
@@ -2145,7 +2145,7 @@ Top 10 terms:
   property: 0.0504
   adversarial: 0.0415
   continuous: 0.0412
-  axes: 0.0385
+  27b: 0.0385
 
 
 Document 134:
@@ -2192,8 +2192,8 @@ Top 10 terms:
   classifiers: 0.0788
   training: 0.0752
   rulebased: 0.0711
-  anomalous: 0.0526
   reweighting: 0.0526
+  anomalous: 0.0526
 
 
 Document 137:
@@ -2221,8 +2221,8 @@ Top 10 terms:
   solves: 0.0748
   june: 0.0458
   openai: 0.0444
-  powers: 0.0431
   166: 0.0431
+  powers: 0.0431
   github: 0.0429
   cs1: 0.0418
   studio: 0.0384
@@ -2237,8 +2237,8 @@ Top 10 terms:
   questioning: 0.1139
   appropriately: 0.1048
   googles: 0.1048
-  knowing: 0.1015
   option: 0.1015
+  knowing: 0.1015
   going: 0.0988
 
 
@@ -2265,13 +2265,13 @@ Top 10 terms:
   prototyping: 0.3509
   promptbased: 0.1056
   barriers: 0.0869
-  collaborators: 0.0692
-  sprint: 0.0692
   reverseengineer: 0.0692
-  eleven: 0.0651
+  sprint: 0.0692
+  collaborators: 0.0692
   threeweek: 0.0651
   managers: 0.0651
-  broadening: 0.0622
+  eleven: 0.0651
+  groundwork: 0.0622
 
 
 Document 142:
@@ -2280,8 +2280,8 @@ Top 10 terms:
   themes: 0.3328
   current: 0.2926
   topics: 0.2377
-  focusing: 0.2234
   discussion: 0.2234
+  focusing: 0.2234
   related: 0.1882
   computing: 0.1876
   education: 0.1665
@@ -2364,8 +2364,8 @@ Top 10 terms:
   chatgpt: 0.0703
   programming: 0.0661
   alternative: 0.0590
-  nontextual: 0.0518
   wellstructured: 0.0518
+  nontextual: 0.0518
   invalid: 0.0518
 
 
@@ -2412,8 +2412,8 @@ Top 10 terms:
   programming: 0.0601
   syntax: 0.0507
   tailored: 0.0448
-  accommodating: 0.0443
   syntactical: 0.0443
+  informing: 0.0443
 
 
 Document 151:
@@ -2473,9 +2473,9 @@ Top 10 terms:
   novices: 0.0669
   introductory: 0.0626
   programming: 0.0582
-  autogenerating: 0.0547
   knows: 0.0547
   codegeneration: 0.0547
+  autogenerating: 0.0547
   github: 0.0512
   cs1: 0.0499
 
@@ -2488,8 +2488,8 @@ Top 10 terms:
   tutoring: 0.1430
   common: 0.0784
   gathered: 0.0516
-  establishment: 0.0516
   crossdisciplinary: 0.0516
+  establishment: 0.0516
   addressing: 0.0509
   programming: 0.0489
   ast: 0.0457
@@ -2507,8 +2507,8 @@ Top 10 terms:
   instances: 0.0617
   sequence: 0.0570
   synthetic: 0.0557
-  998: 0.0530
   twelfth: 0.0530
+  998: 0.0530
   email: 0.0498
 
 
@@ -2540,8 +2540,8 @@ Top 10 terms:
   much: 0.0327
   computing: 0.0324
   possible: 0.0323
-  extraordinary: 0.0313
-  nothing: 0.0313
+  longerterm: 0.0313
+  remotely: 0.0313
 
 
 Document 159:
@@ -2587,8 +2587,8 @@ Top 10 terms:
   389: 0.0561
   survey: 0.0536
   higherorder: 0.0503
-  reaction: 0.0485
   reform: 0.0485
+  reaction: 0.0485
 
 
 Document 162:
@@ -2612,8 +2612,8 @@ Title: proceedings of the 41st acm international conference on design of communi
 DOI: 10.1145/3615335.3623035
 Top 10 terms:
   web: 0.1567
-  revisions: 0.1305
   41st: 0.1305
+  revisions: 0.1305
   pedagogies: 0.1171
   necessitating: 0.1015
   design: 0.0981
@@ -2650,8 +2650,8 @@ Top 10 terms:
   term: 0.0517
   clear: 0.0489
   transformation: 0.0478
-  swept: 0.0404
   cut: 0.0404
+  swept: 0.0404
   hopes: 0.0404
 
 
@@ -2728,8 +2728,8 @@ Top 10 terms:
   discourse: 0.2476
   get: 0.2386
   foundations: 0.2309
-  scientific: 0.2080
   unsupervised: 0.2080
+  scientific: 0.2080
   curricula: 0.2021
   ethics: 0.1981
   topic: 0.1866
@@ -2748,7 +2748,7 @@ Top 10 terms:
   theory: 0.1199
   headlines: 0.1094
   mass: 0.0982
-  kingdom: 0.0852
+  inclusion: 0.0852
 
 
 Document 172:
@@ -2777,9 +2777,9 @@ Top 10 terms:
   code: 0.0633
   needed: 0.0549
   correctness: 0.0526
-  201: 0.0495
   287: 0.0495
   164: 0.0495
+  201: 0.0495
   incorrectly: 0.0466
 
 
@@ -2824,8 +2824,8 @@ Top 10 terms:
   tool: 0.1038
   hand: 0.0898
   serve: 0.0789
-  interfere: 0.0771
   friction: 0.0771
+  interfere: 0.0771
   processes: 0.0765
   clues: 0.0692
   thresholds: 0.0667
@@ -2853,14 +2853,14 @@ DOI: 10.1109/ICSE-SEIP58684.2023.00022
 Top 10 terms:
   changes: 0.1246
   inline: 0.1218
-  studio: 0.0812
   microsoft: 0.0812
+  studio: 0.0812
   interfaces: 0.0752
   aidriven: 0.0672
   code: 0.0550
   change: 0.0528
   discoverability: 0.0485
-  extensions: 0.0485
+  inserting: 0.0485
 
 
 Document 179:
@@ -2890,7 +2890,7 @@ Top 10 terms:
   activities: 0.0908
   pedagogical: 0.0879
   maker: 0.0859
-  partnership: 0.0807
+  organizers: 0.0807
   formed: 0.0807
   rethink: 0.0807
 
@@ -2904,10 +2904,10 @@ Top 10 terms:
   essay: 0.0978
   nonexperts: 0.0948
   concerned: 0.0922
-  selfefficacy: 0.0900
-  investment: 0.0900
   hypothesis: 0.0900
-  stands: 0.0880
+  investment: 0.0900
+  selfefficacy: 0.0900
+  live: 0.0880
   entirely: 0.0880
 
 
@@ -2940,7 +2940,7 @@ Top 10 terms:
   endtoend: 0.0477
   markovian: 0.0458
   firstorder: 0.0431
-  overcomes: 0.0431
+  recursive: 0.0431
 
 
 Document 184:
@@ -2966,13 +2966,13 @@ Top 10 terms:
   provenance: 0.2106
   binary: 0.1393
   identification: 0.1023
-  obfuscated: 0.0645
   binaries: 0.0645
+  obfuscated: 0.0645
   compiler: 0.0614
   bert: 0.0464
   specific: 0.0370
   embedding: 0.0362
-  intrusions: 0.0359
+  disassembly: 0.0359
 
 
 Document 186:
@@ -2988,7 +2988,7 @@ Top 10 terms:
   reach: 0.0758
   expand: 0.0758
   empower: 0.0712
-  basis: 0.0669
+  workshops: 0.0669
 
 
 Document 187:
@@ -3017,8 +3017,8 @@ Top 10 terms:
   gpt2: 0.0648
   usually: 0.0560
   nlp: 0.0557
-  syntactically: 0.0531
   javascript: 0.0531
+  syntactically: 0.0531
   sentences: 0.0520
   program: 0.0483
 
@@ -3034,8 +3034,8 @@ Top 10 terms:
   keystroke: 0.0969
   writing: 0.0944
   solving: 0.0927
-  sketches: 0.0911
   coded: 0.0911
+  sketches: 0.0911
   depictions: 0.0911
 
 
@@ -3061,9 +3061,9 @@ DOI: 10.1145/3592367.3617935
 Top 10 terms:
   composition: 0.1861
   wonder: 0.1305
+  embraced: 0.1305
   ponder: 0.1305
   invention: 0.1305
-  embraced: 0.1305
   wake: 0.1227
   book: 0.1093
   his: 0.1038
@@ -3115,8 +3115,8 @@ Top 10 terms:
   images: 0.0537
   gans: 0.0531
   distributed: 0.0501
-  robustness: 0.0498
   augmentation: 0.0498
+  robustness: 0.0498
 
 
 Document 195:
@@ -3147,7 +3147,7 @@ Top 10 terms:
   architectural: 0.0551
   amp: 0.0524
   variational: 0.0487
-  lowdimension: 0.0421
+  normalized: 0.0421
 
 
 Document 197:
@@ -3163,7 +3163,7 @@ Top 10 terms:
   programs: 0.0814
   static: 0.0678
   testsuite: 0.0634
-  profitable: 0.0634
+  whenever: 0.0634
 
 
 Document 198:
@@ -3210,8 +3210,8 @@ Top 10 terms:
   press: 0.0565
   information: 0.0522
   venue: 0.0508
-  claim: 0.0489
   visible: 0.0489
+  claim: 0.0489
 
 
 Document 201:
@@ -3222,8 +3222,8 @@ Top 10 terms:
   policies: 0.1457
   trees: 0.0932
   comprehend: 0.0827
-  attaining: 0.0611
   agent’s: 0.0611
+  attaining: 0.0611
   qlearning: 0.0575
   behavior: 0.0562
   reinforcement: 0.0549
@@ -3258,7 +3258,7 @@ Top 10 terms:
   optimization: 0.0990
   distributions: 0.0983
   genomes: 0.0838
-  fitness: 0.0752
+  maximization: 0.0752
 
 
 Document 204:
@@ -3367,10 +3367,10 @@ Top 10 terms:
   digital: 0.0732
   critically: 0.0729
   contemporary: 0.0711
-  scrutinizes: 0.0526
-  authorization: 0.0526
+  contours: 0.0526
   derivatives: 0.0526
   firefly: 0.0526
+  centre: 0.0526
 
 
 Document 211:
@@ -3398,8 +3398,8 @@ Top 10 terms:
   characteristic: 0.0729
   hardware: 0.0680
   transformer: 0.0599
-  acceleration: 0.0584
   parallelism: 0.0584
+  acceleration: 0.0584
   high: 0.0553
   gpt2: 0.0534
   generation: 0.0532
@@ -3418,7 +3418,7 @@ Top 10 terms:
   interdisciplinary: 0.0487
   safety: 0.0474
   bias: 0.0405
-  manifests: 0.0388
+  sts: 0.0388
 
 
 Document 214:
@@ -3427,13 +3427,13 @@ DOI: 10.1145/3508352.3549437
 Top 10 terms:
   platform: 0.1248
   hardware: 0.0670
-  singleagent: 0.0622
-  41st: 0.0622
   delayed: 0.0622
+  41st: 0.0622
+  singleagent: 0.0622
+  aside: 0.0585
   qlearning: 0.0585
   multiagents: 0.0585
-  aside: 0.0585
-  fpgas: 0.0585
+  chunk: 0.0585
   cpufpga: 0.0585
 
 
@@ -3481,8 +3481,8 @@ Top 10 terms:
   radiology: 0.0638
   bleu4: 0.0609
   multistage: 0.0587
-  captions: 0.0569
   deeplearning: 0.0569
+  captions: 0.0569
 
 
 Document 218:
@@ -3559,10 +3559,10 @@ Top 10 terms:
   acm: 0.1301
   international: 0.1287
   proceedings: 0.0329
-  healthy: 0.0000
-  translated: 0.0000
-  warrants: 0.0000
-  approximates: 0.0000
+  723: 0.0000
+  professionals: 0.0000
+  quantities: 0.0000
+  ratios: 0.0000
 
 
 Document 223:
@@ -3619,8 +3619,8 @@ DOI: 10.1145/3581783.3613859
 Top 10 terms:
   drl: 0.2819
   multimedia: 0.0934
-  disentangled: 0.0673
   definitions: 0.0673
+  disentangled: 0.0673
   definition: 0.0647
   approaches: 0.0618
   tutorial: 0.0577
@@ -3687,9 +3687,9 @@ Top 10 terms:
   enhancement: 0.0980
   endtoend: 0.0953
   reconstruct: 0.0859
-  compensation: 0.0611
-  dualpath: 0.0611
   attentions: 0.0611
+  dualpath: 0.0611
+  compensation: 0.0611
   deep: 0.0601
 
 
@@ -3721,8 +3721,8 @@ Top 10 terms:
   engines: 0.0693
   algorithm: 0.0652
   attacks: 0.0599
-  resistant: 0.0506
-  payload: 0.0506
+  stealing: 0.0506
+  multilayer: 0.0506
 
 
 Document 233:
@@ -3738,7 +3738,7 @@ Top 10 terms:
   reference: 0.0591
   enhancement: 0.0562
   scores: 0.0544
-  undistorted: 0.0526
+  corruption: 0.0526
 
 
 Document 234:
@@ -3833,7 +3833,7 @@ Top 10 terms:
   labels: 0.0623
   reconstruction: 0.0610
   pose: 0.0605
-  virtualreality: 0.0538
+  posture: 0.0538
 
 
 Document 240:
@@ -3872,8 +3872,8 @@ Document 242:
 Title: proceedings of the 2023 acm international conference on multimedia retrieval...
 DOI: 10.1145/3591106.3592262
 Top 10 terms:
-  style: 0.1587
   art: 0.1587
+  style: 0.1587
   disentangle: 0.1007
   artworks: 0.0970
   appearance: 0.0914
@@ -3908,8 +3908,8 @@ Top 10 terms:
   genetic: 0.1082
   reinforcement: 0.0781
   environment: 0.0778
-  periodic: 0.0752
   cumulative: 0.0752
+  periodic: 0.0752
   family: 0.0677
   multidimensional: 0.0663
   described: 0.0611
@@ -3927,8 +3927,8 @@ Top 10 terms:
   template: 0.0637
   patches: 0.0590
   translation: 0.0489
-  nmt: 0.0446
   debugger: 0.0446
+  nmt: 0.0446
   synthesis: 0.0429
 
 
@@ -3943,8 +3943,8 @@ Top 10 terms:
   probabilistic: 0.0529
   codes: 0.0440
   accurately: 0.0433
-  subjected: 0.0421
   semanticrich: 0.0421
+  subjected: 0.0421
   negatives: 0.0378
 
 
@@ -3976,8 +3976,8 @@ Top 10 terms:
   transformer: 0.0694
   transformers: 0.0587
   densely: 0.0488
+  longrange: 0.0488
   prune: 0.0488
-  submodels: 0.0488
 
 
 Document 249:
@@ -3993,7 +3993,7 @@ Top 10 terms:
   imaging: 0.0619
   clear: 0.0548
   influence: 0.0502
-  recovers: 0.0425
+  weighting: 0.0425
 
 
 Document 250:
@@ -4006,9 +4006,9 @@ Top 10 terms:
   consolidation: 0.1015
   seed: 0.0978
   mixing: 0.0978
-  atomic: 0.0532
   parameterize: 0.0532
   entangled: 0.0532
+  atomic: 0.0532
   disentangle: 0.0508
 
 
@@ -4040,8 +4040,8 @@ Top 10 terms:
   gradient: 0.0609
   conditional: 0.0533
   structures: 0.0492
-  stale: 0.0471
   cwgangp: 0.0471
+  stale: 0.0471
 
 
 Document 253:
@@ -4085,11 +4085,11 @@ Top 10 terms:
   security: 0.1055
   developers: 0.0977
   generation: 0.0821
-  incoder: 0.0780
   machinelearningbased: 0.0780
+  incoder: 0.0780
   mistakenly: 0.0780
   code: 0.0775
-  mapped: 0.0733
+  fulfill: 0.0733
 
 
 Document 256:
@@ -4136,8 +4136,8 @@ Top 10 terms:
   continual: 0.0772
   product: 0.0722
   new: 0.0584
-  old: 0.0506
   incrementally: 0.0506
+  old: 0.0506
 
 
 Document 259:
@@ -4166,8 +4166,8 @@ Top 10 terms:
   lstm: 0.0870
   dense: 0.0702
   population: 0.0648
-  layer: 0.0627
   weights: 0.0627
+  layer: 0.0627
   desired: 0.0608
   convolutional: 0.0587
 
@@ -4247,9 +4247,9 @@ Top 10 terms:
   create: 0.0496
   users: 0.0450
   text: 0.0414
+  groundtruth: 0.0394
   refute: 0.0394
   factchecking: 0.0394
-  groundtruth: 0.0394
 
 
 Document 266:
@@ -4264,8 +4264,8 @@ Top 10 terms:
   gpt2: 0.0637
   hierarchical: 0.0569
   endtoend: 0.0522
-  undoubtedly: 0.0503
   cloning: 0.0503
+  undoubtedly: 0.0503
 
 
 Document 267:
@@ -4297,7 +4297,7 @@ Top 10 terms:
   multitask: 0.0603
   prediction: 0.0558
   source: 0.0472
-  592: 0.0441
+  longrange: 0.0441
 
 
 Document 269:
@@ -4313,7 +4313,7 @@ Top 10 terms:
   emotions: 0.0824
   recognition: 0.0771
   image: 0.0574
-  encapsulating: 0.0518
+  chord: 0.0518
 
 
 Document 270:
@@ -4405,8 +4405,8 @@ Top 10 terms:
   formulas: 0.1010
   requirements: 0.0710
   compressive: 0.0705
-  ingredient: 0.0705
   strength: 0.0705
+  ingredient: 0.0705
   carbon: 0.0611
   burden: 0.0543
   environmental: 0.0527
@@ -4454,8 +4454,8 @@ Top 10 terms:
   jaxlob: 0.1005
   order: 0.0979
   jax: 0.0945
-  simulators: 0.0902
   abms: 0.0902
+  simulators: 0.0902
   limit: 0.0740
   reinforcement: 0.0677
 
@@ -4467,8 +4467,8 @@ Top 10 terms:
   drug: 0.2768
   molecules: 0.1558
   quantum: 0.1521
-  atypical: 0.0956
   58th: 0.0956
+  atypical: 0.0956
   proteins: 0.0898
   dollars: 0.0858
   reproduce: 0.0801
@@ -4487,9 +4487,9 @@ Top 10 terms:
   answered: 0.0800
   queries: 0.0551
   answer: 0.0528
-  revenue: 0.0503
-  timecritical: 0.0503
   rows: 0.0503
+  timecritical: 0.0503
+  revenue: 0.0503
 
 
 Document 281:
@@ -4534,8 +4534,8 @@ Top 10 terms:
   attributes: 0.0781
   sequence: 0.0715
   structures: 0.0695
-  beta: 0.0665
   pathogens: 0.0665
+  beta: 0.0665
   helix: 0.0665
 
 
@@ -4581,8 +4581,8 @@ Top 10 terms:
   distributed: 0.0888
   restriction: 0.0859
   checkpoint: 0.0807
+  store: 0.0771
   checkpointing: 0.0771
-  tolerance: 0.0771
   imposed: 0.0771
 
 
@@ -4599,7 +4599,7 @@ Top 10 terms:
   need: 0.0549
   utility: 0.0476
   theory: 0.0470
-  individuals’: 0.0429
+  knowledgedriven: 0.0429
 
 
 Document 288:
@@ -4611,11 +4611,11 @@ Top 10 terms:
   imitation: 0.1070
   behaviour: 0.0771
   deep: 0.0595
-  emulation: 0.0485
-  behavioural: 0.0485
-  coevolutionary: 0.0485
-  statebased: 0.0485
   behaviours: 0.0485
+  statebased: 0.0485
+  coevolutionary: 0.0485
+  behavioural: 0.0485
+  emulation: 0.0485
 
 
 Document 289:
@@ -4626,12 +4626,12 @@ Top 10 terms:
   personal: 0.0944
   material: 0.0917
   relationships: 0.0784
-  fraught: 0.0737
+  tactile: 0.0737
+  materiality: 0.0737
   materialize: 0.0737
   textile: 0.0737
-  materiality: 0.0737
-  tactile: 0.0737
-  visibility: 0.0693
+  fraught: 0.0737
+  myriad: 0.0693
 
 
 Document 290:
@@ -4672,14 +4672,14 @@ DOI: 10.1145/3586182.3625119
 Top 10 terms:
   dance: 0.2773
   app: 0.1565
-  handsfree: 0.0983
   webcam: 0.0983
   mechanical: 0.0983
-  recognition: 0.0976
+  handsfree: 0.0983
   interface: 0.0976
-  coach: 0.0883
-  coaching: 0.0883
+  recognition: 0.0976
   36th: 0.0883
+  coaching: 0.0883
+  coach: 0.0883
 
 
 Document 293:
@@ -4759,7 +4759,7 @@ Top 10 terms:
   image: 0.0796
   reference: 0.0605
   contrastive: 0.0545
-  fashioniq: 0.0538
+  bimodal: 0.0538
 
 
 Document 298:
@@ -4775,7 +4775,7 @@ Top 10 terms:
   good: 0.0589
   extract: 0.0575
   differences: 0.0563
-  food101: 0.0547
+  mlp: 0.0547
 
 
 Document 299:
@@ -4789,9 +4789,9 @@ Top 10 terms:
   attentionbased: 0.0844
   fails: 0.0660
   texttoimage: 0.0645
-  colors: 0.0488
   strengthen: 0.0488
   intervene: 0.0488
+  colors: 0.0488
 
 
 Document 300:
@@ -4850,12 +4850,12 @@ Top 10 terms:
   encoders: 0.2243
   target: 0.1245
   pretrained: 0.1176
-  stolen: 0.0899
   stealing: 0.0899
+  stolen: 0.0899
   defenses: 0.0715
   selfsupervised: 0.0536
   downstream: 0.0450
-  extractors: 0.0449
+  lots: 0.0449
 
 
 Document 304:
@@ -4887,7 +4887,7 @@ Top 10 terms:
   fidelity: 0.0712
   utility: 0.0554
   simulation: 0.0503
-  contact: 0.0499
+  randomness: 0.0499
 
 
 Document 306:
@@ -4899,9 +4899,9 @@ Top 10 terms:
   defense: 0.0926
   lowdimension: 0.0794
   attacker: 0.0794
-  fingerprinting: 0.0746
   degrade: 0.0746
   obfuscate: 0.0746
+  fingerprinting: 0.0746
   attacks: 0.0704
   setups: 0.0686
 
@@ -4919,15 +4919,15 @@ Top 10 terms:
   vulnerable: 0.0602
   tackle: 0.0479
   privacy: 0.0430
-  poisoning: 0.0428
+  compatible: 0.0428
 
 
 Document 308:
 Title: proceedings of the 1st international workshop on advances in environmental sensing systems for smart...
 DOI: 10.1145/3597064.3597316
 Top 10 terms:
-  pollutants: 0.1805
   air: 0.1805
+  pollutants: 0.1805
   proxy: 0.1609
   sensors: 0.1465
   regulated: 0.1280
@@ -4982,7 +4982,7 @@ Top 10 terms:
   handful: 0.0570
   exploding: 0.0570
   machine: 0.0544
-  homomorphic: 0.0536
+  substitution: 0.0536
   intuitively: 0.0536
 
 
@@ -5011,8 +5011,8 @@ Top 10 terms:
   regions: 0.1261
   region: 0.0710
   diffusion: 0.0661
-  geospatial: 0.0577
   knowledgeenhanced: 0.0577
+  geospatial: 0.0577
   spatiotemporal: 0.0459
   environment: 0.0432
   denoising: 0.0430
@@ -5111,7 +5111,7 @@ Top 10 terms:
   classification: 0.0504
   generation: 0.0492
   diffusion: 0.0401
-  clusteringbased: 0.0390
+  food101: 0.0390
 
 
 Document 320:
@@ -5127,7 +5127,7 @@ Top 10 terms:
   features: 0.0834
   auxiliary: 0.0815
   pairs: 0.0678
-  imagetotext: 0.0595
+  constraining: 0.0595
 
 
 Document 321:
@@ -5141,9 +5141,9 @@ Top 10 terms:
   predictive: 0.0522
   samplings: 0.0438
   processes: 0.0434
-  configurable: 0.0412
   switch: 0.0412
-  estimators: 0.0379
+  configurable: 0.0412
+  reproducing: 0.0379
 
 
 Document 322:
@@ -5159,7 +5159,7 @@ Top 10 terms:
   correlation: 0.0637
   augmented: 0.0584
   completion: 0.0567
-  highcost: 0.0530
+  uncertaintyaware: 0.0530
 
 
 Document 323:
@@ -5167,8 +5167,8 @@ Title: compression of deep learning models for text a survey...
 DOI: 10.1145/3487045
 Top 10 terms:
   compression: 0.0874
-  tensor: 0.0709
   recurrent: 0.0709
+  tensor: 0.0709
   pruning: 0.0659
   survey: 0.0653
   quantization: 0.0616
@@ -5270,8 +5270,8 @@ Top 10 terms:
   bidirectional: 0.0908
   person: 0.0893
   learns: 0.0741
-  pattern: 0.0735
   predictive: 0.0735
+  pattern: 0.0735
 
 
 Document 330:
@@ -5335,7 +5335,7 @@ Top 10 terms:
   event: 0.0868
   generation: 0.0745
   conditions: 0.0672
-  aka: 0.0590
+  novelties: 0.0590
 
 
 Document 334:
@@ -5383,7 +5383,7 @@ Top 10 terms:
   stage: 0.0677
   denotes: 0.0590
   improvements: 0.0557
-  firmly: 0.0555
+  aside: 0.0555
 
 
 Document 337:
@@ -5411,8 +5411,8 @@ Top 10 terms:
   image: 0.1378
   deformation: 0.1339
   network: 0.0889
-  labelling: 0.0746
   nonlearning: 0.0746
+  labelling: 0.0746
   encourages: 0.0669
   unet: 0.0625
   nonlinear: 0.0608
@@ -5426,11 +5426,11 @@ Top 10 terms:
   therapeutic: 0.0931
   predicting: 0.0865
   prediction: 0.0836
-  extractors: 0.0495
-  traverse: 0.0495
   wetlab: 0.0495
-  augments: 0.0466
+  traverse: 0.0495
+  extractors: 0.0495
   dcgan: 0.0466
+  augments: 0.0466
   traditional: 0.0460
 
 
@@ -5444,10 +5444,10 @@ Top 10 terms:
   reasoning: 0.1022
   logic: 0.0944
   cognitive: 0.0803
-  imagination: 0.0737
-  famous: 0.0737
-  brains: 0.0737
   synonymous: 0.0737
+  imagination: 0.0737
+  brains: 0.0737
+  famous: 0.0737
 
 
 Document 341:
@@ -5455,14 +5455,14 @@ Title: proceedings of the 12th latinamerican symposium on dependable and secure 
 DOI: 10.1145/3615366.3622793
 Top 10 terms:
   fault: 0.0941
-  injection: 0.0702
   intrusion: 0.0702
+  injection: 0.0702
   techniques: 0.0610
   feasibility: 0.0526
   data: 0.0522
   realistic: 0.0488
   synthetic: 0.0440
-  ubiquity: 0.0419
+  avoidance: 0.0419
   representativeness: 0.0419
 
 
@@ -5511,7 +5511,7 @@ Top 10 terms:
   image: 0.0656
   encoding: 0.0623
   statistics: 0.0615
-  gram: 0.0443
+  multilayer: 0.0443
 
 
 Document 345:
@@ -5526,8 +5526,8 @@ Top 10 terms:
   developer: 0.0652
   commits: 0.0510
   baselines: 0.0503
-  dollars: 0.0487
   bugfix: 0.0487
+  dollars: 0.0487
 
 
 Document 346:
@@ -5573,9 +5573,9 @@ Top 10 terms:
   2023: 0.3729
   presents: 0.3524
   paper: 0.1546
-  healthy: 0.0000
-  translated: 0.0000
-  warrants: 0.0000
+  723: 0.0000
+  professionals: 0.0000
+  quantities: 0.0000
 
 
 Document 349:
@@ -5603,8 +5603,8 @@ Top 10 terms:
   variational: 0.0928
   partial: 0.0859
   differential: 0.0835
-  noises: 0.0803
   inverting: 0.0803
+  noises: 0.0803
   posterior: 0.0694
 
 
@@ -5631,13 +5631,13 @@ Top 10 terms:
   annotation: 0.0852
   whole: 0.0783
   selfsupervised: 0.0722
+  giant: 0.0606
   astonishing: 0.0606
   inseparable: 0.0606
-  giant: 0.0606
-  shortage: 0.0570
-  gets: 0.0570
-  pixels: 0.0570
   recursive: 0.0570
+  pathological: 0.0570
+  shortage: 0.0570
+  pixels: 0.0570
 
 
 Document 353:
@@ -5653,7 +5653,7 @@ Top 10 terms:
   multiview: 0.0834
   design: 0.0815
   stage: 0.0800
-  conditioned: 0.0739
+  layouts: 0.0739
 
 
 Document 354:
@@ -5669,7 +5669,7 @@ Top 10 terms:
   image: 0.0732
   facial: 0.0662
   latent: 0.0523
-  elaborate: 0.0495
+  stylegan’s: 0.0495
 
 
 Document 355:
@@ -5714,9 +5714,9 @@ Top 10 terms:
   trees: 0.0986
   graphs: 0.0651
   58th: 0.0646
-  averaged: 0.0646
-  gcn: 0.0646
   imagegeneration: 0.0646
+  electromigration: 0.0646
+  gcn: 0.0646
 
 
 Document 358:
@@ -5732,7 +5732,7 @@ Top 10 terms:
   code: 0.0596
   rapid: 0.0574
   swarm: 0.0565
-  11th: 0.0565
+  feed: 0.0565
 
 
 Document 359:
@@ -5743,12 +5743,12 @@ Top 10 terms:
   artists: 0.1289
   harms: 0.1091
   image: 0.0760
-  “generative: 0.0685
-  art”: 0.0685
-  disclose: 0.0685
+  entered: 0.0685
   damage: 0.0685
   consent: 0.0685
-  entered: 0.0685
+  art”: 0.0685
+  “generative: 0.0685
+  infringement: 0.0685
 
 
 Document 360:
@@ -5760,9 +5760,9 @@ Top 10 terms:
   neural: 0.0830
   lightweight: 0.0648
   synthesized: 0.0636
+  bestperforming: 0.0506
   dominance: 0.0506
   parties: 0.0506
-  bestperforming: 0.0506
   building: 0.0505
   waveform: 0.0476
 
@@ -5836,8 +5836,8 @@ Title: proceedings of the 2022 6th international conference on innovation in art
 DOI: 10.1145/3529466.3529475
 Top 10 terms:
   generator: 0.1183
-  mode: 0.1161
   vae: 0.1161
+  mode: 0.1161
   mixture: 0.0837
   collapse: 0.0819
   adversarial: 0.0566
@@ -5855,11 +5855,11 @@ Top 10 terms:
   nanomaterials: 0.2467
   template: 0.1759
   light: 0.1470
-  atoms: 0.1234
   strands: 0.1234
+  atoms: 0.1234
   compatibility: 0.1006
-  color: 0.0981
   acts: 0.0981
+  color: 0.0981
   comprised: 0.0960
 
 
@@ -5908,7 +5908,7 @@ Top 10 terms:
   control: 0.0884
   functional: 0.0843
   text: 0.0691
-  methodologically: 0.0659
+  dissertation: 0.0659
 
 
 Document 370:
@@ -5919,9 +5919,9 @@ Top 10 terms:
   routing: 0.1547
   drl: 0.1160
   adaptive: 0.0992
-  charge: 0.0949
-  droplets: 0.0949
   droplet: 0.0949
+  droplets: 0.0949
+  charge: 0.0949
   synthesis: 0.0684
   amp: 0.0590
 
@@ -5937,8 +5937,8 @@ Top 10 terms:
   base: 0.0682
   mobile: 0.0614
   estimation: 0.0542
-  kept: 0.0538
   aggregates: 0.0538
+  kept: 0.0538
   global: 0.0522
 
 
@@ -5969,8 +5969,8 @@ Top 10 terms:
   distribution: 0.0693
   continuous: 0.0611
   discovered: 0.0593
-  variation: 0.0571
   mutual: 0.0571
+  variation: 0.0571
 
 
 Document 374:
@@ -6060,11 +6060,11 @@ Top 10 terms:
   incurring: 0.0652
   videobased: 0.0652
   machine: 0.0623
-  imperfect: 0.0613
   photo: 0.0613
+  imperfect: 0.0613
   clarifying: 0.0586
-  thesis: 0.0564
   deriving: 0.0564
+  thesis: 0.0564
 
 
 Document 380:
@@ -6077,9 +6077,9 @@ Top 10 terms:
   given: 0.0673
   functions: 0.0652
   sample: 0.0648
-  amortize: 0.0617
   composite: 0.0617
   analogy: 0.0617
+  amortize: 0.0617
 
 
 Document 381:
@@ -6106,12 +6106,12 @@ Top 10 terms:
   textures: 0.1668
   indices: 0.1282
   controllable: 0.1143
-  clothing: 0.1023
   textdriven: 0.1023
+  clothing: 0.1023
   human: 0.0986
   finer: 0.0682
-  image: 0.0630
   images: 0.0630
+  image: 0.0630
 
 
 Document 383:
@@ -6170,9 +6170,9 @@ Top 10 terms:
   lstm: 0.1704
   editing: 0.1503
   shot: 0.1423
+  viewers: 0.0892
   inheritance: 0.0892
   transitions: 0.0892
-  viewers: 0.0892
   sequences: 0.0848
   camera: 0.0774
   markov: 0.0755
@@ -6220,8 +6220,8 @@ Top 10 terms:
   video: 0.0885
   divergence: 0.0797
   constraint: 0.0571
-  stochastic: 0.0549
   mutual: 0.0549
+  stochastic: 0.0549
   variations: 0.0490
   uncertainty: 0.0465
 
@@ -6237,9 +6237,9 @@ Top 10 terms:
   action: 0.0772
   optimal: 0.0674
   state: 0.0671
+  nearoptimal: 0.0652
   actionvalue: 0.0652
   sampleefficient: 0.0652
-  nearoptimal: 0.0652
 
 
 Document 391:
@@ -6300,9 +6300,9 @@ Top 10 terms:
   simulators: 0.1194
   hybrid: 0.1162
   expert: 0.0688
+  sigsim: 0.0665
   rewarding: 0.0665
   pedestrians: 0.0665
-  sigsim: 0.0665
 
 
 Document 395:
@@ -6327,14 +6327,14 @@ DOI: 10.1145/3588432.3591563
 Top 10 terms:
   interpretable: 0.1051
   animation: 0.0764
-  head: 0.0671
   controls: 0.0671
+  head: 0.0671
   generator: 0.0602
   image: 0.0528
   shapes: 0.0517
   internal: 0.0502
-  precise: 0.0448
   datadriven: 0.0448
+  precise: 0.0448
 
 
 Document 397:
@@ -6362,10 +6362,10 @@ Top 10 terms:
   gestures: 0.1328
   verbal: 0.0939
   multimodal: 0.0680
-  humanagent: 0.0543
-  humanlikeness: 0.0543
   accompany: 0.0543
+  humanagent: 0.0543
   cloning: 0.0543
+  humanlikeness: 0.0543
   transformer: 0.0514
 
 
@@ -6423,9 +6423,9 @@ Top 10 terms:
   denoising: 0.1813
   selfattention: 0.1198
   transformer: 0.1029
+  monte: 0.0885
   texture: 0.0885
   carlo: 0.0885
-  monte: 0.0885
   scenes: 0.0799
   multiscale: 0.0786
   auxiliary: 0.0743
@@ -6444,8 +6444,8 @@ Top 10 terms:
   patterns: 0.0749
   creative: 0.0677
   similarity: 0.0620
+  chord: 0.0590
   recomposition: 0.0590
-  harmony: 0.0590
 
 
 Document 404:
@@ -6521,8 +6521,8 @@ Top 10 terms:
   delivery: 0.1169
   electromigration: 0.0956
   networks: 0.0923
-  temperature: 0.0858
   hotspot: 0.0858
+  temperature: 0.0858
   encoderdecoder: 0.0827
   analysis: 0.0767
 
@@ -6567,9 +6567,9 @@ Top 10 terms:
   coordinates: 0.1218
   pedestrians: 0.0969
   gan: 0.0953
-  estimations: 0.0911
   correspondences: 0.0911
   imu: 0.0911
+  estimations: 0.0911
   camera: 0.0790
   locations: 0.0739
   multimodal: 0.0607
@@ -6582,8 +6582,8 @@ Top 10 terms:
   diagnosis: 0.1546
   disease: 0.1322
   symptoms: 0.0717
-  diagnostic: 0.0684
   critic: 0.0684
+  diagnostic: 0.0684
   actor: 0.0622
   spaces: 0.0529
   reward: 0.0509
@@ -6603,8 +6603,8 @@ Top 10 terms:
   mapping: 0.0749
   representations: 0.0726
   representation: 0.0635
-  route: 0.0547
   holding: 0.0547
+  route: 0.0547
 
 
 Document 414:
@@ -6619,8 +6619,8 @@ Top 10 terms:
   rates: 0.0562
   detection: 0.0555
   synthetic: 0.0495
+  annually: 0.0471
   accounts: 0.0471
-  undetected: 0.0471
 
 
 Document 415:
@@ -6705,13 +6705,13 @@ Document 420:
 Title: proceedings of the 30th acm international conference on multimedia...
 DOI: 10.1145/3503161.3548378
 Top 10 terms:
-  owners: 0.2159
   right: 0.2159
+  owners: 0.2159
   request: 0.2070
   protection: 0.1882
   machine: 0.1296
-  privacy: 0.1280
   response: 0.1280
+  privacy: 0.1280
   30th: 0.1259
   multimedia: 0.1174
   retrieval: 0.1149
@@ -6760,9 +6760,9 @@ Top 10 terms:
   observations: 0.0545
   latent: 0.0445
   modulated: 0.0421
-  recovers: 0.0396
-  observational: 0.0396
+  infers: 0.0396
   nonstationary: 0.0396
+  observational: 0.0396
 
 
 Document 424:
@@ -6774,8 +6774,8 @@ Top 10 terms:
   cardiac: 0.1066
   sensor: 0.0798
   extracts: 0.0739
-  vibration: 0.0710
   wearables: 0.0710
+  vibration: 0.0710
   shape: 0.0696
   electrocardiogram: 0.0668
   heart: 0.0638
@@ -6936,9 +6936,9 @@ Top 10 terms:
   response: 0.0552
   discussed: 0.0541
   mechanisms: 0.0454
+  accounts: 0.0390
   nsclc: 0.0390
   nonsmall: 0.0390
-  accounts: 0.0390
 
 
 Document 435:
@@ -6983,9 +6983,9 @@ Top 10 terms:
   learners: 0.0713
   gpt35turbo: 0.0677
   programming: 0.0504
+  testbased: 0.0474
   participating: 0.0474
   moderately: 0.0474
-  testbased: 0.0474
   critique: 0.0446
 
 
@@ -7049,7 +7049,7 @@ Top 10 terms:
   gpt35: 0.0534
   programming: 0.0515
   mastered: 0.0485
-  mandates: 0.0485
+  pairing: 0.0485
   renewed: 0.0485
 
 
@@ -7066,7 +7066,7 @@ Top 10 terms:
   shortening: 0.0346
   student: 0.0345
   baseline: 0.0336
-  outright: 0.0325
+  banning: 0.0325
 
 
 Document 443:
@@ -7113,8 +7113,8 @@ Top 10 terms:
   openai: 0.0382
   prominence: 0.0371
   education: 0.0363
-  warrants: 0.0354
   langchain: 0.0354
+  warrants: 0.0354
 
 
 Document 446:
@@ -7130,7 +7130,7 @@ Top 10 terms:
   shown: 0.0554
   llms: 0.0494
   struggle: 0.0463
-  upperdivision: 0.0452
+  648: 0.0452
 
 
 Document 447:
@@ -7145,8 +7145,8 @@ Top 10 terms:
   llama2: 0.0691
   robotics: 0.0673
   gpt35: 0.0542
-  terrestrial: 0.0492
   actuation: 0.0492
+  terrestrial: 0.0492
 
 
 Document 448:
@@ -7178,7 +7178,7 @@ Top 10 terms:
   sophomorelevel: 0.0737
   recursion: 0.0693
   gpt4s: 0.0638
-  supportive: 0.0638
+  quizzes: 0.0638
 
 
 Document 450:
@@ -7222,10 +7222,10 @@ Top 10 terms:
   aligned: 0.0700
   objectives: 0.0647
   assessments: 0.0611
-  wishing: 0.0547
-  246: 0.0547
   appeared: 0.0547
+  246: 0.0547
   449: 0.0547
+  wishing: 0.0547
 
 
 Document 453:
@@ -7253,8 +7253,8 @@ Top 10 terms:
   usage: 0.0674
   purposes: 0.0663
   students: 0.0635
-  majority: 0.0597
   chatbots: 0.0597
+  majority: 0.0597
   materialize: 0.0485
   unsurprisingly: 0.0485
   access: 0.0444
@@ -7288,8 +7288,8 @@ Top 10 terms:
   cause: 0.0452
   finetuning: 0.0409
   impressive: 0.0392
+  incidents: 0.0353
   oncall: 0.0353
-  100000: 0.0353
 
 
 Document 457:
@@ -7298,13 +7298,13 @@ Top 10 terms:
   introductory: 0.0844
   java: 0.0835
   complementing: 0.0737
-  repercussions: 0.0737
-  mentor: 0.0737
   furnishing: 0.0737
+  mentor: 0.0737
   scrutinize: 0.0737
   concentrating: 0.0737
+  repercussions: 0.0737
   classroom: 0.0718
-  promptly: 0.0693
+  slos: 0.0693
 
 
 Document 458:
@@ -7350,9 +7350,9 @@ Top 10 terms:
   issue: 0.0434
   gpt4: 0.0424
   repair: 0.0367
-  selfreflective: 0.0339
+  patching: 0.0339
   rectify: 0.0339
-  premise: 0.0339
+  reconsider: 0.0339
 
 
 Document 461:
@@ -7398,8 +7398,8 @@ Top 10 terms:
   providing: 0.0504
   step: 0.0466
   pandas: 0.0455
-  benchmarked: 0.0409
   inferior: 0.0409
+  benchmarked: 0.0409
   weaker: 0.0394
 
 
@@ -7473,8 +7473,8 @@ DOI: 10.1145/3657604.3664673
 Top 10 terms:
   k12: 0.1737
   educational: 0.0792
-  retrievalaugmented: 0.0695
   rag: 0.0695
+  retrievalaugmented: 0.0695
   feedback: 0.0599
   students: 0.0592
   personalized: 0.0495
@@ -7556,8 +7556,8 @@ Top 10 terms:
   messages: 0.0674
   matters: 0.0523
   errors: 0.0510
-  repeated: 0.0499
   cryptic: 0.0499
+  repeated: 0.0499
   make: 0.0492
   necessarily: 0.0481
   programming: 0.0473
@@ -7575,8 +7575,8 @@ Top 10 terms:
   generated: 0.0535
   performed: 0.0517
   score: 0.0494
+  authored: 0.0449
   091: 0.0449
-  empty: 0.0449
 
 
 Document 475:
@@ -7684,10 +7684,10 @@ Top 10 terms:
   tutorcode: 0.0808
   conversational: 0.0420
   guidance: 0.0415
-  semiautomatic: 0.0404
   tutors’: 0.0404
+  semiautomatic: 0.0404
   demonstrates: 0.0390
-  top5: 0.0380
+  corrected: 0.0380
 
 
 Document 482:
@@ -7733,8 +7733,8 @@ Top 10 terms:
   programming: 0.0812
   acts: 0.0760
   kingdom: 0.0744
-  ireland: 0.0715
   largelanguage: 0.0715
+  ireland: 0.0715
 
 
 Document 485:
@@ -7779,9 +7779,9 @@ Top 10 terms:
   outcomes: 0.0842
   changes: 0.0612
   radical: 0.0595
+  birds: 0.0595
   triggered: 0.0595
   feather: 0.0595
-  birds: 0.0595
   discussion: 0.0588
 
 
@@ -7858,10 +7858,10 @@ Top 10 terms:
   students: 0.0741
   json: 0.0678
   tailored: 0.0646
-  interacts: 0.0638
   north: 0.0638
-  master: 0.0609
+  interacts: 0.0638
   prerequisite: 0.0609
+  master: 0.0609
 
 
 Document 493:
@@ -7885,13 +7885,13 @@ Title: enhancing undergraduate computing education with lmms and chatgpt4o...
 Top 10 terms:
   lmms: 0.1439
   educators: 0.1041
-  chatgpt4o: 0.0771
   illustrates: 0.0771
   brainstorming: 0.0771
+  chatgpt4o: 0.0771
   recurrent: 0.0668
   alike: 0.0655
-  persist: 0.0643
   impacted: 0.0643
+  persist: 0.0643
   captured: 0.0632
 
 
@@ -7908,7 +7908,7 @@ Top 10 terms:
   integrate: 0.0434
   software: 0.0426
   prohibit: 0.0417
-  outlook: 0.0398
+  leap: 0.0398
 
 
 Document 496:
@@ -7936,9 +7936,9 @@ Top 10 terms:
   confidence: 0.0703
   direct: 0.0604
   guidance: 0.0541
-  marginally: 0.0526
   n145: 0.0526
   fostered: 0.0526
+  marginally: 0.0526
   classroom: 0.0512
   prolific: 0.0494
 
@@ -7952,11 +7952,11 @@ Top 10 terms:
   students: 0.0523
   meaningful: 0.0472
   assistance: 0.0413
-  artemis: 0.0399
   understands: 0.0399
+  artemis: 0.0399
   chatbased: 0.0375
   computerbased: 0.0375
-  feel: 0.0375
+  calibrated: 0.0375
 
 
 Document 499:
@@ -7971,8 +7971,8 @@ Top 10 terms:
   amongst: 0.0512
   bard: 0.0458
   suggested: 0.0424
+  garnered: 0.0418
   adopts: 0.0418
-  applicable: 0.0418
 
 
 Document 500:
@@ -8000,9 +8000,9 @@ Top 10 terms:
   synonym: 0.0975
   logistic: 0.0939
   regression: 0.0753
-  allocating: 0.0543
   synonymous: 0.0543
   facilitation: 0.0543
+  allocating: 0.0543
   response: 0.0512
   chatbot’s: 0.0510
 
@@ -8052,7 +8052,7 @@ Top 10 terms:
   soft: 0.0696
   rule: 0.0679
   template: 0.0609
-  words: 0.0592
+  realize: 0.0592
 
 
 Document 505:
@@ -8082,9 +8082,9 @@ Top 10 terms:
   trace: 0.0981
   stack: 0.0867
   write: 0.0672
-  nlbased: 0.0617
-  tour: 0.0617
   mentor: 0.0617
+  explained: 0.0617
+  tour: 0.0617
 
 
 Document 507:
@@ -8144,8 +8144,8 @@ Top 10 terms:
   skills: 0.1173
   college: 0.0956
   raised: 0.0944
-  advancing: 0.0914
   helpful: 0.0914
+  advancing: 0.0914
   proficiency: 0.0879
   pedagogical: 0.0723
 
@@ -8156,8 +8156,8 @@ Top 10 terms:
   transformers: 0.0734
   library: 0.0729
   demand: 0.0678
-  bots: 0.0611
   hugging: 0.0611
+  bots: 0.0611
   getting: 0.0611
   on•: 0.0611
   employers: 0.0575
@@ -8204,8 +8204,8 @@ Top 10 terms:
   readability: 0.1568
   developers: 0.0944
   aigenerated: 0.0923
-  grid: 0.0880
   influencing: 0.0880
+  grid: 0.0880
   evaluations: 0.0783
   correlation: 0.0679
   code: 0.0642
@@ -8226,7 +8226,7 @@ Top 10 terms:
   recommendations: 0.0420
   tune: 0.0409
   user: 0.0386
-  fulfilling: 0.0384
+  ids: 0.0384
 
 
 Document 516:
@@ -8273,8 +8273,8 @@ Top 10 terms:
   geared: 0.0492
   inide: 0.0462
   usage: 0.0456
-  edited: 0.0441
   confirms: 0.0441
+  edited: 0.0441
 
 
 Document 519:
@@ -8304,8 +8304,8 @@ Top 10 terms:
   forum: 0.0585
   receive: 0.0578
   students: 0.0478
-  piazza: 0.0438
   reconsider: 0.0438
+  piazza: 0.0438
   gpt: 0.0417
 
 
@@ -8333,9 +8333,9 @@ Top 10 terms:
   cs1: 0.1290
   extract: 0.0990
   programlevel: 0.0942
-  expertgenerated: 0.0942
-  rq1: 0.0942
   rq2: 0.0942
+  rq1: 0.0942
+  expertgenerated: 0.0942
   knowledge: 0.0886
   assignments: 0.0874
   identify: 0.0784
@@ -8353,8 +8353,8 @@ Top 10 terms:
   qualitative: 0.0740
   contributions: 0.0601
   meetings: 0.0534
+  eventual: 0.0502
   moments: 0.0502
-  partnership: 0.0502
 
 
 Document 524:
@@ -8382,11 +8382,11 @@ Top 10 terms:
   book: 0.0917
   mathematics: 0.0792
   2023: 0.0631
+  mit: 0.0547
+  kong: 0.0547
+  undergraduates: 0.0547
   explains: 0.0547
   socalled: 0.0547
-  california: 0.0547
-  mit: 0.0547
-  colored: 0.0547
 
 
 Document 526:
@@ -8428,8 +8428,8 @@ Top 10 terms:
   participant: 0.0748
   simulation: 0.0694
   behavior: 0.0634
-  sampling: 0.0616
   rates: 0.0616
+  sampling: 0.0616
   protocols: 0.0562
   experience: 0.0500
   response: 0.0487
@@ -8523,8 +8523,8 @@ DOI: 10.1145/3626252.3630799
 Top 10 terms:
   socratic: 0.3200
   debugging: 0.0730
-  texttotext: 0.0602
   flant5: 0.0602
+  texttotext: 0.0602
   instructionbased: 0.0575
   dataset: 0.0556
   hampered: 0.0554
@@ -8557,8 +8557,8 @@ Top 10 terms:
   training: 0.0610
   cover: 0.0584
   outperform: 0.0505
-  demonstrating: 0.0467
   tuning: 0.0467
+  demonstrating: 0.0467
   alignment: 0.0462
   value: 0.0432
   underutilized: 0.0427
@@ -8577,8 +8577,8 @@ Top 10 terms:
   query: 0.0626
   teachers: 0.0622
   exercises: 0.0591
-  toy: 0.0575
   twopart: 0.0575
+  toy: 0.0575
 
 
 Document 538:
@@ -8603,14 +8603,14 @@ DOI: 10.1145/3637528.3671620
 Top 10 terms:
   web: 0.1519
   navigation: 0.1421
-  rejection: 0.0892
   html: 0.0892
+  rejection: 0.0892
   browsing: 0.0852
   agent: 0.0757
   sampling: 0.0566
-  chatglm36b: 0.0474
-  bootstrap: 0.0474
   bilingual: 0.0474
+  bootstrap: 0.0474
+  chatglm36b: 0.0474
 
 
 Document 540:
@@ -8621,12 +8621,12 @@ Top 10 terms:
   k12: 0.1099
   school: 0.1099
   learners: 0.0861
-  consumer: 0.0807
   propelled: 0.0807
+  consumer: 0.0807
   being: 0.0757
   ages: 0.0720
   everyday: 0.0683
-  compelling: 0.0668
+  span: 0.0668
 
 
 Document 541:
@@ -8669,11 +8669,11 @@ Top 10 terms:
   zeroshot: 0.0575
   incontext: 0.0539
   data: 0.0465
-  rivaling: 0.0373
   retail: 0.0373
-  checkpoints: 0.0335
-  capitalizes: 0.0335
+  rivaling: 0.0373
   tackled: 0.0335
+  capitalizes: 0.0335
+  checkpoints: 0.0335
   rigorously: 0.0335
 
 
@@ -8700,10 +8700,10 @@ Top 10 terms:
   multilingual: 0.1048
   theoretical: 0.0850
   approachable: 0.0746
-  programmingrelated: 0.0701
   neuron: 0.0701
-  prevents: 0.0669
+  programmingrelated: 0.0701
   mechanics: 0.0669
+  prevents: 0.0669
   inner: 0.0645
   optimally: 0.0625
   engineering: 0.0601
@@ -8746,9 +8746,9 @@ Title: proceedings of the 2024 ieeeacm 46th international conference on software
 DOI: 10.1145/3639478.3639815
 Top 10 terms:
   interpretability: 0.1323
+  dissertation: 0.0722
   overestimation: 0.0722
   canonical: 0.0722
-  dissertation: 0.0722
   techniques: 0.0631
   metrics: 0.0605
   engineering: 0.0581
@@ -8769,8 +8769,8 @@ Top 10 terms:
   incontext: 0.0581
   sizing: 0.0401
   reasoning: 0.0371
+  strides: 0.0360
   burgeoning: 0.0360
-  capitalizes: 0.0360
 
 
 Document 550:
@@ -8785,8 +8785,8 @@ Top 10 terms:
   investigate: 0.0743
   procedures: 0.0720
   repetitive: 0.0720
-  benefiting: 0.0700
   therapy: 0.0700
+  benefiting: 0.0700
 
 
 Document 551:
@@ -8829,8 +8829,8 @@ Top 10 terms:
   x8664: 0.0685
   gpt: 0.0652
   interpretations: 0.0615
-  gpt4s: 0.0593
   inconsistencies: 0.0593
+  gpt4s: 0.0593
   arm: 0.0574
   interpreter: 0.0574
   segments: 0.0545
@@ -8847,8 +8847,8 @@ Top 10 terms:
   java: 0.0468
   development: 0.0433
   pretraining: 0.0425
-  caution: 0.0414
   simplistic: 0.0414
+  caution: 0.0414
   multitasking: 0.0414
 
 
@@ -8863,8 +8863,8 @@ Top 10 terms:
   students: 0.0987
   reported: 0.0770
   software: 0.0620
-  twophase: 0.0608
   welldefined: 0.0608
+  twophase: 0.0608
   equivalence: 0.0559
 
 
@@ -8880,8 +8880,8 @@ Top 10 terms:
   attacks: 0.0863
   detection: 0.0860
   obfuscate: 0.0686
-  plagiarized: 0.0655
   obfuscated: 0.0655
+  plagiarized: 0.0655
 
 
 Document 557:
@@ -8913,7 +8913,7 @@ Top 10 terms:
   estimation: 0.0450
   specialty: 0.0446
   recognition: 0.0443
-  compromised: 0.0420
+  bearing: 0.0420
 
 
 Document 559:
@@ -8925,11 +8925,11 @@ Top 10 terms:
   recurring: 0.0596
   writers: 0.0596
   forget: 0.0596
-  prevents: 0.0569
-  humanity: 0.0569
   vague: 0.0569
   akin: 0.0569
-  genuine: 0.0548
+  humanity: 0.0569
+  prevents: 0.0569
+  detrimental: 0.0548
 
 
 Document 560:
@@ -8973,9 +8973,9 @@ Top 10 terms:
   fit: 0.0797
   addressed: 0.0736
   researchers: 0.0668
-  pretty: 0.0575
   suffice: 0.0575
   flourishing: 0.0575
+  pretty: 0.0575
   fortunately: 0.0541
   forget: 0.0541
 
@@ -9004,8 +9004,8 @@ Top 10 terms:
   aiusage: 0.2224
   academic: 0.0987
   stance: 0.0962
-  canadian: 0.0962
   western: 0.0962
+  canadian: 0.0962
   debate: 0.0866
   proactive: 0.0848
   promotes: 0.0848
@@ -9169,7 +9169,7 @@ Top 10 terms:
   domains: 0.0513
   answers: 0.0459
   specialized: 0.0456
-  pearson: 0.0416
+  electric: 0.0416
 
 
 Document 575:
@@ -9201,7 +9201,7 @@ Top 10 terms:
   configurable: 0.0452
   evaluate: 0.0449
   adequately: 0.0432
-  genuine: 0.0416
+  functionally: 0.0416
 
 
 Document 577:
@@ -9213,9 +9213,9 @@ Top 10 terms:
   new: 0.0850
   correctness: 0.0784
   they: 0.0754
-  dire: 0.0737
-  radical: 0.0737
   assimilated: 0.0737
+  radical: 0.0737
+  dire: 0.0737
   diet: 0.0737
   obsolete: 0.0737
 
@@ -9246,8 +9246,8 @@ Top 10 terms:
   labels: 0.0682
   cbased: 0.0590
   useful: 0.0583
-  worth: 0.0530
   discerning: 0.0530
+  worth: 0.0530
   respective: 0.0510
   noting: 0.0510
 
@@ -9295,8 +9295,8 @@ Top 10 terms:
   prompts: 0.0595
   chatgpt: 0.0567
   descriptions: 0.0537
-  introlevel: 0.0522
   subproblems: 0.0522
+  introlevel: 0.0522
   problems: 0.0514
 
 
@@ -9322,12 +9322,12 @@ DOI: 10.1145/3657604.3662036
 Top 10 terms:
   llmpowered: 0.0976
   assistants: 0.0763
-  entrylevel: 0.0722
   looked: 0.0722
+  entrylevel: 0.0722
   semesterlong: 0.0648
-  shortterm: 0.0624
   betweensubjects: 0.0624
   periods: 0.0624
+  shortterm: 0.0624
   debate: 0.0562
   sparked: 0.0540
 
@@ -9343,8 +9343,8 @@ Top 10 terms:
   eighth: 0.0722
   textual: 0.0703
   increase: 0.0684
-  convenient: 0.0679
   caters: 0.0679
+  convenient: 0.0679
   easytouse: 0.0605
 
 
@@ -9355,8 +9355,8 @@ Top 10 terms:
   sigspatial: 0.1181
   geospatial: 0.1128
   geographic: 0.1053
-  engineers: 0.0812
   helpful: 0.0812
+  engineers: 0.0812
   7th: 0.0804
   daily: 0.0755
   productivity: 0.0749
@@ -9388,8 +9388,8 @@ Top 10 terms:
   robustness: 0.1079
   implicit: 0.0970
   properties: 0.0762
-  pioneer: 0.0699
   inseparable: 0.0699
+  pioneer: 0.0699
   neural: 0.0688
   ai4se: 0.0628
   workshop: 0.0609
@@ -9452,10 +9452,10 @@ Top 10 terms:
   awareness: 0.0663
   teach: 0.0642
   interfere: 0.0547
-  grapple: 0.0547
   admit: 0.0547
-  transformational: 0.0547
+  grapple: 0.0547
   misconduct: 0.0547
+  transformational: 0.0547
   survey: 0.0523
 
 
@@ -9488,7 +9488,7 @@ Top 10 terms:
   tool: 0.0505
   type: 0.0419
   programming: 0.0398
-  2500: 0.0375
+  deepening: 0.0375
 
 
 Document 595:
@@ -9547,8 +9547,8 @@ Top 10 terms:
   multimodal: 0.0733
   chatbased: 0.0550
   amid: 0.0550
-  organizing: 0.0525
   satellite: 0.0525
+  organizing: 0.0525
   geographic: 0.0490
   imagery: 0.0465
   mllms: 0.0446
@@ -9578,13 +9578,13 @@ Top 10 terms:
   attacks: 0.2023
   evolutionary: 0.1036
   adversarial: 0.0818
-  cifar10: 0.0512
   counteract: 0.0512
-  resilient: 0.0478
+  cifar10: 0.0512
   amongst: 0.0478
+  resilient: 0.0478
   formidable: 0.0465
   algorithms: 0.0452
-  threat: 0.0444
+  crafting: 0.0444
 
 
 Document 601:
@@ -9614,8 +9614,8 @@ Top 10 terms:
   generation: 0.0571
   problems: 0.0556
   specifications: 0.0448
-  warm: 0.0339
   copy: 0.0339
+  warm: 0.0339
   automated: 0.0335
 
 
@@ -9680,7 +9680,7 @@ Top 10 terms:
   embedding: 0.0522
   npcomplete: 0.0518
   impactful: 0.0465
-  independence: 0.0465
+  solvers: 0.0465
 
 
 Document 607:
@@ -9688,8 +9688,8 @@ Title: proceedings of the 2024 acm conference on international computing educati
 DOI: 10.1145/3632620.3671098
 Top 10 terms:
   selfefficacy: 0.1901
-  selfreported: 0.1348
   midterm: 0.1348
+  selfreported: 0.1348
   usage: 0.1330
   students’: 0.1016
   correlated: 0.0779
@@ -9707,8 +9707,8 @@ Top 10 terms:
   chatgpt: 0.1316
   perspective: 0.1055
   impact: 0.0947
-  november: 0.0838
   department: 0.0838
+  november: 0.0838
   encouraged: 0.0713
   course: 0.0683
   student: 0.0643
@@ -9724,8 +9724,8 @@ Top 10 terms:
   outputs: 0.0480
   assistance: 0.0477
   tool: 0.0466
-  overrely: 0.0462
   elaborate: 0.0462
+  overrely: 0.0462
   12week: 0.0434
   instructors: 0.0432
 
@@ -9750,14 +9750,14 @@ Document 611:
 Title: proceedings of the 55th acm technical symposium on computer science education v 2...
 DOI: 10.1145/3626253.3635369
 Top 10 terms:
-  feather: 0.1245
   birds: 0.1245
+  feather: 0.1245
   integrity: 0.0709
-  delved: 0.0622
   unravel: 0.0622
+  delved: 0.0622
   discussion: 0.0615
-  bof: 0.0585
   leaders: 0.0585
+  bof: 0.0585
   goal: 0.0582
   community: 0.0557
 
@@ -9786,12 +9786,12 @@ Top 10 terms:
   pro: 0.0946
   gemini: 0.0819
   secure: 0.0740
-  legacy: 0.0547
   queried: 0.0547
-  undertake: 0.0491
+  legacy: 0.0547
   scrutiny: 0.0491
+  undertake: 0.0491
+  models’: 0.0473
   multiturn: 0.0473
-  chatgpt35: 0.0473
 
 
 Document 614:
@@ -9799,15 +9799,15 @@ Title: proceedings of the 6th acm international conference on multimedia in asia
 DOI: 10.1145/3700410.3702126
 Top 10 terms:
   inference: 0.0996
-  edge: 0.0737
   speed: 0.0737
+  edge: 0.0737
   mobile: 0.0716
   memory: 0.0657
-  llmspecific: 0.0628
   floatingpoint: 0.0628
+  llmspecific: 0.0628
   characteristics: 0.0620
   usage: 0.0583
-  mixedprecision: 0.0564
+  multicore: 0.0564
 
 
 Document 615:
@@ -9831,15 +9831,15 @@ Title: proceedings of the 2024 on acm sigsac conference on computer and communic
 DOI: 10.1145/3658644.3691384
 Top 10 terms:
   hardware: 0.1848
-  ppa: 0.0859
-  sidechannel: 0.0859
   rtlcoder: 0.0859
+  sidechannel: 0.0859
+  ppa: 0.0859
   area: 0.0857
   saw: 0.0807
   power: 0.0787
   security: 0.0774
-  236: 0.0771
   deepseek: 0.0771
+  236: 0.0771
 
 
 Document 617:
@@ -9903,7 +9903,7 @@ Top 10 terms:
   geared: 0.0432
   identifying: 0.0421
   opensource: 0.0417
-  safeguards: 0.0406
+  dissecting: 0.0406
 
 
 Document 621:
@@ -9928,8 +9928,8 @@ DOI: 10.1145/3650212.3680399
 Top 10 terms:
   deficiency: 0.0834
   calibration: 0.0501
-  vanilla: 0.0491
   overlooked: 0.0491
+  vanilla: 0.0491
   tasks: 0.0463
   diagnosis: 0.0435
   gaps: 0.0380
@@ -9966,8 +9966,8 @@ Top 10 terms:
   snippets: 0.0424
   supports: 0.0420
   like: 0.0353
-  programlevel: 0.0350
-  parser: 0.0350
+  dfg: 0.0350
+  cfg: 0.0350
 
 
 Document 625:
@@ -9982,8 +9982,8 @@ Top 10 terms:
   giving: 0.0575
   features: 0.0430
   around: 0.0418
-  say: 0.0409
   highend: 0.0409
+  say: 0.0409
 
 
 Document 626:
@@ -10055,14 +10055,14 @@ Title: using generative ai to design programming assignments in introduction to 
 Top 10 terms:
   programming: 0.1387
   stands: 0.1015
-  recognizing: 0.0893
   constructs: 0.0893
+  recognizing: 0.0893
   students: 0.0855
   implementations: 0.0835
   teach: 0.0766
   popularity: 0.0760
-  debugging: 0.0744
   gained: 0.0744
+  debugging: 0.0744
 
 
 Document 631:
@@ -10075,8 +10075,8 @@ Top 10 terms:
   generator: 0.0630
   university: 0.0539
   emerging: 0.0534
-  anticipation: 0.0527
   surveyed: 0.0527
+  anticipation: 0.0527
   capture: 0.0520
   snapshot: 0.0485
 
@@ -10089,12 +10089,12 @@ Top 10 terms:
   llama: 0.0674
   feedback: 0.0629
   observed: 0.0617
-  researched: 0.0570
   proceed: 0.0570
-  reasonably: 0.0536
+  researched: 0.0570
   altered: 0.0536
+  reasonably: 0.0536
   noticed: 0.0512
-  yielded: 0.0512
+  localized: 0.0512
 
 
 Document 633:
@@ -10105,12 +10105,12 @@ Top 10 terms:
   aiassisted: 0.0772
   educational: 0.0444
   activities: 0.0429
-  freshman: 0.0406
   etechnologies: 0.0406
+  freshman: 0.0406
   copilot: 0.0394
-  esociety: 0.0382
   pretest: 0.0382
-  citing: 0.0365
+  esociety: 0.0382
+  belief: 0.0365
 
 
 Document 634:
@@ -10138,9 +10138,9 @@ Top 10 terms:
   humanmachine: 0.0989
   removal: 0.0918
   code: 0.0754
-  progresses: 0.0590
-  delved: 0.0590
   resist: 0.0590
+  delved: 0.0590
+  progresses: 0.0590
   removals: 0.0590
   celebration: 0.0530
 
@@ -10154,10 +10154,10 @@ Top 10 terms:
   teaching: 0.0823
   acceptance: 0.0695
   teachers: 0.0587
-  questionnaires: 0.0543
   inventor: 0.0543
   saves: 0.0543
   tam: 0.0543
+  questionnaires: 0.0543
   everything: 0.0487
 
 
@@ -10167,8 +10167,8 @@ DOI: 10.1145/3674805.3690741
 Top 10 terms:
   diagrams: 0.1301
   uml: 0.1101
-  pragmatic: 0.0817
   solver: 0.0817
+  pragmatic: 0.0817
   llm: 0.0685
   actors: 0.0666
   syntactic: 0.0602
@@ -10188,9 +10188,9 @@ Top 10 terms:
   achieving: 0.0580
   ability: 0.0543
   program: 0.0445
+  identically: 0.0419
   poorer: 0.0419
   ilp: 0.0419
-  identically: 0.0419
 
 
 Document 639:
@@ -10198,13 +10198,13 @@ Title: proceedings of the 23rd koli calling international conference on computin
 DOI: 10.1145/3631802.3631816
 Top 10 terms:
   independent: 0.1172
-  continuation: 0.0685
   lenses: 0.0685
+  continuation: 0.0685
   exploration: 0.0664
-  situate: 0.0644
-  modelsnbspllms: 0.0644
-  learning”: 0.0644
   cer: 0.0644
+  situate: 0.0644
+  learning”: 0.0644
+  modelsnbspllms: 0.0644
   whether: 0.0623
   initiate: 0.0615
 
@@ -10237,8 +10237,8 @@ Top 10 terms:
   consent: 0.0471
   writing: 0.0459
   tools: 0.0456
+  deliberately: 0.0443
   prohibit: 0.0443
-  chapter: 0.0443
 
 
 Document 642:
@@ -10250,9 +10250,9 @@ Top 10 terms:
   feature: 0.0559
   llmgenerated: 0.0476
   experts: 0.0468
-  251: 0.0429
   topperforming: 0.0429
   drops: 0.0429
+  251: 0.0429
   fortunately: 0.0404
   llms: 0.0402
 
@@ -10265,12 +10265,12 @@ Top 10 terms:
   referred: 0.0686
   within: 0.0604
   educators: 0.0556
-  colleges: 0.0458
-  postpandemic: 0.0458
-  aitools: 0.0458
+  displaying: 0.0458
   professionalism: 0.0458
+  aitools: 0.0458
+  postpandemic: 0.0458
   revolves: 0.0458
-  grappling: 0.0458
+  colleges: 0.0458
 
 
 Document 644:
@@ -10301,8 +10301,8 @@ Top 10 terms:
   instruction: 0.0612
   students: 0.0611
   peers: 0.0586
-  involvement: 0.0557
   choosing: 0.0557
+  involvement: 0.0557
 
 
 Document 646:
@@ -10313,8 +10313,8 @@ Top 10 terms:
   action: 0.1260
   plans: 0.1187
   reduction: 0.1095
-  counterfactual: 0.0957
   counteract: 0.0957
+  counterfactual: 0.0957
   median: 0.0893
   rule: 0.0848
   planning: 0.0834
@@ -10349,7 +10349,7 @@ Top 10 terms:
   generation: 0.0625
   approaches: 0.0606
   hybrid: 0.0494
-  cider: 0.0424
+  meteor: 0.0424
   concisely: 0.0424
 
 
@@ -10357,16 +10357,16 @@ Document 649:
 Title: proceedings of the third acmieee international workshop on nlbased software engineering...
 DOI: 10.1145/3643787.3648032
 Top 10 terms:
-  assertions: 0.0936
   catalogue: 0.0936
+  assertions: 0.0936
   mined: 0.0840
   jupyter: 0.0809
   pairs: 0.0800
   notebooks: 0.0784
   tool: 0.0473
-  organises: 0.0468
+  se4ai: 0.0468
   nlbased: 0.0468
-  269: 0.0468
+  organises: 0.0468
 
 
 Document 650:
@@ -10379,9 +10379,9 @@ Top 10 terms:
   studentcreated: 0.0659
   assess: 0.0594
   storytelling: 0.0570
+  upper: 0.0552
   blockbased: 0.0552
   ages: 0.0552
-  upper: 0.0552
   engages: 0.0537
 
 
@@ -10458,11 +10458,11 @@ Top 10 terms:
   conversation: 0.0887
   teaching: 0.0764
   strong: 0.0651
-  rectification: 0.0603
   knowledgeenhanced: 0.0603
+  rectification: 0.0603
   math: 0.0563
   via: 0.0533
-  extra: 0.0512
+  profound: 0.0512
 
 
 Document 656:
@@ -10472,11 +10472,11 @@ Top 10 terms:
   learnersourcing: 0.2088
   chatgpt: 0.1134
   learnersourced: 0.1044
-  curating: 0.1044
   downsides: 0.1044
+  curating: 0.1044
   dubious: 0.1044
-  crowdsourcing: 0.0981
   intense: 0.0981
+  crowdsourcing: 0.0981
   review: 0.0952
   ready: 0.0781
 
@@ -10588,9 +10588,9 @@ Top 10 terms:
   drastic: 0.0575
   intro: 0.0541
   llmbased: 0.0531
-  impede: 0.0516
-  posit: 0.0516
   articulate: 0.0516
+  posit: 0.0516
+  principled: 0.0516
 
 
 Document 664:
@@ -10648,8 +10648,8 @@ Top 10 terms:
   seeks: 0.0933
   instructor: 0.0915
   submissions: 0.0898
-  notes: 0.0624
   complements: 0.0624
+  notes: 0.0624
   textbooks: 0.0574
   variance: 0.0540
   manage: 0.0515
@@ -10666,8 +10666,8 @@ Top 10 terms:
   intelligencedriven: 0.1150
   emotion: 0.0808
   workload: 0.0743
-  competent: 0.0575
   timesensitive: 0.0575
+  competent: 0.0575
   copilot: 0.0557
   github: 0.0538
 
@@ -10685,7 +10685,7 @@ Top 10 terms:
   ensuring: 0.0453
   situating: 0.0449
   access: 0.0412
-  broadening: 0.0403
+  sphere: 0.0403
 
 
 Document 670:
@@ -10701,7 +10701,7 @@ Top 10 terms:
   creation: 0.0605
   thinking: 0.0575
   guidance: 0.0572
-  elevate: 0.0556
+  aiaugmented: 0.0556
 
 
 Document 671:
@@ -10717,7 +10717,7 @@ Top 10 terms:
   breadth: 0.0561
   supplemental: 0.0561
   useful: 0.0554
-  framing: 0.0503
+  appeal: 0.0503
 
 
 Document 672:
@@ -10729,11 +10729,11 @@ Top 10 terms:
   teaching: 0.0939
   chatgpt: 0.0807
   software: 0.0475
-  feel: 0.0466
   teamwork: 0.0466
+  feel: 0.0466
   richer: 0.0445
   improving: 0.0421
-  professors: 0.0415
+  xxiii: 0.0415
 
 
 Document 673:
@@ -10765,7 +10765,7 @@ Top 10 terms:
   usage: 0.0656
   towards: 0.0640
   success: 0.0623
-  undergraduatelevel: 0.0471
+  internally: 0.0471
 
 
 Document 675:
@@ -10778,8 +10778,8 @@ Top 10 terms:
   authentic: 0.0855
   distributions: 0.0658
   typical: 0.0653
-  cold: 0.0561
   unguided: 0.0561
+  cold: 0.0561
   frequencies: 0.0527
   llms: 0.0525
 
@@ -10794,10 +10794,10 @@ Top 10 terms:
   teaching: 0.0559
   smells: 0.0492
   identifying: 0.0479
-  refactory: 0.0462
   delineating: 0.0462
-  solid: 0.0412
+  refactory: 0.0462
   xxiii: 0.0412
+  solid: 0.0412
 
 
 Document 677:
@@ -10810,8 +10810,8 @@ Top 10 terms:
   start: 0.0743
   transformative: 0.0735
   themselves: 0.0735
-  year: 0.0727
   taken: 0.0727
+  year: 0.0727
   ask: 0.0712
   assessments: 0.0621
 
@@ -10826,9 +10826,9 @@ Top 10 terms:
   assessment: 0.0740
   fifteenth: 0.0678
   components: 0.0677
-  noreference: 0.0638
   frozen: 0.0638
   indian: 0.0638
+  noreference: 0.0638
   quality: 0.0616
 
 
@@ -10871,13 +10871,13 @@ Top 10 terms:
   nonexperts: 0.1978
   programmers: 0.0887
   programming: 0.0627
-  nonprogrammers: 0.0590
   wellstudied: 0.0590
+  nonprogrammers: 0.0590
   illuminates: 0.0590
   writes: 0.0555
   interactions: 0.0538
   workers: 0.0530
-  nonexpert: 0.0510
+  lay: 0.0510
 
 
 Document 682:
@@ -10887,11 +10887,11 @@ Top 10 terms:
   summarization: 0.1246
   codebert: 0.1118
   grading: 0.0905
-  assignment: 0.0720
   similarity: 0.0720
+  assignment: 0.0720
   092: 0.0685
-  formed: 0.0644
   coder: 0.0644
+  formed: 0.0644
   assignments: 0.0636
   celebration: 0.0615
 
@@ -10909,7 +10909,7 @@ Top 10 terms:
   implementations: 0.0629
   metric: 0.0581
   intellij: 0.0492
-  pmd: 0.0462
+  recurring: 0.0462
 
 
 Document 684:
@@ -10925,7 +10925,7 @@ Top 10 terms:
   student’s: 0.0512
   essays: 0.0489
   tutor: 0.0470
-  misleading: 0.0455
+  conducting: 0.0455
 
 
 Document 685:
@@ -10957,7 +10957,7 @@ Top 10 terms:
   large: 0.0637
   language: 0.0621
   models: 0.0501
-  healthy: 0.0000
+  723: 0.0000
 
 
 Document 687:
@@ -10971,9 +10971,9 @@ Top 10 terms:
   responsible: 0.0553
   curricula: 0.0537
   ethics: 0.0526
+  utilising: 0.0474
   dilemmas: 0.0474
   convenes: 0.0474
-  utilising: 0.0474
 
 
 Document 688:
@@ -10989,7 +10989,7 @@ Top 10 terms:
   replacement: 0.0575
   unchanged: 0.0575
   synonym: 0.0575
-  disaster: 0.0554
+  accordance: 0.0554
 
 
 Document 689:
@@ -11069,7 +11069,7 @@ Top 10 terms:
   neglected: 0.0452
   underpinned: 0.0452
   accuracy: 0.0419
-  reviewers: 0.0391
+  inevitable: 0.0391
 
 
 Document 694:
@@ -11127,12 +11127,12 @@ Top 10 terms:
   carbon: 0.3688
   accounting: 0.3599
   11th: 0.0851
-  embodied: 0.0704
   buildings: 0.0704
+  embodied: 0.0704
   cities: 0.0690
   energyefficient: 0.0677
-  cycle: 0.0655
   transportation: 0.0655
+  cycle: 0.0655
   laborintensive: 0.0645
 
 
@@ -11147,8 +11147,8 @@ Top 10 terms:
   policy: 0.0835
   feedback: 0.0813
   answering: 0.0808
-  125m: 0.0737
   ppo: 0.0737
+  125m: 0.0737
 
 
 Document 699:
@@ -11194,8 +11194,8 @@ Top 10 terms:
   knowledge: 0.0784
   pipeline: 0.0602
   learners: 0.0557
-  betweensubject: 0.0556
   expansive: 0.0556
+  betweensubject: 0.0556
   costefficiency: 0.0523
 
 
@@ -11211,8 +11211,8 @@ Top 10 terms:
   speech: 0.0661
   voice: 0.0607
   robot’s: 0.0568
-  workflow: 0.0512
   api: 0.0512
+  workflow: 0.0512
 
 
 Document 703:
@@ -11273,10 +11273,10 @@ Top 10 terms:
   familiar: 0.0751
   relevant: 0.0693
   topics: 0.0536
-  remembering: 0.0510
   analogy: 0.0510
+  remembering: 0.0510
   optionally: 0.0480
-  grasping: 0.0458
+  understandings: 0.0458
 
 
 Document 707:
@@ -11305,10 +11305,10 @@ Top 10 terms:
   reality: 0.0732
   conditions: 0.0716
   fictional: 0.0628
-  immersion: 0.0591
-  embarks: 0.0591
-  culturallyrelevant: 0.0591
   wrote: 0.0591
+  immersion: 0.0591
+  culturallyrelevant: 0.0591
+  embarks: 0.0591
 
 
 Document 709:
@@ -11324,7 +11324,7 @@ Top 10 terms:
   interest: 0.0580
   employees: 0.0559
   summative: 0.0559
-  arguments: 0.0522
+  partners: 0.0522
 
 
 Document 710:
@@ -11350,13 +11350,13 @@ Top 10 terms:
   k12: 0.1921
   strategic: 0.0899
   chatbot: 0.0716
-  modelsllms: 0.0600
-  permeates: 0.0600
   gaming: 0.0600
+  permeates: 0.0600
+  modelsllms: 0.0600
   workings: 0.0565
   synchronous: 0.0565
   gamification: 0.0565
-  suit: 0.0539
+  adapts: 0.0539
 
 
 Document 712:
@@ -11371,8 +11371,8 @@ Top 10 terms:
   ondevice: 0.0677
   boosts: 0.0659
   decentralized: 0.0659
-  minimizes: 0.0629
   overheads: 0.0629
+  minimizes: 0.0629
 
 
 Document 713:
@@ -11413,8 +11413,8 @@ DOI: 10.1145/3626252.3630909
 Top 10 terms:
   prompt: 0.1331
   problems: 0.0906
-  promptly: 0.0742
   codegenerating: 0.0742
+  promptly: 0.0742
   solves: 0.0643
   new: 0.0546
   shift: 0.0470
@@ -11432,8 +11432,8 @@ Top 10 terms:
   repositories: 0.0734
   software: 0.0720
   conversations: 0.0710
-  developerchatgpt: 0.0600
   hacker: 0.0600
+  developerchatgpt: 0.0600
   garnering: 0.0565
   characterizing: 0.0539
   keyword: 0.0519
@@ -11447,8 +11447,8 @@ Top 10 terms:
   framework: 0.0928
   responses: 0.0810
   llm: 0.0767
-  sending: 0.0602
   returned: 0.0602
+  sending: 0.0602
   facilitator: 0.0575
   groundwork: 0.0575
   ides: 0.0522
@@ -11507,8 +11507,8 @@ Title: proceedings of the 33rd acm sigsoft international symposium on software t
 DOI: 10.1145/3650212.3680354
 Top 10 terms:
   adaption: 0.3260
-  sigsoft: 0.2265
   transformers: 0.2265
+  sigsoft: 0.2265
   33rd: 0.1992
   gpt: 0.1794
   testing: 0.1596
@@ -11531,7 +11531,7 @@ Top 10 terms:
   claude: 0.0800
   predicting: 0.0622
   estimation: 0.0538
-  marketers: 0.0534
+  tweet: 0.0534
 
 
 Document 723:
@@ -11589,8 +11589,8 @@ Top 10 terms:
   cs50ai: 0.2950
   aibased: 0.1852
   encapsulates: 0.1387
-  inperson: 0.1276
   teachertostudent: 0.1276
+  inperson: 0.1276
   cs50: 0.1236
   approximating: 0.1236
   harvard: 0.1203
@@ -11623,8 +11623,8 @@ Top 10 terms:
   attribution: 0.0812
   copyright: 0.0790
   authorship: 0.0771
-  proposing: 0.0726
   mlbased: 0.0726
+  proposing: 0.0726
   initially: 0.0663
   attack: 0.0640
   plagiarism: 0.0614
@@ -11642,7 +11642,7 @@ Top 10 terms:
   type: 0.0606
   problemsolving: 0.0595
   students’: 0.0577
-  lowerlevel: 0.0543
+  syntaxrelated: 0.0543
   factory: 0.0543
 
 
@@ -11659,7 +11659,7 @@ Top 10 terms:
   retrieval: 0.0580
   multimodal: 0.0572
   lectures: 0.0545
-  initiative: 0.0523
+  convert: 0.0523
 
 
 Document 731:
@@ -11673,9 +11673,9 @@ Top 10 terms:
   improvisation: 0.0565
   chatbot’s: 0.0532
   chaining: 0.0532
-  bespoke: 0.0508
-  nocode: 0.0508
   utterances: 0.0508
+  nocode: 0.0508
+  bespoke: 0.0508
 
 
 Document 732:
@@ -11717,12 +11717,12 @@ Top 10 terms:
   philosophical: 0.1354
   technological: 0.0921
   ethics: 0.0836
-  spirit: 0.0754
-  religious: 0.0754
   panelists: 0.0754
+  religious: 0.0754
+  spirit: 0.0754
   viewpoints: 0.0652
-  reshape: 0.0632
   humanities: 0.0632
+  reshape: 0.0632
 
 
 Document 735:
@@ -11770,7 +11770,7 @@ Top 10 terms:
   pipeline: 0.0393
   help: 0.0389
   static: 0.0388
-  next: 0.0371
+  step: 0.0371
 
 
 Document 738:
@@ -11781,11 +11781,11 @@ Top 10 terms:
   students: 0.0511
   including: 0.0486
   they: 0.0479
-  anything: 0.0468
   plagiarismdetection: 0.0468
   unplugged: 0.0468
-  obsolete: 0.0468
   seismic: 0.0468
+  anything: 0.0468
+  obsolete: 0.0468
 
 
 Document 739:
@@ -11799,8 +11799,8 @@ Top 10 terms:
   clinical: 0.0670
   intervention: 0.0622
   llmgenerated: 0.0575
-  opt30b: 0.0518
   persuasiveness: 0.0518
+  opt30b: 0.0518
   writing: 0.0504
 
 
@@ -11810,13 +11810,13 @@ DOI: 10.1145/3663384.3663401
 Top 10 terms:
   workplace: 0.1580
   wellbeing: 0.1426
-  wat: 0.1292
   worker: 0.1292
+  wat: 0.1292
   gaps: 0.0764
   widen: 0.0646
   llms: 0.0605
-  workers: 0.0580
   anticipating: 0.0580
+  workers: 0.0580
   conceptualization: 0.0580
 
 
@@ -11879,9 +11879,9 @@ Top 10 terms:
   estimation: 0.0735
   recommendation: 0.0701
   prediction: 0.0616
-  analyzes: 0.0595
   simplification: 0.0595
-  subtasks: 0.0568
+  analyzes: 0.0595
+  simplify: 0.0568
 
 
 Document 745:
@@ -11976,8 +11976,8 @@ Top 10 terms:
   unchanged: 0.0717
   made: 0.0703
   changed: 0.0690
-  day: 0.0669
   median: 0.0669
+  day: 0.0669
 
 
 Document 751:
@@ -11991,8 +11991,8 @@ Top 10 terms:
   development: 0.0645
   specifying: 0.0617
   detailed: 0.0603
-  specifies: 0.0580
   catalyze: 0.0580
+  specifies: 0.0580
   frontier: 0.0517
 
 
@@ -12021,11 +12021,11 @@ Top 10 terms:
   correctness: 0.0656
   whom: 0.0617
   writing: 0.0601
-  beginners: 0.0554
   strides: 0.0554
+  beginners: 0.0554
   nonexpert: 0.0533
-  invited: 0.0517
   nonexperts: 0.0517
+  invited: 0.0517
 
 
 Document 754:
@@ -12069,11 +12069,11 @@ Top 10 terms:
   hci: 0.0661
   decision: 0.0622
   medical: 0.0591
-  cdss: 0.0522
   haven’t: 0.0522
   llmaugmented: 0.0522
-  nursing: 0.0491
+  cdss: 0.0522
   physician: 0.0491
+  nursing: 0.0491
 
 
 Document 757:
@@ -12082,11 +12082,11 @@ DOI: 10.1145/3643795.3648376
 Top 10 terms:
   programs: 0.0680
   crucially: 0.0530
-  sampler: 0.0498
-  initiated: 0.0498
   announcement: 0.0498
-  sacrificing: 0.0476
+  initiated: 0.0498
+  sampler: 0.0498
   obvious: 0.0476
+  sacrificing: 0.0476
   achieved: 0.0465
   flaws: 0.0458
   responsiveness: 0.0458
@@ -12121,7 +12121,7 @@ Top 10 terms:
   continuation: 0.0561
   nsfsupported: 0.0561
   better: 0.0558
-  dashboards: 0.0527
+  collaborations: 0.0527
 
 
 Document 760:
@@ -12134,8 +12134,8 @@ Top 10 terms:
   codenet: 0.1103
   detection: 0.0650
   pairs: 0.0629
-  reexamination: 0.0552
   clones: 0.0552
+  reexamination: 0.0552
   crosslanguage: 0.0519
   straightforward: 0.0495
 
@@ -12164,11 +12164,11 @@ Top 10 terms:
   student: 0.0543
   strategies: 0.0458
   dynamics: 0.0456
-  aifacilitated: 0.0409
   aisupported: 0.0409
+  aifacilitated: 0.0409
   support: 0.0388
-  shedding: 0.0384
   studentai: 0.0384
+  shedding: 0.0384
   engagement: 0.0382
 
 
@@ -12182,10 +12182,10 @@ Top 10 terms:
   prediction: 0.0946
   affective: 0.0914
   score: 0.0870
-  591: 0.0561
-  560: 0.0561
   ocr: 0.0561
   concentrating: 0.0561
+  591: 0.0561
+  560: 0.0561
 
 
 Document 764:
@@ -12216,8 +12216,8 @@ Top 10 terms:
   crossmodal: 0.0688
   embeddings: 0.0573
   completion: 0.0537
-  triples: 0.0503
   communicates: 0.0503
+  graphtext: 0.0503
 
 
 Document 766:
@@ -12228,9 +12228,9 @@ Top 10 terms:
   foundation: 0.1025
   scientific: 0.0885
   growing: 0.0515
-  climate: 0.0506
-  smartphones: 0.0506
   terrestrial: 0.0506
+  smartphones: 0.0506
+  climate: 0.0506
   deep: 0.0497
   well: 0.0492
   emerging: 0.0482
@@ -12245,8 +12245,8 @@ Top 10 terms:
   medical: 0.0711
   domainspecific: 0.0702
   smoothly: 0.0591
-  showcased: 0.0564
   talent: 0.0564
+  showcased: 0.0564
   introduces: 0.0554
   cultivation: 0.0543
   responses: 0.0530
@@ -12261,8 +12261,8 @@ Top 10 terms:
   generation: 0.0517
   hurdle: 0.0462
   outstanding: 0.0425
-  contextaware: 0.0412
   embed: 0.0412
+  contextaware: 0.0412
   sourced: 0.0401
   proliferation: 0.0383
   nontrivial: 0.0375
@@ -12280,8 +12280,8 @@ Top 10 terms:
   exercises: 0.0447
   differences: 0.0447
   seldom: 0.0435
-  twelve: 0.0435
   diffs: 0.0435
+  twelve: 0.0435
 
 
 Document 770:
@@ -12306,8 +12306,8 @@ DOI: 10.1145/3672539.3686351
 Top 10 terms:
   devices: 0.1534
   design: 0.1097
-  fabrication: 0.0730
   fluidic: 0.0730
+  fabrication: 0.0730
   agents: 0.0698
   ideation: 0.0686
   visualize: 0.0686
@@ -12353,14 +12353,14 @@ DOI: 10.1145/3613905.3650868
 Top 10 terms:
   collaborative: 0.1100
   facilitator: 0.1069
-  computersupported: 0.0595
   cscl: 0.0595
+  computersupported: 0.0595
   today’s: 0.0595
   collaboration: 0.0569
   tone: 0.0560
   timing: 0.0499
-  bot: 0.0485
   collaboratively: 0.0485
+  bot: 0.0485
 
 
 Document 775:
@@ -12376,7 +12376,7 @@ Top 10 terms:
   server: 0.0762
   errors: 0.0734
   insufficient: 0.0637
-  codenet: 0.0534
+  debugger: 0.0534
 
 
 Document 776:
@@ -12387,8 +12387,8 @@ Top 10 terms:
   prompt: 0.1051
   auditing: 0.1007
   testing: 0.0712
-  iterated: 0.0561
   hypotheses: 0.0561
+  iterated: 0.0561
   inlab: 0.0527
   toolkits: 0.0503
   academics: 0.0485
@@ -12488,7 +12488,7 @@ Top 10 terms:
   extensible: 0.0436
   rubric: 0.0436
   pressing: 0.0425
-  paramount: 0.0400
+  claude: 0.0400
 
 
 Document 783:
@@ -12514,10 +12514,10 @@ Top 10 terms:
   administrators: 0.0632
   literature: 0.0631
   sphere: 0.0603
-  plagiarized: 0.0603
   regulate: 0.0603
-  canadian: 0.0581
+  plagiarized: 0.0603
   western: 0.0581
+  canadian: 0.0581
   begun: 0.0563
   careful: 0.0503
   manage: 0.0479
@@ -12534,8 +12534,8 @@ Top 10 terms:
   onset: 0.0707
   stand: 0.0635
   enriches: 0.0635
-  selectively: 0.0611
   marking: 0.0611
+  selectively: 0.0611
   bridges: 0.0592
 
 
@@ -12552,7 +12552,7 @@ Top 10 terms:
   either: 0.0695
   world: 0.0637
   textual: 0.0606
-  encapsulate: 0.0585
+  recommenders: 0.0585
 
 
 Document 787:
@@ -12679,8 +12679,8 @@ Top 10 terms:
   experiences: 0.0745
   humanai: 0.0680
   domainspecific: 0.0637
-  mlai: 0.0570
   net: 0.0570
+  mlai: 0.0570
 
 
 Document 795:
@@ -12694,9 +12694,9 @@ Top 10 terms:
   human: 0.0789
   prediction: 0.0760
   generalizing: 0.0600
+  displays: 0.0565
   epidemic: 0.0565
   sigspatial: 0.0565
-  displays: 0.0565
 
 
 Document 796:
@@ -12806,8 +12806,8 @@ Top 10 terms:
   engineered: 0.0514
   communication: 0.0512
   practices: 0.0501
-  synergistic: 0.0491
   10000: 0.0491
+  synergistic: 0.0491
 
 
 Document 803:
@@ -12831,8 +12831,8 @@ Title: proceedings of the 30th annual international conference on mobile computi
 DOI: 10.1145/3636534.3690668
 Top 10 terms:
   mobile: 0.2578
-  equipping: 0.1799
   everyday: 0.1799
+  equipping: 0.1799
   networking: 0.1548
   gradually: 0.1529
   revolutionized: 0.1494
@@ -12865,8 +12865,8 @@ Top 10 terms:
   wearable: 0.1790
   pointing: 0.1725
   camera: 0.0938
-  handsfree: 0.0575
   surroundings: 0.0575
+  handsfree: 0.0575
   vlm: 0.0541
   aienabled: 0.0482
   vision: 0.0472
@@ -12900,8 +12900,8 @@ Top 10 terms:
   second: 0.0873
   submissions: 0.0796
   questions: 0.0700
-  questionnaires: 0.0640
   tried: 0.0640
+  questionnaires: 0.0640
   assigning: 0.0602
   overwhelmingly: 0.0602
 
@@ -12929,13 +12929,13 @@ Top 10 terms:
   interview: 0.0927
   instructor: 0.0811
   pedagogical: 0.0655
-  finland: 0.0640
   zealand: 0.0640
   relating: 0.0640
+  finland: 0.0640
   australia: 0.0602
   instructors: 0.0599
-  adaptations: 0.0554
   inevitable: 0.0554
+  adaptations: 0.0554
 
 
 Document 811:
@@ -12946,9 +12946,9 @@ Top 10 terms:
   travel: 0.0460
   industry: 0.0420
   you: 0.0405
-  ieee: 0.0354
-  excited: 0.0354
   grants: 0.0354
+  excited: 0.0354
+  ieee: 0.0354
   speeches: 0.0354
   grand: 0.0333
 
@@ -12998,7 +12998,7 @@ Top 10 terms:
   interaction: 0.0622
   deficits: 0.0575
   onesided: 0.0575
-  forcing: 0.0575
+  parents: 0.0575
 
 
 Document 815:
@@ -13014,7 +13014,7 @@ Top 10 terms:
   acknowledged: 0.0622
   agents: 0.0595
   indicate: 0.0573
-  personalizing: 0.0559
+  semesterlong: 0.0559
 
 
 Document 816:
@@ -13030,7 +13030,7 @@ Top 10 terms:
   realworld: 0.0539
   highrisk: 0.0527
   audit: 0.0527
-  thirdparty: 0.0485
+  contract: 0.0485
 
 
 Document 817:
@@ -13078,7 +13078,7 @@ Top 10 terms:
   system: 0.0592
   gaming: 0.0530
   llmguided: 0.0476
-  protocol: 0.0458
+  markedly: 0.0458
 
 
 Document 820:
@@ -13110,7 +13110,7 @@ Top 10 terms:
   pluggable: 0.0314
   communication: 0.0313
   package: 0.0300
-  aforementioned: 0.0280
+  satisfying: 0.0280
 
 
 Document 822:
@@ -13124,8 +13124,8 @@ Top 10 terms:
   parsing: 0.0715
   log: 0.0715
   prompt: 0.0674
-  assignment: 0.0472
   appropriate: 0.0472
+  assignment: 0.0472
   local: 0.0465
 
 
@@ -13133,8 +13133,8 @@ Document 823:
 Title: proceedings of the 32nd acm international conference on multimedia...
 DOI: 10.1145/3664647.3681552
 Top 10 terms:
-  mllms: 0.0848
   rationales: 0.0848
+  mllms: 0.0848
   reasoning: 0.0771
   fact: 0.0692
   visual: 0.0683
@@ -13158,7 +13158,7 @@ Top 10 terms:
   users: 0.0634
   primitive: 0.0556
   novice: 0.0542
-  grand: 0.0523
+  nodegraph: 0.0523
 
 
 Document 825:
@@ -13184,13 +13184,13 @@ Top 10 terms:
   analytics: 0.0877
   groups: 0.0850
   problemsolving: 0.0581
+  taskbased: 0.0530
   embarked: 0.0530
   129: 0.0530
-  taskbased: 0.0530
-  traintest: 0.0530
   bayes: 0.0530
   undertook: 0.0530
-  naive: 0.0498
+  traintest: 0.0530
+  taskrelated: 0.0498
 
 
 Document 827:
@@ -13232,8 +13232,8 @@ Top 10 terms:
   legal: 0.2824
   repercussions: 0.0458
   tailored: 0.0436
-  theres: 0.0431
   streamlining: 0.0431
+  theres: 0.0431
   llmbased: 0.0423
   confirms: 0.0412
   compounded: 0.0396
@@ -13284,9 +13284,9 @@ Top 10 terms:
   living: 0.1052
   physically: 0.0989
   individuals: 0.0720
-  older: 0.0526
   website1: 0.0526
   motor: 0.0526
+  older: 0.0526
 
 
 Document 833:
@@ -13346,9 +13346,9 @@ Top 10 terms:
   consequence: 0.1032
   leap: 0.1032
   acmspec: 0.0995
+  visible: 0.0995
   explosion: 0.0995
   responsiveness: 0.0995
-  visible: 0.0995
   decade: 0.0846
   15th: 0.0760
 
@@ -13361,12 +13361,12 @@ Top 10 terms:
   explainable: 0.0685
   pipelines: 0.0677
   graphs: 0.0510
-  xai: 0.0506
   datarelated: 0.0506
+  xai: 0.0506
   wide: 0.0491
   valuable: 0.0488
+  synergies: 0.0476
   airelated: 0.0476
-  fluency: 0.0476
 
 
 Document 838:
@@ -13381,8 +13381,8 @@ Top 10 terms:
   engaging: 0.0508
   allow: 0.0483
   interfaces: 0.0444
-  itss: 0.0429
   drag: 0.0429
+  itss: 0.0429
 
 
 Document 839:
@@ -13398,7 +13398,7 @@ Top 10 terms:
   graphcodebert: 0.0357
   automated: 0.0353
   explored: 0.0340
-  abstractions: 0.0336
+  plbart: 0.0336
 
 
 Document 840:
@@ -13458,9 +13458,9 @@ Top 10 terms:
   rag: 0.0706
   expertise: 0.0633
   query: 0.0601
-  dialect: 0.0552
   subjecting: 0.0552
   seventh: 0.0552
+  dialect: 0.0552
   unsolved: 0.0519
 
 
@@ -13475,8 +13475,8 @@ Top 10 terms:
   gathers: 0.0617
   reassessment: 0.0617
   survey: 0.0590
-  streamlines: 0.0580
   revisits: 0.0580
+  streamlines: 0.0580
   hundred: 0.0554
 
 
@@ -13489,8 +13489,8 @@ Top 10 terms:
   answering: 0.0751
   dino: 0.0685
   compositional: 0.0615
-  programs: 0.0586
   question: 0.0586
+  programs: 0.0586
   connect: 0.0574
   modular: 0.0523
   achieve: 0.0518
@@ -13521,8 +13521,8 @@ Top 10 terms:
   multihop: 0.0945
   retrievalaugmented: 0.0643
   answering: 0.0551
-  similaritybased: 0.0503
   validates: 0.0503
+  similaritybased: 0.0503
   integrate: 0.0492
   problem: 0.0478
   miss: 0.0473
@@ -13663,8 +13663,8 @@ Top 10 terms:
   retriever: 0.1446
   queries: 0.1327
   timesensitive: 0.1212
-  retrievalaugmented: 0.0775
   rag: 0.0775
+  retrievalaugmented: 0.0775
   temporal: 0.0728
   supervised: 0.0672
   constraints: 0.0644
@@ -13716,8 +13716,8 @@ Top 10 terms:
   reinforcement: 0.0797
   map: 0.0562
   browsers: 0.0398
-  postprocessing: 0.0398
   grammatical: 0.0398
+  postprocessing: 0.0398
 
 
 Document 860:
@@ -13727,10 +13727,10 @@ Top 10 terms:
   contours: 0.2277
   facial: 0.1521
   students: 0.0596
-  colleges: 0.0455
-  blends: 0.0455
-  fun: 0.0455
   classspecific: 0.0455
+  fun: 0.0455
+  blends: 0.0455
+  colleges: 0.0455
   vocational: 0.0428
   technology: 0.0421
   future: 0.0409
@@ -13745,9 +13745,9 @@ Top 10 terms:
   compression: 0.0789
   hardware: 0.0663
   devices: 0.0648
+  getting: 0.0617
   dominance: 0.0617
   undoubtedly: 0.0617
-  getting: 0.0617
   survey: 0.0590
   phones: 0.0580
 
@@ -13761,8 +13761,8 @@ Top 10 terms:
   adapterbased: 0.0892
   backbone: 0.0667
   serving: 0.0627
-  running: 0.0590
   scheduling: 0.0590
+  running: 0.0590
   efficient: 0.0531
   middleware: 0.0474
   loading: 0.0474
@@ -13876,8 +13876,8 @@ Top 10 terms:
   pressure: 0.0635
   tuning: 0.0437
   llms: 0.0436
-  pioneers: 0.0399
   129: 0.0399
+  pioneers: 0.0399
 
 
 Document 870:
@@ -13888,9 +13888,9 @@ Top 10 terms:
   consequences: 0.0743
   participants: 0.0737
   embrace: 0.0716
+  betweensubjects: 0.0716
   pitfalls: 0.0716
   academics: 0.0716
-  betweensubjects: 0.0716
   violations: 0.0675
   chatgpt: 0.0674
   engineering: 0.0666
@@ -13919,13 +13919,13 @@ Top 10 terms:
   loop: 0.3256
   invariant: 0.2405
   verification: 0.0917
-  invariants: 0.0737
   intrinsically: 0.0737
+  invariants: 0.0737
   predicates: 0.0693
   correct: 0.0676
-  uncertain: 0.0618
   unstable: 0.0618
-  bounded: 0.0601
+  uncertain: 0.0618
+  synergy: 0.0601
 
 
 Document 873:
@@ -14017,9 +14017,9 @@ Top 10 terms:
   semantic: 0.1081
   possible: 0.0557
   survey: 0.0515
-  outlined: 0.0483
-  usages: 0.0483
   meanings: 0.0483
+  usages: 0.0483
+  outlined: 0.0483
   approaches: 0.0462
   terms: 0.0435
 
@@ -14037,7 +14037,7 @@ Top 10 terms:
   heterogeneous: 0.0891
   footprint: 0.0882
   hardware: 0.0823
-  measured: 0.0717
+  centers: 0.0717
 
 
 Document 880:
@@ -14080,8 +14080,8 @@ Top 10 terms:
   transformations: 0.1493
   languages: 0.1391
   dedicated: 0.1265
-  mandatory: 0.0613
   incrementality: 0.0613
+  mandatory: 0.0613
   specify: 0.0586
   versus: 0.0519
   threat: 0.0508
@@ -14093,15 +14093,15 @@ Title: proceedings of the acm sigcomm 2024 conference...
 DOI: 10.1145/3651890.3672239
 Top 10 terms:
   gpu: 0.2068
-  contention: 0.1628
   crux: 0.1628
+  contention: 0.1628
   communication: 0.1523
   utilization: 0.1477
   computation: 0.1446
   jobs: 0.1267
   scheduling: 0.0675
-  multitenant: 0.0543
-  tracebased: 0.0543
+  prioritizes: 0.0543
+  npcomplete: 0.0543
 
 
 Document 884:
@@ -14115,9 +14115,9 @@ Top 10 terms:
   integrated: 0.0577
   command: 0.0554
   environments: 0.0537
-  steep: 0.0533
   facilities: 0.0533
-  became: 0.0517
+  steep: 0.0533
+  expedite: 0.0517
 
 
 Document 885:
@@ -14160,11 +14160,11 @@ Top 10 terms:
   question: 0.0926
   answers: 0.0796
   structured: 0.0738
-  chainofthoughts: 0.0722
   chartrelated: 0.0722
-  rephrasing: 0.0679
+  chainofthoughts: 0.0722
   aggregating: 0.0679
-  chart: 0.0605
+  rephrasing: 0.0679
+  gives: 0.0605
   conversion: 0.0605
 
 
@@ -14178,8 +14178,8 @@ Top 10 terms:
   drug: 0.1316
   enrollment: 0.1015
   criteria: 0.0809
-  prauc: 0.0606
   llmaugmented: 0.0606
+  prauc: 0.0606
   success: 0.0534
   save: 0.0524
 
@@ -14197,7 +14197,7 @@ Top 10 terms:
   human: 0.0599
   health: 0.0487
   deceptive: 0.0455
-  exploitative: 0.0455
+  marginalization: 0.0455
 
 
 Document 890:
@@ -14206,14 +14206,14 @@ DOI: 10.1145/3643659.3643936
 Top 10 terms:
   testing: 0.1390
   aerial: 0.1094
-  fuzz: 0.1029
-  stateful: 0.1029
   utmost: 0.1029
-  unmanned: 0.0982
+  stateful: 0.1029
+  fuzz: 0.1029
   cyberphysical: 0.0982
+  unmanned: 0.0982
   cps: 0.0946
-  vehicles: 0.0917
   searchbased: 0.0917
+  vehicles: 0.0917
 
 
 Document 891:
@@ -14227,8 +14227,8 @@ Top 10 terms:
   usability: 0.0568
   user: 0.0558
   multimodal: 0.0556
-  userfriendliness: 0.0443
   interactivity: 0.0443
+  userfriendliness: 0.0443
   framework: 0.0429
 
 
@@ -14274,10 +14274,10 @@ Top 10 terms:
   tutorial: 0.0549
   lecturestyle: 0.0411
   citation: 0.0411
-  works: 0.0397
   offering: 0.0397
+  works: 0.0397
+  classifies: 0.0387
   interconnections: 0.0387
-  pushed: 0.0387
 
 
 Document 895:
@@ -14309,7 +14309,7 @@ Top 10 terms:
   comprehensibility: 0.0385
   networks: 0.0372
   forces: 0.0362
-  competing: 0.0346
+  translator: 0.0346
 
 
 Document 897:
@@ -14323,9 +14323,9 @@ Top 10 terms:
   specialized: 0.0440
   llms: 0.0439
   fundamental: 0.0420
-  uphold: 0.0401
-  lookup: 0.0401
   treated: 0.0401
+  uphold: 0.0401
+  inaugural: 0.0401
 
 
 Document 898:
@@ -14337,11 +14337,11 @@ Top 10 terms:
   operations: 0.0613
   policy: 0.0605
   data: 0.0592
-  chair: 0.0534
   stepwise: 0.0534
+  chair: 0.0534
   land: 0.0534
   needle: 0.0534
-  circumvent: 0.0502
+  striking: 0.0502
 
 
 Document 899:
@@ -14384,12 +14384,12 @@ Top 10 terms:
   creativity: 0.0728
   alignment: 0.0656
   value: 0.0613
-  speech: 0.0470
   hand: 0.0470
-  scholarship: 0.0404
-  erasing: 0.0404
+  speech: 0.0470
   festival: 0.0404
+  twenty: 0.0404
   succeed: 0.0404
+  scholarship: 0.0404
 
 
 Document 902:
@@ -14609,9 +14609,9 @@ Top 10 terms:
   communication: 0.0835
   special: 0.0825
   alternative: 0.0678
+  codesigned: 0.0595
   autistic: 0.0595
   autism: 0.0595
-  codesigned: 0.0595
   justintime: 0.0499
   impractical: 0.0499
 
@@ -14675,9 +14675,9 @@ Top 10 terms:
   milestones: 0.0452
   pixelbased: 0.0452
   video: 0.0436
-  uis: 0.0425
   overwhelming: 0.0425
-  flag: 0.0406
+  uis: 0.0425
+  controlling: 0.0406
 
 
 Document 920:
@@ -14722,8 +14722,8 @@ Top 10 terms:
   interpretability: 0.0703
   cost: 0.0540
   traditional: 0.0534
-  signatures: 0.0516
   roleplaying: 0.0516
+  signatures: 0.0516
   code: 0.0490
   enterprise: 0.0482
 
@@ -14753,9 +14753,9 @@ Top 10 terms:
   multimodal: 0.0934
   recognition: 0.0925
   rgbd: 0.0746
-  rgb: 0.0701
-  instructive: 0.0701
   colearning: 0.0701
+  instructive: 0.0701
+  rgb: 0.0701
   features: 0.0653
   concise: 0.0580
 
@@ -14817,8 +14817,8 @@ Top 10 terms:
   dataset: 0.0604
   static: 0.0558
   huggingface: 0.0522
-  maintained: 0.0491
   handwritten: 0.0491
+  maintained: 0.0491
   quantifying: 0.0451
   closed: 0.0451
   programs: 0.0447
@@ -14853,7 +14853,7 @@ Top 10 terms:
   10000: 0.0476
   dataset: 0.0460
   date: 0.0422
-  lives: 0.0404
+  aigc: 0.0404
 
 
 Document 931:
@@ -14866,8 +14866,8 @@ Top 10 terms:
   retrieval: 0.0840
   opendomain: 0.0746
   llms: 0.0619
-  retrievalaugmented: 0.0508
   rag: 0.0508
+  retrievalaugmented: 0.0508
   relevance: 0.0455
   facilitating: 0.0440
 
@@ -14884,8 +14884,8 @@ Top 10 terms:
   parameterefficient: 0.0799
   tuning: 0.0604
   fewshot: 0.0583
-  commence: 0.0552
   underpinned: 0.0552
+  commence: 0.0552
 
 
 Document 933:
@@ -14948,8 +14948,8 @@ Top 10 terms:
   attacks: 0.0944
   extraction: 0.0874
   diversify: 0.0798
-  mlaas: 0.0750
   13th: 0.0750
+  mlaas: 0.0750
 
 
 Document 937:
@@ -14989,8 +14989,8 @@ Title: proceedings of the 27th panhellenic conference on progress in computing a
 DOI: 10.1145/3635059.3635104
 Top 10 terms:
   foreign: 0.2339
-  moved: 0.2200
   panhellenic: 0.2200
+  moved: 0.2200
   natural: 0.1956
   strict: 0.1752
   27th: 0.1622
@@ -15027,9 +15027,9 @@ Top 10 terms:
   memory: 0.0489
   fedavg: 0.0468
   stimulating: 0.0468
-  firstorder: 0.0440
   circumvent: 0.0440
   underpinnings: 0.0440
+  firstorder: 0.0440
 
 
 Document 942:
@@ -15042,8 +15042,8 @@ Top 10 terms:
   forecasting: 0.1318
   financial: 0.1232
   stock: 0.1149
-  factorization: 0.0962
   earnings: 0.0962
+  factorization: 0.0962
   risk: 0.0847
   ordinary: 0.0832
 
@@ -15091,9 +15091,9 @@ Top 10 terms:
   assessment: 0.0637
   pipelines: 0.0585
   metrics: 0.0550
+  daytoday: 0.0438
   repo: 0.0438
   cyberinfrastructure: 0.0438
-  daytoday: 0.0438
 
 
 Document 946:
@@ -15141,7 +15141,7 @@ Top 10 terms:
   attack: 0.0578
   predictions: 0.0483
   text: 0.0459
-  detectable: 0.0438
+  imdb: 0.0438
 
 
 Document 949:
@@ -15204,8 +15204,8 @@ Top 10 terms:
   issues: 0.0639
   experts: 0.0499
   applications: 0.0480
-  stacks: 0.0458
   justifications: 0.0458
+  stacks: 0.0458
 
 
 Document 953:
@@ -15221,7 +15221,7 @@ Top 10 terms:
   paradigm: 0.0436
   imitating: 0.0425
   community: 0.0405
-  tutorials: 0.0391
+  attractive: 0.0391
 
 
 Document 954:
@@ -15234,9 +15234,9 @@ Top 10 terms:
   index: 0.0924
   economic: 0.0924
   factors: 0.0712
-  reserve: 0.0606
-  sampp: 0.0606
-  cleans: 0.0606
+  funds: 0.0606
+  xgboost: 0.0606
+  federal: 0.0606
 
 
 Document 955:
@@ -15267,7 +15267,7 @@ Top 10 terms:
   curriculumbased: 0.0416
   rewritten: 0.0416
   recommending: 0.0374
-  estimators: 0.0360
+  discovering: 0.0360
 
 
 Document 957:
@@ -15310,9 +15310,9 @@ Top 10 terms:
   opensource: 0.2805
   recognition: 0.1924
   replicability: 0.1823
+  texttospeech: 0.1740
   speaker: 0.1740
   releasing: 0.1740
-  texttospeech: 0.1740
   toolkit: 0.1542
   promotes: 0.1479
 
@@ -15361,8 +15361,8 @@ Top 10 terms:
   tuning: 0.0656
   text: 0.0558
   finegrained: 0.0437
-  ultrasound: 0.0399
   doctors: 0.0399
+  ultrasound: 0.0399
 
 
 Document 963:
@@ -15435,12 +15435,12 @@ DOI: 10.1145/3620665.3640423
 Top 10 terms:
   memory: 0.1803
   gpu: 0.1252
-  stitching: 0.1150
   defragmentation: 0.1150
+  stitching: 0.1150
   bottlenecks: 0.0995
   dnns: 0.0915
-  prohibitively: 0.0895
   owing: 0.0895
+  prohibitively: 0.0895
   device: 0.0797
   acceleration: 0.0797
 
@@ -15474,7 +15474,7 @@ Top 10 terms:
   suggestions: 0.0721
   extract: 0.0660
   tool: 0.0635
-  444: 0.0628
+  jdeodorant: 0.0628
 
 
 Document 970:
@@ -15520,8 +15520,8 @@ Top 10 terms:
   oss: 0.0594
   function: 0.0466
   downstream: 0.0332
-  alarming: 0.0331
-  exposures: 0.0331
+  proofofconcept: 0.0331
+  averaging: 0.0331
 
 
 Document 973:
@@ -15568,8 +15568,8 @@ Top 10 terms:
   negative: 0.0515
   sequential: 0.0512
   recommendations: 0.0475
-  approximates: 0.0462
   exceeding: 0.0462
+  approximates: 0.0462
 
 
 Document 976:
@@ -15601,7 +15601,7 @@ Top 10 terms:
   relationship: 0.0647
   images: 0.0597
   assistant: 0.0586
-  neglecting: 0.0483
+  highresolution: 0.0483
 
 
 Document 978:
@@ -15626,8 +15626,8 @@ DOI: 10.1145/3613905.3636316
 Top 10 terms:
   uis: 0.2526
   chi: 0.0986
-  constraintbased: 0.0632
   delving: 0.0632
+  constraintbased: 0.0632
   trigger: 0.0603
   workshop: 0.0585
   visionlanguage: 0.0581
@@ -15664,7 +15664,7 @@ Top 10 terms:
   queries: 0.0652
   optimization: 0.0625
   data: 0.0549
-  4000: 0.0397
+  tune: 0.0397
   pros: 0.0397
 
 
@@ -15695,8 +15695,8 @@ Top 10 terms:
   codet5: 0.0623
   probing: 0.0445
   tokens: 0.0443
-  capacities: 0.0428
   models’: 0.0428
+  capacities: 0.0428
   unixcoder: 0.0404
 
 
@@ -15710,8 +15710,8 @@ Top 10 terms:
   messages: 0.0498
   containing: 0.0494
   tuning: 0.0450
-  trycatch: 0.0411
   723: 0.0411
+  trycatch: 0.0411
   769: 0.0411
   incontext: 0.0397
 
@@ -15738,8 +15738,8 @@ DOI: 10.1145/3657604.3664701
 Top 10 terms:
   assistance: 0.0771
   assignments: 0.0692
-  discourage: 0.0669
   mooc: 0.0669
+  discourage: 0.0669
   genuine: 0.0645
   elearning: 0.0625
   coding: 0.0608
@@ -15761,7 +15761,7 @@ Top 10 terms:
   cospeech: 0.0737
   semantically: 0.0544
   library: 0.0467
-  moderately: 0.0392
+  rhythm: 0.0392
 
 
 Document 988:
@@ -15824,8 +15824,8 @@ Top 10 terms:
   statements: 0.0744
   exceptions: 0.0696
   what: 0.0632
-  fragments: 0.0602
   placed: 0.0602
+  fragments: 0.0602
 
 
 Document 992:
@@ -15854,8 +15854,8 @@ Top 10 terms:
   reading: 0.0606
   comprehension: 0.0495
   golden: 0.0462
-  plms: 0.0425
   13b: 0.0425
+  plms: 0.0425
   task: 0.0424
   proposed: 0.0421
 
@@ -15913,8 +15913,8 @@ Title: proceedings of the 32nd acm international conference on multimedia...
 DOI: 10.1145/3664647.3681358
 Top 10 terms:
   referencefree: 0.1938
-  captions: 0.1300
   captioning: 0.1300
+  captions: 0.1300
   metrics: 0.1300
   interpretable: 0.0856
   descriptive: 0.0671
@@ -15952,8 +15952,8 @@ Top 10 terms:
   feedforward: 0.0889
   transformerbased: 0.0618
   heterogeneous: 0.0599
-  concurrent: 0.0514
   tpus: 0.0514
+  concurrent: 0.0514
 
 
 Document 1000:
@@ -16015,8 +16015,8 @@ Top 10 terms:
   operations: 0.0623
   changes: 0.0558
   collaboration: 0.0519
-  visibility: 0.0510
   dashboard: 0.0510
+  visibility: 0.0510
   tracks: 0.0510
 
 
@@ -16045,10 +16045,10 @@ Top 10 terms:
   reviewers: 0.1174
   oversampling: 0.0812
   code: 0.0578
-  utilise: 0.0452
   meaningfulness: 0.0452
+  utilise: 0.0452
   automated: 0.0447
-  higherquality: 0.0425
+  familiarity: 0.0425
   newcomers: 0.0425
 
 
@@ -16059,8 +16059,8 @@ Top 10 terms:
   enterprise: 0.2682
   rag: 0.2048
   workshop: 0.0837
-  convenes: 0.0640
   cikm: 0.0640
+  convenes: 0.0640
   intersects: 0.0602
   exchange: 0.0575
   systems: 0.0544
@@ -16160,7 +16160,7 @@ Top 10 terms:
   educational: 0.0735
   impeded: 0.0672
   assimilation: 0.0672
-  determinants: 0.0632
+  myriad: 0.0632
 
 
 Document 1013:
@@ -16190,8 +16190,8 @@ Top 10 terms:
   acceptance: 0.0648
   professional: 0.0555
   705: 0.0506
-  chatgpt3: 0.0506
   whom: 0.0506
+  chatgpt3: 0.0506
   survey: 0.0484
 
 
@@ -16254,8 +16254,8 @@ Top 10 terms:
   platforms: 0.0883
   preventing: 0.0771
   checks: 0.0720
-  creates: 0.0622
   hindered: 0.0622
+  creates: 0.0622
   information: 0.0595
 
 
@@ -16270,17 +16270,17 @@ Top 10 terms:
   outperformed: 0.0681
   efficient: 0.0499
   detect: 0.0486
-  patched: 0.0446
-  nontransformer: 0.0446
   75x: 0.0446
+  nontransformer: 0.0446
+  patched: 0.0446
 
 
 Document 1020:
 Title: proceedings of the 2024 7th international conference on computer information science and artificial ...
 DOI: 10.1145/3703187.3703238
 Top 10 terms:
-  multiplication: 0.0529
   markedly: 0.0529
+  multiplication: 0.0529
   training: 0.0510
   inference: 0.0485
   distributed: 0.0474
@@ -16304,7 +16304,7 @@ Top 10 terms:
   conversational: 0.0347
   designing: 0.0338
   fun: 0.0334
-  parents: 0.0334
+  adolescents: 0.0334
 
 
 Document 1022:
@@ -16320,7 +16320,7 @@ Top 10 terms:
   interpretation: 0.0517
   benchmark: 0.0440
   detection: 0.0421
-  healthrelated: 0.0357
+  crisis: 0.0357
 
 
 Document 1023:
@@ -16383,8 +16383,8 @@ Top 10 terms:
   semantics: 0.0393
   substantial: 0.0348
   paradigm: 0.0346
-  exemplified: 0.0338
   appearing: 0.0338
+  exemplified: 0.0338
 
 
 Document 1027:
@@ -16508,8 +16508,8 @@ Top 10 terms:
   access: 0.0937
   holistic: 0.0729
   management: 0.0700
-  web3: 0.0682
   permissions: 0.0682
+  web3: 0.0682
   security: 0.0615
   manner: 0.0553
   compliance: 0.0531
@@ -16544,7 +16544,7 @@ Top 10 terms:
   data: 0.0703
   assessing: 0.0515
   simulation: 0.0465
-  infrastructural: 0.0462
+  emission: 0.0462
 
 
 Document 1037:
@@ -16557,10 +16557,10 @@ Top 10 terms:
   move: 0.0887
   entities: 0.0657
   dependency: 0.0648
-  interclass: 0.0593
   hypergraphs: 0.0593
+  interclass: 0.0593
   correlations: 0.0464
-  entity: 0.0457
+  complicated: 0.0457
 
 
 Document 1038:
@@ -16682,8 +16682,8 @@ Top 10 terms:
   bard: 0.1563
   trust: 0.1336
   conversational: 0.1085
-  google’s: 0.1044
   taskbased: 0.1044
+  google’s: 0.1044
   agents: 0.0998
   user: 0.0986
   it’s: 0.0981
@@ -16714,11 +16714,11 @@ Top 10 terms:
   social: 0.1245
   ethics: 0.1046
   change: 0.1026
-  deepfakes: 0.0886
   manufacturing: 0.0886
-  adopters: 0.0886
-  somewhat: 0.0886
   regards: 0.0886
+  somewhat: 0.0886
+  adopters: 0.0886
+  deepfakes: 0.0886
   agencies: 0.0815
   authenticity: 0.0790
 
@@ -16843,9 +16843,9 @@ Top 10 terms:
   data: 0.1044
   repair: 0.1020
   either: 0.0526
-  violating: 0.0471
   trusted: 0.0471
   converts: 0.0471
+  violating: 0.0471
   inconsistencies: 0.0408
   repairing: 0.0395
 
@@ -16874,8 +16874,8 @@ Top 10 terms:
   justintime: 0.1315
   failures: 0.1119
   gpus: 0.0928
-  jobs: 0.0916
   recovery: 0.0916
+  jobs: 0.0916
   dnn: 0.0866
   state: 0.0807
   steady: 0.0784
@@ -16924,8 +16924,8 @@ Top 10 terms:
   outright: 0.0693
   hundred: 0.0662
   bing: 0.0662
-  coursespecific: 0.0638
   teachertostudent: 0.0638
+  coursespecific: 0.0638
   campus: 0.0618
 
 
@@ -17077,9 +17077,9 @@ Title: proceedings of the 2024 9th international conference on distance educatio
 DOI: 10.1145/3675812.3675877
 Top 10 terms:
   reading: 0.2460
+  diversified: 0.1726
   eyes: 0.1726
   books: 0.1726
-  diversified: 0.1726
   influencing: 0.1553
   modes: 0.1553
   read: 0.1494
@@ -17175,8 +17175,8 @@ Top 10 terms:
   cheating: 0.2108
   style: 0.1786
   athome: 0.1578
-  contributor: 0.1483
   contractors: 0.1483
+  contributor: 0.1483
   depart: 0.1483
   autograders: 0.1365
   websites: 0.1228
@@ -17224,12 +17224,12 @@ Top 10 terms:
   debugging: 0.1289
   query: 0.1231
   queries: 0.0826
-  scrutinizing: 0.0754
   duke: 0.0754
-  plethora: 0.0677
+  scrutinizing: 0.0754
   heightened: 0.0677
-  hampered: 0.0652
+  plethora: 0.0677
   declarative: 0.0652
+  hampered: 0.0652
 
 
 Document 1080:
@@ -17239,10 +17239,10 @@ Top 10 terms:
   programs: 0.1591
   style: 0.1578
   integrity: 0.1059
-  zybooks: 0.0929
   departing: 0.0929
   apex: 0.0929
   beta: 0.0929
+  zybooks: 0.0929
   cs1: 0.0848
   cheat: 0.0834
   academic: 0.0825
@@ -17256,12 +17256,12 @@ Top 10 terms:
   teachers: 0.1124
   genai: 0.1062
   tools: 0.0838
-  daytoday: 0.0692
   dilemmas: 0.0692
+  daytoday: 0.0692
   partnership: 0.0651
-  lesson: 0.0622
   brainstorming: 0.0622
-  pathway: 0.0599
+  lesson: 0.0622
+  chatgpt4: 0.0599
 
 
 Document 1082:
@@ -17341,7 +17341,7 @@ Top 10 terms:
   experiment: 0.0427
   course: 0.0424
   identified: 0.0402
-  decompose: 0.0401
+  else: 0.0401
 
 
 Document 1087:
@@ -17403,9 +17403,9 @@ Top 10 terms:
   n47: 0.0543
   disproportionate: 0.0543
   new: 0.0501
-  compares: 0.0443
   trustworthiness: 0.0443
   acquire: 0.0443
+  compares: 0.0443
 
 
 Document 1091:
@@ -17414,13 +17414,13 @@ Top 10 terms:
   plagiarism: 0.0811
   aigenerated: 0.0697
   assignment: 0.0673
-  detriment: 0.0640
-  pros: 0.0640
   authentically: 0.0640
+  pros: 0.0640
+  detriment: 0.0640
   cons: 0.0640
-  unveiled: 0.0602
-  referring: 0.0602
   convenient: 0.0602
+  reinforce: 0.0602
+  unveiled: 0.0602
 
 
 Document 1092:
@@ -17431,8 +17431,8 @@ Top 10 terms:
   style: 0.1707
   obtained: 0.1673
   athome: 0.1508
-  contributor: 0.1418
   contractors: 0.1418
+  contributor: 0.1418
   depart: 0.1418
   autograders: 0.1304
   websites: 0.1173
@@ -17450,8 +17450,8 @@ Top 10 terms:
   altogether: 0.0754
   206: 0.0754
   invention: 0.0754
-  cocitation: 0.0709
   vosviewer: 0.0709
+  cocitation: 0.0709
   analysis: 0.0692
 
 
@@ -17482,9 +17482,9 @@ Top 10 terms:
   siri: 0.0575
   advocating: 0.0575
   featured: 0.0575
+  alexa: 0.0541
+  banning: 0.0541
   anticipation: 0.0541
-  ban: 0.0541
-  outright: 0.0541
 
 
 Document 1096:
@@ -17500,7 +17500,7 @@ Top 10 terms:
   recommendations: 0.0533
   pedagogical: 0.0530
   intelligence: 0.0521
-  scoping: 0.0487
+  secondlevel: 0.0487
 
 
 Document 1097:
@@ -17516,7 +17516,7 @@ Top 10 terms:
   assist: 0.0606
   assistance: 0.0600
   exercises: 0.0596
-  firstpass: 0.0580
+  outofclass: 0.0580
 
 
 Document 1098:
@@ -17560,8 +17560,8 @@ Top 10 terms:
   reward: 0.1320
   drug: 0.0954
   immediate: 0.0870
-  defined: 0.0852
   path: 0.0852
+  defined: 0.0852
   final: 0.0746
   evaluation: 0.0714
   score: 0.0681
@@ -17573,8 +17573,8 @@ DOI: 10.1145/3626252.3630832
 Top 10 terms:
   assessments: 0.1943
   authentic: 0.1327
-  respecting: 0.0818
   skeleton: 0.0818
+  respecting: 0.0818
   experiences: 0.0758
   metacognition: 0.0752
   assessment: 0.0633
@@ -17636,8 +17636,8 @@ Title: proceedings of the 2024 on innovation and technology in computer science 
 DOI: 10.1145/3649405.3659517
 Top 10 terms:
   describe: 0.1601
-  spite: 0.0956
   heading: 0.0956
+  spite: 0.0956
   github: 0.0894
   cs1: 0.0872
   pay: 0.0827
@@ -17658,8 +17658,8 @@ Top 10 terms:
   languages: 0.0748
   total: 0.0686
   global: 0.0567
-  exceeded: 0.0550
   globe: 0.0550
+  exceeded: 0.0550
   what: 0.0532
 
 
@@ -17740,7 +17740,7 @@ Top 10 terms:
   prompting: 0.0693
   thereof: 0.0684
   thresholds: 0.0659
-  friendly: 0.0622
+  prone: 0.0622
 
 
 Document 1112:
@@ -17750,10 +17750,10 @@ Top 10 terms:
   chatgpt: 0.0888
   adversary: 0.0769
   anxiety: 0.0707
-  canadian: 0.0707
   western: 0.0707
-  friendly: 0.0666
+  canadian: 0.0707
   late: 0.0666
+  friendly: 0.0666
   educators: 0.0661
   pressure: 0.0650
   surprisingly: 0.0650
@@ -17767,12 +17767,12 @@ Top 10 terms:
   multitask: 0.1133
   efficient: 0.0463
   tasks: 0.0425
-  meant: 0.0414
-  qwen: 0.0414
   conclusively: 0.0414
+  qwen: 0.0414
   leaderboard: 0.0414
+  meant: 0.0414
   claimed: 0.0389
-  january: 0.0371
+  speeds: 0.0371
 
 
 Document 1114:
@@ -17820,7 +17820,7 @@ Top 10 terms:
   deeper: 0.0619
   associated: 0.0507
   conducive: 0.0506
-  commercialized: 0.0506
+  dedicate: 0.0506
 
 
 Document 1117:
@@ -17834,8 +17834,8 @@ Top 10 terms:
   talk: 0.0428
   states: 0.0380
   ethics: 0.0342
-  consider: 0.0322
   evolving: 0.0322
+  consider: 0.0322
   computing: 0.0320
 
 
@@ -17852,7 +17852,7 @@ Top 10 terms:
   mse: 0.0526
   crossvalidation: 0.0526
   university: 0.0505
-  backdrop: 0.0494
+  bay: 0.0494
 
 
 Document 1119:
@@ -17882,8 +17882,8 @@ Top 10 terms:
   sketching: 0.0917
   user: 0.0866
   gave: 0.0862
-  adjunct: 0.0714
   doing: 0.0714
+  adjunct: 0.0714
   tangible: 0.0686
 
 
@@ -17914,8 +17914,8 @@ Top 10 terms:
   groundbreaking: 0.0995
   expect: 0.0964
   highfidelity: 0.0895
-  journey: 0.0861
   welcome: 0.0861
+  journey: 0.0861
   duration: 0.0846
 
 
@@ -17931,8 +17931,8 @@ Top 10 terms:
   genai: 0.0964
   human: 0.0661
   trip: 0.0628
+  labour: 0.0628
   ontological: 0.0628
-  emphasising: 0.0628
 
 
 Document 1124:
@@ -17957,14 +17957,14 @@ DOI: 10.1145/3675417.3675537
 Top 10 terms:
   aigc: 0.2016
   college: 0.1191
-  strictly: 0.0881
   comprehensiveness: 0.0881
+  strictly: 0.0881
   subcategories: 0.0881
   user: 0.0832
   bay: 0.0828
-  adhering: 0.0828
-  kongmacao: 0.0828
   guangdonghong: 0.0828
+  kongmacao: 0.0828
+  adhering: 0.0828
 
 
 Document 1126:
@@ -17995,8 +17995,8 @@ Top 10 terms:
   mechanisms: 0.0608
   contextual: 0.0587
   patternbased: 0.0522
+  aiding: 0.0491
   researchers’: 0.0491
-  nonnative: 0.0491
 
 
 Document 1128:
@@ -18024,8 +18024,8 @@ Top 10 terms:
   nlp: 0.0972
   following: 0.0622
   incontext: 0.0574
-  inferencing: 0.0560
   brief: 0.0560
+  inferencing: 0.0560
   distributional: 0.0534
   outlines: 0.0515
   replacing: 0.0474
@@ -18040,9 +18040,9 @@ Top 10 terms:
   conditions: 0.0703
   larger: 0.0684
   images: 0.0684
-  cracks: 0.0617
-  cleaned: 0.0617
   tactile: 0.0617
+  cleaned: 0.0617
+  cracks: 0.0617
   meta’s: 0.0580
   height: 0.0580
 
@@ -18090,8 +18090,8 @@ Top 10 terms:
   textual: 0.0745
   correct: 0.0701
   blocks: 0.0635
-  popup: 0.0510
   drawback: 0.0510
+  popup: 0.0510
   code: 0.0507
 
 
@@ -18147,8 +18147,8 @@ Document 1137:
 Title: proceedings of the 32nd acm conference on user modeling adaptation and personalization...
 DOI: 10.1145/3627043.3659574
 Top 10 terms:
-  crs: 0.1256
   meaningfulness: 0.1256
+  crs: 0.1256
   dialog: 0.1128
   responses: 0.0883
   movie: 0.0752
@@ -18171,8 +18171,8 @@ Top 10 terms:
   augmented: 0.0927
   authoring: 0.0873
   simulations: 0.0778
-  anything: 0.0561
-  animated: 0.0561
+  semiautomatically: 0.0561
+  scanned: 0.0561
 
 
 Document 1139:
@@ -18251,7 +18251,7 @@ Top 10 terms:
   issue: 0.0678
   confirming: 0.0530
   turning: 0.0498
-  impede: 0.0476
+  opt: 0.0476
   brainstorming: 0.0476
 
 
@@ -18281,8 +18281,8 @@ Top 10 terms:
   ubiquitous: 0.0768
   humancomputer: 0.0664
   invites: 0.0606
-  quest: 0.0606
   unite: 0.0606
+  quest: 0.0606
   fitness: 0.0544
   social: 0.0534
 
@@ -18299,8 +18299,8 @@ Top 10 terms:
   images: 0.0678
   learners: 0.0613
   sentencelevel: 0.0611
+  repeatedly: 0.0575
   feel: 0.0575
-  fluency: 0.0575
 
 
 Document 1147:
@@ -18312,8 +18312,8 @@ Top 10 terms:
   writing: 0.1927
   papers: 0.1298
   help: 0.0607
-  wanted: 0.0565
   75minute: 0.0565
+  wanted: 0.0565
   latex: 0.0565
   broken: 0.0532
   research: 0.0513
@@ -18361,8 +18361,8 @@ Top 10 terms:
   interviews: 0.0637
   students: 0.0622
   identified: 0.0571
-  inductively: 0.0570
   model”: 0.0570
+  inductively: 0.0570
   saved: 0.0536
   learning”: 0.0536
 
@@ -18395,8 +18395,8 @@ Top 10 terms:
   stories: 0.0978
   dlbased: 0.0958
   music: 0.0896
-  formats: 0.0883
   articles: 0.0883
+  formats: 0.0883
 
 
 Document 1153:
@@ -18410,8 +18410,8 @@ Top 10 terms:
   multimodal: 0.0717
   computing: 0.0623
   human: 0.0452
-  provoked: 0.0429
   emotionally: 0.0429
+  provoked: 0.0429
   ethical: 0.0418
 
 
@@ -18452,8 +18452,8 @@ Title: proceedings of the 2024 4th international conference on bioinformatics an
 DOI: 10.1145/3665689.3665753
 Top 10 terms:
   proteins: 0.3890
-  peptide: 0.1556
   protein: 0.1556
+  peptide: 0.1556
   structure: 0.1442
   natural: 0.1153
   special: 0.1148
@@ -18473,10 +18473,10 @@ Top 10 terms:
   gans: 0.0459
   inherent: 0.0459
   adversarial: 0.0451
-  capitalizing: 0.0419
-  qubits: 0.0419
   deals: 0.0419
+  capitalizing: 0.0419
   stride: 0.0419
+  qubits: 0.0419
 
 
 Document 1158:
@@ -18516,8 +18516,8 @@ Title: teaching transformed...
 DOI: 10.1145/3637208
 Top 10 terms:
   apparent: 0.3571
-  celebration: 0.3206
   functioning: 0.3206
+  celebration: 0.3206
   programmer: 0.2841
   caused: 0.2309
   transformed: 0.2309
@@ -18532,15 +18532,15 @@ Title: proceedings of the 38th acm sigsim conference on principles of advanced d
 DOI: 10.1145/3615979.3664473
 Top 10 terms:
   scientific: 0.1339
+  oak: 0.1150
   ridge: 0.1150
   exascale: 0.1150
-  oak: 0.1150
   energy: 0.1028
   consumption: 0.0697
   growing: 0.0585
   simulation: 0.0579
   ingenuity: 0.0575
-  sigsim: 0.0575
+  supercomputing: 0.0575
 
 
 Document 1162:
@@ -18619,8 +18619,8 @@ Top 10 terms:
   score: 0.0491
   085: 0.0474
   executor: 0.0474
-  languagebased: 0.0446
   nlpbased: 0.0446
+  languagebased: 0.0446
 
 
 Document 1167:
@@ -18635,8 +18635,8 @@ Top 10 terms:
   thinking: 0.0681
   eliciting: 0.0659
   routines: 0.0659
-  mundane: 0.0659
   adolescents: 0.0659
+  mundane: 0.0659
 
 
 Document 1168:
@@ -18644,14 +18644,14 @@ Title: proceedings of the 29th acm international conference on architectural sup
 DOI: 10.1145/3620666.3655589
 Top 10 terms:
   architectural: 0.1385
-  placing: 0.1060
   cooptimized: 0.1060
+  placing: 0.1060
   ahead: 0.0997
   chart: 0.0888
   servers: 0.0843
   sustainability: 0.0825
-  fundamentally: 0.0768
   today: 0.0768
+  fundamentally: 0.0768
   talk: 0.0735
 
 
@@ -18666,8 +18666,8 @@ Top 10 terms:
   computerhuman: 0.0746
   ethical: 0.0726
   data: 0.0619
-  dimension: 0.0569
   treatment: 0.0569
+  dimension: 0.0569
   devise: 0.0558
 
 
@@ -18714,7 +18714,7 @@ Top 10 terms:
   portrayed: 0.0692
   corporate: 0.0692
   recognition: 0.0687
-  portrait: 0.0651
+  cooperation: 0.0651
   visualize: 0.0651
   vosviewer: 0.0651
 
@@ -18760,8 +18760,8 @@ Top 10 terms:
   sequences: 0.1144
   action: 0.1135
   facial: 0.0855
-  expressions: 0.0836
   unit: 0.0836
+  expressions: 0.0836
   realistic: 0.0746
   deeplearningbased: 0.0640
   formatting: 0.0640
@@ -18777,9 +18777,9 @@ Top 10 terms:
   retrieval: 0.0730
   ahead: 0.0541
   knowledge: 0.0540
-  indicative: 0.0516
-  lowquality: 0.0516
   distill: 0.0516
+  lowquality: 0.0516
+  indicative: 0.0516
   rewriting: 0.0497
 
 
@@ -18796,7 +18796,7 @@ Top 10 terms:
   system: 0.0468
   semantics: 0.0459
   query: 0.0456
-  concisely: 0.0419
+  closest: 0.0419
 
 
 Document 1178:
@@ -18810,8 +18810,8 @@ Top 10 terms:
   applications: 0.0689
   bias: 0.0550
   utilised: 0.0494
-  inexpensive: 0.0472
   stems: 0.0472
+  inexpensive: 0.0472
   real: 0.0471
 
 
@@ -18839,12 +18839,12 @@ Top 10 terms:
   programmatic: 0.0892
   reasoning: 0.0657
   tuning: 0.0520
-  chainofthoughts: 0.0474
   outofdomain: 0.0474
+  chainofthoughts: 0.0474
   synthesis: 0.0456
   enhanced: 0.0452
   benchmarks: 0.0450
-  decoupled: 0.0446
+  decoupling: 0.0446
 
 
 Document 1181:
@@ -18860,7 +18860,7 @@ Top 10 terms:
   zeroshot: 0.0408
   text2image: 0.0397
   initialization: 0.0397
-  initiated: 0.0373
+  depict: 0.0373
 
 
 Document 1182:
@@ -18876,7 +18876,7 @@ Top 10 terms:
   adapt: 0.0507
   appropriate: 0.0499
   interfaces: 0.0491
-  instantiated: 0.0474
+  sigchi: 0.0474
 
 
 Document 1183:
@@ -18954,7 +18954,7 @@ Top 10 terms:
   community: 0.0607
   dissemination: 0.0587
   groundbreaking: 0.0587
-  inclusivity: 0.0569
+  accelerates: 0.0569
 
 
 Document 1188:
@@ -18986,7 +18986,7 @@ Top 10 terms:
   stage: 0.0552
   fewshot: 0.0509
   loss: 0.0482
-  supervise: 0.0481
+  clustered: 0.0481
 
 
 Document 1190:
@@ -19016,9 +19016,9 @@ Top 10 terms:
   retention: 0.0772
   community: 0.0679
   importance: 0.0510
-  mandates: 0.0506
-  applicants: 0.0506
-  lived: 0.0506
+  systemic: 0.0506
+  fight: 0.0506
+  contradiction: 0.0506
 
 
 Document 1192:
@@ -19111,10 +19111,10 @@ Top 10 terms:
   quality: 0.0604
   texttoimage: 0.0527
   evaluation: 0.0433
-  swift: 0.0375
   amid: 0.0375
+  swift: 0.0375
   anticipate: 0.0375
-  judging: 0.0358
+  midjourney: 0.0358
 
 
 Document 1198:
@@ -19126,8 +19126,8 @@ Top 10 terms:
   biochips: 0.1454
   routing: 0.1185
   transportation: 0.1053
-  fabricated: 0.0969
   microfluidic: 0.0969
+  fabricated: 0.0969
   bioassay: 0.0969
   degradation: 0.0702
   reinforcement: 0.0653
@@ -19139,11 +19139,11 @@ DOI: 10.1145/3675416
 Top 10 terms:
   developers: 0.1197
   creative: 0.1097
-  mundane: 0.0956
   prioritizes: 0.0956
   visions: 0.0956
-  productive: 0.0898
+  mundane: 0.0956
   horizons: 0.0898
+  productive: 0.0898
   codewriting: 0.0898
   skepticism: 0.0858
   concerns: 0.0790
@@ -19225,7 +19225,7 @@ Top 10 terms:
   ambitious: 0.0881
   picture: 0.0791
   fragmented: 0.0791
-  unsatisfactory: 0.0738
+  disparate: 0.0738
 
 
 Document 1205:
@@ -19240,8 +19240,8 @@ Top 10 terms:
   zeroknowledge: 0.0570
   proving: 0.0536
   legitimate: 0.0512
-  powering: 0.0512
   decide: 0.0512
+  powering: 0.0512
 
 
 Document 1206:
@@ -19281,8 +19281,8 @@ Title: proceedings of the 33rd international symposium on highperformance parall
 DOI: 10.1145/3625549.3658685
 Top 10 terms:
   checkpointing: 0.1965
-  multilevel: 0.0823
   asynchronous: 0.0823
+  multilevel: 0.0823
   optimizer: 0.0734
   overheads: 0.0681
   state: 0.0675
@@ -19336,8 +19336,8 @@ Top 10 terms:
   tokens: 0.0462
   representation: 0.0450
   finegrained: 0.0425
-  encoderdecoderbased: 0.0388
-  autoregressively: 0.0388
+  totally: 0.0388
+  proves: 0.0388
 
 
 Document 1212:
@@ -19347,9 +19347,9 @@ Top 10 terms:
   services: 0.2367
   on•: 0.1385
   impact: 0.1353
+  workforce: 0.1302
   blockchain: 0.1302
   fascinating: 0.1302
-  workforce: 0.1302
   principal: 0.1198
   lifelong: 0.1129
   his: 0.1102
@@ -19383,8 +19383,8 @@ Top 10 terms:
   generally: 0.0531
   information: 0.0439
   predictive: 0.0378
-  easily: 0.0350
   predictions: 0.0350
+  easily: 0.0350
 
 
 Document 1215:
@@ -19395,10 +19395,10 @@ Top 10 terms:
   edge: 0.0686
   fusing: 0.0550
   paves: 0.0550
-  groundbreaking: 0.0506
-  amplify: 0.0506
   illustrating: 0.0506
   remarkably: 0.0506
+  groundbreaking: 0.0506
+  amplify: 0.0506
   evidenced: 0.0490
   realism: 0.0490
 
@@ -19445,10 +19445,10 @@ Top 10 terms:
   benefits: 0.0741
   legal: 0.0720
   risks: 0.0591
-  bids: 0.0526
-  emergency: 0.0526
-  citizen: 0.0526
   governments: 0.0526
+  bids: 0.0526
+  citizen: 0.0526
+  afford: 0.0526
 
 
 Document 1219:
@@ -19475,12 +19475,12 @@ Top 10 terms:
   connectivity: 0.1229
   represent: 0.0590
   representation: 0.0583
-  restriction: 0.0503
   tessellation: 0.0503
   triangle: 0.0503
+  restriction: 0.0503
   cyclic: 0.0473
   indirectly: 0.0473
-  deformation: 0.0451
+  neighbor: 0.0451
 
 
 Document 1221:
@@ -19494,9 +19494,9 @@ Top 10 terms:
   workloads: 0.0623
   frameworks: 0.0508
   simulation: 0.0495
-  312: 0.0492
-  atari: 0.0492
   enforces: 0.0492
+  synchronized: 0.0492
+  atari: 0.0492
 
 
 Document 1222:
@@ -19510,8 +19510,8 @@ Top 10 terms:
   movement: 0.1396
   partner: 0.1171
   inform: 0.0872
-  characterizes: 0.0652
   dyadic: 0.0652
+  characterizes: 0.0652
   agents: 0.0624
 
 
@@ -19559,8 +19559,8 @@ Top 10 terms:
   hardware: 0.0752
   endtoend: 0.0727
   thermalaware: 0.0699
-  electronics: 0.0658
   pim: 0.0658
+  electronics: 0.0658
 
 
 Document 1226:
@@ -19575,8 +19575,8 @@ Top 10 terms:
   augmentation: 0.0712
   complex: 0.0601
   regimes: 0.0462
+  lowdata: 0.0462
   dynamical: 0.0462
-  amidst: 0.0462
 
 
 Document 1227:
@@ -19591,8 +19591,8 @@ Top 10 terms:
   realistic: 0.0712
   labels: 0.0707
   generates: 0.0625
-  interval: 0.0575
   plane: 0.0575
+  interval: 0.0575
 
 
 Document 1228:
@@ -19605,10 +19605,10 @@ Top 10 terms:
   personalization: 0.0898
   concept: 0.0828
   synthesis: 0.0645
-  closed: 0.0581
   googles: 0.0581
-  differs: 0.0563
-  closedsource: 0.0563
+  closed: 0.0581
+  dilemma: 0.0563
+  anchor: 0.0563
 
 
 Document 1229:
@@ -19621,8 +19621,8 @@ Top 10 terms:
   individuallevel: 0.0622
   confidentiality: 0.0585
   mcmc: 0.0585
-  abm: 0.0559
   squared: 0.0559
+  abm: 0.0559
   agentbased: 0.0522
 
 
@@ -19683,8 +19683,8 @@ Top 10 terms:
   algorithm: 0.0864
   images: 0.0850
   ensemble: 0.0624
-  noises: 0.0575
   white: 0.0575
+  noises: 0.0575
   swarm: 0.0541
   fusion: 0.0527
   feature: 0.0499
@@ -19732,8 +19732,8 @@ Top 10 terms:
   nonautoregressive: 0.0640
   compounding: 0.0602
   lifelong: 0.0522
-  forgetting: 0.0509
   conditioned: 0.0509
+  forgetting: 0.0509
   catastrophic: 0.0498
 
 
@@ -19797,16 +19797,16 @@ Top 10 terms:
   random: 0.0993
   task: 0.0919
   constraints: 0.0849
-  electronics: 0.0750
   queue: 0.0750
+  electronics: 0.0750
 
 
 Document 1241:
 Title: proceedings of the 2024 7th international conference on computer information science and artificial ...
 DOI: 10.1145/3703187.3703207
 Top 10 terms:
-  culture: 0.1202
   immersive: 0.1202
+  culture: 0.1202
   art: 0.1193
   urban: 0.0902
   visual: 0.0862
@@ -19829,8 +19829,8 @@ Top 10 terms:
   privacy: 0.0624
   theory: 0.0483
   simulation: 0.0444
-  individuals’: 0.0441
-  maslow’s: 0.0441
+  knowledgedriven: 0.0441
+  qualify: 0.0441
 
 
 Document 1243:
@@ -19840,9 +19840,9 @@ Top 10 terms:
   pytorch: 0.2761
   jit: 0.1475
   compiler: 0.0841
-  extensions: 0.0737
-  227: 0.0737
   backends: 0.0737
+  227: 0.0737
+  extensions: 0.0737
   able: 0.0678
   sacrificing: 0.0662
   bytecode: 0.0662
@@ -19877,8 +19877,8 @@ Top 10 terms:
   information: 0.0472
   type: 0.0456
   recommendation: 0.0393
-  hong: 0.0384
   semanticguided: 0.0384
+  hong: 0.0384
 
 
 Document 1246:
@@ -19908,8 +19908,8 @@ Top 10 terms:
   deformation: 0.0766
   conditioned: 0.0679
   diffusion: 0.0658
-  landmarks: 0.0427
   animate: 0.0427
+  landmarks: 0.0427
   ddpm: 0.0401
 
 
@@ -19971,9 +19971,9 @@ Top 10 terms:
   variational: 0.0720
   issues: 0.0651
   alternate: 0.0622
+  parameterized: 0.0585
   densities: 0.0585
   samplingbased: 0.0585
-  parameterized: 0.0585
 
 
 Document 1252:
@@ -19986,10 +19986,10 @@ Top 10 terms:
   video: 0.0850
   motion: 0.0611
   details: 0.0525
-  occlusion: 0.0441
   transcends: 0.0441
+  occlusion: 0.0441
   convincing: 0.0441
-  motions: 0.0441
+  implausible: 0.0441
 
 
 Document 1253:
@@ -20005,7 +20005,7 @@ Top 10 terms:
   costs: 0.0595
   size: 0.0586
   sigops: 0.0585
-  mild: 0.0585
+  trades: 0.0585
 
 
 Document 1254:
@@ -20063,11 +20063,11 @@ Top 10 terms:
   imaging: 0.0761
   reconstruction: 0.0630
   lakes: 0.0556
-  ultrasound: 0.0556
   fat: 0.0556
+  ultrasound: 0.0556
   inversion: 0.0523
-  waveform: 0.0523
   diagnostics: 0.0523
+  waveform: 0.0523
   great: 0.0520
   acoustic: 0.0499
 
@@ -20130,8 +20130,8 @@ Top 10 terms:
   recall: 0.0934
   reality: 0.0823
   cognitive: 0.0769
-  rehabilitation: 0.0707
   brains: 0.0707
+  rehabilitation: 0.0707
   virtual: 0.0691
   patients’: 0.0664
 
@@ -20149,7 +20149,7 @@ Top 10 terms:
   pretrained: 0.0786
   substantially: 0.0687
   selfsupervised: 0.0627
-  traintest: 0.0526
+  cheap: 0.0526
 
 
 Document 1263:
@@ -20179,8 +20179,8 @@ Top 10 terms:
   spatiotemporal: 0.0701
   limited: 0.0700
   encoding: 0.0691
-  mexico: 0.0492
   spatially: 0.0492
+  mexico: 0.0492
   temporally: 0.0462
 
 
@@ -20236,10 +20236,10 @@ Document 1268:
 Title: proceedings of the 2023 7th international conference on computer science and artificial intelligence...
 DOI: 10.1145/3638584.3638634
 Top 10 terms:
-  youtube: 0.1040
+  transcript: 0.1040
   subtitles: 0.1040
   whisper: 0.1040
-  transcript: 0.1040
+  youtube: 0.1040
   audio: 0.0886
   website: 0.0861
   application: 0.0792
@@ -20306,8 +20306,8 @@ Top 10 terms:
   decisionmaking: 0.0888
   sequential: 0.0846
   actionvalue: 0.0762
-  alphazero: 0.0762
   stale: 0.0762
+  alphazero: 0.0762
   outofdate: 0.0717
 
 
@@ -20396,8 +20396,8 @@ Title: proceedings of the 47th international acm sigir conference on research an
 DOI: 10.1145/3626772.3657742
 Top 10 terms:
   useritem: 0.1235
-  multihop: 0.1119
   highorder: 0.1119
+  multihop: 0.1119
   crossattention: 0.1030
   collaborative: 0.0916
   diffusion: 0.0816
@@ -20480,11 +20480,11 @@ Top 10 terms:
   ranking: 0.0980
   optimization: 0.0627
   relevance: 0.0608
-  marco: 0.0530
-  msmarco: 0.0530
-  305: 0.0530
   milestone: 0.0530
-  associations: 0.0498
+  marco: 0.0530
+  305: 0.0530
+  msmarco: 0.0530
+  indexes: 0.0498
 
 
 Document 1284:
@@ -20500,7 +20500,7 @@ Top 10 terms:
   document: 0.0492
   database: 0.0464
   systems: 0.0417
-  transactions: 0.0392
+  casts: 0.0392
 
 
 Document 1285:
@@ -20509,14 +20509,14 @@ DOI: 10.1145/3669721.3674555
 Top 10 terms:
   hall: 0.1234
   simulations: 0.0855
-  physicsbased: 0.0617
-  synergistically: 0.0617
   cleaned: 0.0617
+  physicsbased: 0.0617
   impute: 0.0617
   electric: 0.0617
+  synergistically: 0.0617
+  confidentiality: 0.0580
   influential: 0.0580
   geometries: 0.0580
-  confidentiality: 0.0580
 
 
 Document 1286:
@@ -20640,9 +20640,9 @@ Top 10 terms:
   adversarial: 0.0891
   drawback: 0.0827
   retraining: 0.0658
+  perturbations: 0.0644
   prohibitively: 0.0644
   andor: 0.0644
-  perturbations: 0.0644
   classifiers: 0.0619
 
 
@@ -20666,8 +20666,8 @@ Document 1295:
 Title: proceedings of the 32nd acm international conference on multimedia...
 DOI: 10.1145/3664647.3681060
 Top 10 terms:
-  meme: 0.2807
   metaphorical: 0.2807
+  meme: 0.2807
   memes: 0.1872
   metaphor: 0.1404
   linguistic: 0.1265
@@ -20831,8 +20831,8 @@ Top 10 terms:
   recommendation: 0.1377
   scenarios: 0.1130
   diffusion: 0.0737
-  explosive: 0.0478
   msr: 0.0478
+  explosive: 0.0478
   paradigm: 0.0461
   abundance: 0.0449
   multidomain: 0.0413
@@ -20844,8 +20844,8 @@ DOI: 10.1145/3652583.3658058
 Top 10 terms:
   fingerprint: 0.1315
   boundary: 0.1141
-  cifar10: 0.0628
   watermarking: 0.0628
+  cifar10: 0.0628
   intellectual: 0.0570
   owners: 0.0557
   property: 0.0457
@@ -20865,9 +20865,9 @@ Top 10 terms:
   knowledge: 0.0646
   collaborative: 0.0635
   enriching: 0.0458
-  invaluable: 0.0431
   wealth: 0.0431
   knowledgeaware: 0.0431
+  invaluable: 0.0431
 
 
 Document 1308:
@@ -20913,8 +20913,8 @@ Top 10 terms:
   fifteenth: 0.0905
   spectrogram: 0.0905
   underpin: 0.0905
-  chunks: 0.0851
   indian: 0.0851
+  chunks: 0.0851
   piece: 0.0812
 
 
@@ -20940,8 +20940,8 @@ DOI: 10.1145/3655617
 Top 10 terms:
   debiasing: 0.1069
   bias: 0.1037
-  biases: 0.0815
   universal: 0.0815
+  biases: 0.0815
   recommender: 0.0674
   calibration: 0.0618
   perturbations: 0.0618
@@ -20959,8 +20959,8 @@ Top 10 terms:
   convergence: 0.1002
   routing: 0.0851
   designs: 0.0842
-  constraint: 0.0812
   circuit: 0.0812
+  constraint: 0.0812
   placement: 0.0768
   design: 0.0654
   driven: 0.0603
@@ -21042,8 +21042,8 @@ Top 10 terms:
   transfer: 0.0652
   knowledge: 0.0617
   classes: 0.0492
-  restructure: 0.0438
   impedes: 0.0438
+  inequality: 0.0438
 
 
 Document 1319:
@@ -21057,8 +21057,8 @@ Top 10 terms:
   emotion: 0.1207
   prices: 0.0807
   direction: 0.0794
-  companies: 0.0668
   distilled: 0.0668
+  companies: 0.0668
   alone: 0.0612
 
 
@@ -21149,8 +21149,8 @@ Top 10 terms:
   atoms: 0.0817
   structures: 0.0641
   molecular: 0.0623
-  timescales: 0.0409
   reconstructions: 0.0409
+  timescales: 0.0409
   processes: 0.0406
   technique: 0.0396
   geometries: 0.0384
@@ -21184,8 +21184,8 @@ Top 10 terms:
   contrastive: 0.0603
   roads: 0.0595
   synthesis: 0.0572
-  cyclic: 0.0560
   cyclegan: 0.0560
+  cyclic: 0.0560
 
 
 Document 1328:
@@ -21200,8 +21200,8 @@ Top 10 terms:
   faces: 0.0668
   cognitive: 0.0568
   underscored: 0.0522
-  elicited: 0.0522
   enriching: 0.0522
+  elicited: 0.0522
 
 
 Document 1329:
@@ -21215,8 +21215,8 @@ Top 10 terms:
   correlations: 0.0780
   module: 0.0778
   interaction: 0.0765
-  locallevel: 0.0530
   denoted: 0.0530
+  locallevel: 0.0530
   hurdles: 0.0498
 
 
@@ -21355,8 +21355,8 @@ Top 10 terms:
   boosting: 0.3859
   additive: 0.2833
   unsupervised: 0.1838
-  ensembles: 0.1483
   normalizing: 0.1483
+  ensembles: 0.1483
   recursive: 0.1483
   iid: 0.1483
   analogous: 0.1417
@@ -21403,11 +21403,11 @@ Top 10 terms:
   claude: 0.0788
   assignment: 0.0553
   nifty: 0.0526
-  starter: 0.0526
   disregarded: 0.0526
+  starter: 0.0526
+  sigcse: 0.0455
   genuine: 0.0455
   proved: 0.0455
-  sigcse: 0.0455
   struggled: 0.0418
 
 
@@ -21422,8 +21422,8 @@ Top 10 terms:
   topics: 0.0591
   structures: 0.0588
   gpt4: 0.0468
-  ranging: 0.0447
   already: 0.0447
+  ranging: 0.0447
   topic: 0.0392
 
 
@@ -21453,10 +21453,10 @@ Top 10 terms:
   preexisting: 0.0693
   gpt4o: 0.0574
   llmgenerated: 0.0459
-  distractor: 0.0414
-  gpt4omini: 0.0414
-  picked: 0.0414
   1071: 0.0414
+  distractor: 0.0414
+  picked: 0.0414
+  gpt4omini: 0.0414
 
 
 Document 1345:
@@ -21484,8 +21484,8 @@ Top 10 terms:
   tool: 0.1023
   gpt4omini: 0.1013
   gathering: 0.0909
-  persona: 0.0876
   personas: 0.0876
+  persona: 0.0876
   diagrams: 0.0806
   simulated: 0.0677
   predefined: 0.0655
@@ -21566,8 +21566,8 @@ Top 10 terms:
   extraction: 0.0393
   instructions: 0.0384
   tasks: 0.0369
-  highcost: 0.0359
   comparably: 0.0359
+  llama38b: 0.0359
 
 
 Document 1352:
@@ -21658,8 +21658,8 @@ Top 10 terms:
   eye: 0.1235
   tracking: 0.0954
   comprehension: 0.0719
-  google’s: 0.0714
   fixation: 0.0714
+  google’s: 0.0714
   eyetracking: 0.0671
   ai4se: 0.0641
   gemini: 0.0535
@@ -21750,15 +21750,15 @@ Document 1363:
 Title: proceedings of the 2024 aaaiacm conference on ai ethics and society...
 Top 10 terms:
   copyright: 0.2337
-  refusal: 0.0956
-  copyrighted: 0.0956
   alpaca: 0.0956
+  copyrighted: 0.0956
+  refusal: 0.0956
   specificity: 0.0760
   act: 0.0631
   european: 0.0584
   producing: 0.0579
   behaviors: 0.0527
-  160: 0.0478
+  violate: 0.0478
 
 
 Document 1364:
@@ -21817,12 +21817,12 @@ Top 10 terms:
   schools: 0.1125
   cultural: 0.0997
   immersion: 0.0924
-  lowresource: 0.0765
   responsive: 0.0765
+  lowresource: 0.0765
   reliability: 0.0495
   misalignment: 0.0492
+  exposing: 0.0462
   understudied: 0.0462
-  culturallyrelevant: 0.0462
 
 
 Document 1368:
@@ -21836,9 +21836,9 @@ Top 10 terms:
   system: 0.0623
   calls: 0.0619
   tasks: 0.0459
+  costefficient: 0.0446
   geminipro: 0.0446
   cascade: 0.0446
-  costefficient: 0.0446
 
 
 Document 1369:
@@ -21883,8 +21883,8 @@ Top 10 terms:
   educational: 0.0712
   ethics: 0.0542
   content: 0.0531
-  unsafe: 0.0488
   illustration: 0.0488
+  unsafe: 0.0488
   incontext: 0.0471
   permeate: 0.0459
 
@@ -21932,8 +21932,8 @@ Top 10 terms:
   google: 0.0548
   documentation: 0.0528
   answering: 0.0473
+  berkeley: 0.0432
   palm: 0.0432
-  triples: 0.0432
   kmeans: 0.0432
 
 
@@ -21964,9 +21964,9 @@ Top 10 terms:
   roadmap: 0.0646
   spotlight: 0.0406
   apply: 0.0403
-  ahead: 0.0382
   profession: 0.0382
-  unbiased: 0.0351
+  ahead: 0.0382
+  protecting: 0.0351
 
 
 Document 1377:
@@ -21978,11 +21978,11 @@ Top 10 terms:
   safety: 0.0754
   past: 0.0660
   several: 0.0635
-  eeducation: 0.0617
-  tried: 0.0617
   refusal: 0.0617
+  tried: 0.0617
+  eeducation: 0.0617
   rate: 0.0603
-  esociety: 0.0580
+  asr: 0.0580
 
 
 Document 1378:
@@ -21996,9 +21996,9 @@ Top 10 terms:
   structures: 0.0563
   structured: 0.0551
   necessitated: 0.0538
-  taled: 0.0538
   approach’s: 0.0538
-  clarify: 0.0506
+  taled: 0.0538
+  dsa: 0.0506
 
 
 Document 1379:
@@ -22022,10 +22022,10 @@ Title: proceedings of the 24th acmieee joint conference on digital libraries...
 Top 10 terms:
   personality: 0.2228
   voting: 0.0859
-  lengthy: 0.0807
-  chunks: 0.0807
-  chunk: 0.0807
   endeavor: 0.0807
+  chunk: 0.0807
+  chunks: 0.0807
+  lengthy: 0.0807
   traits: 0.0743
   strategy: 0.0738
   posts: 0.0720
@@ -22104,9 +22104,9 @@ Top 10 terms:
   teachable: 0.1245
   university: 0.0897
   agent: 0.0662
+  deception: 0.0585
   inthewild: 0.0585
   119: 0.0585
-  deception: 0.0585
   benefits: 0.0585
   longitudinal: 0.0559
   students: 0.0544
@@ -22124,8 +22124,8 @@ Top 10 terms:
   what: 0.0623
   systems: 0.0583
   reflecting: 0.0545
-  proliferation: 0.0533
   determining: 0.0533
+  proliferation: 0.0533
 
 
 Document 1387:
@@ -22155,9 +22155,9 @@ Top 10 terms:
   quizzes: 0.0762
   decreased: 0.0738
   struggled: 0.0701
-  promoting: 0.0564
   reliance: 0.0564
   term: 0.0564
+  promoting: 0.0564
 
 
 Document 1389:
@@ -22220,7 +22220,7 @@ Top 10 terms:
   tailored: 0.0458
   empathetic: 0.0452
   reinforcement: 0.0432
-  multi: 0.0432
+  speeds: 0.0432
 
 
 Document 1393:
@@ -22249,8 +22249,8 @@ Top 10 terms:
   grappling: 0.0707
   computer: 0.0700
   science: 0.0655
-  commonalities: 0.0635
   met: 0.0635
+  commonalities: 0.0635
   topdown: 0.0611
   bottomup: 0.0592
 
@@ -22267,8 +22267,8 @@ Top 10 terms:
   executive: 0.0438
   knowledge: 0.0411
   assignments: 0.0406
-  usable: 0.0393
   checker: 0.0393
+  usable: 0.0393
 
 
 Document 1396:
@@ -22278,12 +22278,12 @@ Top 10 terms:
   informationseeking: 0.1582
   chatbot: 0.1337
   accessing: 0.0892
-  switzerland: 0.0561
-  expost: 0.0561
-  effortless: 0.0561
   country: 0.0561
-  communitybased: 0.0527
+  effortless: 0.0561
+  expost: 0.0561
+  switzerland: 0.0561
   naturalistic: 0.0527
+  communitybased: 0.0527
   information: 0.0518
 
 
@@ -22343,11 +22343,11 @@ Top 10 terms:
   agile: 0.0946
   training: 0.0913
   iterative: 0.0642
-  syllabus: 0.0547
-  enrichment: 0.0547
   began: 0.0547
-  organized: 0.0514
+  enrichment: 0.0547
+  syllabus: 0.0547
   approved: 0.0514
+  organized: 0.0514
 
 
 Document 1401:
@@ -22356,13 +22356,13 @@ Top 10 terms:
   python: 0.0908
   programming: 0.0892
   skills: 0.0870
-  comfort: 0.0699
   graduatelevel: 0.0699
+  comfort: 0.0699
   impact: 0.0683
   students: 0.0611
   substitute: 0.0586
   accounting: 0.0557
-  grasp: 0.0524
+  affected: 0.0524
 
 
 Document 1402:
@@ -22423,8 +22423,8 @@ Top 10 terms:
   tutoring: 0.0686
   learners: 0.0553
   satisfied: 0.0552
-  system’s: 0.0552
   sus: 0.0552
+  system’s: 0.0552
   slm: 0.0519
   lengthy: 0.0519
 
@@ -22440,8 +22440,8 @@ Top 10 terms:
   students: 0.0443
   course: 0.0429
   part: 0.0409
-  supervise: 0.0406
   conclusively: 0.0406
+  supervise: 0.0406
   shedding: 0.0382
 
 
@@ -22458,7 +22458,7 @@ Top 10 terms:
   science: 0.0663
   data: 0.0509
   tool: 0.0413
-  pandas: 0.0409
+  rows: 0.0409
 
 
 Document 1408:
@@ -22473,8 +22473,8 @@ Top 10 terms:
   utilized: 0.0459
   assistants: 0.0440
   undergraduate: 0.0433
-  hindrance: 0.0416
   critiquing: 0.0416
+  hindrance: 0.0416
 
 
 Document 1409:
@@ -22533,11 +22533,11 @@ Top 10 terms:
   hci: 0.0729
   platform: 0.0576
   richness: 0.0575
-  establishes: 0.0497
   1000: 0.0497
+  establishes: 0.0497
   entries: 0.0482
-  mistral: 0.0430
   recording: 0.0430
+  mistral: 0.0430
   educational: 0.0419
 
 
@@ -22568,8 +22568,8 @@ Top 10 terms:
   introductory: 0.1669
   courses: 0.1609
   literacy: 0.1480
-  society: 0.1304
   policies: 0.1304
+  society: 0.1304
   implementing: 0.1294
 
 
@@ -22580,12 +22580,12 @@ Top 10 terms:
   female: 0.2467
   gap: 0.1486
   counseling: 0.1234
-  counselor: 0.1234
   stereotypical: 0.1234
+  counselor: 0.1234
   nations: 0.1234
   coach: 0.1108
-  exacerbated: 0.1067
   persists: 0.1067
+  exacerbated: 0.1067
   enrollment: 0.1034
 
 
@@ -22596,13 +22596,13 @@ Top 10 terms:
   map: 0.2263
   literature: 0.1677
   papers: 0.1537
-  axes: 0.0893
   catalogue: 0.0893
+  axes: 0.0893
   doubt: 0.0839
   gen: 0.0839
   evaluating: 0.0815
-  snapshot: 0.0772
   publications: 0.0772
+  snapshot: 0.0772
 
 
 Document 1417:
@@ -22628,8 +22628,8 @@ Top 10 terms:
   semantics: 0.0945
   textual: 0.0840
   recommendation: 0.0828
-  retrievalaugmented: 0.0736
   rag: 0.0736
+  retrievalaugmented: 0.0736
   items: 0.0729
   systemsin: 0.0575
   user: 0.0543
@@ -22665,7 +22665,7 @@ Top 10 terms:
   deficits: 0.0585
   resulting: 0.0578
   recommendation: 0.0562
-  unification: 0.0550
+  elm: 0.0550
 
 
 Document 1421:
@@ -22708,8 +22708,8 @@ Top 10 terms:
   challenges: 0.0798
   software: 0.0797
   maintenance: 0.0575
-  elaborates: 0.0474
   sdlc: 0.0474
+  elaborates: 0.0474
   discussion: 0.0469
   paradigm: 0.0458
   specializing: 0.0446
@@ -22729,7 +22729,7 @@ Top 10 terms:
   x8664: 0.0414
   disassembly: 0.0414
   downloaded: 0.0414
-  autotuning: 0.0389
+  disassembling: 0.0389
 
 
 Document 1425:
@@ -22744,8 +22744,8 @@ Top 10 terms:
   responses: 0.0445
   realtime: 0.0380
   report: 0.0363
-  publish: 0.0352
-  anonymously: 0.0352
+  archived: 0.0352
+  contextdependent: 0.0352
 
 
 Document 1426:
@@ -22821,11 +22821,11 @@ Top 10 terms:
   classrooms: 0.1446
   instructors: 0.0690
   creating: 0.0684
-  subgoals: 0.0662
   articulate: 0.0662
+  subgoals: 0.0662
   programming: 0.0627
-  drop: 0.0618
   timeintensive: 0.0618
+  drop: 0.0618
 
 
 Document 1431:
@@ -22840,8 +22840,8 @@ Top 10 terms:
   generated: 0.0633
   artificial: 0.0585
   matlab: 0.0532
-  cleaning: 0.0489
   resolved: 0.0489
+  cleaning: 0.0489
 
 
 Document 1432:
@@ -22965,8 +22965,8 @@ Top 10 terms:
   greatly: 0.0610
   history: 0.0597
   nlp: 0.0503
-  returned: 0.0434
   illusion: 0.0434
+  returned: 0.0434
   promoted: 0.0414
   article: 0.0413
   language: 0.0405
@@ -22999,8 +22999,8 @@ Top 10 terms:
   thinking: 0.0716
   abilities: 0.0701
   industrys: 0.0692
-  projectbased: 0.0651
   pretest: 0.0651
+  projectbased: 0.0651
   cultivating: 0.0651
 
 
@@ -23062,16 +23062,16 @@ Top 10 terms:
   practices: 0.0717
   engaging: 0.0617
   ways: 0.0549
-  priorities: 0.0522
   explained: 0.0522
+  priorities: 0.0522
   llm: 0.0500
 
 
 Document 1446:
 Title: prompting collaboration development of an multidisciplinary applied ai minor program...
 Top 10 terms:
-  minor: 0.0990
   panel: 0.0990
+  minor: 0.0990
   multidisciplinary: 0.0761
   humanities: 0.0711
   ethical: 0.0619
@@ -23092,10 +23092,10 @@ Top 10 terms:
   interdisciplinary: 0.0481
   technology: 0.0472
   studies: 0.0392
-  aifacilitated: 0.0383
-  ample: 0.0383
   july: 0.0383
-  cocitation: 0.0360
+  ample: 0.0383
+  aifacilitated: 0.0383
+  disrupt: 0.0360
 
 
 Document 1448:
@@ -23106,8 +23106,8 @@ Top 10 terms:
   sphere: 0.0999
   personalized: 0.0761
   llmgenerated: 0.0617
-  instructors’: 0.0556
   betweensubject: 0.0556
+  instructors’: 0.0556
   prioritization: 0.0523
   instructors: 0.0520
   review: 0.0507
@@ -23205,7 +23205,7 @@ Top 10 terms:
   assignments: 0.0420
   noted: 0.0369
   advanced: 0.0367
-  lacks: 0.0360
+  submitting: 0.0360
 
 
 Document 1455:
@@ -23237,7 +23237,7 @@ Top 10 terms:
   cs1: 0.0714
   messages: 0.0632
   959: 0.0522
-  initiated: 0.0491
+  retains: 0.0491
 
 
 Document 1457:
@@ -23248,12 +23248,12 @@ Top 10 terms:
   representation: 0.0790
   visual: 0.0626
   delayed: 0.0510
-  inefficiency: 0.0458
   counteract: 0.0458
-  neglect: 0.0416
+  inefficiency: 0.0458
   late: 0.0416
+  neglect: 0.0416
   mllms: 0.0389
-  arise: 0.0389
+  promptbased: 0.0389
 
 
 Document 1458:
@@ -23283,9 +23283,9 @@ Top 10 terms:
   upholding: 0.0827
   informing: 0.0778
   social: 0.0729
-  tech: 0.0693
   humanities: 0.0693
-  competence: 0.0675
+  tech: 0.0693
+  norms: 0.0675
 
 
 Document 1460:
@@ -23313,8 +23313,8 @@ Top 10 terms:
   multiplechoice: 0.0877
   generic: 0.0800
   answer: 0.0637
-  takeaway: 0.0606
   undergraduatelevel: 0.0606
+  takeaway: 0.0606
   resource: 0.0584
   162: 0.0570
   usage: 0.0562
@@ -23327,11 +23327,11 @@ Top 10 terms:
   cybersecurity: 0.1772
   google: 0.0883
   malicious: 0.0663
-  retrievalaugmented: 0.0595
   rag: 0.0595
+  retrievalaugmented: 0.0595
   embedding: 0.0468
-  southeast: 0.0465
   defend: 0.0465
+  southeast: 0.0465
   llm: 0.0445
   colab: 0.0437
 
@@ -23343,13 +23343,13 @@ Top 10 terms:
   networking: 0.2903
   misunderstandings: 0.1329
   questions: 0.0773
-  detectability: 0.0664
   hallucinate: 0.0664
+  detectability: 0.0664
   llms: 0.0662
   errors: 0.0648
   characterization: 0.0592
-  prone: 0.0576
   unreliable: 0.0576
+  prone: 0.0576
 
 
 Document 1464:
@@ -23429,7 +23429,7 @@ Top 10 terms:
   unpredictable: 0.0730
   1980s: 0.0730
   agents: 0.0698
-  elevated: 0.0686
+  blend: 0.0686
 
 
 Document 1469:
@@ -23441,8 +23441,8 @@ Top 10 terms:
   learners: 0.0773
   seven: 0.0687
   aiassisted: 0.0651
-  forcing: 0.0514
   friction: 0.0514
+  forcing: 0.0514
   technique: 0.0498
   superficial: 0.0483
   illusion: 0.0483
@@ -23456,9 +23456,9 @@ Top 10 terms:
   expressed: 0.0659
   educators: 0.0583
   teaching: 0.0547
-  overrely: 0.0481
   stances: 0.0481
   selfevaluation: 0.0481
+  overrely: 0.0481
   redefine: 0.0481
   takehome: 0.0452
   redesign: 0.0452
@@ -23489,10 +23489,10 @@ Top 10 terms:
   mobile: 0.0899
   platform: 0.0791
   inventor: 0.0789
-  democratize: 0.0789
   corresponds: 0.0789
-  translated: 0.0682
+  democratize: 0.0789
   ai’s: 0.0682
+  translated: 0.0682
   programming: 0.0671
 
 
@@ -23605,7 +23605,7 @@ Top 10 terms:
   answers: 0.0502
   student: 0.0453
   llms: 0.0427
-  appealing: 0.0394
+  outstanding: 0.0394
 
 
 Document 1480:
@@ -23685,7 +23685,7 @@ Top 10 terms:
   test: 0.0514
   llmgenerated: 0.0476
   trialanderror: 0.0429
-  resort: 0.0404
+  codegenerating: 0.0404
 
 
 Document 1485:
@@ -23732,8 +23732,8 @@ Top 10 terms:
   nodes: 0.0692
   gpus: 0.0658
   distributed: 0.0575
-  highthroughput: 0.0556
   milp: 0.0556
+  highthroughput: 0.0556
 
 
 Document 1488:
@@ -23810,8 +23810,8 @@ Top 10 terms:
   tools: 0.0714
   english: 0.0601
   teachers: 0.0532
-  scholarship: 0.0492
   foreign: 0.0492
+  scholarship: 0.0492
   explanatory: 0.0462
   improved: 0.0443
 
@@ -23829,7 +23829,7 @@ Top 10 terms:
   serving: 0.0602
   gpus: 0.0539
   882: 0.0455
-  opt30b: 0.0455
+  175b: 0.0455
 
 
 Document 1494:
@@ -23907,9 +23907,9 @@ Top 10 terms:
   personalized: 0.0991
   mobile: 0.0619
   conversational: 0.0564
+  evidencebased: 0.0543
   gathers: 0.0543
   insufficiently: 0.0543
-  motivational: 0.0543
 
 
 Document 1499:
@@ -23954,9 +23954,9 @@ Top 10 terms:
   plms: 0.1334
   vulnerabilities: 0.0665
   languageagnostic: 0.0514
-  crosslanguage: 0.0483
-  restricting: 0.0483
   plm: 0.0483
+  restricting: 0.0483
+  crosslanguage: 0.0483
   languages: 0.0438
 
 
@@ -23968,12 +23968,12 @@ Top 10 terms:
   grammar: 0.2070
   derivatives: 0.0905
   precedes: 0.0905
-  say: 0.0905
   1980s: 0.0905
+  say: 0.0905
   hierarchy: 0.0851
-  secondorder: 0.0851
   laid: 0.0851
-  fascinating: 0.0851
+  reader: 0.0851
+  secondorder: 0.0851
 
 
 Document 1503:
@@ -23998,8 +23998,8 @@ Top 10 terms:
   kong: 0.0794
   university: 0.0762
   hong: 0.0746
-  keyword: 0.0686
   publications: 0.0686
+  keyword: 0.0686
   education: 0.0584
   english: 0.0485
   institutions: 0.0449
@@ -24065,8 +24065,8 @@ Top 10 terms:
   object: 0.0760
   heterogeneous: 0.0718
   intelligent: 0.0541
-  coordination: 0.0517
   llmdriven: 0.0517
+  coordination: 0.0517
   ambiguous: 0.0491
 
 
@@ -24078,8 +24078,8 @@ Top 10 terms:
   formative: 0.0735
   students: 0.0640
   code: 0.0573
-  misconceptions: 0.0571
   describing: 0.0571
+  misconceptions: 0.0571
   mistakes: 0.0559
   skills: 0.0456
   test: 0.0439
@@ -24097,8 +24097,8 @@ Top 10 terms:
   parts: 0.0737
   institutions: 0.0645
   they: 0.0583
-  composing: 0.0570
   prerequisites: 0.0570
+  composing: 0.0570
   grouped: 0.0536
 
 
@@ -24146,8 +24146,8 @@ Top 10 terms:
   candidate: 0.0632
   assessments: 0.0557
   comparison: 0.0540
+  internally: 0.0499
   comparability: 0.0499
-  sliding: 0.0499
 
 
 Document 1514:
@@ -24178,8 +24178,8 @@ Top 10 terms:
   energy: 0.0590
   deep: 0.0487
   transformer: 0.0469
-  fpgas: 0.0466
   concentrated: 0.0466
+  onchip: 0.0466
 
 
 Document 1516:
@@ -24195,7 +24195,7 @@ Top 10 terms:
   testbased: 0.0471
   code: 0.0468
   clang: 0.0443
-  multiagents: 0.0443
+  gcc: 0.0443
 
 
 Document 1517:
@@ -24258,8 +24258,8 @@ Top 10 terms:
   maintaining: 0.0608
   fraction: 0.0552
   transformer: 0.0523
-  mixtral: 0.0519
   switch: 0.0519
+  mixtral: 0.0519
 
 
 Document 1521:
@@ -24271,8 +24271,8 @@ Top 10 terms:
   estimator: 0.0987
   facts: 0.0734
   relations: 0.0624
-  embedded: 0.0585
   base: 0.0585
+  embedded: 0.0585
   latent: 0.0488
   differences: 0.0475
   llmspecific: 0.0462
@@ -24303,8 +24303,8 @@ Top 10 terms:
   annotations: 0.0806
   analysis: 0.0707
   interaction: 0.0667
-  utilises: 0.0617
   cohesive: 0.0617
+  utilises: 0.0617
   temporally: 0.0580
   transcription: 0.0533
 
@@ -24334,10 +24334,10 @@ Top 10 terms:
   labels: 0.0648
   set: 0.0647
   undertook: 0.0561
-  surveyed: 0.0527
   researcher: 0.0527
-  invite: 0.0503
+  surveyed: 0.0527
   consume: 0.0503
+  invite: 0.0503
   judge: 0.0485
 
 
@@ -24367,8 +24367,8 @@ Top 10 terms:
   physical: 0.0686
   reality: 0.0675
   adaptive: 0.0606
-  agent’s: 0.0580
   slicing: 0.0580
+  agent’s: 0.0580
   agents: 0.0554
   capabilities: 0.0530
 
@@ -24415,8 +24415,8 @@ Top 10 terms:
   malicious: 0.0677
   function: 0.0669
   functions: 0.0502
-  crossmodel: 0.0474
   118: 0.0474
+  crossmodel: 0.0474
   buried: 0.0474
   code: 0.0471
 
@@ -24428,9 +24428,9 @@ Top 10 terms:
   text: 0.1031
   detecting: 0.0659
   aigenerated: 0.0642
-  stateofthe: 0.0590
   stylistic: 0.0590
   propaganda: 0.0590
+  stateofthe: 0.0590
   fraud: 0.0555
   detectability: 0.0555
   whether: 0.0536
@@ -24447,10 +24447,10 @@ Top 10 terms:
   graph: 0.0918
   workflows: 0.0768
   pipeline: 0.0607
+  legacy: 0.0561
+  locating: 0.0561
   managed: 0.0561
   popup: 0.0561
-  locating: 0.0561
-  legacy: 0.0561
 
 
 Document 1533:
@@ -24476,8 +24476,8 @@ Top 10 terms:
   radiology: 0.1668
   summarization: 0.1075
   summaries: 0.0996
-  patients: 0.0923
   indicated: 0.0923
+  patients: 0.0923
   modelgenerated: 0.0834
   missed: 0.0796
   chest: 0.0767
@@ -24497,8 +24497,8 @@ Top 10 terms:
   workloads: 0.0677
   compiler: 0.0609
   endtoend: 0.0555
-  firstclass: 0.0534
   dynamicshape: 0.0534
+  firstclass: 0.0534
 
 
 Document 1536:
@@ -24512,8 +24512,8 @@ Top 10 terms:
   external: 0.0432
   expertise: 0.0416
   functions: 0.0384
-  parse: 0.0363
   toolsin: 0.0363
+  parse: 0.0363
   toolsets: 0.0363
 
 
@@ -24624,8 +24624,8 @@ Top 10 terms:
   graphcore: 0.0737
   ipu: 0.0737
   amd: 0.0662
-  vision: 0.0606
   benchmark: 0.0606
+  vision: 0.0606
   extensible: 0.0601
 
 
@@ -24656,8 +24656,8 @@ Top 10 terms:
   biases: 0.0683
   measure: 0.0595
   metric: 0.0590
+  indicator: 0.0499
   offensive: 0.0499
-  stereotype: 0.0499
 
 
 Document 1546:
@@ -24670,8 +24670,8 @@ Top 10 terms:
   selftraining: 0.0684
   organize: 0.0659
   medical: 0.0647
-  domainspecific: 0.0639
   align: 0.0639
+  domainspecific: 0.0639
   knowledge: 0.0537
   largescale: 0.0482
 
@@ -24705,7 +24705,7 @@ Top 10 terms:
   pretrained: 0.0609
   extract: 0.0570
   contrastive: 0.0550
-  242: 0.0543
+  topperforming: 0.0543
 
 
 Document 1549:
@@ -24713,8 +24713,8 @@ Title: proceedings of the 13th international conference on information amp commu
 DOI: 10.1145/3700794.3700817
 Top 10 terms:
   smartphones: 0.1296
-  underserved: 0.0864
   disconnected: 0.0864
+  underserved: 0.0864
   memory: 0.0678
   resourceconstrained: 0.0647
   feasibility: 0.0543
@@ -24736,8 +24736,8 @@ Top 10 terms:
   flows: 0.0825
   dnn: 0.0825
   modern: 0.0574
-  twentieth: 0.0561
   submodels: 0.0561
+  twentieth: 0.0561
 
 
 Document 1551:
@@ -24752,8 +24752,8 @@ Top 10 terms:
   cells: 0.0729
   library: 0.0502
   static: 0.0451
-  tokenized: 0.0421
   slack: 0.0421
+  tokenized: 0.0421
 
 
 Document 1552:
@@ -24767,8 +24767,8 @@ Top 10 terms:
   signifies: 0.0538
   educationally: 0.0538
   adoption: 0.0522
-  rational: 0.0506
   insufficiency: 0.0506
+  rational: 0.0506
   review: 0.0491
 
 
@@ -24831,9 +24831,9 @@ Top 10 terms:
   humanintheloop: 0.0819
   incremental: 0.0780
   tracking: 0.0731
-  diet: 0.0547
   communicates: 0.0547
-  logging: 0.0514
+  diet: 0.0547
+  dietary: 0.0514
 
 
 Document 1557:
@@ -24940,9 +24940,9 @@ Top 10 terms:
   benchmarks: 0.0564
   reduction: 0.0489
   constraints: 0.0422
-  transcends: 0.0397
   dreamplace: 0.0397
   timetomarket: 0.0397
+  transcends: 0.0397
   166: 0.0373
 
 
@@ -24988,9 +24988,9 @@ Top 10 terms:
   precision: 0.0509
   sequence: 0.0474
   loss: 0.0442
-  repo: 0.0441
+  selfdistillation: 0.0441
   compensation: 0.0441
-  msmarco: 0.0441
+  cascaded: 0.0441
 
 
 Document 1567:
@@ -25050,8 +25050,8 @@ Top 10 terms:
   projects: 0.0948
   outcomes: 0.0906
   organizers: 0.0602
-  setups: 0.0554
   twofold: 0.0554
+  setups: 0.0554
   novelty: 0.0522
   prototypes: 0.0509
   doing: 0.0498
@@ -25084,8 +25084,8 @@ Top 10 terms:
   articles: 0.0653
   published: 0.0589
   number: 0.0563
-  papers: 0.0533
   stage: 0.0533
+  papers: 0.0533
 
 
 Document 1573:
@@ -25144,9 +25144,9 @@ Top 10 terms:
   computations: 0.0768
   workloads: 0.0682
   memory: 0.0563
+  door: 0.0538
   microbenchmarks: 0.0538
   tensors: 0.0538
-  door: 0.0538
   enable: 0.0497
   missed: 0.0483
   shaped: 0.0483
@@ -25160,11 +25160,11 @@ Top 10 terms:
   codesign: 0.0790
   selfattention: 0.0713
   working: 0.0545
-  hardwaresoftware: 0.0485
-  nonlinearity: 0.0485
   lossless: 0.0485
+  hardwaresoftware: 0.0485
   lookup: 0.0485
   summation: 0.0485
+  nonlinearity: 0.0485
   area: 0.0483
 
 
@@ -25179,9 +25179,9 @@ Top 10 terms:
   decisions: 0.0576
   decisionmaking: 0.0549
   synchronizes: 0.0471
-  bids: 0.0471
   transaction: 0.0471
-  striving: 0.0471
+  bids: 0.0471
+  profitability: 0.0471
 
 
 Document 1579:
@@ -25208,8 +25208,8 @@ Top 10 terms:
   compression: 0.1285
   lowrank: 0.0958
   techniques: 0.0585
-  parameterefficient: 0.0581
   pruning: 0.0581
+  parameterefficient: 0.0581
   resource: 0.0581
   lora: 0.0573
   quantization: 0.0543
@@ -25274,8 +25274,8 @@ Top 10 terms:
   moe: 0.1183
   overheads: 0.1025
   ondemand: 0.0986
-  gating: 0.0659
   sparsely: 0.0659
+  gating: 0.0659
   mixtureofexperts: 0.0619
   reduce: 0.0619
 
@@ -25369,18 +25369,18 @@ Top 10 terms:
   redundant: 0.0690
   conducting: 0.0655
   experiments: 0.0495
-  semiautomate: 0.0452
   justify: 0.0452
+  semiautomate: 0.0452
   deep: 0.0444
-  additions: 0.0425
+  correspond: 0.0425
 
 
 Document 1591:
 Title: companion proceedings of the acm on web conference 2025...
 DOI: 10.1145/3701716.3715872
 Top 10 terms:
-  bidding: 0.1995
   auction: 0.1995
+  bidding: 0.1995
   advertising: 0.1553
   prediction: 0.1052
   products: 0.1024
@@ -25398,8 +25398,8 @@ Top 10 terms:
   hls: 0.1646
   highlevel: 0.0809
   hardware: 0.0789
-  dse: 0.0733
   pragma: 0.0733
+  dse: 0.0733
   rtl: 0.0659
   designs: 0.0592
   profiling: 0.0549
@@ -25418,9 +25418,9 @@ Top 10 terms:
   hardware: 0.0541
   optimal: 0.0520
   architectures: 0.0517
+  unexamined: 0.0473
   costefficiency: 0.0473
   infrastructures: 0.0473
-  unexamined: 0.0473
 
 
 Document 1594:
@@ -25528,10 +25528,10 @@ Top 10 terms:
   web: 0.0738
   tutorial: 0.0493
   objectives: 0.0436
-  lecturestyle: 0.0369
-  datalevel: 0.0369
   graphstructured: 0.0369
   modellevel: 0.0369
+  datalevel: 0.0369
+  populate: 0.0369
 
 
 Document 1601:
@@ -25562,8 +25562,8 @@ Top 10 terms:
   software: 0.0651
   case: 0.0605
   testing: 0.0574
-  git: 0.0452
   diffs: 0.0452
+  git: 0.0452
 
 
 Document 1603:
@@ -25610,8 +25610,8 @@ Top 10 terms:
   kernels: 0.0848
   inference: 0.0662
   parallel: 0.0613
-  memorybound: 0.0556
   achievable: 0.0556
+  memorybound: 0.0556
 
 
 Document 1606:
@@ -25626,8 +25626,8 @@ Top 10 terms:
   design: 0.0403
   centers: 0.0377
   principles: 0.0373
-  participants’: 0.0357
   coaches: 0.0357
+  authentically: 0.0357
 
 
 Document 1607:
@@ -25656,8 +25656,8 @@ Top 10 terms:
   foundation: 0.0597
   agriculture: 0.0555
   public: 0.0538
-  humanintheloop: 0.0442
   emphasize: 0.0442
+  humanintheloop: 0.0442
   burden: 0.0427
 
 
@@ -25674,7 +25674,7 @@ Top 10 terms:
   web: 0.0566
   bugs: 0.0523
   constraints: 0.0501
-  subjected: 0.0471
+  backends: 0.0471
 
 
 Document 1610:
@@ -25748,8 +25748,8 @@ Top 10 terms:
   api: 0.2718
   sequence: 0.1460
   recommendation: 0.1086
-  irbased: 0.0905
   seq2seq: 0.0905
+  irbased: 0.0905
   approaches: 0.0647
   query: 0.0492
   encountering: 0.0452
@@ -25831,9 +25831,9 @@ Top 10 terms:
   surrogate: 0.0643
   bayesian: 0.0629
   circuit: 0.0629
+  machinelearningbased: 0.0404
   remedy: 0.0404
   topologies: 0.0404
-  machinelearningbased: 0.0404
 
 
 Document 1620:
@@ -25876,10 +25876,10 @@ Top 10 terms:
   web: 0.0647
   constraints: 0.0644
   share: 0.0451
-  datalevel: 0.0404
+  systemlevel: 0.0404
   modellevel: 0.0404
   partnerships: 0.0404
-  systemlevel: 0.0404
+  datalevel: 0.0404
   neural: 0.0397
   innovative: 0.0393
 
@@ -25924,8 +25924,8 @@ Top 10 terms:
   gpu: 0.2357
   workloads: 0.0610
   adaptive: 0.0503
-  multifactor: 0.0481
   defragmentation: 0.0481
+  multifactor: 0.0481
   support: 0.0456
   twodimensional: 0.0452
   fragmentation: 0.0432
@@ -25943,8 +25943,8 @@ Top 10 terms:
   instances: 0.0488
   code: 0.0476
   designs: 0.0450
-  vit: 0.0419
   confirming: 0.0419
+  vit: 0.0419
   hierarchy: 0.0394
 
 
@@ -26149,8 +26149,8 @@ Top 10 terms:
   softwares: 0.1094
   projects: 0.1081
   foresee: 0.1029
-  begun: 0.0917
   suitability: 0.0917
+  begun: 0.0917
   capstone: 0.0917
   sudden: 0.0892
 
@@ -26182,8 +26182,8 @@ Top 10 terms:
   teaching: 0.0721
   interaction: 0.0686
   sequence: 0.0682
-  teacherstudent: 0.0634
   lagged: 0.0634
+  teacherstudent: 0.0634
   lag: 0.0596
 
 
@@ -26195,9 +26195,9 @@ Top 10 terms:
   grades: 0.0802
   sustainable: 0.0729
   active: 0.0622
-  marginally: 0.0526
-  fell: 0.0526
   “big: 0.0526
+  fell: 0.0526
+  marginally: 0.0526
   conveying: 0.0494
   superficial: 0.0494
   professor: 0.0494
@@ -26239,8 +26239,8 @@ Document 1645:
 Title: proceedings of the 56th acm technical symposium on computer science education v 2...
 DOI: 10.1145/3641555.3705037
 Top 10 terms:
-  infinite: 0.2423
   json: 0.2423
+  infinite: 0.2423
   dictionaries: 0.2278
   storytelling: 0.2096
   nested: 0.2031
@@ -26264,7 +26264,7 @@ Top 10 terms:
   perceived: 0.0475
   perceptions: 0.0465
   interviews: 0.0459
-  fabricated: 0.0411
+  enthusiastic: 0.0411
 
 
 Document 1647:
@@ -26280,7 +26280,7 @@ Top 10 terms:
   gender: 0.0729
   differences: 0.0707
   among: 0.0523
-  strengthened: 0.0458
+  genders: 0.0458
 
 
 Document 1648:
@@ -26327,7 +26327,7 @@ Top 10 terms:
   final: 0.0591
   strengths: 0.0587
   course: 0.0552
-  ubiquity: 0.0522
+  sophistication: 0.0522
   breadth: 0.0522
 
 
@@ -26373,8 +26373,8 @@ Top 10 terms:
   manual: 0.0746
   rubric: 0.0666
   marks: 0.0636
-  reasons: 0.0546
   criteria: 0.0546
+  reasons: 0.0546
   aiassisted: 0.0518
   courses: 0.0451
 
@@ -26453,8 +26453,8 @@ Top 10 terms:
   puzzles: 0.1269
   scaffolding: 0.1008
   complete: 0.0779
-  practicing: 0.0707
   requesting: 0.0707
+  practicing: 0.0707
   who: 0.0664
   personalized: 0.0645
 
@@ -26465,8 +26465,8 @@ DOI: 10.1109/DAC56929.2023.10247803
 Top 10 terms:
   surprise: 0.1425
   bottomup: 0.1271
-  neurosymbolic: 0.0983
   topdown: 0.0983
+  neurosymbolic: 0.0983
   inference: 0.0902
   world: 0.0775
   adaptation: 0.0653
@@ -26482,8 +26482,8 @@ Top 10 terms:
   inide: 0.1784
   know: 0.1015
   plugin: 0.1001
-  audience: 0.0951
   tutorial: 0.0951
+  audience: 0.0951
   jetbrains: 0.0949
   academy: 0.0852
   ide: 0.0724
@@ -26547,8 +26547,8 @@ Top 10 terms:
   patterns: 0.1014
   pair: 0.0842
   speech: 0.0697
-  constructive: 0.0669
   inquiry: 0.0669
+  constructive: 0.0669
   students’: 0.0636
   collaborative: 0.0553
   interactions: 0.0546
@@ -26660,8 +26660,8 @@ Top 10 terms:
   individuals: 0.1514
   policymakers: 0.1104
   skills: 0.0918
-  competencybased: 0.0737
   twelve: 0.0737
+  competencybased: 0.0737
   generative: 0.0734
   creators: 0.0693
   programs: 0.0631
@@ -26676,9 +26676,9 @@ Top 10 terms:
   usage: 0.0912
   students: 0.0751
   help: 0.0528
+  dropped: 0.0492
   n47: 0.0492
   sharply: 0.0492
-  dropped: 0.0492
   resource: 0.0474
   north: 0.0462
 
@@ -26690,9 +26690,9 @@ Top 10 terms:
   active: 0.0922
   courses: 0.0860
   renewed: 0.0780
+  selfassessment: 0.0733
   consolidating: 0.0733
   cs1cs2: 0.0733
-  selfassessment: 0.0733
   scaffolded: 0.0700
   higherorder: 0.0700
   weekly: 0.0654
@@ -26712,7 +26712,7 @@ Top 10 terms:
   policies: 0.0604
   use: 0.0509
   prohibited: 0.0506
-  conceptualizing: 0.0506
+  looked: 0.0506
 
 
 Document 1675:
@@ -26808,7 +26808,7 @@ Top 10 terms:
   personal: 0.0789
   hci: 0.0782
   educators: 0.0748
-  positionality: 0.0617
+  iterate: 0.0617
 
 
 Document 1681:
@@ -26824,7 +26824,7 @@ Top 10 terms:
   versions: 0.0672
   texts: 0.0645
   helps: 0.0608
-  nlp: 0.0560
+  write: 0.0560
 
 
 Document 1682:
@@ -26863,8 +26863,8 @@ Document 1684:
 Title: companion proceedings of the acm on web conference 2025...
 DOI: 10.1145/3701716.3715244
 Top 10 terms:
-  itss: 0.0983
   goaloriented: 0.0983
+  itss: 0.0983
   learners: 0.0739
   deliver: 0.0629
   multiagent: 0.0617
@@ -26919,7 +26919,7 @@ Top 10 terms:
   dynamic: 0.0487
   accessed: 0.0483
   browsing: 0.0461
-  diversified: 0.0445
+  oracle: 0.0445
   purely: 0.0445
 
 
@@ -26950,8 +26950,8 @@ Top 10 terms:
   multimodal: 0.0480
   embeddings: 0.0437
   descriptions: 0.0394
-  vit: 0.0383
   vits: 0.0383
+  upsurge: 0.0383
   swept: 0.0383
 
 
@@ -26962,11 +26962,11 @@ Top 10 terms:
   embodiment: 0.1575
   according: 0.0991
   reality: 0.0976
-  famous: 0.0838
-  articulated: 0.0838
   linearly: 0.0838
   virtualreality: 0.0838
   icons: 0.0838
+  famous: 0.0838
+  articulated: 0.0838
   virtual: 0.0819
   dance: 0.0788
 
@@ -26984,7 +26984,7 @@ Top 10 terms:
   pattern: 0.0554
   stereotypical: 0.0465
   instructors’: 0.0465
-  n12: 0.0417
+  automates: 0.0417
 
 
 Document 1692:
@@ -27014,8 +27014,8 @@ Top 10 terms:
   define: 0.0680
   outcome: 0.0664
   user: 0.0475
-  sketches: 0.0473
   deepen: 0.0473
+  sketches: 0.0473
   humanity: 0.0451
 
 
@@ -27056,10 +27056,10 @@ Title: treachery and deceit detecting and dissuading ai cheating...
 Top 10 terms:
   cheating: 0.2833
   author: 0.1687
-  looks: 0.1060
-  caught: 0.1060
-  conceal: 0.1060
   rewritten: 0.1060
+  looks: 0.1060
+  conceal: 0.1060
+  caught: 0.1060
   retained: 0.0997
   discourage: 0.0952
   being: 0.0934
@@ -27095,7 +27095,7 @@ Top 10 terms:
   parallel: 0.0580
   pretraining: 0.0541
   foundation: 0.0532
-  conforms: 0.0526
+  www: 0.0526
 
 
 Document 1699:
@@ -27109,9 +27109,9 @@ Top 10 terms:
   properties: 0.0869
   reconfigurable: 0.0798
   implemented: 0.0785
-  executions: 0.0717
-  bit: 0.0717
   fid: 0.0717
+  bit: 0.0717
+  executions: 0.0717
 
 
 Document 1700:
@@ -27141,9 +27141,9 @@ Top 10 terms:
   adaptation: 0.0666
   robustness: 0.0596
   uncovers: 0.0580
-  site: 0.0521
   wang: 0.0521
-  placed: 0.0502
+  site: 0.0521
+  interpreted: 0.0502
 
 
 Document 1702:
@@ -27157,8 +27157,8 @@ Top 10 terms:
   technology: 0.0628
   etc: 0.0586
   core: 0.0533
-  strengthening: 0.0480
   journal: 0.0480
+  strengthening: 0.0480
   information: 0.0471
 
 
@@ -27202,8 +27202,8 @@ Top 10 terms:
   processes: 0.0580
   chatbased: 0.0550
   hype: 0.0550
-  amid: 0.0550
   sure: 0.0550
+  amid: 0.0550
   what: 0.0532
   member: 0.0525
   whats: 0.0506
@@ -27221,8 +27221,8 @@ Top 10 terms:
   fidelity: 0.0677
   engine: 0.0650
   exceedingly: 0.0474
-  sacrifice: 0.0474
   encoder–decoder: 0.0474
+  sacrifice: 0.0474
 
 
 Document 1707:
@@ -27246,14 +27246,14 @@ Title: proceedings of the extended abstracts of the chi conference on human fact
 DOI: 10.1145/3706599.3706641
 Top 10 terms:
   writing: 0.2046
-  attendees: 0.0884
   publication: 0.0884
+  attendees: 0.0884
   chi: 0.0881
   papers: 0.0689
   75minute: 0.0600
+  succeed: 0.0600
   publishing: 0.0600
   highimpact: 0.0600
-  succeed: 0.0600
   tools: 0.0582
 
 
@@ -27315,9 +27315,9 @@ Top 10 terms:
   text: 0.0474
   encodes: 0.0452
   topk: 0.0406
-  coordination: 0.0379
   collaborate: 0.0379
   optimally: 0.0379
+  diffusionbased: 0.0379
 
 
 Document 1713:
@@ -27342,9 +27342,9 @@ Top 10 terms:
   political: 0.2446
   bias: 0.1525
   llama3: 0.0730
+  spread: 0.0631
   github1: 0.0631
   70b: 0.0631
-  spread: 0.0631
   misinformation: 0.0556
   rationales: 0.0556
   underscore: 0.0546
@@ -27408,8 +27408,8 @@ Top 10 terms:
   sign: 0.1701
   norms: 0.1106
   communication: 0.1058
-  signs: 0.0905
   dhh: 0.0905
+  signs: 0.0905
   avatar: 0.0905
   customizing: 0.0812
   interpreting: 0.0636
@@ -27427,8 +27427,8 @@ Top 10 terms:
   technology: 0.0584
   effects: 0.0513
   realtime: 0.0513
-  ssim: 0.0474
-  adjustment: 0.0474
+  shortening: 0.0474
+  088: 0.0474
 
 
 Document 1720:
@@ -27440,11 +27440,11 @@ Top 10 terms:
   local: 0.7794
   games: 0.5228
   finding: 0.4238
-  healthy: 0.0000
-  translated: 0.0000
-  warrants: 0.0000
-  approximates: 0.0000
-  unlocking: 0.0000
+  723: 0.0000
+  professionals: 0.0000
+  quantities: 0.0000
+  ratios: 0.0000
+  controllable: 0.0000
 
 
 Document 1721:
@@ -27492,7 +27492,7 @@ Top 10 terms:
   review: 0.0808
   higher: 0.0742
   independent: 0.0672
-  administrative: 0.0590
+  replicable: 0.0590
 
 
 Document 1724:
@@ -27523,8 +27523,8 @@ Top 10 terms:
   coaches: 0.1170
   adaptive: 0.1019
   system: 0.0544
-  generic: 0.0515
   configurations: 0.0515
+  generic: 0.0515
 
 
 Document 1726:
@@ -27540,7 +27540,7 @@ Top 10 terms:
   detecting: 0.0524
   statement: 0.0477
   defect: 0.0468
-  fixes: 0.0428
+  constructs: 0.0428
 
 
 Document 1727:
@@ -27588,7 +27588,7 @@ Top 10 terms:
   optimal: 0.0706
   contextual: 0.0512
   platform: 0.0456
-  approximates: 0.0455
+  decouples: 0.0455
 
 
 Document 1730:
@@ -27603,7 +27603,7 @@ Top 10 terms:
   distributions: 0.0744
   finding: 0.0713
   analytics: 0.0699
-  markovian: 0.0634
+  wgan: 0.0634
 
 
 Document 1731:
@@ -27629,12 +27629,12 @@ Top 10 terms:
   air: 0.3230
   incentive: 0.1718
   federated: 0.1059
-  rewarding: 0.0859
-  so2: 0.0859
-  pm10: 0.0859
-  concentrations: 0.0859
   pm25: 0.0859
   no2: 0.0859
+  pm10: 0.0859
+  so2: 0.0859
+  rewarding: 0.0859
+  concentrations: 0.0859
   pollutants: 0.0807
 
 
@@ -27663,10 +27663,10 @@ Top 10 terms:
   summary: 0.0657
   benchmark: 0.0606
   metric: 0.0581
+  inspires: 0.0492
   inadequacies: 0.0492
   metaevaluation: 0.0492
   gram: 0.0492
-  inspires: 0.0492
 
 
 Document 1735:
@@ -27709,11 +27709,11 @@ Top 10 terms:
   nsclc: 0.1226
   cad: 0.1101
   cnn: 0.0918
-  nonsmall: 0.0817
   lung: 0.0817
+  nonsmall: 0.0817
   fuzzy: 0.0769
-  cancer: 0.0707
   cell: 0.0707
+  cancer: 0.0707
   medical: 0.0694
 
 
@@ -27742,10 +27742,10 @@ Top 10 terms:
   adaptive: 0.0749
   spatial: 0.0594
   temporal: 0.0574
-  138x: 0.0478
-  compactly: 0.0478
-  occupancy: 0.0478
   110x: 0.0478
+  138x: 0.0478
+  occupancy: 0.0478
+  compactly: 0.0478
   tile: 0.0478
 
 
@@ -27773,12 +27773,12 @@ Top 10 terms:
   pattern: 0.1596
   patterns: 0.1134
   reliable: 0.1032
-  legality: 0.0893
+  lossless: 0.0893
   whitebox: 0.0893
   60th: 0.0893
-  lossless: 0.0893
+  legality: 0.0893
   topology: 0.0728
-  guarantee: 0.0728
+  leaving: 0.0728
 
 
 Document 1742:
@@ -27825,7 +27825,7 @@ Top 10 terms:
   environments: 0.0827
   grid: 0.0739
   convergence: 0.0607
-  ttm: 0.0474
+  structurally: 0.0474
   expediting: 0.0474
 
 
@@ -27873,8 +27873,8 @@ Top 10 terms:
   paradigm: 0.0659
   modality: 0.0583
   sequence: 0.0490
-  comparability: 0.0455
   thirdly: 0.0455
+  comparability: 0.0455
 
 
 Document 1748:
@@ -27952,9 +27952,9 @@ Top 10 terms:
   job: 0.0587
   tabular: 0.0544
   data: 0.0434
+  closest: 0.0392
   disjointed: 0.0392
   nonlearning: 0.0392
-  ranks: 0.0392
 
 
 Document 1753:
@@ -27966,8 +27966,8 @@ Top 10 terms:
   cifar10: 0.0889
   feature: 0.0645
   zeroshot: 0.0509
-  exploding: 0.0495
   cifar100: 0.0495
+  exploding: 0.0495
   transfer: 0.0491
   channel: 0.0445
   transfers: 0.0445
@@ -28012,12 +28012,12 @@ Top 10 terms:
   creative: 0.1754
   reflection: 0.0817
   prototype: 0.0782
-  practitioners: 0.0625
   genai: 0.0625
+  practitioners: 0.0625
   redefined: 0.0611
-  cameras: 0.0575
   documenting: 0.0575
   aicreated: 0.0575
+  cameras: 0.0575
   blur: 0.0549
 
 
@@ -28031,10 +28031,10 @@ Top 10 terms:
   completion: 0.0490
   features: 0.0482
   enhances: 0.0479
-  occlusion: 0.0458
   harvesting: 0.0458
-  neighborhood: 0.0458
+  occlusion: 0.0458
   bilateral: 0.0458
+  neighborhood: 0.0458
 
 
 Document 1758:
@@ -28080,8 +28080,8 @@ Top 10 terms:
   underestimated: 0.0969
   training: 0.0924
   real: 0.0867
-  never: 0.0812
   minimum: 0.0812
+  never: 0.0812
   classifiers: 0.0726
 
 
@@ -28095,8 +28095,8 @@ Top 10 terms:
   deep: 0.0567
   identification: 0.0526
   networks: 0.0446
-  boards: 0.0434
   netlist: 0.0434
+  boards: 0.0434
   scrutiny: 0.0414
   article: 0.0413
 
@@ -28114,7 +28114,7 @@ Top 10 terms:
   gaze: 0.0469
   displays: 0.0469
   reinforcement: 0.0448
-  twolevel: 0.0448
+  simulates: 0.0448
 
 
 Document 1763:
@@ -28127,8 +28127,8 @@ Top 10 terms:
   regret: 0.1371
   channel: 0.1231
   arm: 0.1149
-  delivery: 0.1118
   nonlinear: 0.1118
+  delivery: 0.1118
   rewards: 0.1067
   allocation: 0.0977
 
@@ -28143,8 +28143,8 @@ Top 10 terms:
   noise: 0.0610
   gan: 0.0529
   learningbased: 0.0513
-  scattering: 0.0483
   diminished: 0.0483
+  scattering: 0.0483
   network: 0.0481
   begins: 0.0451
 
@@ -28176,9 +28176,9 @@ Top 10 terms:
   pixel: 0.0824
   discriminator: 0.0663
   variational: 0.0599
-  accidents: 0.0518
-  prauc: 0.0518
   842: 0.0518
+  accidents: 0.0518
+  mvtec: 0.0518
 
 
 Document 1767:
@@ -28206,8 +28206,8 @@ Top 10 terms:
   bound: 0.1411
   nonstationary: 0.1251
   sample: 0.0932
-  ttm: 0.0887
   stationary: 0.0887
+  ttm: 0.0887
   transitions: 0.0834
   regime: 0.0796
 
