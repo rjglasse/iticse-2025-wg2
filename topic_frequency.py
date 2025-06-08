@@ -161,8 +161,12 @@ def create_bar_chart(sorted_topics, output_file='topic_frequency_chart.png', max
         # Create figure with vertical layout for horizontal bars
         plt.figure(figsize=(12, 20))
         
-        # Create horizontal bar chart
-        bars = plt.barh(topics, frequencies, color='steelblue', alpha=0.8)
+        # Create color gradient from medium blue to light blue
+        num_bars = len(topics)
+        colors = plt.cm.Blues(np.linspace(0.7, 0.3, num_bars))  # Medium to light blue
+        
+        # Create horizontal bar chart with gradient colors
+        bars = plt.barh(topics, frequencies, color=colors, alpha=0.9)
         
         # Customize the chart
         plt.title('Topic Frequency Analysis', fontsize=16, fontweight='bold', pad=20)
