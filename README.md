@@ -61,10 +61,10 @@ Compares DOIs from a reference list with DOIs in BibTeX files to identify covera
 python doi_overlap.py -d target_dois.txt -b my_bibliography.bib -v
 ```
 
-### set_of_DOIs.py
+### set_of_dois.py
 Extracts all unique DOIs from multiple BibTeX files in a directory and creates a consolidated list.
 ```bash
-python set_of_DOIs.py -d bibfiles/ -o unique_dois.txt -v
+python set_of_dois.py -d bibfiles/ -o unique_dois.txt -v
 ```
 
 ### check_dois_valid.py
@@ -80,7 +80,7 @@ python check_dois_valid.py -f doi_list.txt -c 5 -o validation_results.csv
 
 ## Sample Workflow
 0. Find DOIs from paper titles: `python find_dois.py -f paper_titles.txt`
-1. Extract DOIs from your bibliography: `python set_of_DOIs.py -d bibfiles/`
+1. Extract DOIs from your bibliography: `python set_of_dois.py -d bibfiles/`
 2. Validate the DOIs: `python check_dois_valid.py -f unique_dois.txt`
 3. Analyze topic frequencies: `python topic_frequency.py -t topics.txt -b bibfiles/acm_final.bib -p`
 4. Perform TF-IDF analysis: `python tf-idf.py -f bibfiles/acm_final.bib -v`

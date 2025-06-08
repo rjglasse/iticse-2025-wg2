@@ -35,16 +35,16 @@ Requirements:
 
 Usage Examples:
     # Extract DOIs from current directory
-    python set_of_DOIs.py
+    python set_of_dois.py
 
     # Process specific directory with verbose output
-    python set_of_DOIs.py -d bibfiles/ -v
+    python set_of_dois.py -d bibfiles/ -v
 
     # Save unique DOIs to file
-    python set_of_DOIs.py -d bibfiles/ -o unique_dois.txt -v
+    python set_of_dois.py -d bibfiles/ -o unique_dois.txt -v
 
     # Analyze large bibliography collection
-    python set_of_DOIs.py -d /path/to/papers/ -o master_doi_list.txt
+    python set_of_dois.py -d /path/to/papers/ -o master_doi_list.txt
 
 Input Requirements:
     BibTeX files (.bib) containing entries with DOI fields:
