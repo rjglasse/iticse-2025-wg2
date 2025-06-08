@@ -7,7 +7,7 @@ The primary aim of the working group if to systematically review the literature 
 
 <img src="output/topic_frequency_chart.png" alt="Screenshot" width="800"/>
 
-> Note: The chart above shows the frequency of various computer science subjects in the collected papers. However, this is the unfiltered set of papers, so there are many papers that are not relevant to the working group. The topics are simply extracted from the paper abstracts and titles using our curated list of computing topics (see: [`topics/topics.txt`](topics/topics.txt)).
+> Note: The chart above shows the frequency of various computer science subjects in the collected papers. However, this is the unfiltered set of papers, so there are many papers that are not relevant to the working group. The topics are simply extracted from the paper abstracts and titles using our curated list of computing topics (see: [`resources/topics.txt`](resources/topics.txt)).
 
 ## TF-IDF Analysis of most relevant topics
 
@@ -41,45 +41,45 @@ The primary aim of the working group if to systematically review the literature 
 
 > Note: The table above shows the top 25 terms with the highest TF-IDF scores from the analysis of the collected papers. This indicates their relevance and importance in the context of generative AI in computer science education. The BibTeX file used for this is the best performing on the ACM DL, which is [`bibfiles/acm_fat_boy.bib`](bibfiles/acm_fat_boy.bib).
 
-## Utilities
+## Tools Overview
 
-### tf-idf.py
-Performs Term Frequency-Inverse Document Frequency analysis on BibTeX files to identify key terms and themes in academic literature.
-```bash
-python tf-idf.py -f bibfiles/acm_chatgpt.bib -o chatgpt_analysis.txt -v
-```
-
-### topic_frequency.py
-Analyzes the frequency of specific topics within BibTeX files and generates horizontal bar charts for visualization.
-```bash
-python topic_frequency.py -t topics.txt -b bibfiles/acm_chatgpt.bib -p --max-topics 15
-```
-
-### find_dois.py
+### Find DOIs from Titles
 Searches the Crossref database to find DOIs for academic papers using their titles.
 ```bash
 python find_dois.py -f paper_titles.txt -v -o found_dois.csv
 ```
 
-### doi_overlap.py
-Compares DOIs from a reference list with DOIs in BibTeX files to identify coverage gaps and overlaps.
-```bash
-python doi_overlap.py -d target_dois.txt -b my_bibliography.bib -v
-```
-
-### set_of_dois.py
-Extracts all unique DOIs from multiple BibTeX files in a directory and creates a consolidated list.
-```bash
-python set_of_dois.py -d bibfiles/ -o unique_dois.txt -v
-```
-
-### check_dois_valid.py
+### Check for valid DOIs
 Validates DOIs by checking them against the Crossref database to ensure they are legitimate and accessible.
 ```bash
 python check_dois_valid.py -f doi_list.txt -c 5 -o validation_results.csv
 ```
 
-### subject_vibe.py
+### Find Overlap between list of DOIs and BibTeX file
+Compares DOIs from a reference list with DOIs in BibTeX files to identify coverage gaps and overlaps.
+```bash
+python doi_overlap.py -d target_dois.txt -b my_bibliography.bib -v
+```
+
+### Set of all DOIs
+Extracts all unique DOIs from multiple BibTeX files in a directory and creates a consolidated list.
+```bash
+python set_of_dois.py -d bibfiles/ -o unique_dois.txt -v
+```
+
+### Topic Frequency Analysis
+Analyzes the frequency of specific topics within BibTeX files and generates horizontal bar charts for visualization.
+```bash
+python topic_frequency.py -t topics.txt -b bibfiles/acm_chatgpt.bib -p --max-topics 15
+```
+
+### TF-IDF Analysis
+Performs Term Frequency-Inverse Document Frequency analysis on BibTeX files to identify key terms and themes in academic literature.
+```bash
+python tf_idf.py -f bibfiles/acm_chatgpt.bib -o chatgpt_analysis.txt -v
+```
+
+### Subject Vibe Classification
 Uses OpenAI's API to automatically classify academic papers into computer science course subjects based on titles and abstracts.
 ```bash
 python subject_vibe.py -f bibfiles/acm_chatgpt.bib -o cs_classifications.csv -n 10 -v
@@ -89,7 +89,9 @@ python subject_vibe.py -f bibfiles/acm_chatgpt.bib -o cs_classifications.csv -n 
 - Python 3.6+
 - matplotlib (for plotting): `pip install matplotlib`
 - requests (for API calls): `pip install requests`
-- openai (for subject classification; requires your own Open AI API Key): `pip install openai`
+- openai (for subject classification): `pip install openai`
+
+> Note: You need your own OpenAI API key for the subject classification tool. Set it in your environment variables as `OPENAI_API_KEY`.
 
 ## Sample Workflow
 0. Find DOIs from paper titles: `python find_dois.py -f paper_titles.txt`
