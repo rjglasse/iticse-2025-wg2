@@ -2,6 +2,13 @@
 
 Here are three variations of the query designed to explore the intersection of computer science education and generative AI, specifically large language models (LLMs) like ChatGPT. Each query builds on the previous one, gradually increasing in complexity and specificity.
 
+Assumptions:
+
+1. We only take papers after 2022
+2. We only search the abstract
+
+> Note: If you run these queries and try to export the BiBTeX of the all_results, the ACM DL has a silent cutoff limit of 1000 papers! This is not really documented anywhere.
+
 ## Query 1 (Slim_Jim)
 
 This is the most minimal query, focusing on the intersection of computer science education and generative AI, specifically large language models.
@@ -28,6 +35,18 @@ AND ("student" OR "students" OR "learner" OR "learners" OR "teacher" OR "teacher
 ```
 
 *Number of hits in ACM DL: 448*
+
+```
+Results Summary for ONLY VALID ACM DL DOIs IN VALIDATION SET:
+----------------
+DOIs in input file: 28
+DOIs in BibTeX file: 414
+Overlapping DOIs: 22 (78.6%)
+Missing DOIs: 6 (21.4%)
+```
+
+> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](`validation_set/dois_acm_dl_only.txt`) and [`bibfiles/acm_slim_jim.bib`](bibfiles/acm_slim_jim.bib).
+
 
 ## Query 2 (Mid_Journey)
 
@@ -56,6 +75,17 @@ AND ("student" OR "students" OR "learner" OR "learners" OR "teacher" OR "teacher
 ```
 
 *Number of hits in ACM DL: 527*
+
+```
+Results Summary ONLY ACM DL DOIs IN VALIDATION SET:
+----------------
+DOIs in input file: 28
+DOIs in BibTeX file: 486
+Overlapping DOIs: 24 (85.7%)
+Missing DOIs: 4 (14.3%) improvement of 7.1%
+```
+
+> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](`validation_set/dois_acm_dl_only.txt`) and [`bibfiles/acm_mid_journey.bib`](bibfiles/acm_mid_journey.bib).
 
 ## Query 3 (Fat_Boy)
 
@@ -93,6 +123,16 @@ AND ("education" OR "teaching" OR "learning" OR "instruction" OR "pedagogy"
 ```
 
 *Number of hits in ACM DL: 1,768*
+```
+Results Summary ONLY ACM DL DOIs IN VALIDATION SET:
+----------------
+DOIs in input file: 28
+DOIs in BibTeX file: 1667
+Overlapping DOIs: 27 (96.4%)
+Missing DOIs: 1 (3.6%) further improvement of 10.7%
+```
+
+> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](`validation_set/dois_acm_dl_only.txt`) and [`bibfiles/acm_fat_boy.bib`](bibfiles/acm_fat_boy.bib).
 
 ## Query in One Line
 
