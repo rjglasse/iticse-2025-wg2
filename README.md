@@ -3,7 +3,7 @@ A collection of tools to help the systematic literature review for WG2 at ITiCSE
 
 The primary aim of the working group if to systematically review the literature on the use of generative AI in upper-level computer science education. The secondary aim is to survey evaluators on their experiences with generative AI in computer science education, specifically in the upper-level courses. The tertiary aim is to create a set of recommendations, competencies, guidelines, and best practices for the use of generative AI in upper-level computer science education to help teachers transition there courses into the generative age.
 
-## Frequecy of topics in paper collection
+## Frequecy of CS Subjects in paper collection
 
 <img src="topics/topic_frequency_chart.png" alt="Screenshot" width="800"/>
 
