@@ -45,7 +45,7 @@ Overlapping DOIs: 22 (78.6%)
 Missing DOIs: 6 (21.4%)
 ```
 
-> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](`validation_set/dois_acm_dl_only.txt`) and [`bibfiles/acm_slim_jim.bib`](bibfiles/acm_slim_jim.bib).
+> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](validation_set/dois_acm_dl_only.txt) and [`bibfiles/acm_slim_jim.bib`](bibfiles/acm_slim_jim.bib).
 
 
 ## Query 2 (Mid_Journey)
@@ -85,7 +85,7 @@ Overlapping DOIs: 24 (85.7%)
 Missing DOIs: 4 (14.3%) improvement of 7.1%
 ```
 
-> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](`validation_set/dois_acm_dl_only.txt`) and [`bibfiles/acm_mid_journey.bib`](bibfiles/acm_mid_journey.bib).
+> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](validation_set/dois_acm_dl_only.txt) and [`bibfiles/acm_mid_journey.bib`](bibfiles/acm_mid_journey.bib).
 
 ## Query 3 (Fat_Boy)
 
@@ -132,7 +132,7 @@ Overlapping DOIs: 27 (96.4%)
 Missing DOIs: 1 (3.6%) further improvement of 10.7%
 ```
 
-> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](`validation_set/dois_acm_dl_only.txt`) and [`bibfiles/acm_fat_boy.bib`](bibfiles/acm_fat_boy.bib).
+> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](validation_set/dois_acm_dl_only.txt) and [`bibfiles/acm_fat_boy.bib`](bibfiles/acm_fat_boy.bib).
 
 ## Query in One Line
 
