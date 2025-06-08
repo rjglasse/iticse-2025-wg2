@@ -39,6 +39,8 @@ The primary aim of the working group if to systematically review the literature 
 | 24 | performance | 7.4238 |
 | 25 | tasks | 7.3639 |
 
+> Note: The table above shows the top 25 terms with the highest TF-IDF scores from the analysis of the collected papers. This indicates their relevance and importance in the context of generative AI in computer science education. The BibTeX file used for this is the best performing on the ACM DL, which is [`bibfiles/acm_fat_boy.bib`](bibfiles/acm_fat_boy.bib).
+
 ## Utilities
 
 ### tf-idf.py
