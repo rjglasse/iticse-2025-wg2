@@ -5,7 +5,7 @@ The primary aim of the working group if to systematically review the literature 
 
 ## Frequency of CS Subjects in paper collection
 
-<img src="topics/topic_frequency_chart.png" alt="Screenshot" width="800"/>
+<img src="output/topic_frequency_chart.png" alt="Screenshot" width="800"/>
 
 > Note: The chart above shows the frequency of various computer science subjects in the collected papers. However, this is the unfiltered set of papers, so there are many papers that are not relevant to the working group. The topics are simply extracted from the paper abstracts and titles using our curated list of computing topics (see: [`topics/topics.txt`](topics/topics.txt)).
 
@@ -89,7 +89,7 @@ python subject_vibe.py -f bibfiles/acm_chatgpt.bib -o cs_classifications.csv -n 
 - Python 3.6+
 - matplotlib (for plotting): `pip install matplotlib`
 - requests (for API calls): `pip install requests`
-- openai (for subject classification): `pip install openai`
+- openai (for subject classification; requires your own Open AI API Key): `pip install openai`
 
 ## Sample Workflow
 0. Find DOIs from paper titles: `python find_dois.py -f paper_titles.txt`
