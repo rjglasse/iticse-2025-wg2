@@ -79,10 +79,17 @@ Validates DOIs by checking them against the Crossref database to ensure they are
 python check_dois_valid.py -f doi_list.txt -c 5 -o validation_results.csv
 ```
 
+### subject_vibe.py
+Uses OpenAI's API to automatically classify academic papers into computer science course subjects based on titles and abstracts.
+```bash
+python subject_vibe.py -f bibfiles/acm_chatgpt.bib -o cs_classifications.csv -n 10 -v
+```
+
 ## Requirements
 - Python 3.6+
 - matplotlib (for plotting): `pip install matplotlib`
 - requests (for API calls): `pip install requests`
+- openai (for subject classification): `pip install openai`
 
 ## Sample Workflow
 0. Find DOIs from paper titles: `python find_dois.py -f paper_titles.txt`
@@ -90,6 +97,7 @@ python check_dois_valid.py -f doi_list.txt -c 5 -o validation_results.csv
 2. Validate the DOIs: `python check_dois_valid.py -f unique_dois.txt`
 3. Analyze topic frequencies: `python topic_frequency.py -t topics.txt -b bibfiles/acm_final.bib -p`
 4. Perform TF-IDF analysis: `python tf-idf.py -f bibfiles/acm_final.bib -v`
-5. Analyze coverage against a validation set: `python doi_overlap.py -d target_dois.txt -b bibfiles/acm_final.bib`
+5. Classify papers by CS course subject: `python subject_vibe.py -f bibfiles/acm_final.bib -o course_classifications.csv -n 20`
+6. Analyze coverage against a validation set: `python doi_overlap.py -d target_dois.txt -b bibfiles/acm_final.bib`
 
 
