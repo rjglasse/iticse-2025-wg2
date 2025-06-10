@@ -24,9 +24,15 @@ AND ("education" OR "teaching" OR "pedagogy" OR "student" OR "students" OR "lear
 
 ## Frequency of CS Subjects in paper collection
 
-<img src="output/topic_frequency_chart.png" alt="Screenshot" width="800"/>
+<img src="output/topic_frequency_chart.png" alt="Topic Frequency Chart" width="800"/>
 
 > Note: The chart above shows the frequency of various computer science subjects in the collected papers. However, this is the unfiltered set of papers, so there are many papers that are not relevant to the working group. The topics are simply extracted from the paper abstracts and titles using our curated list of computing topics (see: [`resources/topics.txt`](resources/topics.txt)).
+
+## CS Subject Classification Results
+
+<img src="output/cs_subject_vibe_count.png" alt="CS Subject Vibe Count" width="800"/>
+
+> Note: This chart shows the distribution of papers across computer science course subjects as classified by OpenAI's GPT-4o model. The classification is based on paper titles and abstracts, providing insights into which CS education areas are most represented in the literature on generative AI.
 
 ## TF-IDF Analysis of most relevant topics
 
@@ -97,9 +103,31 @@ python tf_idf.py -f bibfiles/acm_chatgpt.bib -o chatgpt_analysis.txt -v
 ```
 
 ### Subject Vibe Classification
-Uses OpenAI's API to automatically classify academic papers into computer science course subjects based on titles and abstracts.
+Uses OpenAI's API to automatically classify academic papers into computer science course subjects based on titles and abstracts. Now includes horizontal bar chart generation with beautiful fading color palettes.
+
 ```bash
+# Basic classification
 python subject_vibe.py -f bibfiles/acm_chatgpt.bib -o cs_classifications.csv -n 10 -v
+
+# Classification with chart generation
+python subject_vibe.py -f bibfiles/acm_chatgpt.bib -o cs_classifications.csv -p --chart-output subject_chart.png
+
+# Batch processing with custom chart settings
+python subject_vibe.py -f bibfiles/acm_final.bib -o results.csv --batch-size 5 -p --max-subjects 15
+```
+
+### Subject Chart Generation (Standalone)
+Generate beautiful horizontal bar charts from existing subject classification CSV files.
+
+```bash
+# Basic chart from CSV
+python subject_chart.py -f output/subject_vibes.csv
+
+# Custom chart with specific settings
+python subject_chart.py -f data.csv -o custom_chart.png --max-subjects 15 --title "CS Research Distribution"
+
+# Verbose output with detailed statistics
+python subject_chart.py -f data.csv -v --max-subjects 20
 ```
 
 ## Requirements
@@ -114,9 +142,10 @@ python subject_vibe.py -f bibfiles/acm_chatgpt.bib -o cs_classifications.csv -n 
 0. Find DOIs from paper titles: `python find_dois.py -f paper_titles.txt`
 1. Extract DOIs from your bibliography: `python set_of_dois.py -d bibfiles/`
 2. Validate the DOIs: `python check_dois_valid.py -f unique_dois.txt`
-3. Analyze topic frequencies: `python topic_frequency.py -t topics.txt -b bibfiles/acm_final.bib -p`
-4. Perform TF-IDF analysis: `python tf-idf.py -f bibfiles/acm_final.bib -v`
-5. Classify papers by CS course subject: `python subject_vibe.py -f bibfiles/acm_final.bib -o course_classifications.csv -n 20`
-6. Analyze coverage against a validation set: `python doi_overlap.py -d target_dois.txt -b bibfiles/acm_final.bib`
+3. Analyze topic frequencies with charts: `python topic_frequency.py -t topics.txt -b bibfiles/acm_final.bib -p`
+4. Perform TF-IDF analysis: `python tf_idf.py -f bibfiles/acm_final.bib -v`
+5. Classify papers by CS course subject with visualization: `python subject_vibe.py -f bibfiles/acm_final.bib -o course_classifications.csv -n 20 -p`
+6. Generate standalone subject charts: `python subject_chart.py -f course_classifications.csv -v`
+7. Analyze coverage against a validation set: `python doi_overlap.py -d target_dois.txt -b bibfiles/acm_final.bib`
 
 

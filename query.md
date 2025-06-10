@@ -134,7 +134,7 @@ Missing DOIs: 1 (3.6%) further improvement of 10.7%
 
 > Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](validation_set/dois_acm_dl_only.txt) and [`bibfiles/acm_fat_boy.bib`](bibfiles/acm_fat_boy.bib).
 
-## Query 4 (Search String)
+## Query 4 (Search_String)
 This is the final query that combines all the elements from the previous queries, focusing on computer science education, generative AI, and pedagogical aspects. Crucially we use the search engines FULL TEXT for the domain, then the abstract for the generative AI and pedagogical aspects. We also clean up some terms that are either out of scope (data science) or too broad (computer, computing).
 
 ```sql

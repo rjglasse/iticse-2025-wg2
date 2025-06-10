@@ -1,0 +1,225 @@
+#!/usr/bin/env python3
+"""
+CS Subject Visualization Script
+
+This standalone utility creates beautiful horizontal bar charts from subject 
+classification CSV files. It's designed to work with the output from subject_vibe.py
+but can be used with any CSV file containing subject classification data.
+
+Features:
+- Creates horizontal bar charts with fading color palettes
+- Supports customizable chart titles and output files
+- Handles various CSV formats automatically
+- Professional styling with modern design elements
+- Configurable display limits for readability
+
+Usage Examples:
+    # Basic chart generation
+    python subject_chart.py -f subject_vibes.csv
+
+    # Custom output file and max subjects
+    python subject_chart.py -f data.csv -o my_chart.png --max-subjects 15
+
+    # Custom title and styling
+    python subject_chart.py -f data.csv -o chart.png --title "Research Distribution"
+
+Requirements:
+    - Python 3.6+
+    - matplotlib: pip install matplotlib
+    - numpy: pip install numpy
+
+Input Format:
+    CSV file with a "Predicted_Course" or "Subject" column containing subject names
+
+Author: GitHub Copilot
+Version: 1.0
+"""
+
+import argparse
+import csv
+import sys
+from collections import Counter
+import matplotlib.pyplot as plt
+import numpy as np
+
+def read_subject_data(csv_file, subject_column=None):
+    """Read subject data from CSV file."""
+    subjects = []
+    
+    try:
+        with open(csv_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            
+            # Auto-detect subject column if not specified
+            if subject_column is None:
+                possible_columns = ['Predicted_Course', 'Subject', 'Course', 'Classification']
+                available_columns = reader.fieldnames
+                
+                for col in possible_columns:
+                    if col in available_columns:
+                        subject_column = col
+                        break
+                
+                if subject_column is None:
+                    print(f"Error: Could not find subject column. Available columns: {available_columns}")
+                    print("Please specify the column name using --subject-column")
+                    return []
+            
+            print(f"Using column: {subject_column}")
+            
+            for row in reader:
+                if subject_column in row and row[subject_column].strip():
+                    subjects.append(row[subject_column].strip())
+        
+        return subjects
+        
+    except Exception as e:
+        print(f"Error reading CSV file: {e}")
+        return []
+
+def create_subject_chart(subjects, output_file='subject_chart.png', max_subjects=20, title='CS Subject Vibe Count'):
+    """Create a horizontal bar chart of CS subject frequencies with a beautiful fading color palette."""
+    try:
+        # Count subject frequencies
+        subject_counts = Counter(subjects)
+        
+        # Sort by frequency and limit display
+        sorted_subjects = subject_counts.most_common(max_subjects)
+        
+        if not sorted_subjects:
+            print("No subjects to plot.")
+            return False
+        
+        # Extract subjects and counts
+        subject_names = [item[0] for item in sorted_subjects]
+        counts = [item[1] for item in sorted_subjects]
+        
+        # Create figure with appropriate size for readability
+        fig_height = max(8, len(subject_names) * 0.4)
+        plt.figure(figsize=(14, fig_height))
+        
+        # Create beautiful fading color palette (viridis gradient from dark to light)
+        num_bars = len(subject_names)
+        colors = plt.cm.viridis(np.linspace(0.85, 0.15, num_bars))  # Deep purple to bright teal
+        
+        # Create horizontal bar chart
+        bars = plt.barh(range(len(subject_names)), counts, color=colors, alpha=0.9, 
+                       edgecolor='white', linewidth=0.8, height=0.7)
+        
+        # Customize the chart
+        plt.title(title, fontsize=20, fontweight='bold', pad=30, color='#2c3e50')
+        plt.xlabel('Number of Papers', fontsize=15, fontweight='bold', color='#34495e')
+        plt.ylabel('Computer Science Subjects', fontsize=15, fontweight='bold', color='#34495e')
+        
+        # Set custom y-tick labels
+        plt.yticks(range(len(subject_names)), subject_names, fontsize=12)
+        
+        # Invert y-axis so highest frequency is on top
+        plt.gca().invert_yaxis()
+        
+        # Add value labels at the end of bars
+        max_count = max(counts)
+        for i, (bar, count) in enumerate(zip(bars, counts)):
+            plt.text(bar.get_width() + max_count * 0.01, bar.get_y() + bar.get_height()/2,
+                    f'{count}', ha='left', va='center', fontweight='bold', 
+                    fontsize=12, color='#2c3e50')
+        
+        # Add grid for better readability
+        plt.grid(axis='x', alpha=0.3, linestyle='--', color='#bdc3c7', linewidth=0.8)
+        
+        # Style the axes
+        ax = plt.gca()
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+        ax.spines['left'].set_color('#95a5a6')
+        ax.spines['bottom'].set_color('#95a5a6')
+        ax.tick_params(colors='#34495e', labelsize=11)
+        
+        # Set x-axis limits with some padding
+        plt.xlim(0, max_count * 1.15)
+        
+        # Adjust layout to prevent label cutoff
+        plt.tight_layout()
+        
+        # Save the chart with high quality
+        plt.savefig(output_file, dpi=300, bbox_inches='tight', 
+                   facecolor='white', edgecolor='none', format='png')
+        plt.close()  # Close the figure to free memory
+        
+        print(f"Subject visualization chart saved to: {output_file}")
+        print(f"Chart contains {len(subject_names)} subjects with {sum(counts)} total papers")
+        return True
+        
+    except ImportError:
+        print("Error: matplotlib and numpy are required for plotting.")
+        print("Install with: pip install matplotlib numpy")
+        return False
+    except Exception as e:
+        print(f"Error creating subject chart: {e}")
+        return False
+
+def main():
+    parser = argparse.ArgumentParser(description='Generate horizontal bar chart from CS subject classification data')
+    parser.add_argument('-f', '--file', required=True, 
+                       help='CSV file containing subject classification data')
+    parser.add_argument('-o', '--output', default='subject_chart.png',
+                       help='Output PNG file (default: subject_chart.png)')
+    parser.add_argument('--subject-column', 
+                       help='Name of the column containing subjects (auto-detected if not specified)')
+    parser.add_argument('--max-subjects', type=int, default=20,
+                       help='Maximum number of subjects to display (default: 20)')
+    parser.add_argument('--title', default='CS Subject Vibe Count',
+                       help='Chart title (default: "CS Subject Vibe Count")')
+    parser.add_argument('-v', '--verbose', action='store_true',
+                       help='Show detailed information about the data')
+    
+    args = parser.parse_args()
+    
+    # Check if input file exists
+    try:
+        with open(args.file, 'r') as f:
+            pass
+    except FileNotFoundError:
+        print(f"Error: File '{args.file}' not found.")
+        sys.exit(1)
+    
+    print(f"Reading subject data from: {args.file}")
+    
+    # Read subject data
+    subjects = read_subject_data(args.file, args.subject_column)
+    
+    if not subjects:
+        print("No subject data found. Please check your CSV file and column names.")
+        sys.exit(1)
+    
+    print(f"Found {len(subjects)} classified papers")
+    
+    # Show detailed statistics if verbose
+    if args.verbose:
+        subject_counts = Counter(subjects)
+        total_subjects = len(subject_counts)
+        print(f"\nDetailed Statistics:")
+        print(f"Total unique subjects: {total_subjects}")
+        print(f"Total papers: {len(subjects)}")
+        print(f"\nTop subjects:")
+        for subject, count in subject_counts.most_common(10):
+            percentage = (count / len(subjects)) * 100
+            print(f"  {subject}: {count} papers ({percentage:.1f}%)")
+        
+        if total_subjects > 10:
+            print(f"  ... and {total_subjects - 10} more subjects")
+    
+    # Create chart
+    success = create_subject_chart(subjects, args.output, args.max_subjects, args.title)
+    
+    if success:
+        print(f"\n✅ Chart successfully generated!")
+        print(f"📊 Output: {args.output}")
+        if args.max_subjects < len(Counter(subjects)):
+            print(f"📝 Note: Showing top {args.max_subjects} subjects out of {len(Counter(subjects))} total")
+    else:
+        print("❌ Chart generation failed")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()

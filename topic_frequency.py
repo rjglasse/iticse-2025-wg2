@@ -10,7 +10,7 @@ Features:
 - Extracts and parses BibTeX entries with DOI information
 - Searches for user-defined topics within entry content
 - Generates frequency statistics and detailed reports
-- Creates horizontal bar charts for visual analysis
+- Creates horizontal bar charts for visual analysis with beautiful viridis color palette
 - Exports results to CSV format for further analysis
 - Supports case-sensitive and case-insensitive matching
 
@@ -159,30 +159,40 @@ def create_bar_chart(sorted_topics, output_file='topic_frequency_chart.png', max
         frequencies = [item[1] for item in display_topics]
         
         # Create figure with vertical layout for horizontal bars
-        plt.figure(figsize=(12, 20))
+        plt.figure(figsize=(12, max(8, len(topics) * 0.4)))
         
-        # Create color gradient from medium blue to light blue
+        # Create beautiful fading color palette (viridis gradient from dark to light)
         num_bars = len(topics)
-        colors = plt.cm.Blues(np.linspace(0.7, 0.3, num_bars))  # Medium to light blue
+        colors = plt.cm.viridis(np.linspace(0.85, 0.15, num_bars))  # Deep purple to bright teal
         
         # Create horizontal bar chart with gradient colors
-        bars = plt.barh(topics, frequencies, color=colors, alpha=0.9)
+        bars = plt.barh(topics, frequencies, color=colors, alpha=0.9, 
+                       edgecolor='white', linewidth=0.8)
         
         # Customize the chart
-        plt.title('Topic Frequency Analysis', fontsize=16, fontweight='bold', pad=20)
-        plt.xlabel('Frequency', fontsize=12, fontweight='bold')
-        plt.ylabel('Topics', fontsize=12, fontweight='bold')
+        plt.title('Topic Frequency Analysis', fontsize=18, fontweight='bold', pad=25, color='#2c3e50')
+        plt.xlabel('Frequency', fontsize=14, fontweight='bold', color='#34495e')
+        plt.ylabel('Topics', fontsize=14, fontweight='bold', color='#34495e')
         
         # Invert y-axis so highest frequency is on top
         plt.gca().invert_yaxis()
         
         # Add value labels at the end of bars
+        max_freq = max(frequencies)
         for bar, freq in zip(bars, frequencies):
-            plt.text(bar.get_width() + 0.1, bar.get_y() + bar.get_height()/2,
-                    str(freq), ha='left', va='center', fontweight='bold')
+            plt.text(bar.get_width() + max_freq * 0.01, bar.get_y() + bar.get_height()/2,
+                    str(freq), ha='left', va='center', fontweight='bold', fontsize=11, color='#2c3e50')
         
         # Add grid for better readability
-        plt.grid(axis='x', alpha=0.3, linestyle='--')
+        plt.grid(axis='x', alpha=0.3, linestyle='--', color='#bdc3c7')
+        
+        # Style the axes
+        ax = plt.gca()
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+        ax.spines['left'].set_color('#95a5a6')
+        ax.spines['bottom'].set_color('#95a5a6')
+        ax.tick_params(colors='#34495e', labelsize=11)
         
         # Adjust layout to prevent label cutoff
         plt.tight_layout()

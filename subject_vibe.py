@@ -39,11 +39,14 @@ Usage Examples:
     # Basic subject classification
     python subject_vibe.py -f papers.bib -o classifications.csv
 
-    # Classify with verbose output
-    python subject_vibe.py -f bibfiles/acm_chatgpt.bib -v -o cs_subjects.csv
+    # Classify with verbose output and generate chart
+    python subject_vibe.py -f bibfiles/acm_chatgpt.bib -v -o cs_subjects.csv -p
 
-    # Use specific OpenAI model
-    python subject_vibe.py -f papers.bib -m gpt-4 -o detailed_analysis.csv
+    # Use specific OpenAI model with chart generation
+    python subject_vibe.py -f papers.bib -m gpt-4 -o detailed_analysis.csv -p --chart-output analysis_chart.png
+
+    # Generate chart with custom settings
+    python subject_vibe.py -f papers.bib -o results.csv -p --max-subjects 15 --chart-output custom_chart.png
 
 Environment Setup:
     export OPENAI_API_KEY="your-api-key-here"
@@ -88,6 +91,9 @@ import csv
 import os
 import time
 import random
+from collections import Counter
+import matplotlib.pyplot as plt
+import numpy as np
 from openai import OpenAI
 
 def extract_papers_from_bibtex(bibtex_path):
@@ -254,6 +260,105 @@ Use subjects like: Machine Learning, Databases, Software Engineering, Computer N
         print(f"Error in batch classification: {e}")
         return [f"Error: {str(e)}"] * len(papers)
 
+def plot_classification_results(results, output_file):
+    """Generate and save a pie chart of classification results."""
+    # Count papers per course subject
+    course_counts = Counter(result['Predicted_Course'] for result in results)
+    
+    # Prepare data for plotting
+    labels = list(course_counts.keys())
+    sizes = list(course_counts.values())
+    
+    # Normalize sizes to be between 0 and 1
+    total_papers = sum(sizes)
+    sizes = [size / total_papers for size in sizes]
+    
+    # Create a color palette with fading effect
+    cmap = plt.get_cmap("viridis")
+    colors = [cmap(i / len(sizes)) for i in range(len(sizes))]
+    
+    # Plot pie chart
+    fig, ax = plt.subplots()
+    wedges, texts, autotexts = ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, colors=colors)
+    
+    # Beautify the chart
+    plt.setp(autotexts, size=10, weight="bold", color="white")
+    plt.setp(texts, size=10)
+    ax.set_title("Paper Classification Distribution", fontsize=14, weight="bold")
+    
+    # Save the figure
+    plt.tight_layout()
+    plt.savefig(output_file, dpi=300)
+    plt.close(fig)
+    print(f"Chart saved to: {output_file}")
+
+def create_subject_chart(results, output_file='subject_vibes_chart.png', max_subjects=20):
+    """Create a horizontal bar chart of CS subject frequencies with a fading color palette."""
+    try:
+        # Count subject frequencies
+        subject_counts = Counter(result['Predicted_Course'] for result in results)
+        
+        # Sort by frequency and limit display
+        sorted_subjects = subject_counts.most_common(max_subjects)
+        
+        if not sorted_subjects:
+            print("No subjects to plot.")
+            return False
+        
+        # Extract subjects and counts
+        subjects = [item[0] for item in sorted_subjects]
+        counts = [item[1] for item in sorted_subjects]
+        
+        # Create figure with appropriate size for readability
+        plt.figure(figsize=(12, max(8, len(subjects) * 0.4)))
+        
+        # Create beautiful fading color palette (purple to blue gradient)
+        num_bars = len(subjects)
+        colors = plt.cm.viridis(np.linspace(0.8, 0.2, num_bars))  # Deep purple to teal gradient
+        
+        # Create horizontal bar chart
+        bars = plt.barh(subjects, counts, color=colors, alpha=0.85, edgecolor='white', linewidth=0.5)
+        
+        # Customize the chart
+        plt.title('CS Subject Vibe Count', fontsize=18, fontweight='bold', pad=25, color='#2c3e50')
+        plt.xlabel('Number of Papers', fontsize=14, fontweight='bold', color='#34495e')
+        plt.ylabel('Computer Science Subjects', fontsize=14, fontweight='bold', color='#34495e')
+        
+        # Invert y-axis so highest frequency is on top
+        plt.gca().invert_yaxis()
+        
+        # Add value labels at the end of bars
+        for bar, count in zip(bars, counts):
+            plt.text(bar.get_width() + max(counts) * 0.01, bar.get_y() + bar.get_height()/2,
+                    str(count), ha='left', va='center', fontweight='bold', fontsize=11, color='#2c3e50')
+        
+        # Add grid for better readability
+        plt.grid(axis='x', alpha=0.3, linestyle='--', color='#bdc3c7')
+        
+        # Style the axes
+        plt.gca().spines['top'].set_visible(False)
+        plt.gca().spines['right'].set_visible(False)
+        plt.gca().spines['left'].set_color('#bdc3c7')
+        plt.gca().spines['bottom'].set_color('#bdc3c7')
+        
+        # Adjust layout to prevent label cutoff
+        plt.tight_layout()
+        
+        # Save the chart with high quality
+        plt.savefig(output_file, dpi=300, bbox_inches='tight', 
+                   facecolor='white', edgecolor='none')
+        plt.close()  # Close the figure to free memory
+        
+        print(f"Subject visualization chart saved to: {output_file}")
+        return True
+        
+    except ImportError:
+        print("Error: matplotlib and numpy are required for plotting. Install with: pip install matplotlib numpy")
+        return False
+    except Exception as e:
+        print(f"Error creating subject chart: {e}")
+        return False
+
 def main():
     parser = argparse.ArgumentParser(description='Classify CS papers into course subjects using OpenAI')
     parser.add_argument('-f', '--file', required=True, help='BibTeX file to analyze')
@@ -269,6 +374,15 @@ def main():
                        help='Random seed for reproducible sampling (default: 42)')
     parser.add_argument('--batch-size', type=int, 
                        help='Process multiple papers per API call (e.g., 5). Faster but experimental.')
+    parser.add_argument('-p', '--plot-chart', action='store_true', 
+                       help='Generate horizontal bar chart of subject frequencies')
+    parser.add_argument('--chart-output', 
+                       help='Output file for chart (default: subject_vibes_chart.png)', 
+                       default='subject_vibes_chart.png')
+    parser.add_argument('--max-subjects', type=int, default=20, 
+                       help='Maximum number of subjects to display in chart (default: 20)')
+    parser.add_argument('--chart', action='store_true', help='Generate a chart of classification results')
+    parser.add_argument('--output-chart', help='Output file for the chart (PNG format)')
     
     args = parser.parse_args()
     
@@ -467,6 +581,16 @@ def main():
             print(f"Total API calls made: {actual_batches} (vs {len(papers)} for individual processing)")
             time_saved_percent = ((len(papers) - actual_batches) / len(papers)) * 100
             print(f"API calls reduced by: {time_saved_percent:.1f}%")
+        
+        # Generate horizontal bar chart if requested
+        if args.plot_chart:
+            create_subject_chart(results, args.chart_output, args.max_subjects)
+        
+        # Generate and save chart if requested (legacy functionality)
+        if args.chart:
+            output_chart_file = args.output_chart if args.output_chart else "classification_chart.png"
+            plot_classification_results(results, output_chart_file)
+            create_subject_chart(results, args.output_chart.replace('.png', '_subjects.png'))
         
     except Exception as e:
         print(f"Error saving results: {e}")
