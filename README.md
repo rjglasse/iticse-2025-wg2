@@ -30,7 +30,7 @@ AND ("education" OR "teaching" OR "pedagogy" OR "student" OR "students" OR "lear
 
 ## CS Subject Classification Results
 
-<img src="output/cs_subject_vibe_count.png" alt="CS Subject Vibe Count" width="800"/>
+<img src="output/subject_vibes.png" alt="CS Subject Vibe Count" width="800"/>
 
 > Note: This chart shows the distribution of papers across computer science course subjects as classified by OpenAI's GPT-4o model. The classification is based on paper titles and abstracts, providing insights into which CS education areas are most represented in the literature on generative AI.
 
