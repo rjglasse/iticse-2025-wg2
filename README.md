@@ -3,6 +3,25 @@ A collection of tools to help the systematic literature review for WG2 at ITiCSE
 
 The primary aim of the working group if to systematically review the literature on the use of generative AI in upper-level computer science education. The secondary aim is to survey evaluators on their experiences with generative AI in computer science education, specifically in the upper-level courses. The tertiary aim is to create a set of recommendations, competencies, guidelines, and best practices for the use of generative AI in upper-level computer science education to help teachers transition there courses into the generative age.
 
+## Search String
+
+The SRL is driven by the following search string:
+
+Domain:
+```sql
+("computer science" OR "computer engineering" OR "software engineering" OR "cs education" OR "csed" OR "cse")
+```
+Generative AI:
+```sql
+AND ("generative" OR "large language model" OR "large language models" OR "llm" OR "llms" OR "gpt" OR "gpt-3" OR "gpt-3.5" OR "gpt-4" OR "gpt-4o" OR "o1" OR "o3" OR "chatgpt" OR "openai" OR "gemini" OR "bard" OR "claude" OR "copilot" OR "llama" OR "mixtral" OR "deepseek" OR "codex")
+```
+Pedagogical:
+```sql
+AND ("education" OR "teaching" OR "pedagogy" OR "student" OR "students" OR "learner" OR "learners" OR "teacher" OR "teachers" OR "curriculum" OR "course" OR "courses" OR "course design" OR "assignment" OR "homework" OR "project" OR "capstone" OR "coursework" OR "assessment" OR "grading" OR "examination" OR "exam" OR "learning outcome" OR "learning outcomes" OR "learning objective" OR "learning objectives" OR "competence" OR "competency" OR "competencies" OR "policy" or "policies")
+```
+
+> Note see the [`query.md`](query.md) file for the full query development and its varients and the results of the search against the validation set.
+
 ## Frequency of CS Subjects in paper collection
 
 <img src="output/topic_frequency_chart.png" alt="Screenshot" width="800"/>
@@ -11,35 +30,33 @@ The primary aim of the working group if to systematically review the literature 
 
 ## TF-IDF Analysis of most relevant topics
 
-| Rank | Term | TF-IDF Score |
-|------|------|--------------|
-| 1 | code | 13.4955 |
-| 2 | students | 12.8279 |
-| 3 | llms | 12.7976 |
-| 4 | education | 12.7923 |
-| 5 | programming | 12.4588 |
-| 6 | data | 11.6012 |
-| 7 | software | 11.5439 |
-| 8 | chatgpt | 10.1376 |
-| 9 | generative | 9.7487 |
-| 10 | model | 9.4851 |
-| 11 | language | 9.0060 |
-| 12 | generation | 8.7876 |
-| 13 | computing | 8.5992 |
-| 14 | models | 8.3428 |
-| 15 | computer | 8.0766 |
-| 16 | science | 7.9161 |
-| 17 | tools | 7.8431 |
-| 18 | learning | 7.7254 |
-| 19 | design | 7.6917 |
-| 20 | llm | 7.5936 |
-| 21 | large | 7.5312 |
-| 22 | knowledge | 7.4405 |
-| 23 | image | 7.4364 |
-| 24 | performance | 7.4238 |
-| 25 | tasks | 7.3639 |
+Found 987 documents with text content
+Calculating TF-IDF scores...
+Vocabulary size after filtering: 5539 terms
+Min document frequency: 2
+Max document frequency: 789
 
-> Note: The table above shows the top 25 terms with the highest TF-IDF scores from the analysis of the collected papers. This indicates their relevance and importance in the context of generative AI in computer science education. The BibTeX file used for this is the best performing on the ACM DL, which is [`bibfiles/acm_fat_boy.bib`](bibfiles/acm_fat_boy.bib).
+| Rank | Term | TF-IDF Score | Rank | Term | TF-IDF Score | Rank | Term | TF-IDF Score |
+|------|------|--------------|------|------|--------------|------|------|--------------|
+| 1 | code | 8.8914 | 18 | design | 4.8275 | 35 | artificial | 4.1858 |
+| 2 | programming | 8.3993 | 19 | model | 4.7928 | 36 | large | 4.1127 |
+| 3 | students | 7.5580 | 20 | use | 4.7757 | 37 | human | 3.8371 |
+| 4 | llms | 7.5478 | 21 | llm | 4.7130 | 38 | system | 3.7961 |
+| 5 | chatgpt | 7.4681 | 22 | models | 4.6398 | 39 | technology | 3.7376 |
+| 6 | software | 7.2976 | 23 | research | 4.5720 | 40 | using | 3.7318 |
+| 7 | learning | 6.4626 | 24 | their | 4.5305 | 41 | educational | 3.7253 |
+| 8 | education | 6.2118 | 25 | our | 4.5176 | 42 | paper | 3.7157 |
+| 9 | generative | 6.0853 | 26 | student | 4.5047 | 43 | development | 3.6996 |
+| 10 | genai | 5.8253 | 27 | language | 4.4863 | 44 | knowledge | 3.6426 |
+| 11 | data | 5.6778 | 28 | questions | 4.4420 | 45 | analysis | 3.6318 |
+| 12 | tools | 5.3515 | 29 | study | 4.3863 | 46 | challenges | 3.6221 |
+| 13 | science | 5.0773 | 30 | course | 4.2925 | 47 | acm | 3.6214 |
+| 14 | computer | 5.0335 | 31 | systems | 4.2775 | 48 | cs1 | 3.5846 |
+| 15 | engineering | 4.9939 | 32 | generation | 4.2599 | 49 | international | 3.5729 |
+| 16 | feedback | 4.9457 | 33 | intelligence | 4.2381 | 50 | symposium | 3.5362 |
+| 17 | computing | 4.8788 | 34 | teaching | 4.2044 |  |  |  |
+
+> Note: The table above shows the top 25 terms with the highest TF-IDF scores from the analysis of the collected papers. This indicates their relevance and importance in the context of generative AI in computer science education. The BibTeX file used for this is the best performing on the ACM DL, which is [`bibfiles/acm_searcH_string.bib`](bibfiles/acm_search_string.bib).
 
 ## Tools Overview
 
