@@ -89,7 +89,42 @@ import sys
 import csv
 
 def find_doi(title):
-    """Retrieve DOI for a given title using Crossref API."""
+    """
+    Retrieve DOI for a given paper title using the Crossref API.
+    
+    This function queries the Crossref database to find the most relevant DOI
+    for a given paper title. It uses bibliographic search and performs basic
+    title matching to ensure the returned DOI corresponds to the correct paper.
+    
+    Args:
+        title (str): The academic paper title to search for
+        
+    Returns:
+        str: The DOI if found, or an error message:
+            - Valid DOI (e.g., "10.1145/1234567.1234568")
+            - "DOI not found" if no matching paper found
+            - "Error fetching DOI" if network/API error occurred
+            - "Error processing response" if response parsing failed
+            
+    Examples:
+        >>> find_doi("Deep Learning for Natural Language Processing")
+        "10.1038/s41586-019-1234-5"
+        
+        >>> find_doi("Nonexistent Paper Title")
+        "DOI not found"
+        
+    API Details:
+        - Uses Crossref REST API (https://api.crossref.org/works)
+        - Retrieves top 5 results sorted by relevance score
+        - Performs basic title similarity matching
+        - Respects API guidelines with proper User-Agent header
+        
+    Error Handling:
+        - Network connectivity issues
+        - HTTP response errors (4xx, 5xx)
+        - JSON parsing errors
+        - Missing or malformed API response data
+    """
     headers = {
         'User-Agent': 'DOI-Finder/1.0 (mailto:your@email.com)'  # Replace with your email
     }
@@ -129,6 +164,60 @@ def find_doi(title):
         return "Error processing response"
 
 def main():
+    """
+    Main function that orchestrates the DOI finding process.
+    
+    This function handles command-line argument parsing, file I/O operations,
+    batch processing of titles, progress tracking, and CSV output generation.
+    It processes each title through the find_doi() function and compiles
+    comprehensive statistics about the search results.
+    
+    Command-line Arguments:
+        -f, --file: Path to input text file containing paper titles (required)
+        -o, --output: Output CSV filename (default: 'doi_results.csv')
+        -v, --verbose: Enable detailed progress output (optional)
+        
+    Input File Format:
+        Plain text file with one paper title per line, UTF-8 encoded
+        
+    Output CSV Format:
+        Columns: DOI, URL, Title
+        - DOI: Found DOI or error message
+        - URL: Clickable https://doi.org/ link (empty if DOI not found)
+        - Title: Original paper title from input file
+        
+    Process Flow:
+        1. Parse command-line arguments and validate inputs
+        2. Load paper titles from input file
+        3. Initialize CSV output file with headers
+        4. Process each title through Crossref API search
+        5. Apply rate limiting (1-second delays between requests)
+        6. Generate comprehensive statistics and summary report
+        
+    Error Handling:
+        - Missing or invalid input files
+        - File encoding issues (UTF-8 required)
+        - Empty input files
+        - Network connectivity problems
+        - API rate limiting and response errors
+        
+    Statistics Tracked:
+        - Total titles processed
+        - Successful DOI matches found
+        - Titles with no DOI found
+        - API errors encountered
+        
+    Rate Limiting:
+        Includes 1-second delays between API calls to respect
+        Crossref API guidelines and avoid rate limiting
+        
+    Examples:
+        Basic usage:
+        >>> python find_dois.py -f paper_titles.txt
+        
+        With custom output and verbose mode:
+        >>> python find_dois.py -f titles.txt -o my_results.csv -v
+    """
     parser = argparse.ArgumentParser(description='Find DOIs for academic paper titles')
     parser.add_argument('-f', '--file', help='Path to a text file with paper titles (one per line)')
     parser.add_argument('-o', '--output', help='Output CSV file name', default='doi_results.csv')
