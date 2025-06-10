@@ -187,6 +187,73 @@ Course Subject:"""
         print(f"Error classifying paper '{title[:50]}...': {e}")
         return f"Error: {str(e)}"
 
+def classify_papers_batch(client, papers, model="gpt-4o"):
+    """
+    Classify multiple papers in a single API call for improved efficiency.
+    
+    Args:
+        client: OpenAI client instance
+        papers: List of paper dictionaries with 'title' and 'abstract' keys
+        model: OpenAI model to use for classification
+        
+    Returns:
+        List of classification strings, one per input paper
+        
+    Note:
+        This function processes multiple papers in one API call, which is more
+        efficient than individual calls but may be less accurate for complex cases.
+    """
+    
+    # Create batch prompt
+    papers_text = ""
+    for i, paper in enumerate(papers, 1):
+        title = paper.get('title', 'No title')
+        abstract = paper.get('abstract', 'No abstract available')
+        papers_text += f"\nPaper {i}:\nTitle: {title}\nAbstract: {abstract}\n"
+    
+    prompt = f"""Classify each of these {len(papers)} computer science papers into course subjects. For each paper, respond with just the course name.
+
+{papers_text}
+
+Please respond in this exact format:
+Paper 1: [Course Subject]
+Paper 2: [Course Subject]
+Paper 3: [Course Subject]
+etc.
+
+Use subjects like: Machine Learning, Databases, Software Engineering, Computer Networks, Operating Systems, Computer Graphics, Human-Computer Interaction, Algorithms and Data Structures, Introductory Programming, Distributed Systems, Computer Security, Theory of Computation, Web Development, etc."""
+
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": "You are an expert computer science educator who classifies research papers into appropriate undergraduate/graduate CS course subjects."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=len(papers) * 20,  # Scale tokens based on number of papers
+            temperature=0.1
+        )
+        
+        # Parse the batch response
+        response_text = response.choices[0].message.content.strip()
+        classifications = []
+        
+        for line in response_text.split('\n'):
+            if line.strip() and ':' in line:
+                # Extract just the classification part after the colon
+                classification = line.split(':', 1)[1].strip()
+                classifications.append(classification)
+        
+        # Ensure we have the right number of classifications
+        while len(classifications) < len(papers):
+            classifications.append("Classification Error")
+        
+        return classifications[:len(papers)]  # Return exactly the number requested
+        
+    except Exception as e:
+        print(f"Error in batch classification: {e}")
+        return [f"Error: {str(e)}"] * len(papers)
+
 def main():
     parser = argparse.ArgumentParser(description='Classify CS papers into course subjects using OpenAI')
     parser.add_argument('-f', '--file', required=True, help='BibTeX file to analyze')
@@ -200,6 +267,8 @@ def main():
                        help='Randomly sample n papers instead of processing all')
     parser.add_argument('--seed', type=int, default=42,
                        help='Random seed for reproducible sampling (default: 42)')
+    parser.add_argument('--batch-size', type=int, 
+                       help='Process multiple papers per API call (e.g., 5). Faster but experimental.')
     
     args = parser.parse_args()
     
@@ -246,27 +315,119 @@ def main():
     print(f"Processing {len(papers)} papers to classify")
     print(f"Using model: {args.model}")
     
+    if args.batch_size:
+        print(f"Using batch processing: {args.batch_size} papers per API call")
+    else:
+        print("Using individual paper processing (1 paper per API call)")
+    
     # Classify papers
     results = []
-    for i, paper in enumerate(papers, 1):
-        if args.verbose:
-            title_preview = paper['title'][:180] + "..." if len(paper['title']) > 60 else paper['title']
-            print(f"Processing {i}/{len(papers)}: {title_preview}")
+    start_time = time.time()
+    
+    if args.batch_size:
+        # Batch processing mode
+        total_batches = (len(papers) + args.batch_size - 1) // args.batch_size  # Ceiling division
         
-        predicted_course = classify_paper(client, paper, args.model)
+        for batch_num in range(total_batches):
+            start_idx = batch_num * args.batch_size
+            end_idx = min(start_idx + args.batch_size, len(papers))
+            batch_papers = papers[start_idx:end_idx]
+            
+            # Calculate progress metrics
+            papers_processed = end_idx
+            progress_percent = (papers_processed / len(papers)) * 100
+            elapsed_time = time.time() - start_time
+            
+            if batch_num > 0:  # Avoid division by zero
+                avg_time_per_batch = elapsed_time / batch_num
+                remaining_batches = total_batches - batch_num
+                estimated_remaining = remaining_batches * avg_time_per_batch
+                eta_minutes = int(estimated_remaining // 60)
+                eta_seconds = int(estimated_remaining % 60)
+                eta_str = f"{eta_minutes}m {eta_seconds}s"
+            else:
+                eta_str = "calculating..."
+            
+            if args.verbose:
+                print(f"[Batch {batch_num + 1}/{total_batches} - {progress_percent:.1f}%] Processing {len(batch_papers)} papers")
+                print(f"  ETA: {eta_str}")
+            else:
+                print(f"Batch Progress: {batch_num + 1}/{total_batches} ({progress_percent:.1f}%) - ETA: {eta_str}", end='\r', flush=True)
+            
+            # Classify the batch
+            batch_classifications = classify_papers_batch(client, batch_papers, args.model)
+            
+            # Add results
+            for i, (paper, classification) in enumerate(zip(batch_papers, batch_classifications)):
+                results.append({
+                    'DOI': paper['doi'],
+                    'Title': paper['title'],
+                    'Predicted_Course': classification
+                })
+                
+                if args.verbose:
+                    title_preview = paper['title'][:60] + "..." if len(paper['title']) > 60 else paper['title']
+                    print(f"    Paper {start_idx + i + 1}: {title_preview} → {classification}")
+            
+            if args.verbose:
+                print()  # Add blank line for readability
+            
+            # Rate limiting between batches
+            if batch_num < total_batches - 1:  # Don't delay after the last batch
+                time.sleep(args.delay)
         
-        results.append({
-            'DOI': paper['doi'],
-            'Title': paper['title'],
-            'Predicted_Course': predicted_course
-        })
+        # Clear the progress line
+        if not args.verbose:
+            print()  # Move to new line after progress indicator
+            
+    else:
+        # Individual processing mode (original behavior)
+        for i, paper in enumerate(papers, 1):
+            # Calculate progress metrics
+            progress_percent = (i / len(papers)) * 100
+            elapsed_time = time.time() - start_time
+            if i > 1:  # Avoid division by zero
+                avg_time_per_paper = elapsed_time / (i - 1)
+                remaining_papers = len(papers) - i
+                estimated_remaining = remaining_papers * avg_time_per_paper
+                eta_minutes = int(estimated_remaining // 60)
+                eta_seconds = int(estimated_remaining % 60)
+                eta_str = f"{eta_minutes}m {eta_seconds}s"
+            else:
+                eta_str = "calculating..."
+            
+            if args.verbose:
+                title_preview = paper['title'][:80] + "..." if len(paper['title']) > 80 else paper['title']
+                print(f"[{i}/{len(papers)} - {progress_percent:.1f}%] {title_preview}")
+                print(f"  ETA: {eta_str}")
+            else:
+                # Show compact progress for non-verbose mode
+                print(f"Progress: {i}/{len(papers)} ({progress_percent:.1f}%) - ETA: {eta_str}", end='\r', flush=True)
+            
+            predicted_course = classify_paper(client, paper, args.model)
+            
+            results.append({
+                'DOI': paper['doi'],
+                'Title': paper['title'],
+                'Predicted_Course': predicted_course
+            })
+            
+            if args.verbose:
+                print(f"  → {predicted_course}")
+                print()  # Add blank line for readability
+            
+            # Rate limiting
+            if i < len(papers):  # Don't delay after the last paper
+                time.sleep(args.delay)
         
-        if args.verbose:
-            print(f"  → {predicted_course}")
-        
-        # Rate limiting
-        if i < len(papers):  # Don't delay after the last paper
-            time.sleep(args.delay)
+        # Clear the progress line and show completion
+        if not args.verbose:
+            print()  # Move to new line after progress indicator
+    
+    total_time = time.time() - start_time
+    total_minutes = int(total_time // 60)
+    total_seconds = int(total_time % 60)
+    print(f"Classification completed in {total_minutes}m {total_seconds}s")
     
     # Save results to CSV
     try:
@@ -297,6 +458,15 @@ def main():
             print(f"\nSampling Info:")
             print(f"Random seed used: {args.seed}")
             print(f"Sample size: {len(results)} out of total available papers")
+        
+        # Show processing mode info
+        if args.batch_size:
+            actual_batches = (len(papers) + args.batch_size - 1) // args.batch_size
+            print(f"\nBatch Processing Info:")
+            print(f"Batch size: {args.batch_size} papers per API call")
+            print(f"Total API calls made: {actual_batches} (vs {len(papers)} for individual processing)")
+            time_saved_percent = ((len(papers) - actual_batches) / len(papers)) * 100
+            print(f"API calls reduced by: {time_saved_percent:.1f}%")
         
     except Exception as e:
         print(f"Error saving results: {e}")

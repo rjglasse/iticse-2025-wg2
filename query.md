@@ -134,6 +134,33 @@ Missing DOIs: 1 (3.6%) further improvement of 10.7%
 
 > Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](validation_set/dois_acm_dl_only.txt) and [`bibfiles/acm_fat_boy.bib`](bibfiles/acm_fat_boy.bib).
 
+## Query 4 (Search String)
+This is the final query that combines all the elements from the previous queries, focusing on computer science education, generative AI, and pedagogical aspects. Crucially we use the search engines FULL TEXT for the domain, then the abstract for the generative AI and pedagogical aspects. We also clean up some terms that are either out of scope (data science) or too broad (computer, computing).
+
+```sql
+("computer science" OR "computer engineering" OR "software engineering" OR "cs education" OR "csed" OR "cse")
+```
+
+```sql
+AND ("generative" OR "large language model" OR "large language models" OR "llm" OR "llms" OR "gpt" OR "gpt-3" OR "gpt-3.5" OR "gpt-4" OR "gpt-4o" OR "o1" OR "o3" OR "chatgpt" OR "openai" OR "gemini" OR "bard" OR "claude" OR "copilot" OR "llama" OR "mixtral" OR "deepseek" OR "codex")
+```
+
+```sql
+AND ("education" OR "teaching" OR "pedagogy" OR "student" OR "students" OR "learner" OR "learners" OR "teacher" OR "teachers" OR "curriculum" OR "course" OR "courses" OR "course design" OR "assignment" OR "homework" OR "project" OR "capstone" OR "coursework" OR "assessment" OR "grading" OR "examination" OR "exam" OR "learning outcome" OR "learning outcomes" OR "learning objective" OR "learning objectives" OR "competence" OR "competency" OR "competencies" OR "policy" or "policies")
+```
+
+*Number of hits in ACM DL: 1,000*
+
+```
+Results Summary:
+----------------
+DOIs in input file: 28
+DOIs in BibTeX file: 913
+Overlapping DOIs: 25 (89.3%)
+Missing DOIs: 3 (10.7%)
+```
+> Using: [`doi_overlap.py`](doi_overlap.py) with [`validation_set/dois_acm_dl_only.txt`](validation_set/dois_acm_dl_only.txt) and [`bibfiles/acm_search_string.bib`](bibfiles/acm_search_string.bib).
+
 ## Query in One Line
 
 Slim_Jim:
