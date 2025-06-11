@@ -31,6 +31,7 @@ Use Cases:
 
 Requirements:
 - Python 3.6+
+- bibtexparser (for robust BibTeX parsing): pip install bibtexparser
 - Directory containing BibTeX (.bib) files with DOI fields
 
 Usage Examples:
@@ -89,25 +90,32 @@ import os
 import re
 import argparse
 from pathlib import Path
+import bibtexparser
 
 def extract_dois_from_bibtex(bibtex_path):
-    """Extract DOIs from a BibTeX file."""
+    """Extract DOIs from a BibTeX file using bibtexparser."""
     bibtex_dois = set()
     try:
         with open(bibtex_path, 'r', encoding='utf-8', errors='ignore') as f:
-            content = f.read()
-            
-            # Match DOIs in the standard BibTeX format
-            # Looking for patterns like: doi = {10.1234/abc123}
-            doi_pattern = re.compile(r'doi\s*=\s*["{]([^}"]+)["}]', re.IGNORECASE)
-            matches = doi_pattern.findall(content)
-            
-            for doi in matches:
-                # Clean up DOIs (remove whitespace, URL prefixes)
-                doi = doi.strip()
+            # Parse the BibTeX file using bibtexparser
+            bib_database = bibtexparser.load(f)
+        
+        # Extract DOIs from each entry
+        for entry in bib_database.entries:
+            if 'doi' in entry:
+                doi = entry['doi'].strip()
+                
+                # Clean up DOI by removing common prefixes
                 if doi.startswith('https://doi.org/'):
                     doi = doi[16:]
-                bibtex_dois.add(doi)
+                elif doi.startswith('http://dx.doi.org/'):
+                    doi = doi[18:]
+                elif doi.startswith('dx.doi.org/'):
+                    doi = doi[11:]
+                
+                if doi:  # Only add non-empty DOIs
+                    bibtex_dois.add(doi)
+        
     except Exception as e:
         print(f"Error reading BibTeX file {bibtex_path}: {e}")
     

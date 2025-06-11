@@ -59,6 +59,7 @@ from collections import defaultdict
 from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
+import bibtexparser
 
 def extract_topics_from_file(topics_file):
     """Extract topics from a file (one topic per line)."""
@@ -76,53 +77,41 @@ def extract_topics_from_file(topics_file):
     return topics
 
 def extract_entries_from_bibtex(bibtex_path):
-    """Extract entries with DOIs from a BibTeX file."""
+    """Extract entries with DOIs from a BibTeX file using bibtexparser."""
     entries = []
-    current_entry = {}
-    current_key = None
-    in_entry = False
     
     try:
         with open(bibtex_path, 'r', encoding='utf-8', errors='ignore') as f:
-            for line in f:
-                line = line.strip()
+            # Parse the BibTeX file using bibtexparser
+            bib_database = bibtexparser.load(f)
+        
+        print(f"Found {len(bib_database.entries)} total BibTeX entries")
+        
+        # Process each entry
+        for entry in bib_database.entries:
+            # Only keep entries that have DOI information
+            if 'doi' in entry:
+                processed_entry = {
+                    'key': entry.get('ID', 'Unknown'),
+                    'doi': entry['doi'].strip(),
+                    'title': entry.get('title', ''),
+                    'content': str(entry)  # Full entry as string for topic searching
+                }
                 
-                # Check for entry start
-                if re.match(r'^@\w+\s*\{', line):
-                    in_entry = True
-                    current_entry = {'content': line + '\n'}
-                    # Extract citation key
-                    match = re.search(r'^@\w+\s*\{\s*(\w+)', line)
-                    if match:
-                        current_key = match.group(1)
-                        current_entry['key'] = current_key
+                # Clean up DOI by removing common prefixes
+                doi = processed_entry['doi']
+                if doi.startswith('https://doi.org/'):
+                    doi = doi[16:]
+                elif doi.startswith('http://dx.doi.org/'):
+                    doi = doi[18:]
+                elif doi.startswith('dx.doi.org/'):
+                    doi = doi[11:]
+                processed_entry['doi'] = doi
                 
-                # Add content to current entry
-                elif in_entry:
-                    current_entry['content'] += line + '\n'
-                    
-                    # Extract DOI if present
-                    doi_match = re.search(r'doi\s*=\s*["{]([^}"]+)["}]', line, re.IGNORECASE)
-                    if doi_match:
-                        doi = doi_match.group(1).strip()
-                        if doi.startswith('https://doi.org/'):
-                            doi = doi[16:]
-                        current_entry['doi'] = doi
-                    
-                    # Extract title if present
-                    title_match = re.search(r'(?<![a-zA-Z])title\s*=\s*["{]([^}"]+)["}]', line, re.IGNORECASE)
-                    if title_match:
-                        title = title_match.group(1).strip()
-                        current_entry['title'] = title
-                    
-                    # Check for entry end
-                    if line == '}':
-                        in_entry = False
-                        if 'doi' in current_entry:  # Only keep entries with DOIs
-                            entries.append(current_entry)
-                        current_entry = {}
-                        current_key = None
-    
+                entries.append(processed_entry)
+        
+        print(f"Found {len(entries)} entries with DOI information")
+        
     except Exception as e:
         print(f"Error reading BibTeX file {bibtex_path}: {e}")
     

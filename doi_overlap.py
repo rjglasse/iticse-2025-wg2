@@ -30,6 +30,7 @@ Use Cases:
 
 Requirements:
 - Python 3.6+
+- bibtexparser (for robust BibTeX parsing): pip install bibtexparser
 - Two input files: DOI list and BibTeX file
 
 Usage Examples:
@@ -89,6 +90,7 @@ import argparse
 import re
 import sys
 from pathlib import Path
+import bibtexparser
 
 def extract_dois_from_file(file_path):
     """Extract DOIs from a text file (one DOI per line)."""
@@ -109,23 +111,33 @@ def extract_dois_from_file(file_path):
     return dois
 
 def extract_dois_from_bibtex(bibtex_path):
-    """Extract DOIs from a BibTeX file."""
+    """Extract DOIs from a BibTeX file using bibtexparser."""
     bibtex_dois = set()
     try:
-        with open(bibtex_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-            
-            # Match DOIs in the standard BibTeX format
-            # Looking for patterns like: doi = {10.1234/abc123}
-            doi_pattern = re.compile(r'doi\s*=\s*["{]([^}"]+)["}]', re.IGNORECASE)
-            matches = doi_pattern.findall(content)
-            
-            for doi in matches:
-                # Clean up DOIs (remove whitespace, URL prefixes)
-                doi = doi.strip()
+        with open(bibtex_path, 'r', encoding='utf-8', errors='ignore') as f:
+            # Parse the BibTeX file using bibtexparser
+            bib_database = bibtexparser.load(f)
+        
+        print(f"Found {len(bib_database.entries)} total BibTeX entries")
+        
+        # Extract DOIs from each entry
+        for entry in bib_database.entries:
+            if 'doi' in entry:
+                doi = entry['doi'].strip()
+                
+                # Clean up DOI by removing common prefixes
                 if doi.startswith('https://doi.org/'):
                     doi = doi[16:]
-                bibtex_dois.add(doi)
+                elif doi.startswith('http://dx.doi.org/'):
+                    doi = doi[18:]
+                elif doi.startswith('dx.doi.org/'):
+                    doi = doi[11:]
+                
+                if doi:  # Only add non-empty DOIs
+                    bibtex_dois.add(doi)
+        
+        print(f"Found {len(bibtex_dois)} entries with valid DOI information")
+        
     except Exception as e:
         print(f"Error reading BibTeX file {bibtex_path}: {e}")
         sys.exit(1)

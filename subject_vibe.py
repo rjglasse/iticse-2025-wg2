@@ -32,6 +32,7 @@ Use Cases:
 Requirements:
 - Python 3.6+
 - openai library: pip install openai
+- bibtexparser (for robust BibTeX parsing): pip install bibtexparser
 - OpenAI API key (set as environment variable OPENAI_API_KEY)
 - BibTeX files with title and preferably abstract fields
 
@@ -95,52 +96,53 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import numpy as np
 from openai import OpenAI
+import bibtexparser
 
 def extract_papers_from_bibtex(bibtex_path):
-    """Extract paper information from BibTeX file."""
+    """Extract paper information from BibTeX file using bibtexparser."""
     papers = []
-    current_entry = {}
-    in_entry = False
     
     try:
         with open(bibtex_path, 'r', encoding='utf-8', errors='ignore') as f:
-            content = f.read()
-            
-        # Split by entry boundaries
-        entries = re.split(r'@\w+\s*\{', content)[1:]  # Skip first empty split
+            # Parse the BibTeX file using bibtexparser
+            bib_database = bibtexparser.load(f)
         
-        for entry in entries:
+        print(f"Found {len(bib_database.entries)} total BibTeX entries")
+        
+        # Process each entry
+        for entry in bib_database.entries:
             paper = {}
             
             # Extract DOI
-            doi_match = re.search(r'doi\s*=\s*["{]([^}"]+)["}]', entry, re.IGNORECASE)
-            if doi_match:
-                doi = doi_match.group(1).strip()
+            if 'doi' in entry:
+                doi = entry['doi'].strip()
+                # Clean up DOI by removing common prefixes
                 if doi.startswith('https://doi.org/'):
                     doi = doi[16:]
+                elif doi.startswith('http://dx.doi.org/'):
+                    doi = doi[18:]
+                elif doi.startswith('dx.doi.org/'):
+                    doi = doi[11:]
                 paper['doi'] = doi
             
             # Extract title (try title first, then booktitle as fallback)
-            title_match = re.search(r'\btitle\s*=\s*["{]([^}"]+)["}]', entry, re.IGNORECASE)
-            if title_match:
-                title = clean_text(title_match.group(1))
+            if 'title' in entry:
+                title = clean_text(entry['title'])
                 paper['title'] = title
-            else:
-                # Try booktitle as fallback
-                booktitle_match = re.search(r'\bbooktitle\s*=\s*["{]([^}"]+)["}]', entry, re.IGNORECASE)
-                if booktitle_match:
-                    title = clean_text(booktitle_match.group(1))
-                    paper['title'] = title
+            elif 'booktitle' in entry:
+                title = clean_text(entry['booktitle'])
+                paper['title'] = title
             
             # Extract abstract
-            abstract_match = re.search(r'\babstract\s*=\s*["{]([^}"]+)["}]', entry, re.IGNORECASE)
-            if abstract_match:
-                abstract = clean_text(abstract_match.group(1))
+            if 'abstract' in entry:
+                abstract = clean_text(entry['abstract'])
                 paper['abstract'] = abstract
             
             # Only include papers with at least title and DOI
             if paper.get('title') and paper.get('doi'):
                 papers.append(paper)
+        
+        print(f"Found {len(papers)} papers with both title and DOI")
     
     except Exception as e:
         print(f"Error reading BibTeX file {bibtex_path}: {e}")

@@ -1,0 +1,1028 @@
+DOI,Title,Predicted_Course
+10.1145/3649409.3691094,CourseAssist: Pedagogically Appropriate AI Tutor for Computer Science Education,Educational Technology in Computer Science
+10.1145/3626252.3630789,Beyond Traditional Teaching: Large Language Models as Simulated Teaching Assistants in Computer Science,Introductory Programming
+10.1145/3649217.3653554,Can Small Language Models With Retrieval-Augmented Generation Replace Large Language Models When Learning Computer Science?,Introductory Programming
+10.1145/3688089,"Ethics, Governance, and User Mental Models for Large Language Models in Computing Education",Human-Computer Interaction
+10.1145/3626253.3633409,Generative AI in Computer Science Education,Computer Science Education
+10.1145/3626252.3630927,Software Engineering Education Must Adapt and Evolve for an LLM Environment,Software Engineering
+10.1145/3657604.3664660,Comparing Feedback from Large Language Models and Instructors: Teaching Computer Science at Scale,Algorithms and Data Structures
+10.1145/3626253.3633431,Ninth SPLICE Workshop on Technology and Data Infrastructure for CS Education Research,Computing Education Research
+10.1145/3649409.3691074,Ethical Implications of Gen-AI and LLMs in Computing Education,Ethics in Computing Education
+10.1145/3639474.3640061,AI-Tutoring in Software Engineering Education,Software Engineering
+10.1145/3626253.3631657,AI in Computing Education from Research to Practice,Artificial Intelligence in Education
+10.1145/3626253.3635369,Discussing the Changing Landscape of Generative AI in Computing Education,Computing Education
+10.1145/3649217.3653543,Iris: An AI-Driven Virtual Tutor for Computer Science Education,Introductory Programming
+10.1145/3626252.3630803,ChatGPT in the Classroom: An Analysis of Its Strengths and Weaknesses for Solving Undergraduate Computer Science Questions,Educational Technology in Computer Science
+10.1145/3660650.3660657,Generative AI in CS Education: Literature Review through a SWOT Lens,Computer Science Education
+10.1145/3649217.3653570,Customizing ChatGPT to Help Computer Science Principles Students Learn Through Conversation,Educational Technology
+10.1145/3636243.3636257,"“It's not like Jarvis, but it's pretty close!” - Examining ChatGPT's Usage among Undergraduate Students in Computer Science",Human-Computer Interaction
+10.1145/3660650.3660668,Experience Report: Adopting AI-Usage Policy in Software Engineering Education,Software Engineering
+10.1145/3587102.3588815,How ChatGPT Will Change Software Engineering Education,Software Engineering
+10.1145/3623762.3633499,The Robots Are Here: Navigating the Generative AI Revolution in Computing Education,Computing Education
+10.1145/3643795.3648379,An Empirical Study on Usage and Perceptions of LLMs in a Software Engineering Project,Software Engineering
+10.1145/3674149,Evaluating ChatGPT-4 Vision on Brazil's National Undergraduate Computer Science Exam,Artificial Intelligence
+10.1145/3686852.3686864,Faculty Perspectives on the Potential of RAG in Computer Science Higher Education,Educational Technology in Computer Science
+10.1145/3649217.3653575,Early Adoption of Generative Artificial Intelligence in Computing Education: Emergent Student Use Cases and Perspectives in 2023,Computing Education
+10.1145/3587102.3588773,Chat Overflow: Artificially Intelligent Models for Computing Education - renAIssance or apocAIypse?,Computing Education
+10.1145/3568812.3603453,Prompt Engineering for Large Language Models to Support K-8 Computer Science Teachers in Creating Culturally Responsive Projects,Educational Technology in Computer Science
+10.1145/3626253.3635511,My Learnings from Allowing Large Language Models in Introductory Computer Science Classes,Introductory Programming
+10.1145/3677619.3678092,Differentiated Tasks by ChatGPT for Secondary Computer Science Education: Useful or not?,Educational Technology
+10.1145/3605468.3605471,AI Education in German K-10 Computer Science Curricula,AI Education
+10.1145/3649409.3691090,From GPT to BERT: Benchmarking Large Language Models for Automated Quiz Generation,Natural Language Processing
+10.1145/3661167.3661269,The Role of Software Measurement in Assured LLM-Based Software Engineering,Software Engineering
+10.1145/3663530.3665020,A Pilot Study in Surveying Data Challenges of Automatic Software Engineering Tasks,Software Engineering
+10.1145/3626253.3635427,Teaching CS50 with AI: Leveraging Generative Artificial Intelligence in Computer Science Education,Introductory Programming
+10.1145/3626252.3630938,Teaching CS50 with AI: Leveraging Generative Artificial Intelligence in Computer Science Education,Computer Science Education
+10.1145/3660788,Beyond Code Generation: An Observational Study of ChatGPT Usage in Software Engineering Practice,Software Engineering
+10.1145/3597503.3639201,How Far Are We? The Triumphs and Trials of Generative AI in Learning Software Engineering,Software Engineering
+10.1145/3624720,Computing Education in the Era of Generative AI,Computing Education
+10.1145/3610969.3610982,No More Pencils No More Books: Capabilities of Generative AI on Irish and UK Computer Science School Leaving Examinations,Educational Technology
+10.1145/3613372.3614189,A Report on the Use of ChatGPT in Software Engineering and Systems Analysis Courses,Software Engineering
+10.1145/3657604.3662036,Evaluating the Effectiveness of LLMs in Introductory Computer Science Education: A Semester-Long Field Study,Introductory Programming
+10.1145/3613944.3613946,ChatGPT in Computer Science Curriculum Assessment: An analysis of Its Successes and Shortcomings,Computing Education
+10.1145/3587103.3594206,Transformed by Transformers: Navigating the AI Coding Revolution for Computing Education: An ITiCSE Working Group Conducted by Humans,Computing Education
+10.1145/3633287,Bob or Bot: Exploring ChatGPT's Answers to University Computer Science Assessment,Academic Integrity in Computer Science Education
+10.1145/3626252.3630854,Exploring the Impact of Generative AI for StandUp Report Recommendations in Software Capstone Project Development,Software Engineering
+10.1145/3616961.3616974,"""\""Call me Kiran\"" – ChatGPT as a Tutoring Chatbot in a Computer Science Course""",Educational Technology in Computer Science
+10.1145/3649217.3653594,Feedback-Generation for Programming Exercises With GPT-4,Introductory Programming
+10.1145/3689535.3689554,Not the Silver Bullet: LLM-enhanced Programming Error Messages are Ineffective in Practice,Introductory Programming
+10.1145/3657604.3664701,ChatGPT's Performance on Problem Sets in an At-Scale Introductory Computer Science Course,Introductory Programming
+10.1145/3680533.3697064,An Eye for an AI: Evaluating GPT-4o's Visual Perception Skills and Geometric Reasoning Skills Using Computer Graphics Questions,Computer Graphics
+10.1145/3664646.3664765,A Comparative Analysis of Large Language Models for Code Documentation Generation,Software Engineering
+10.1145/3626252.3630928,Solving Proof Block Problems Using Large Language Models,Algorithms and Data Structures
+10.1145/3626252.3630960,"Using GPT-4 to Provide Tiered, Formative Code Feedback",Algorithms and Data Structures
+10.1145/3639474.3640052,"LLMs Still Can't Avoid Instanceof: An Investigation Into GPT-3.5, GPT-4 and Bard's Capacity to Handle Object-Oriented Programming Assignments",Object-oriented Programming
+10.1145/3641237.3691673,Seeing How the Sausage is Made: Data Storytelling as Means and Method in a Computer Science Writing Course,Data Science and Communication
+10.1145/3657604.3662040,Combining LLM-Generated and Test-Based Feedback in a MOOC for Programming,Introductory Programming
+10.1145/3649409.3691086,Understanding Algorithmic Problem Solving using LLMs,Algorithms and Data Structures
+10.1145/3636243.3636256,A Comparative Study of AI-Generated (GPT-4) and Human-crafted MCQs in Programming Education,Introductory Programming
+10.1145/3626253.3635543,CAET: Code Analysis and Education Tutor,Introductory Programming
+10.1145/3639474.3640058,Let's Ask AI About Their Programs: Exploring ChatGPT's Answers To Program Comprehension Questions,Introductory Programming
+10.1145/3632620.3671097,"Using Benchmarking Infrastructure to Evaluate LLM Performance on CS Concept Inventories: Challenges, Opportunities, and Critiques",Computing Education Research
+10.1145/3593663.3593695,Experiences with Remote Examination Formats in Light of GPT-4,Software Engineering
+10.1145/3568812.3603476,"Generative AI for Programming Education: Benchmarking ChatGPT, GPT-4, and Human Tutors",Introductory Programming
+10.1145/3649165.3690101,Experiences from Integrating Large Language Model Chatbots into the Classroom,Educational Technology
+10.1145/3636243.3636263,More Than Meets the AI: Evaluating the performance of GPT-4 on Computer Graphics assessment questions,Computer Graphics
+10.1145/3643795.3648389,Tackling Students' Coding Assignments with LLMs,Introductory Programming
+10.1145/3636243.3636245,Decoding Logic Errors: A Comparative Study on Bug Detection by Students and Large Language Models,Introductory Programming
+10.1145/3661167.3661273,An Empirical Study on How Large Language Models Impact Software Testing Learning,Software Engineering
+10.1145/3626253.3635403,Mining Students' Mastery Levels from CS Placement Tests via LLMs,Educational Technology in Computer Science
+10.1145/3568812.3603474,Evaluating ChatGPT and GPT-4 for Visual Programming,Introductory Programming
+10.1145/3626253.3635380,"Mentoring, AI, and the End of Affirmative Action: Connecting with SIGCSE Reads",Computer Science Education
+10.1145/3626253.3635408,SQL Query Evaluation with Large Language Model and Abstract Syntax Trees,Databases
+10.1145/3626252.3630897,Need a Programming Exercise Generated in Your Native Language? ChatGPT's Got Your Back: Automatic Generation of Non-English Programming Exercises Using OpenAI GPT-3.5,Introductory Programming
+10.1145/3639474.3640076,Does ChatGPT Help With Introductory Programming?An Experiment of Students Using ChatGPT in CS1,Introductory Programming
+10.1145/3568813.3600139,Exploring the Responses of Large Language Models to Beginner Programmers’ Help Requests,Introductory Programming
+10.1145/3649405.3659504,Analyzing Students' Preferences for LLM-Generated Analogies,Computer Science Education
+10.1145/3699538.3699581,Fine-Tuning Large Language Models for Better Programming Error Explanations,Introductory Programming
+10.1145/3626253.3635601,An LLM-based Reflection Analysis Tool for Identifying and Addressing Challenging Topics,Educational Technology
+10.1145/3615886.3627745,Towards Understanding the Geospatial Skills of ChatGPT: Taking a Geographic Information Systems (GIS) Exam,Geographic Information Systems (GIS)
+10.1145/3643991.3644926,Whodunit: Classifying Code as Human Authored or GPT-4 Generated - A case study on CodeChef problems,Machine Learning
+10.1145/3626253.3635624,Enhancing Code Tracing Question Generation with Refined Prompts in Large Language Models,Computing Education
+10.1145/3649217.3653612,Open Source Language Models Can Provide Feedback: Evaluating LLMs' Ability to Help Students Using GPT-4-As-A-Judge,Introductory Programming
+10.1145/3545947.3569630,Automatically Generating CS Learning Materials with Large Language Models,Computer Science Education
+10.1145/3632620.3671103,Evaluating Contextually Personalized Programming Exercises Created with Generative AI,Introductory Programming
+10.1145/3644815.3644969,Innovating Translation: Lessons Learned from BWX Generative Language Engine,Natural Language Processing
+10.1145/3691620.3695537,Enhancing Automated Program Repair with Solution Design,Software Engineering
+10.1145/3626252.3630937,"Teaching AI to K-12 Learners: Lessons, Issues, and Guidance",Educational Technology in Computer Science
+10.1145/3689535.3689546,LLM-aided Pair Programming for Algorithm Tracing,Human-Computer Interaction
+10.1145/3626253.3635542,"Evaluating Large Language Model Code Generation as an Autograding Mechanism for ""Explain in Plain English"" Questions",Introductory Programming
+10.1145/3661167.3661202,Assessing healthcare software built using IoT and LLM technologies,Software Engineering
+10.1145/3636555.3636846,Automating Human Tutor-Style Programming Feedback: Leveraging GPT-4 Tutor Model for Hint Generation and GPT-3.5 Student Model for Hint Validation,Introductory Programming
+10.1145/3633053.3633057,Incorporating Generative AI into Software Development Education,Software Engineering
+10.1145/3649165.3690116,Can ChatGPT pass a Theory of Computing Course?,Theory of Computation
+10.1145/3587102.3588852,Investigating the Potential of GPT-3 in Providing Feedback for Programming Assessments,Introductory Programming
+10.1145/3617650.3624947,"ChatGPT Didn't Take Me Very Far, Did It?",Educational Technology
+10.1145/3626253.3635404,The Future of the Error Message: Comparing Large Language Models and Novice Programmer Effectiveness in Fixing Errors,Introductory Programming
+10.1145/3568813.3600142,Thrilled by Your Progress! Large Language Models (GPT-4) No Longer Struggle to Pass Assessments in Higher Education Programming Courses,Introductory Programming
+10.1145/3649409.3691092,LLM-based Individual Contribution Summarization in Software Projects,Software Engineering
+10.1145/3657604.3664665,Propagating Large Language Models Programming Feedback,Educational Technology
+10.1145/3634737.3659433,POSTER: Identifying and Mitigating Vulnerabilities in LLM-Integrated Applications,Computer Security
+10.1145/3657604.3664663,DevCoach: Supporting Students in Learning the Software Development Life Cycle at Scale with Generative Agents,Software Engineering
+10.1145/3660650.3660656,"Faceless Adversary, Feckless Colleague: The Many Sides of ChatGPT",Artificial Intelligence in Education
+10.1145/3649217.3653568,Automating Personalized Parsons Problems with Customized Contexts and Concepts,Introductory Programming
+10.1145/3626253.3635400,A Comparative Study of Few-Shot vs. Zero-Shot Prompting to Generate Quick and Useful Responses to Students' Periodic Reflections,Natural Language Processing
+10.1145/3649217.3653533,"""Like a Nesting Doll"": Analyzing Recursion Analogies Generated by CS Students Using Large Language Models",Introductory Programming
+10.1145/3627217.3627233,Evaluating the Quality of LLM-Generated Explanations for Logical Errors in CS1 Student Programs,Introductory Programming
+10.1145/3632620.3671112,An Investigation of the Drivers of Novice Programmers' Intentions to Use Web Search and GenAI,Introductory Programming
+10.1145/3626252.3630799,Can Language Models Employ the Socratic Method? Experiments with Code Debugging,Introductory Programming
+10.1145/3626252.3630863,Evaluating Automatically Generated Contextualised Programming Exercises,Introductory Programming
+10.1145/3626253.3635592,Use of Large Language Models for Extracting Knowledge Components in CS1 Programming Exercises,Introductory Programming
+10.1145/3649165.3690123,A Benchmark for Testing the Capabilities of LLMs in Assessing the Quality of Multiple-choice Questions in Introductory Programming Education,Introductory Programming
+10.1145/3691555.3696825,Test Large Language Models on Driving Theory Knowledge and Skills for Connected Autonomous Vehicles,Autonomous Systems
+10.1145/3626253.3633436,Using Large Language Models for Teaching Computing,Computing Education
+10.1145/3501709.3544280,Generating Diverse Code Explanations using the GPT-3 Large Language Model,Introductory Programming
+10.1145/3639474.3640068,Assessing AI Detectors in Identifying AI-Generated Code: Implications for Education,Artificial Intelligence in Education
+10.1145/3649217.3653600,Generation and Evaluation of a Culturally-Relevant CS1 Textbook for Latines using Large Language Models,Introductory Programming
+10.1145/3657604.3664697,Using Large Language Models To Diagnose Math Problem-solving Skills At Scale,Educational Technology
+10.1145/3636243.3636247,More Robots are Coming: Large Multimodal Models (ChatGPT) can Solve Visually Diverse Images of Parsons Problems,Introductory Programming
+10.1145/3587102.3588814,GPT-3 vs Object Oriented Programming Assignments: An Experience Report,Object-oriented Programming
+10.1145/3649409.3691076,Challenges and Solutions for Teaching Decomposition and Planning Skills in CS1,Introductory Programming
+10.1145/3551349.3559555,Few-shot training LLMs for project-specific code-summarization,Software Engineering
+10.1145/3636555.3636889,Code Soliloquies for Accurate Calculations in Large Language Models,Artificial Intelligence
+10.1145/3639477.3639720,Assessing LLMs for High Stakes Applications,Artificial Intelligence
+10.1145/3633598.3633614,An Analysis of Large Language Models and LangChain in Mathematics Education,Natural Language Processing
+10.1145/3699538.3699588,Towards the Integration of Large Language Models and Automatic Assessment Tools: Enhancing Student Support in Programming Assignments,Computer Science Education
+10.1145/3691620.3695349,ContractTinker: LLM-Empowered Vulnerability Repair for Real-World Smart Contracts,Computer Security
+10.1145/3636243.3636252,Evaluating LLM-generated Worked Examples in an Introductory Programming Course,Introductory Programming
+10.1145/3626252.3630817,CS1 with a Side of AI: Teaching Software Verification for Secure Code in the Era of Generative AI,Introductory Programming
+10.1145/3643787.3648033,Towards LLM-Generated Code Tours for Onboarding,Software Engineering
+10.1145/3632621.3671429,Using a Low-Code Environment to Teach Programming in the Era of LLMs,Introductory Programming
+10.1145/3699538.3699541,Unrestricted Use of LLMs in a Software Project Course: Student Perceptions on Learning and Impact on Course Performance,Software Engineering
+10.1145/3632620.3671098,Insights from Social Shaping Theory: The Appropriation of Large Language Models in an Undergraduate Programming Course,Introductory Programming
+10.1145/3613905.3647967,Enhancing Programming Error Messages in Real Time with Generative AI,Introductory Programming
+10.1145/3648188.3680252,Exercises in unimaginativeness. Case study of GPT based translation and travesty of Alfred Jarry's “Ubu King”,Natural Language Processing
+10.1145/3643795.3648393,Gauging Tech Community Acceptance of Rapid Prototyping in Unfamiliar Programming Languages using LLM Chatbots,Software Engineering
+10.1145/3649165.3690099,Examining the Relationship between Socioeconomic Status and Beliefs about Large Language Models in an Undergraduate Programming Course,Introductory Programming
+10.1145/3631700.3665233,Multiple-Choice Question Generation Using Large Language Models: Methodology and Educator Insights,Natural Language Processing
+10.1145/3649217.3653596,First Year CS Students Exploring And Identifying Biases and Social Injustices in Text-to-Image Generative AI,Ethics in Computing
+10.1145/3671016.3674823,LLM-Enhanced Theorem Proving with Term Explanation and Tactic Parameter Repair✱,Automated Theorem Proving
+10.1145/3545947.3573358,The Implications of Large Language Models for CS Teachers and Students,Computing Education
+10.1145/3610969.3611132,Generative AI in Software Development Education: Insights from a Degree Apprenticeship Programme,Software Engineering
+10.1145/3631802.3631830,CodeHelp: Using Large Language Models with Guardrails for Scalable Support in Programming Classes,Introductory Programming
+10.1145/3649405.3659473,Towards the Integration of Large Language Models in an Object-Oriented Programming Course,Object-oriented Programming
+10.1145/3632621.3671415,Teens' Ethical Sensemaking About Emerging Technologies,Ethics in Computing
+10.1145/3597503.3639187,Using an LLM to Help With Code Understanding,Software Engineering
+10.1145/3649217.3653582,"Code Generation Based Grading: Evaluating an Auto-grading Mechanism for ""Explain-in-Plain-English"" Questions",Introductory Programming
+10.1145/3617650.3624946,Exploring the Potential of GPT-4 in Automated Mentoring for Programming Courses,Introductory Programming
+10.1145/3639474.3640084,Automated Detection of AI-Obfuscated Plagiarism in Modeling Assignments,Computer Science Education
+10.1145/3568812.3603482,Using Large Language Models to Automatically Identify Programming Concepts in Code Snippets,Introductory Programming
+10.1145/3649217.3653602,Guidelines for the Evolving Role of Generative AI in Introductory Programming Based on Emerging Practice,Introductory Programming
+10.1145/3653666.3656065,"""I'm Sorry, but I Can't Assist"": Bias in Generative AI",Ethics in AI
+10.1145/3699538.3699546,Students' Perceptions and Use of Generative AI Tools for Programming Across Different Computing Courses,Educational Technology in Computer Science
+10.1145/3626253.3635524,Using Notional Machines to Automatically Assess Students' Comprehension of Their Own Code,Introductory Programming
+10.1145/3649217.3653584,CS1-LLM: Integrating LLMs into CS1 Instruction,Introductory Programming
+10.1145/3587103.3594202,Classifying Course Discussion Board Questions using LLMs,Natural Language Processing
+10.1145/3709364,Evaluating Language Models for Assessing Counselor Reflections,Natural Language Processing
+10.1145/3626253.3633407,Innovative Strategies for genAI in CS Courses,Artificial Intelligence Education
+10.1145/3631802.3631816,Explorotron: An IDE Extension for Guided and Independent Code Exploration and Learning (Discussion Paper),Computing Education Research (CER)
+10.1145/3640544.3645215,Human-AI Collaboration in a Student Discussion Forum,Educational Technology in Computer Science
+10.1145/3639475.3640097,Greening Large Language Models of Code,Machine Learning
+10.1145/3632621.3671424,Exploring Students Solutions to Concurrent and Parallel Programming Exercises – Impact of Generative AI,Concurrent and Parallel Programming
+10.1145/3689535.3689543,Exploring Computing Teachers' Readiness to Teach AI in Secondary Schools,Computer Science Education
+10.1145/3617650.3624950,Teaching Students To Use Programming Error Messages,Introductory Programming
+10.1145/3626252.3630826,Detecting ChatGPT-Generated Code Submissions in a CS1 Course Using Machine Learning Models,Introductory Programming
+10.1145/3677525.3678665,Towards Modeling and Evaluating Instructional Explanations in Teacher-Student Dialogues,Educational Technology
+10.1145/3657604.3662033,Simulating Climate Change Discussion with Large Language Models: Considerations for Science Communication at Scale,Human-Computer Interaction
+10.1145/3699538.3699591,Goodbye Hello World - Research Questions for a Future CS1 Curriculum,Introductory Programming
+10.1145/3626252.3630909,Prompt Problems: A New Programming Exercise for the Generative AI Era,Introductory Programming
+10.1145/3649217.3653615,"Performance, Workload, Emotion, and Self-Efficacy of Novice Programmers Using AI Code Generation",Introductory Programming
+10.1145/3626203.3670628,Improving an NSF ACCESS Program AI Chatbot: Response Data Logistic Regression,Artificial Intelligence
+10.1145/3649165.3690094,Integrating AI Tutors in a Programming Course,Introductory Programming
+10.1145/3650212.3680328,CREF: An LLM-Based Conversational Software Repair Framework for Programming Tutors,Software Engineering
+10.1145/3585059.3611409,Teaching IT Software Fundamentals: Strategies and Techniques for Inclusion of Large Language Models: Strategies and Techniques for Inclusion of Large Language Models,Software Engineering
+10.1145/3626252.3630941,The Case for LLM Workshops,Educational Technology
+10.1145/3701625.3701687,Exploring the Use of Large Language Models in Requirements Engineering Education: An Experience Report with ChatGPT 3.5,Software Engineering
+10.1145/3699538.3699569,Sieving Coding Assignments Over Submissions Generated by AI and Novice Programmers,Computer Science Education
+10.1145/3613904.3642947,ClassMeta: Designing Interactive Virtual Classmate to Promote VR Classroom Participation,Human-Computer Interaction
+10.1145/3649217.3653558,ChatGPT and Cheat Detection in CS1 Using a Program Autograding System,Introductory Programming
+10.1145/3643916.3644435,Reassessing Java Code Readability Models with a Human-Centered Approach,Software Engineering
+10.1145/3649217.3653624,Student Perspectives on Using a Large Language Model (LLM) for an Assignment on Professional Ethics,Computing Ethics
+10.1145/3597503.3639223,Uncovering the Causes of Emotions in Software Developer Communication Using Zero-shot LLMs,Software Engineering
+10.1145/3649217.3653527,Teaching Programming in the Age of Generative AI,Computer Science Education
+10.1145/3689904.3694699,The Silicon Ceiling: Auditing GPT’s Race and Gender Biases in Hiring,Ethics in AI and Machine Learning
+10.1145/3626252.3630842,Trust in Generative AI among Students: An exploratory study,CS Education (CSEd)
+10.1145/3626252.3630784,Attitudes Towards the Use (and Misuse) of ChatGPT: A Preliminary Study,Educational Technology in Computer Science
+10.1145/3649165.3690111,Generative AI in Introductory Programming Instruction: Examining the Assistance Dilemma with LLM-Based Code Generators,Introductory Programming
+10.1145/3674805.3690758,Debugging with Open-Source Large Language Models: An Evaluation,Software Engineering
+10.1145/3626252.3630880,Instructor Perceptions of AI Code Generation Tools - A Multi-Institutional Interview Study,Computing Education
+10.1145/3636243.3636249,Patterns of Student Help-Seeking When Using a Large Language Model-Powered Programming Assistant,Introductory Programming
+10.1145/3626252.3630881,Integrating Natural Language Processing in Middle School Science Classrooms: An Experience Report,Natural Language Processing
+10.1145/3632620.3671092,Debugging with an AI Tutor: Investigating Novice Help-seeking Behaviors and Perceived Learning,Introductory Programming
+10.1145/3613905.3637148,Leveraging ChatGPT for Adaptive Learning through Personalized Prompt-based Instruction: A CS1 Education Case Study,Introductory Programming
+10.1145/3673238,The Social Cognition Ability Evaluation of LLMs: A Dynamic Gamified Assessment and Hierarchical Social Learning Measurement Approach,Artificial Intelligence
+10.1145/3626252.3630828,A Self-Regulated Learning Framework using Generative AI and its Application in CS Educational Intervention Design,Educational Technology in Computer Science
+10.1145/3649165.3690100,Synthetic Students: A Comparative Study of Bug Distribution Between Large Language Models and Computing Students,Introductory Programming
+10.1145/3652620.3687784,A RAG-based Feedback Tool to Augment UML Class Diagram Learning,Software Engineering
+10.1145/3587102.3588785,Comparing Code Explanations Created by Students and Large Language Models,Introductory Programming
+10.1145/3631802.3631845,Could ChatGPT Be Used for Reviewing Learnersourced Exercises?,Computing Education
+10.1145/3587102.3588805,Evaluating the Performance of Code Generation Models for Solving Parsons Problems With Small Prompt Variations,Computing Education
+10.1145/3545947.3573353,Significant Trends in CS Educational Material: Current and Future,Computer Science Education
+10.1145/3643795.3648375,Applying Large Language Models to Enhance the Assessment of Parallel Functional Programming Assignments,Parallel Functional Programming
+10.1145/3626252.3630951,Towards Comprehensive Metrics for Programming Cheat Detection,Academic Integrity in Computer Science Education
+10.1145/3691620.3695508,iSMELL: Assembling LLMs with Expert Toolsets for Code Smell Detection and Refactoring,Software Engineering
+10.1145/3687038,"Guiding Students in Using LLMs in Supported Learning Environments: Effects on Interaction Dynamics, Learner Performance, Confidence, and Trust",Educational Technology
+10.1145/3649409.3691089,Leveraging Large Language Models for Automated Assessment of Elementary Students' Block-Based Narrative Programs,Educational Technology
+10.1145/3650212.3680384,AutoCodeRover: Autonomous Program Improvement,Software Engineering
+10.1145/3649217.3653587,Explaining Code with a Purpose: An Integrated Approach for Developing Code Comprehension and Prompting Skills,Introductory Programming
+10.1145/3565287.3617630,MSVEC: A Multidomain Testing Dataset for Scientific Claim Verification,Natural Language Processing
+10.1145/3501385.3543957,Automatic Generation of Programming Exercises and Code Explanations Using Large Language Models,Introductory Programming
+10.1145/3626252.3630887,Learners Teaching Novices: An Uplifting Alternative Assessment,Introductory Programming
+10.1145/3686970,TreeQuestion: Assessing Conceptual Learning Outcomes with LLM-Generated Multiple-Choice Questions,Educational Technology
+10.1145/3699538.3699567,Student-AI Interaction: A Case Study of CS1 students,Introductory Programming
+10.1145/3628096.3628747,Investigating the Efficacy of Large Language Models in Reflective Assessment Methods through Chain of Thought Prompting,Natural Language Processing
+10.1145/3581754.3584111,Scaffolding CS1 Courses with a Large Language Model-Powered Intelligent Tutoring System,Introductory Programming
+10.1145/3649405.3659517,Active Repos: Integrating Generative AI Workflows into GitHub,Introductory Programming
+10.1145/3649217.3653608,Navigating Compiler Errors with AI Assistance - A Study of GPT Hints in an Introductory Programming Course,Introductory Programming
+10.1145/3649217.3653626,Style Anomalies Can Suggest Cheating in CS1 Programs,Introductory Programming
+10.1145/3626253.3635519,Style Anomalies Can Suggest Cheating in CS1 Programs,Introductory Programming
+10.1145/3626253.3635356,How can We Leverage Static Analysis and Large Language Models to Engage Students in Software Quality Improvement,Software Engineering
+10.1109/ICSE48619.2023.00194,Large Language Models are Few-Shot Testers: Exploring LLM-Based General Bug Reproduction,Software Engineering
+10.1145/3587102.3588794,"ChatGPT, Can You Generate Solutions for my Coding Exercises? An Evaluation on its Effectiveness in an undergraduate Java Programming Course.",Object-oriented Programming
+10.1145/3636243.3636248,The Effects of Generative AI on Computing Students’ Help-Seeking Preferences,Educational Technology in Computing
+10.1145/3649217.3653574,Desirable Characteristics for AI Teaching Assistants in Programming Education,Introductory Programming
+10.1145/3649405.3659495,Fine-Tuning AI to Assist in Building Curriculum for the CIA Triad and Cyber Kill Chain,Computer Security
+10.1145/3511861.3511863,The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming,Introductory Programming
+10.1145/3652988.3673941,LittleGenius: Co-Designing a GPT-4 Enhanced VR Pedagogical Framework with Teachers for Primary Education,Human-Computer Interaction
+10.1145/3576123.3576134,My AI Wants to Know if This Will Be on the Exam: Testing OpenAI’s Codex on CS2 Programming Exercises,Algorithms and Data Structures
+10.1145/3626253.3635522,Using Generative AI to Support PK-12 Teaching and Learning: Developing Sample Lessons and More,Educational Technology
+10.1145/3636243.3636259,Next-Step Hint Generation for Introductory Programming Using Large Language Models,Introductory Programming
+10.1145/3649409.3691073,AI in and for K-12 Informatics Education. Life after Generative AI.,Educational Technology
+10.1145/3626252.3630874,Implications of ChatGPT for Data Science Education,Data Science Education
+10.1145/3657604.3664673,Automatic Feedback Generation on K-12 Students' Data Science Education by Prompting Cloud-based Large Language Models,Educational Technology in Data Science
+10.1145/3626772.3657882,Beyond Accuracy: Investigating Error Types in GPT-4 Responses to USMLE Questions,Natural Language Processing
+10.1145/3626253.3633433,Teaching with AI (GPT),Educational Technology
+10.1145/3626252.3630773,"AI Teaches the Art of Elegant Coding: Timely, Fair, and Helpful Style Feedback in a Global Course",Introductory Programming
+10.1145/3691016.3691051,Intelligent Chinese Character Learning Platform Integrating ChatGPT and OCR Text Recognition,Human-Computer Interaction
+10.1145/3545945.3569770,Using Large Language Models to Enhance Programming Error Messages,Introductory Programming
+10.1145/3657604.3662042,Supporting Self-Reflection at Scale with Large Language Models: Insights from Randomized Field Experiments in Classrooms,Educational Technology
+10.1145/3637528.3671552,EmoLLMs: A Series of Emotional Large Language Models and Annotation Tools for Comprehensive Affective Analysis,Natural Language Processing (NLP)
+10.1145/3689535.3689552,"Secondary Students' Emerging Conceptions of AI: Understanding AI Applications, Models, Engines and Implications",Artificial Intelligence Education
+10.1145/3631802.3631806,How Novices Use LLM-based Code Generators to Solve CS1 Coding Tasks in a Self-Paced Learning Environment,Introductory Programming
+10.1145/3664646.3664758,Unveiling the Potential of a Conversational Agent in Developer Support: Insights from Mozilla’s PDF.js Project,Software Engineering
+10.1145/3611643.3613892,InferFix: End-to-End Program Repair with LLMs,Software Engineering
+10.1145/3626252.3630761,A Global Survey of Introductory Programming Courses,Introductory Programming
+10.1145/3701625.3701684,Integrating ChatGPT in Project Management Education: Benefits and Challenges in the Academic Environment,Software Engineering
+10.1145/3663529.3663869,Do Large Language Models Recognize Python Identifier Swaps in Their Generated Code?,Machine Learning
+10.1145/3626203.3670588,Integrating High Performance Computing into Higher Education and the Pedagogy of Cluster Computing,High Performance Computing (HPC)
+10.1145/3626253.3635604,Measuring CS Student Attitudes Toward Large Language Models,Educational Technology in Computer Science
+10.1145/3649165.3703622,How Do You Solve A Problem Like Recruitment? On The Hiring and Retention of Computing Academics,Computing Education and Diversity
+10.1145/3691620.3695307,The Software Genome Project: Unraveling Software Through Genetic Principles,Software Engineering
+10.1145/3675094.3677573,"Interactive Design with Autistic Children using LLM and IoT for Personalized Training: The Good, The Bad and The Challenging",Human-Computer Interaction
+10.1145/3643991.3645070,Write me this Code: An Analysis of ChatGPT Quality for Producing Source Code,Software Engineering
+10.1145/3691620.3695061,What Makes a High-Quality Training Dataset for Large Language Models: A Practitioners' Perspective,Machine Learning
+10.1145/3674399.3674423,Data-driven Contribution-based Disciplinary Assessment System,Computer Science Education
+10.1145/3631991.3632024,Roles of ChatGPT in virtual teaching assistant and intelligent tutoring system: opportunities and challenges,Artificial Intelligence in Education
+10.1145/3657604.3662039,Prompting for Comprehension: Exploring the Intersection of Explain in Plain English Questions and Prompt Writing,Introductory Programming
+10.1109/ASE56229.2023.00076,Domain Adaptive Code Completion via Language Models and Decoupled Domain Databases,Machine Learning
+10.1145/3657604.3662031,Generative Students: Using LLM-Simulated Student Profiles to Support Question Item Evaluation,Educational Technology
+10.1145/3576882.3617921,Generating Programs Trivially: Student Use of Large Language Models,Formal Methods
+10.1145/3657604.3662030,Automated Generation and Tagging of Knowledge Components from Multiple-Choice Questions,Educational Technology
+10.1145/3626252.3630822,dcc --help: Transforming the Role of the Compiler by Generating Context-Aware Error Explanations with Large Language Models,Introductory Programming
+10.1109/SC41406.2024.00076,Revisiting Computation for Research: Practices and Trends,High-Performance Computing
+10.1145/3664647.3681053,"CT2C-QA: Multimodal Question Answering over Chinese Text, Table and Chart",Natural Language Processing
+10.1145/3691621.3694934,SALLM: Security Assessment of Generated Code,Computer Security
+10.1145/3545945.3569785,Experiences from Using Code Explanations Generated by Large Language Models in a Web Software Development E-Book,Web Development
+10.1145/3626252.3630764,A Large Scale RCT on Effective Error Messages in CS1,Introductory Programming
+10.1145/3613904.3642706,How Beginning Programmers and Code LLMs (Mis)read Each Other,Introductory Programming
+10.1145/3639474.3640065,Beyond Functional Correctness: An Exploratory Study on the Time Efficiency of Programming Assignments,Introductory Programming
+10.1145/3674805.3690741,Evaluating Large Language Models in Exercises of UML Class Diagram Modeling,Software Engineering
+10.1145/3643795.3648380,Investigating the Proficiency of Large Language Models in Formative Feedback Generation for Student Programmers,Introductory Programming
+10.1145/3627217.3627235,Evaluating Copilot on CS1 Code Writing Problems with Suppressed Specifications,Introductory Programming
+10.1145/3631700.3665227,Exploring Student Interactions with AI in Programming Training,Introductory Programming
+10.1145/3652620.3687776,Enhancing Software Modeling Learning with AI-Powered Scaffolding,Software Engineering
+10.1145/3630106.3658942,Escalation Risks from Language Models in Military and Diplomatic Decision-Making,Artificial Intelligence Ethics
+10.1145/3701268.3701274,Reimagining Student Success Prediction: Applying LLMs in Educational AI with XAI,Educational Technology
+10.1145/3689535.3689537,Investigating the Use of ChatGPT to Support the Learning of Python Programming Among Upper Secondary School Students: A Design-Based Research Study,Introductory Programming
+10.1145/3632620.3671108,Probeable Problems for Beginner-level Programming-with-AI Contests,Introductory Programming
+10.1145/3626253.3635609,Elevating Learning Experiences: Leveraging Large Language Models as Student-Facing Assistants in Discussion Forums,Educational Technology
+10.1145/3626253.3635483,DCC Sidekick: Helping Novices Solve Programming Errors Through a Conversational Explanation Interface,Introductory Programming
+10.1145/3649217.3653595,Feedback Literacy: Holistic Analysis of Secondary Educators' Views of LLM Explanations of Program Error Messages,Introductory Programming
+10.1145/3613904.3642887,BIDTrainer: An LLMs-driven Education Tool for Enhancing the Understanding and Reasoning in Bio-inspired Design,Human-Computer Interaction
+10.1145/3691620.3695062,FastFixer: An Efficient and Effective Approach for Repairing Programming Assignments,Introductory Programming
+10.1145/3636555.3636882,Kattis vs ChatGPT: Assessment and Evaluation of Programming Tasks in the Age of Artificial Intelligence,Introductory Programming
+10.1145/3701268.3701273,HCAI Block Model: A competence model for Human Centred Artificial Intelligence at K-12,Educational Technology in Computer Science
+10.1145/3660043.3660191,Exploration of Multi-round Dialogue Function of International Chinese Education Robot Based on LLM,Artificial Intelligence
+10.1145/3639478.3641226,Program Decomposition and Translation with Static Analysis,Software Engineering
+10.1145/3613904.3642135,"“As an AI language model, I cannot”: Investigating LLM Denials of User Requests",Human-Computer Interaction
+10.1145/3663649.3664368,A Feasibility Study on Automated SQL Exercise Generation with ChatGPT-3.5,Databases
+10.1145/3649850,PyDex: Repairing Bugs in Introductory Python Assignments using LLMs,Introductory Programming
+10.1145/3571884.3604310,Exploring Usability Issues in Instruction-Based and Schema-Based Authoring of Task-Oriented Dialogue Agents,Human-Computer Interaction
+10.1145/3587103.3594155,Checking Conformance to a Subset of the Python Language,Introductory Programming
+10.1145/3649217.3653621,"Self-Regulation, Self-Efficacy, and Fear of Failure Interactions with How Novices Use LLMs to Solve Programming Problems",Introductory Programming
+10.1145/3611643.3613891,Assess and Summarize: Improve Outage Understanding with Large Language Models,Cloud Computing
+10.1145/3657604.3664685,Short answer scoring with GPT-4,Natural Language Processing
+10.1145/3699538.3699556,One Step at a Time: Combining LLMs and Static Analysis to Generate Next-Step Hints for Programming Tasks,Introductory Programming
+10.1145/3637528.3671620,AutoWebGLM: A Large Language Model-based Web Navigating Agent,Artificial Intelligence
+10.1109/ASE56229.2023.00217,A Comparative Study of Transformer-Based Neural Text Representation Techniques on Bug Triaging,Software Engineering
+10.1145/3677388.3696321,From Words to Worlds: Transforming One-line Prompts into Multi-modal Digital Stories with LLM Agents,Human-Computer Interaction
+10.1145/3613905.3650770,Young Children's Creative Storytelling with ChatGPT vs. Parent: Comparing Interactive Styles,Human-Computer Interaction
+10.1145/3478432.3499265,"Run, Llama, Run: A Collaborative Physical and Online Coding Game for Children",Educational Technology
+10.1145/3605507.3610629,Dual-Submission Homework in Parallel Computer Architecture: An Exploratory Study in the Age of LLMs,Parallel Computer Architecture
+10.1145/3631802.3631807,What Skills Do You Need When Developing Software Using ChatGPT? (Discussion Paper),Software Engineering
+10.1145/3691620.3695318,AgoneTest: Automated creation and assessment of Unit tests leveraging Large Language Models,Software Engineering
+10.1145/3644815.3644945,Seven Failure Points When Engineering a Retrieval Augmented Generation System,Software Engineering
+10.1145/3649217.3653557,Chatbot Development Using LangChain: A Case Study to Foster Critical Thinking and Creativity,Databases
+10.1145/3649921.3659840,The Curation Tree: A Lightweight Behavior Tree Framework for Implementing Puzzle and Narrative Games,Game Development
+10.1145/3626252.3630958,Use of AI-driven Code Generation Models in Teaching and Learning Programming: a Systematic Literature Review,Introductory Programming
+10.1145/3610969.3610973,Are You Ready to Teach AI in Schools? Teachers' Perspectives of Teaching AI in K-12 Settings,Educational Technology
+10.1145/3663649.3664371,Integrating LLMs into Database Systems Education,Databases
+10.1145/3613905.3651043,Auto-Generated Personas: Enhancing User-centered Design Practices among University Students,Human-Computer Interaction
+10.1145/3605468.3609775,Impact of Generative AI on K-12 Students’ Perceptions of Computing: A Research Proposal,Computing Education
+10.1145/3596671.3598574,Preparing Future Designers for Human-AI Collaboration in Persona Creation,Human-Computer Interaction
+10.1145/3654777.3676347,VizGroup: An AI-assisted Event-driven System for Collaborative Programming Learning Analytics,Educational Technology
+10.1145/3691620.3695322,Bridging Gaps in LLM Code Translation: Reducing Errors with Call Graphs and Bridged Debuggers,Software Engineering
+10.1145/3626253.3635414,"Revolutionizing Student Engagement and Enrollment through Personalized, AI-Driven Dialog Systems in Higher Education",Human-Computer Interaction
+10.1145/3658644.3670392,"On the Detectability of ChatGPT Content: Benchmarking, Methodology, and Evaluation through the Lens of Academic Writing",Natural Language Processing
+10.1145/3649405.3659514,LLMs in Open and Closed Book Examinations in a Final Year Applied Machine Learning Course (Early Findings),Machine Learning
+10.1145/3580305.3599827,From Human Days to Machine Seconds: Automatically Answering and Generating Machine Learning Final Exams,Machine Learning
+10.1145/3678610.3678631,Artificial Intelligence in Physics Courses to Support Active Learning,Educational Technology
+10.1145/3613904.3642459,Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking,Human-Computer Interaction
+10.1145/3587102.3588827,On the Educational Impact of ChatGPT: Is Artificial Intelligence Ready to Obtain a University Degree?,Computer Security
+10.1145/3626252.3630875,Improved Program Repair Methods using Refactoring with GPT Models,Introductory Programming
+10.1145/3660650.3660673,Can You Spot the AI? Incorporating GenAI into Technical Writing Assignments,Technical Writing in Computer Science
+10.1145/3544548.3580919,Studying the effect of AI Code Generators on Supporting Novice Learners in Introductory Programming,Introductory Programming
+10.1145/3663529.3663829,AgraBOT: Accelerating Third-Party Security Risk Management in Enterprise Setting through Generative AI,Computer Security
+10.1145/3663384.3663393,Non-Expert Programmers in the Generative AI Future,Human-Computer Interaction
+10.1145/3663533.3664042,Graph Neural Network vs. Large Language Model: A Comparative Analysis for Bug Report Priority and Severity Prediction,Software Engineering
+10.1145/3634814.3634816,Enhancing Programming Learning with LLMs: Prompt Engineering and Flipped Interaction,Introductory Programming
+10.1145/3657604.3664682,A Proposed Model of Learners' Acceptance and Trust of Pedagogical Conversational AI,Human-Computer Interaction
+10.1145/3545945.3569823,Conversing with Copilot: Exploring Prompt Engineering for Solving CS1 Problems Using Natural Language,Introductory Programming
+10.1145/3585059.3611447,"ChatGPT in IT Education Ecosystem: Unraveling Long-Term Impacts on Job Market, Student Learning, and Ethical Practices",Ethics in Technology
+10.1145/3657604.3664698,Scaling High-Leverage Curriculum Scaffolding in Middle-School Mathematics,Educational Technology
+10.1145/3675094.3678991,DeepVision: Heads-up Computing and AI in Education,Human-Computer Interaction
+10.1145/3689535.3689538,Developing Computing Teacher Guidance on GenAI,Educational Technology
+10.1145/3540250.3569444,"AI-assisted programming: applications, user experiences, and neuro-symbolic techniques (keynote)",Human-Computer Interaction
+10.1145/3585059.3611445,Exploring the Role of ChatGPT in Education: Applications and Challenges,Artificial Intelligence Ethics and Applications
+10.1145/3626253.3633418,AI Enhanced Learning: Powering Curated Videos with Generative Intelligence,Educational Technology in Computer Science
+10.1145/3676281,ChatGPT on ChatGPT: An Exploratory Analysis of its Performance in the Public Sector Workplace,Artificial Intelligence Ethics and Policy
+10.1145/3686852.3687073,Unfolding Programming: How to Use AI Tools in Introductory Computing Courses,Introductory Programming
+10.1145/3691620.3695299,RepoSim: Evaluating Prompt Strategies for Code Completion via User Behavior Simulation,Software Engineering
+10.1145/3649165.3690113,"""We have to learn to work with such systems"": Students' Perceptions of ChatGPT After a Short Educational Intervention on NLP",Artificial Intelligence
+10.1145/3627673.3679760,SINKT: A Structure-Aware Inductive Knowledge Tracing Model with Large Language Model,Educational Technology
+10.1145/3545945.3569830,Using GitHub Copilot to Solve Simple Programming Problems,Introductory Programming
+10.1145/3613904.3641895,The HaLLMark Effect: Supporting Provenance and Transparent Use of Large Language Models in Writing with Interactive Visualization,Human-Computer Interaction
+10.1145/3691620.3695518,ChatBR: Automated assessment and improvement of bug report quality using ChatGPT,Software Engineering
+10.1145/3641523.3665172,Algorithmic Amplification,Artificial Intelligence Ethics
+10.1145/3626253.3635595,Generative AI as a Resource for Creativity in Computational Physics,Computational Physics
+10.1145/3627673.3679229,DiaKoP: Dialogue-based Knowledge-oriented Programming for Neural-symbolic Knowledge Base Question Answering,Human-Computer Interaction
+10.1145/3613904.3642377,Learning Agent-based Modeling with LLM Companions: Experiences of Novices and Experts Using ChatGPT &amp; NetLogo Chat,Human-Computer Interaction
+10.1145/3639474.3640059,Experience Report: Identifying common misconceptions and errors of novice programmers with ChatGPT,Introductory Programming
+10.1145/3605098.3636053,An Experiment in Retrofitting Competency Questions for Existing Ontologies,Knowledge Representation and Ontologies
+10.1145/3643991.3645082,Analyzing Developer-ChatGPT Conversations for Software Refactoring: An Exploratory Study,Software Engineering
+10.1145/3627217.3627221,Leveraging Large Language Models for Analysis of Student Course Feedback,Educational Technology
+10.1145/3587102.3588792,Can Generative Pre-trained Transformers (GPT) Pass Assessments in Higher Education Programming Courses?,Introductory Programming
+10.1145/3631802.3631848,Enhancing Computer Programming Education using ChatGPT- A Mini Review,Introductory Programming
+10.1145/3710795.3710797,The Book Review Column,Computer Science Foundations
+10.1145/3613904.3642041,"Scientific and Fantastical: Creating Immersive, Culturally Relevant Learning Experiences with Augmented Reality and Large Language Models",Human-Computer Interaction
+10.1145/3640310.3674093,A DSL for Testing LLMs for Fairness and Bias,Software Engineering
+10.1145/3649409.3691093,"Code Metrics, Rules of Thumb for Introductory CS",Introductory Programming
+10.1145/3649405.3659534,How Instructors Incorporate Generative AI into Teaching Computing,Computer Science Education
+10.1145/3585059.3611431,ChatGPT for Teaching and Learning: An Experience from Data Science Education,Data Science
+10.1145/3613904.3642731,Art or Artifice? Large Language Models and the False Promise of Creativity,Natural Language Processing
+10.1145/3687311.3687403,What is the AIGC-assisted learning experience like? -- A study based on conceptual understanding,Educational Technology
+10.1145/3685767.3685777,"Big Data: Past, Present, and Future Insights",Big Data Analytics
+10.1145/3701625.3701675,Investigating Software Development Teams Members' Perceptions of Data Privacy in the Use of Large Language Models (LLMs),Software Engineering
+10.1145/3652620.3687773,Designing and Generating Lesson Plans combining Open Educational Content and Generative AI,Educational Technology
+10.1145/3649165.3690125,Integrating Natural Language Prompting Tasks in Introductory Programming Courses,Introductory Programming
+10.1145/3657604.3662032,CodeTailor: LLM-Powered Personalized Parsons Puzzles for Engaging Support While Learning Programming,Introductory Programming
+10.1145/3639478.3640024,TestSpark: IntelliJ IDEA's Ultimate Test Generation Companion,Software Engineering
+10.1145/3626252.3630832,"Diverging assessments: What, Why, and Experiences",Education in Computer Science
+10.1145/3626253.3635618,Restorying with AI Art among Latinx Elementary Students,Educational Technology
+10.1145/3613904.3642081,Understanding the Role of Large Language Models in Personalizing and Scaffolding Strategies to Combat Academic Procrastination,Human-Computer Interaction
+10.1145/3672393,Lexical Semantic Change through Large Language Models: a Survey,Natural Language Processing
+10.1145/3626253.3635600,Pair Programming with ChatGPT,Introductory Programming
+10.1145/3689535.3689553,Exploring Human-Centered Approaches in Generative AI and Introductory Programming Research: A Scoping Review,Introductory Programming
+10.1145/3613904.3642336,The Illusion of Empathy? Notes on Displays of Emotion in Human-Computer Interaction,Human-Computer Interaction
+10.1145/3652620.3687782,DSL-Xpert: LLM-driven Generic DSL Code Generation,Programming Languages
+10.1145/3593342.3593360,Exploring ChatGPT’s impact on post-secondary education: A qualitative study,Educational Technology
+10.1145/3643795.3648387,LLMs for Relational Reasoning: How Far are We?,Artificial Intelligence
+10.1109/ICSE-Companion58688.2023.00075,Towards an AI-Centric Requirements Engineering Framework for Trustworthy AI,Software Engineering
+10.1145/3640471.3680444,AuditNet: Conversational AI Security Assistant,Computer Security
+10.1145/3626253.3635432,Google Colab for Teaching CS and ML,Educational Technology in Computer Science
+10.1145/3586182.3625219,Smart-Pikachu: Extending Interactivity of Stuffed Animals with Large Language Models,Human-Computer Interaction
+10.1145/3654777.3676450,Who Validates the Validators? Aligning LLM-Assisted Evaluation of LLM Outputs with Human Preferences,Human-Computer Interaction
+10.1145/3661167.3661171,Agent-Driven Automatic Software Improvement,Software Engineering
+10.1145/3638067.3638100,May We Consult ChatGPT in Our Human-Computer Interaction Written Exam? An Experience Report After a Professor Answered Yes,Human-Computer Interaction
+10.1145/3657604.3664699,Scaling Up Mastery Learning with Generative AI: Exploring How Generative AI Can Assist in the Generation and Evaluation of Mastery Quiz Questions,Educational Technology
+10.1145/3632620.3671116,The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers,Introductory Programming
+10.1145/3544548.3580885,Embodying the Algorithm: Exploring Relationships with Large Language Models Through Artistic Performance,Human-Computer Interaction
+10.1145/3568813.3600138,"From ""Ban It Till We Understand It"" to ""Resistance is Futile"": How University Programming Instructors Plan to Adapt as More Students Use AI Code Generation and Explanation Tools such as ChatGPT and GitHub Copilot",Introductory Programming
+10.1145/3690712.3690720,An empirical study to understand how students use ChatGPT for writing essays and how it affects their ownership,Human-Computer Interaction
+10.1145/3643991.3645072,Analyzing Developer Use of ChatGPT Generated Code in Open Source GitHub Projects,Software Engineering
+10.1145/3640457.3688023,Towards Symbiotic Recommendations: Leveraging LLMs for Conversational Recommendation Systems,Human-Computer Interaction
+10.1145/3633083.3633220,Personalised Programming Education with Knowledge Tracing,Introductory Programming
+10.1145/3686852.3686887,Exploring Large Language Model-Powered Pedagogical Approaches to Cybersecurity Education,Cybersecurity Education
+10.1145/3649165.3699863,Artificial Intelligence Policy: What Computing Educators and Students Should Know,Ethics and Policy in Computing
+10.1145/3624032.3624035,An initial investigation of ChatGPT unit test generation capability,Software Engineering
+10.1145/3627673.3679665,Empowering Private Tutoring by Chaining Large Language Models,Artificial Intelligence in Education
+10.1145/3639701.3656324,Enhancing the Podcast Browsing Experience through Topic Segmentation and Visualization with Generative AI,Human-Computer Interaction
+10.1145/3643991.3645083,Investigating the Utility of ChatGPT in the Issue Tracking System: An Exploratory Study,Software Engineering
+10.1145/3699538.3699580,Novice Learners of Programming and Generative AI - Prior Knowledge Matters,Introductory Programming
+10.1145/3613905.3636293,Challenges and Opportunities of LLM-Based Synthetic Personae and Data in HCI,Human-Computer Interaction
+10.1145/3610977.3634970,PREDILECT: Preferences Delineated with Zero-Shot Language-based Reasoning in Reinforcement Learning,Reinforcement Learning
+10.1145/3613904.3641965,"Towards AI-Driven Healthcare: Systematic Optimization, Linguistic Analysis, and Clinicians’ Evaluation of Large Language Models for Smoking Cessation Interventions",Natural Language Processing
+10.1145/3613905.3650799,"User Voices, Platform Choices: Social Media Policy Puzzle with Decentralization Salt",Human-Computer Interaction
+10.1145/3656650.3656747,Emerging approaches to human-robot collaboration in healthcare,Human-Robot Interaction
+10.1145/3660809,Mining Action Rules for Defect Reduction Planning,Software Engineering
+10.1145/3662739.3664740,Research on Computer Intelligent ChatGPT Natural Language Processing System Based on Scientific Knowledge Graph,Natural Language Processing
+10.1145/3633083.3633099,Exploring the Research Gap: Generative AI and Learning of Python Programming among Post-Primary Students,Introductory Programming
+10.1145/3613904.3642580,Open Sesame? Open Salami! Personalizing Vocabulary Assessment-Intervention for Children via Pervasive Profiling and Bespoke Storybook Generation,Human-Computer Interaction
+10.1145/3644815.3644953,Welcome Your New AI Teammate: On Safety Analysis by Leashing Large Language Models,Software Engineering
+10.1145/3585060.3585063,Reflections on the Design of Systems that Impact Computers and Society,Computers and Society
+10.1145/3659601,CrowdBot: An Open-Environment Robot Management System for On-Campus Services,Robotics
+10.1145/3640794.3665538,Automating the Development of Task-oriented LLM-based Chatbots,Natural Language Processing
+10.1145/3649217.3653607,Iterative Student Program Planning using Transformer-Driven Feedback,Introductory Programming
+10.1145/3613904.3642773,CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator Needs,Introductory Programming
+10.1145/3613904.3642545,"See Widely, Think Wisely: Toward Designing a Generative Multi-agent System to Burst Filter Bubbles",Human-Computer Interaction
+10.1145/3702138.3702140,Combatting Senior Scams Using a Large Language Model-Created Rubric: This paper explains a novel approach to reinforcement learning designed for the detection and prevention of scams aimed at senior citizens,Machine Learning
+10.1145/3674399.3674426,Grading Programming Assignments by Summarization,Introductory Programming
+10.1145/3650212.3680354,Domain Adaptation for Code Model-Based Unit Test Case Generation,Software Engineering
+10.1145/3571884.3604305,Exploring Design Opportunities for Reflective Conversational Agents to Reduce Compulsive Smartphone Use,Human-Computer Interaction
+10.1145/3589335.3641257,"Curriculum Learning: Theories, Approaches, Applications, Tools, and Future Directions in the Era of Large Language Models",Machine Learning
+10.1145/3677619.3678114,Identifying Secondary School Students' Misconceptions about Machine Learning: An Interview Study,Educational Technology in Computer Science
+10.1145/3675812.3675874,Generative AI-Powered Educational Alignment: A Framework for Matching Syllabus Course Topics with Web Description,Educational Technology
+10.1145/3639476.3639777,Exploring ChatGPT for Toxicity Detection in GitHub,Natural Language Processing
+10.1145/3658549.3658566,Research on Innovative Applications and Impacts of Using Generative AI for User Interface Design in Programming Courses,Human-Computer Interaction
+10.1145/3628162,Can Students without Prior Knowledge Use ChatGPT to Answer Test Questions? An Empirical Study,Educational Technology
+10.1145/3624918.3625336,Retrieving Supporting Evidence for Generative Question Answering,Natural Language Processing
+10.1145/3701625.3701659,Static and Dynamic Comparison of Mutation Testing Tools for Python,Software Engineering
+10.1145/3635636.3664624,Experiential Tutorials: Designing Tutorial Authoring Tools to Facilitate Tacit Knowledge Exchange in Creative Practices,Human-Computer Interaction
+10.1145/3672359.3672364,Towards a Catalog of Prompt Patterns to Enhance the Discipline of Prompt Engineering,Human-Computer Interaction
+10.1145/3701625.3701657,AI in Service of Software Quality: How ChatGPT and Personas Are Transforming Exploratory Testing,Software Engineering
+10.1145/3699773,PressInPose: Integrating Pressure and Inertial Sensors for Full-Body Pose Estimation in Activities,Human-Computer Interaction
+10.1145/3589335.3651454,Unlocking the Potential of Health Data with Decentralised Search in Personal Health Datastores,Databases
+10.1145/3627217.3627238,Creating Thorough Tests for AI-Generated Code is Hard,Software Engineering
+10.1145/3613905.3644062,ChatTL;DR – You Really Ought to Check What the LLM Said on Your Behalf,Human-Computer Interaction
+10.1145/3675888.3676142,Democratizing GDPR Compliance: AI-Driven Privacy Policy Interpretation,Privacy and Data Protection
+10.1145/3661167.3661226,Leveraging Large Language Models for Preliminary Security Risk Analysis: A Mission-Critical Case Study,Computer Security
+10.1145/3627673.3679783,Advances in Citation Text Generation: Leveraging Multi-Source Seq2Seq Models and Large Language Models,Natural Language Processing
+10.1145/3627673.3679664,Mitigating Cold-Start Problems in Knowledge Tracing with Large Language Models: An Attribute-aware Approach,Educational Technology
+10.1145/3638530.3654104,Local Search-based Approach for Cost-effective Job Assignment on Large Language Models,Machine Learning
+10.1145/3576882.3617916,A Bug's New Life: Creating Refute Questions from Filtered CS1 Student Code Snapshots,Introductory Programming
+10.1145/3544549.3573826,The Second Workshop on Intelligent and Interactive Writing Assistants,Human-Computer Interaction
+10.1145/3613905.3636312,"Dark Sides: Envisioning, Understanding, and Preventing Harmful Effects of Writing Assistants - The Third Workshop on Intelligent and Interactive Writing Assistants",Human-Computer Interaction
+10.1145/3649409.3691083,ASAG2024: A Combined Benchmark for Short Answer Grading,Natural Language Processing
+10.1109/ASE56229.2023.00155,Merge Conflict Resolution: Classification or Generation?,Software Engineering
+10.1145/3658271.3658320,ChatGPT and Bard Performance on the POSCOMP Exam,Artificial Intelligence
+10.1145/3649165.3699862,The Innovative Development of Artificial Intelligence and STEM Education-Cognition and Practice,Artificial Intelligence in Education
+10.1145/3490100.3516473,Leveraging Generative Conversational AI to Develop a Creative Learning Environment for Computational Thinking,Human-Computer Interaction
+10.1145/3654777.3676390,LessonPlanner: Assisting Novice Teachers to Prepare Pedagogy-Driven Lesson Plans with Large Language Models,Educational Technology
+10.1145/3545947.3576354,The Role of Sketching in Facilitating Problem Solving in Introductory Programming,Introductory Programming
+10.1145/3643795.3648395,PromptSet: A Programmer's Prompting Dataset,Software Engineering
+10.1145/3613905.3650767,Contextual AI Journaling: Integrating LLM and Time Series Behavioral Sensing Technology to Promote Self-Reflection and Well-being using the MindScape App,Human-Computer Interaction
+10.1145/3644815.3644948,LLMs for Test Input Generation for Semantic Applications,Software Engineering
+10.1145/3627673.3679711,Towards Coarse-grained Visual Language Navigation Task Planning Enhanced by Event Knowledge Graph,Artificial Intelligence
+10.1145/3578527.3578530,A Code Centric Evaluation of C/C++ Vulnerability Datasets for Deep Learning Based Vulnerability Detection Techniques,Computer Security
+10.1145/3643795.3648376,MoonBit: Explore the Design of an AI-Friendly Programming Language,Programming Languages
+10.1145/3644713.3644763,Enhancing Arabic Information Retrieval for Question Answering,Natural Language Processing
+10.1109/ASE56229.2023.00047,The Plastic Surgery Hypothesis in the Era of Large Language Models,Software Engineering
+10.1145/3650212.3680342,UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing,Software Engineering
+10.1145/3577190.3614137,User Feedback-based Online Learning for Intent Classification,Machine Learning
+10.1145/3627673.3679881,Boosting Large Language Models with Socratic Method for Conversational Mathematics Teaching,Natural Language Processing
+10.1145/3660650.3660663,Live Session Gamification using PrairieLearn,Educational Technology
+10.1145/3643659.3643936,TAIiST CPS-UAV at the SBFT Tool Competition 2024,Cyber-Physical Systems
+10.1145/3687311.3687404,Fairness of Large Language Models in Education,Artificial Intelligence Ethics
+10.1145/3640457.3688047,Playlist Search Reinvented: LLMs Behind the Curtain,Information Retrieval
+10.1145/3637528.3671498,AI for Education (AI4EDU): Advancing Personalized Education with LLM and Adaptive Learning,Artificial Intelligence in Education
+10.1145/3664647.3681251,Hallu-PI: Evaluating Hallucination in Multi-modal Large Language Models within Perturbed Inputs,Machine Learning
+10.1145/3579027.3608972,On Programming Variability with Large Language Model-based Assistant,Software Engineering
+10.1145/3589335.3641306,The 1st International Workshop on Graph Foundation Models (GFM),Machine Learning
+10.1145/3643991.3644903,Leveraging GPT-like LLMs to Automate Issue Labeling,Software Engineering
+10.1145/3664476.3670446,Assessing the Impact of Large Language Models on Cybersecurity Education: A Study of ChatGPT's Influence on Student Performance,Computer Security
+10.1145/3657604.3664677,Scaling Generated Feedback for Novice Teachers by Sustaining Teacher Educators' Expertise: A Design to Train LLMs with Teacher Educator Endorsement of Generated Feedback,Educational Technology
+10.1145/3617367,“It’s Weird That it Knows What I Want”: Usability and Interactions with Copilot for Novice Programmers,Introductory Programming
+10.1145/3584371.3613067,Physics-Guided Deep Generative Model For New Ligand Discovery,Computational Biology
+10.1145/3650212.3685308,FixCheck: A Tool for Improving Patch Correctness Analysis,Software Engineering
+10.1613/jair.1.13550,Get out of the BAG! Silos in AI Ethics Education: Unsupervised Topic Modeling Analysis of Global AI Curricula,AI Ethics
+10.1145/3626203.3670577,Enabling access to large-language models (LLMs) at scale for higher education,Data Science
+10.1109/TCBB.2024.3477592,&lt;italic&gt;De Novo&lt;/italic&gt; Drug Design by Multi-Objective Path Consistency Learning With Beam A&lt;sup&gt;*&lt;/sup&gt; Search,Machine Learning
+10.1145/3677045.3685461,Sustainability analysis of AI-based tools in higher education,Human-Computer Interaction
+10.1145/3613904.3642229,ChatScratch: An AI-Augmented System Toward Autonomous Visual Programming Learning for Children Aged 6-12,Educational Technology
+10.1145/3636555.3636850,Feedback on Feedback: Comparing Classic Natural Language Processing and Generative AI to Evaluate Peer Feedback,Natural Language Processing
+10.1145/3637989.3637998,Development of chatbots connected to Learning Management Systems for the support and formative assessment of students,Human-Computer Interaction
+10.1145/3678884.3681826,Challenges and Opportunities of LLM-Based Synthetic Personae and Data in HCI,Human-Computer Interaction
+10.1145/3627673.3679830,Distilling Large Language Models for Text-Attributed Graph Learning,Machine Learning
+10.1145/3582515.3609555,The Social Impact of Generative AI: An Analysis on ChatGPT,Ethics in Technology
+10.1145/3613905.3650937,Exploring How Multiple Levels of GPT-Generated Programming Hints Support or Disappoint Novices,Introductory Programming
+10.1145/3675249.3675307,BabyGAN for Facial Contour Reversion: AI Course Applications Using U-Net Architecture,Machine Learning
+10.1145/3664934.3664955,Thinking Strategies Training to Support the Development of Machine Learning Understanding. A study targeting fifth-grade children,Educational Technology
+10.1145/3650212.3685554,Leveraging Natural Language Processing and Data Mining to Augment and Validate APIs,Software Engineering
+10.1145/3609266.3594546,Three Student-Centered Approaches to Integrate ChatGPT in the Online Classroom: Effective eLearning (Special Series),Educational Technology
+10.1145/3591196.3596818,CausalMapper: Challenging designers to think in systems with Causal Maps and Large Language Model,Human-Computer Interaction
+10.1145/3660826,Investigating Documented Privacy Changes in Android OS,Operating Systems
+10.1145/3657604.3664671,Nemobot: Crafting Strategic Gaming LLM Agents for K-12 AI Education,Artificial Intelligence Education
+10.1145/3643755,Unprecedented Code Change Automation: The Fusion of LLMs and Transformation by Example,Software Engineering
+10.1145/3626253.3635602,An Investigation on Task Difficulty: Does Task Difficulty Depend on the Technology Used in Task Completion?,Human-Computer Interaction
+10.1145/3653644.3653662,Applications and Challenges of Large Language Models in Smart Government -From technological Advances to Regulated Applications,Artificial Intelligence Ethics and Policy
+10.1145/3671151.3671327,The Case Teaching of Chinese Abstract in Natural Language Understanding Courses,Natural Language Processing
+10.1145/3613904.3642379,A Piece of Theatre: Investigating How Teachers Design LLM Chatbots to Assist Adolescent Cyberbullying Education,Human-Computer Interaction
+10.1145/3637989.3638015,"Learning tool of chemical molecules for healthcare students based on 3D visualizations, Large Language Models and Linked Open Data",Human-Computer Interaction
+10.1145/3641032.3641055,Advancements and Challenges of Generative AI in Higher Educational Content Creation A Technical Perspective,Artificial Intelligence in Education
+10.1145/3664647.3680827,FineCLIPER: Multi-modal Fine-grained CLIP for Dynamic Facial Expression Recognition with AdaptERs,Machine Learning
+10.1145/3635636.3664627,Mixed-Initiative Methods for Co-Creation in Scientific Research,Human-Computer Interaction
+10.1145/3680533.3697066,Study with Confucius: An AI-Based Immersive Educational Game with Multiple Educational Modes,Educational Technology
+10.1145/3657604.3664695,SimPal: Towards a Meta-Conversational Framework to Understand Teacher's Instructional Goals for K-12 Physics,Educational Technology
+10.1145/3650212.3680355,How Effective Are They? Exploring Large Language Model Based Fuzz Driver Generation,Software Testing
+10.1145/3674805.3690753,Exploring LLM-Driven Explanations for Quantum Algorithms,Quantum Computing
+10.1145/3643991.3644910,Improving Automated Code Reviews: Learning From Experience,Software Engineering
+10.1145/3610978.3638377,The Question Is Not Whether; It Is How!,Human-Computer Interaction
+10.1613/jair.1.15960,The RL/LLM Taxonomy Tree: Reviewing Synergies Between Reinforcement Learning and Large Language Models,Machine Learning
+10.1145/3652583.3658597,Compact Visual Data Representation for Multimedia Search and Analytics,Multimedia Systems
+10.1145/3700297.3700342,Opportunities and Challenges in the Cultivation of Software Development Professionals in the Context of Large Language Models,Software Engineering
+10.1145/3627673.3679091,"Transforming Digital Forensics with Large Language Models: Unlocking Automation, Insights, and Justice",Digital Forensics
+10.1145/3626253.3635606,Integrating Personalized Parsons Problems with Multi-Level Textual Explanations to Scaffold Code Writing,Introductory Programming
+10.1145/3597503.3639107,Are Your Requests Your True Needs? Checking Excessive Data Collection in VPA App,Computer Security
+10.1145/3626253.3635572,Math IDE: A Platform for Creating with Math,Educational Technology
+10.1145/3652628.3652689,Unleashing the Potential of Large Language Model: Zero-shot VQA for Flood Disaster Scenario,Machine Learning
+10.1145/3686852.3687083,Enhancing classroom teaching with LLMs and RAG,Educational Technology
+10.1145/3593013.3594067,Regulating ChatGPT and other Large Generative AI Models,AI Ethics and Policy
+10.1145/3605098.3636108,Equity and Fairness Challenges in Online Learning in the Age of ChatGPT,Educational Technology
+10.1145/3626253.3635398,Is ChatGPT the Academic Catalyst We've all been Waiting For?,Human-Computer Interaction
+10.1145/3656650.3656676,Enhancing Interface Design with AI: An Exploratory Study on a ChatGPT-4-Based Tool for Cognitive Walkthrough Inspired Evaluations,Human-Computer Interaction
+10.1145/3640544.3645231,Assistant Dashboard Plus – Enhancing an Existing Instructor Dashboard with Difficulty Detection and GPT-based Code Clustering,Educational Technology in Computer Science
+10.1145/3641235.3664430,Emerging Approaches in CG Education Aimed at Enhancing Visual Communication Skills through Reverse Engineering,Computer Graphics
+10.1145/3603555.3603565,From ChatGPT to FactGPT: A Participatory Design Study to Mitigate the Effects of Large Language Model Hallucinations on Users,Human-Computer Interaction
+10.1145/3622780.3623648,KOGI: A Seamless Integration of ChatGPT into Jupyter Environments for Programming Education,Introductory Programming
+10.1145/3593663.3593692,Towards Automated Interactive Tutoring - Focussing on Misconceptions and Adaptive Level-Specific Feedback,Introductory Programming
+10.1145/3626253.3635482,Enhancing Formative Feedback at Scale with the Intelligent Feedback Assistant,Human-Computer Interaction
+10.1145/3631504.3631518,From Large Language Models to Databases and Back: A Discussion on Research and Education,Databases
+10.1145/3657604.3664719,Ruffle&amp;Riley: From Lesson Text to Conversational Tutoring,Human-Computer Interaction
+10.1145/3637528.3671647,TnT-LLM: Text Mining at Scale with Large Language Models,Natural Language Processing
+10.1145/3696230.3696256,Automated Handwritten Essay Evaluation in Moodle: Leveraging Google Vision OCR and Mistral 7b,Artificial Intelligence in Education
+10.1145/3691620.3695470,JavaBench: A Benchmark of Object-Oriented Code Generation for Evaluating Large Language Models,Object-oriented Programming
+10.1145/3661167.3661218,LLM-Based Chatbots for Mining Software Repositories: Challenges and Opportunities,Software Engineering
+10.1145/3636555.3636883,Large language model augmented exercise retrieval for personalized language learning,Natural Language Processing
+10.1145/3583780.3615047,SANN: Programming Code Representation Using Attention Neural Network with Optimized Subtree Extraction,Machine Learning
+10.1145/3628096.3629066,The Promise and Perils of Generative AI: Case Studies in an African Context,Ethics in Technology
+10.1145/3650212.3652134,Automating Zero-Shot Patch Porting for Hard Forks,Software Engineering
+10.1145/3689370,Exploring the Role of ChatGPT in Higher Education Institutions: Where does Latin America Stand?,Educational Technology
+10.1145/3675094.3677545,Enabling On-Device LLMs Personalization with Smartphone Sensing,Mobile Computing
+10.1145/3678610.3678625,Students' Perceptions and Intentions Regarding ChatGPT Usage in Higher Education,Human-Computer Interaction
+10.1145/3691620.3695531,Magneto: A Step-Wise Approach to Exploit Vulnerabilities in Dependent Libraries via LLM-Empowered Directed Fuzzing,Computer Security
+10.1145/3663548.3688531,Towards Fine-Grained Sidewalk Accessibility Assessment with Deep Learning: Initial Benchmarks and an Open Dataset,Computer Vision
+10.1145/3640544.3645234,NotebookGPT – Facilitating and Monitoring Explicit Lightweight Student GPT Help Requests During Programming Exercises,Introductory Programming
+10.1145/3640543.3645196,Jamplate: Exploring LLM-Enhanced Templates for Idea Reflection,Human-Computer Interaction
+10.1145/3700297.3700336,ChemGenX: AI in the Chemistry Classroom,Artificial Intelligence
+10.1145/3670653.3677507,Understanding the Adoption of ChatGPT in Higher Education: A Comparative Study with Insights from STEM and Business Students,Educational Technology in Computer Science
+10.1145/3626111.3628189,Toward Reproducing Network Research Results Using Large Language Models,Computer Networks
+10.1145/3631700.3665234,Towards Zero-shot Knowledge Graph building: Automated Schema Inference,Knowledge Representation and Reasoning
+10.1145/3613904.3642438,"Teachers, Parents, and Students' perspectives on Integrating Generative AI into Elementary Literacy Education",Human-Computer Interaction
+10.1145/3701625.3701681,Teaching Refactoring to Improve Code Quality with ChatGPT: An Experience Report in Undergraduate Lessons,Software Engineering
+10.1145/3657604.3662046,Plagiarism in the Age of Generative AI: Cheating Method Change and Learning Loss in an Intro to CS Course,Introductory Programming
+10.1145/3643650.3658605,Synthetic Data Digital Twins and Data Trusts Control for Privacy in Health Data Sharing,Data Privacy and Security
+10.1145/3629527.3651419,FootPrinter: Quantifying Data Center Carbon Footprint,Distributed Systems
+10.1145/3597926.3598060,Who Judges the Judge: An Empirical Study on Online Judge Tests,Software Engineering
+10.1145/3686038.3686652,Examining the Feasibility of AI-Generated Questions in Educational Settings,Educational Technology
+10.1145/3672539.3686338,SelfGauge: An Intelligent Tool to Support Student Self-assessment in GenAI-enhanced Project-based Learning,Educational Technology
+10.1145/3573051.3593393,GPTeach: Interactive TA Training with GPT-based Students,Educational Technology
+10.1145/3573051.3593391,High-Resolution Course Feedback: Timely Feedback Mechanism for Instructors,Educational Technology
+10.1145/3687123.3698291,Leveraging Large Multimodal Models to Augment Image-Based Building Damage Assessment,Machine Learning
+10.1145/3691720.3691728,Integrating ChatGPT into Human Morphology and Curriculum Ideology and Politic: Enhancing Learning and Engagement,Educational Technology
+10.1145/3636555.3636905,Predicting challenge moments from students' discourse: A comparison of GPT-4 to two traditional natural language processing approaches,Natural Language Processing
+10.1145/3610978.3638160,3rd Workshop on Human-Interactive Robot Learning (HIRL),Human-Robot Interaction
+10.1145/3605390.3605400,VisionARy: Exploratory research on Contextual Language Learning using AR glasses with ChatGPT,Human-Computer Interaction
+10.1145/3640794.3665542,Generative AI-Enabled Conversational Interaction to Support Self-Directed Learning Experiences in Transversal Computational Thinking,Human-Computer Interaction
+10.1145/3670013.3670058,"Knowledge, Attitudes, and Practices on ChatGPT:Perspectives from Students and Teachers of De La Salle Santiago Zobel School",Educational Technology
+10.1145/3698322.3698346,Phrasebooks Can Teach Us ChatGPT: Decoding Prompt Crafting as Function Allocation,Human-Computer Interaction
+10.1145/3676507,"Good Intentions, Risky Inventions: A Method for Assessing the Risks and Benefits of AI in Mobile and Wearable Uses",Human-Computer Interaction
+10.1145/3581784.3613215,FORGE: Pre-Training Open Foundation Models for Science,Machine Learning
+10.1145/3613905.3650868,Advancing Knowledge Together: Integrating Large Language Model-based Conversational AI in Small Group Collaborative Learning,Human-Computer Interaction
+10.1145/3639475.3640112,An Empirical Study on Compliance with Ranking Transparency in the Software Documentation of EU Online Platforms,Software Engineering
+10.1145/3656650.3656688,"Playwriting with Large Language Models: Perceived Features, Interaction Strategies and Outcomes",Human-Computer Interaction
+10.1109/ASE56229.2023.00153,Generative Model-Based Testing on Decision-Making Policies,Machine Learning
+10.1145/3689484.3690738,Automated Generation of Code Contracts: Generative AI to the Rescue?,Software Engineering
+10.1145/3652037.3663942,Curious Learner: A Neuro-Symbolic Approach for Function Execution via Natural Language,Natural Language Processing (NLP)
+10.1145/3640332,Rigorous Assessment of Model Inference Accuracy using Language Cardinality,Software Engineering
+10.1145/3641289,A Survey on Evaluation of Large Language Models,Natural Language Processing
+10.1145/3644815.3644987,Custom Developer GPT for Ethical AI Solutions,Ethics in AI and Software Engineering
+10.1145/3583131.3590512,Rethinking Population-assisted Off-policy Reinforcement Learning,Reinforcement Learning
+10.1145/3673971.3674024,Base on GAN Combined with CNN Architecture to Generate Brain Stroke CT Images,Machine Learning
+10.1145/3584931.3607494,ReaderQuizzer: Augmenting Research Papers with Just-In-Time Learning Questions to Facilitate Deeper Understanding,Human-Computer Interaction
+10.1109/ICSE-Companion58688.2023.00087,GLAD: Neural Predicate Synthesis to Repair Omission Faults,Software Engineering
+10.1145/3695080.3695150,ChatGPT intervenes in the application analysis of higher education classrooms,Educational Technology
+10.1145/3689215,GenAI in the Context of African Universities: A Crisis of Tertiary Education or Its New Dawn?,Educational Technology
+10.1145/3649884,Augmenting Human Teams with Robots in Knowledge Work Settings: Insights from the Literature,Human-Computer Interaction
+10.1145/3664934.3664946,ChatGPT as an Artificial Intelligence (AI) Writing Assistant for EFL Learners: An Exploratory Study of its Effects on English writing Proficiency,Educational Technology
+10.1145/3511808.3557079,Fooling MOSS Detection with Pretrained Language Models,Introductory Programming
+10.1145/3636555.3636912,Analyzing Students Collaborative Problem-Solving Behaviors in Synergistic STEM+C Learning,Educational Technology
+10.1145/3696419,Malicious Participants and Fake Task Detection Incorporating Gaussian Bias,Computer Security
+10.1145/3699761,MindScape Study: Integrating LLM and Behavioral Sensing for Personalized AI-Driven Journaling Experiences,Human-Computer Interaction
+10.1109/TASLP.2023.3317571,MetaEx-GAN: Meta Exploration to Improve Natural Language Generation via Generative Adversarial Networks,Natural Language Processing
+10.1145/3555776.3577652,Mapping Strategies for Declarative Queries over Online Heterogeneous Biological Databases for Intelligent Responses,Databases
+10.1145/3584371.3612953,Leveraging Large Language Models for Predicting Microbial Virulence from Protein Structure and Sequence,Bioinformatics
+10.1145/3703459,Towards the Development of a Copyright Risk Checker Tool for Generative Artificial Intelligence Systems,Legal and Ethical Issues in Computing
+10.1145/3638584.3638634,Vietnamese Voice2Text: A Web Application for Whisper Implementation in Vietnamese Automatic Speech Recognition Tasks: Vietnamese Voice2Text,Web Development
+10.1145/3510454.3522684,Is GitHub copilot a substitute for human pair-programming? an empirical study,Software Engineering
+10.1145/3678610.3678630,Navigating the “Cooked” Data: A Framework for Understanding GenAI's Impact on Academic Writing and Learning,Artificial Intelligence in Education
+10.1145/3641237.3691669,Developing AI Literacy through Discussion and Practice: A Reflection on an AI Seminar,Artificial Intelligence Literacy
+10.1145/3659677.3659824,Assessing the Robustness of Deep Learning-Based Gait Recognition Systems Against Adversarial Attacks,Machine Learning
+10.1145/3649158.3657041,Trustworthy Artificial Intelligence for Securing Transportation Systems,Computer Security
+10.1145/3685235.3685237,Promoting Ethical Use of Generative AI in Education,Ethics in Technology
+10.1145/3558489.3559072,Assessing the quality of GitHub copilot’s code generation,Software Engineering
+10.1145/3664476.3670902,Analysis of the Capability and Training of Chat Bots in the Generation of Rules for Firewall or Intrusion Detection Systems,Computer Security
+10.1145/3649158.3657043,"AI/ML, Graphs and Access Control: Towards Holistic Identity and Access Management",Computer Security
+10.1145/3589335.3651582,Who is Creating Malware Repositories on GitHub and Why?,Computer Security
+10.1145/3597503.3623316,CoderEval: A Benchmark of Pragmatic Code Generation with Generative Pre-trained Models,Software Engineering
+10.1145/3628516.3659392,App Planner: Utilizing Generative AI in K-12 Mobile App Development Education,Human-Computer Interaction
+10.1145/3637989.3638014,Addressing Academic Misconduct in the Age of ChatGPT: Strategies and Solutions,Ethics in Technology
+10.1145/3686852.3687069,The Future of Learning: Large Language Models through the Lens of Students,Human-Computer Interaction
+10.1145/3643834.3660706,Movits: a Minimalist Toolkit for Embodied Sketching,Human-Computer Interaction
+10.1145/3512716.3512725,A Generative Approach to Enrich Arabic Story Text with Visual Aids,Natural Language Processing
+10.1145/3691016.3691035,The image-generative artificial intelligence Midjourney empowers Chinese landscape painting teaching and creation with positive nurturing,Human-Computer Interaction
+10.1145/3650400.3650606,Design and implementation of digital training evaluation management system based on AI's generative AI technology,Artificial Intelligence
+10.1145/3613905.3650786,A Taxonomy for Human-LLM Interaction Modes: An Initial Exploration,Human-Computer Interaction
+10.1145/3678392.3678405,Learning Assessment for Open Education Learners in the Era of Generative Artificial Intelligence,Educational Technology
+10.1145/3555858.3555867,Working Backwards: Creating a Character Backstory Generation System Using Idealized Creative Writing Outputs: Creating a Character Backstory Generation System Using Idealized Creative Writing Outputs,Natural Language Processing
+10.1145/3660512.3665522,Digital Signatures for Authenticating Compressed JPEG Images,Computer Security
+10.1145/3637907.3637988,Data-driven Personalized Learning,Educational Technology
+10.1109/TASLP.2023.3235202,Hierarchical Reinforcement Learning With Guidance for Multi-Domain Dialogue Policy,Machine Learning
+10.1145/3623462.3623475,Generative Ominous Dataset: Testing the Current Public Perception of Generative Art,Digital Art and Ethics in AI
+10.1145/3641237.3691687,"Inviting ChatGPT into Technical Writing Classes: Opportunities, Challenges, and Student Perceptions",Technical Writing in Computer Science
+10.1145/3586183.3606786,Storyfier: Exploring Vocabulary Learning Support with Text Generation Models,Human-Computer Interaction
+10.1145/3698587.3701473,EEG-DIF: Early Warning of Epileptic Seizures through Generative Diffusion Model-based Multi-channel EEG Signals Forecasting,Machine Learning
+10.1145/3686852.3687075,Instructional Approaches Complementing the Use of Generative Artificial Intelligence in Higher Education,Educational Technology in Computer Science
+10.1145/3626772.3657855,TriviaHG: A Dataset for Automatic Hint Generation from Factoid Questions,Natural Language Processing
+10.1145/3527927.3532790,MIDISpace: Finding Linear Directions in Latent Space for Music Generation,Machine Learning
+10.14778/3611540.3611640,On the Cusp: Computing Thrills and Perils and Professional Awakening,Ethics in Computing
+10.1145/3657294,GANs in the Panorama of Synthetic Data Generation Methods,Machine Learning
+10.1145/3565472.3595606,A Comparative Analysis of Automatic Speech Recognition Errors in Small Group Classroom Discourse,Natural Language Processing
+10.1145/3613904.3642785,"The Promise and Peril of ChatGPT in Higher Education: Opportunities, Challenges, and Design Implications",Human-Computer Interaction
+10.1145/3665065.3665082,Quantum Generative Adversarial Networks: Bridging Classical and Quantum Realms,Quantum Machine Learning
+10.1145/3637989.3638020,ChatGPT in education: A comparative study of media framing in Japan and Malaysia,Educational Technology
+10.1145/3674912.3674922,Enhancing Pedagogy with Generative AI: Video Production from Course Descriptions,Educational Technology
+10.1145/3639592.3639626,Design of an Assisted Learning System Based on ChatGPT,Human-Computer Interaction
+10.1145/3584371.3613036,Using Large Language Models to Translate Machine Results to Human Results,Machine Learning
+10.1145/3565516.3565519,Light Field GAN-based View Synthesis using full 4D information,Computer Graphics
+10.1145/3651671.3651688,Lightweight Object Detection-Tracking using Deep Feature Distillation,Computer Vision
+10.1145/3571884.3603754,Deceptive AI Ecosystems: The Case of ChatGPT,Ethics in AI and Human-Computer Interaction
+10.1145/3531146.3533137,Making the Unaccountable Internet: The Changing Meaning of Accounting in the Early ARPANET,Computer Networks
+10.1145/3691720.3691809,Exploration and research of generative artificial intelligence on higher vocational education,Educational Technology
+10.1145/3631700.3664900,Harmonizing Ethical Principles: Feedback Generation Approaches in Modeling Human Factors for Assisted Psychomotor Systems,Human-Computer Interaction
+10.1145/3491102.3501825,Design Guidelines for Prompt Engineering Text-to-Image Generative Models,Human-Computer Interaction
+10.1145/3677045.3685439,Use of Generative AI for Fictional Field Studies in Design Courses,Human-Computer Interaction
+10.1109/TASLP.2023.3331096,Gradual Syntactic Label Replacement for Language Model Pre-Training,Natural Language Processing
+10.1145/3632634.3655852,IT Higher Education Teachers and Trust in AI-Enabled Ed-Tech: Implications for Adoption of AI in Higher Education,Educational Technology in Computer Science
+10.1145/3650212.3652142,"CoEdPilot: Recommending Code Edits with Learned Prior Edit Relevance, Project-wise Awareness, and Interactive Nature",Software Engineering
+10.1145/3614419.3644014,Reacting to Generative AI: Insights from Student and Faculty Discussions on Reddit,Human-Computer Interaction
+10.1145/3613904.3642332,"Testing, Socializing, Exploring: Characterizing Middle Schoolers’ Approaches to and Conceptions of ChatGPT",AI Literacy
+10.1145/3604915.3608795,Generative Learning Plan Recommendation for Employees: A Performance-aware Reinforcement Learning Approach,Reinforcement Learning
+10.1145/3610977.3634950,Doodlebot: An Educational Robot for Creativity and AI Literacy,Artificial Intelligence Education
+10.1145/3686038.3686063,Investigating the Impact of Generative AI on Students and Educators: Evidence and Insights from the Literature,Educational Technology
+10.1145/3664934.3664945,Understanding Students'Attitudes and Behavioral Intentions Towards Using ChatGPT,Human-Computer Interaction
+10.1145/3678726.3678745,ARCS Model for Exploring the Enhancement of Learning Motivation and Engagement through AIGC Technology in Computer Graphics Courses,Computer Graphics
+10.1109/TASLP.2023.3321191,A Fast High-Fidelity Source-Filter Vocoder With Lightweight Neural Modules,Digital Signal Processing
+10.1145/3491101.3503736,AI-Generated Characters: Putting Deepfakes to Good Use,Human-Computer Interaction
+10.1145/3675812.3675843,Navigating the Application Challenges of ChatGPT in Education: Promoting Responsible Use and Minimizing Mental Risks,Educational Technology
+10.1145/3700297.3700315,Overview of Artificial Intelligence Applications in Educational Research,Artificial Intelligence in Education
+10.1145/3657604.3664658,"Three Paradoxes to Reconcile to Promote Safe, Fair, and Trustworthy AI in Education",Artificial Intelligence in Education
+10.1145/3643834.3661581,RetAssist: Facilitating Vocabulary Learners with Generative Images in Story Retelling Practices,Human-Computer Interaction
+10.1145/3606094.3606101,The Ethics of AI Assisted Learning: A Systematic Literature Review on the Impacts of ChatGPT Usage in Education,Ethics in Technology
+10.1145/3487891,Video Generative Adversarial Networks: A Review,Deep Learning
+10.1145/3589649,ChatGPT for Next Generation Science Learning,Educational Technology
+10.1145/3640543.3645213,AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy,Human-Computer Interaction
+10.1145/3604237.3626880,JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading,Machine Learning
+10.1145/3610537.3622957,"AI N\""{u}shu (Women's scripts) - An Exploration of Language Emergence in Sisterhood",Artificial Intelligence and Computational Linguistics
+10.1145/3638985.3638998,Pluralistic Face Completion of Masked Face based on 3D priors,Computer Vision
+10.1145/3612783.3612796,Design and development of the LATILL platform for retrieving adequate texts to foster reading skills in German,Educational Technology
+10.1145/3675585.3675587,Students'perception of the use of AI Detector System by faculty members in determining the originality of submitted academic requirements,Ethics in Technology
+10.1145/3625704.3625748,Analyzing Diverse Issues on AI Education in South Korea: Focusing on news editorials text mining,Data Science
+10.1145/3544549.3583931,Explore the Future Earth with Wander 2.0: AI Chatbot Driven By Knowledge-base Story Generation and Text-to-image Model,Artificial Intelligence
+10.1145/3657604.3664669,Comparing Expert and ChatGPT-authored Guidance Prompts,Educational Technology
+10.1145/3660043.3660178,Opportunities and Challenges of Generative Artificial Intelligence in Facilitating Learning for Chinese University Students,Educational Technology
+10.1145/3627989,Fintech Key-Phrase: A New Chinese Financial High-Tech Dataset Accelerating Expression-Level Information Retrieval,Natural Language Processing
+10.1145/3605098.3636113,Bayesian Soft Actor-Critic: A Directed Acyclic Strategy Graph Based Deep Reinforcement Learning,Machine Learning
+10.1145/3658619.3658627,The Potential and Implications of Generative AI on HCI Education,Human-Computer Interaction
+10.1145/3696500.3696575,Research on the scenario application of generative artificial intelligence in ideological and political education of colleges and universities,Educational Technology
+10.1145/3613904.3642592,More than Model Documentation: Uncovering Teachers' Bespoke Information Needs for Informed Classroom Integration of ChatGPT,Human-Computer Interaction
+10.1145/3660043.3660172,Research on the Application of AI in Personalized Education,Artificial Intelligence in Education
+10.1145/3532512.3539664,Automatic Programming and Education,Educational Technology
+10.1145/3536169.3537785,Food for Advanced Computational Thinking: Critical and Creative Approaches to Technology at Te Kura Taurua Manurewa,Human-Computer Interaction
+10.1145/3573051.3596191,Educator and Student Perspectives on the Impact of Generative AI on Assessments in Higher Education,Educational Technology
+10.1145/3613905.3636268,Challenges and Opportunities for Responsible Prompting,Artificial Intelligence Ethics
+10.1145/3660853.3660863,"The use of ChatGPT to generate Summative Feedback in Programming Assessments that is Consistent, Prompt, without Bias and Scalable",Educational Technology
+10.1145/3592762,DNBP: Differentiable Nonparametric Belief Propagation,Machine Learning
+10.1145/3563359.3596996,Children on ChatGPT Readability in an Educational Context: Myth or Opportunity?,Educational Technology
+10.1145/3613905.3636273,HCI History and the Trajectory to Generative AI,Human-Computer Interaction
+10.1145/3615335.3623035,Evaluating ChatGPT: Generative AI in UX Design and Web Development Pedagogy,Web Development
+10.1145/3641235.3664438,Empowering Creativity with Generative AI in Digital Art Education,Digital Art and AI Integration
+10.1145/3655693.3655703,Increasing Detection Rate for Imbalanced Malicious Traffic using Generative Adversarial Networks,Computer Security
+10.1145/3589335.3651511,Generating Privacy-preserving Educational Data Records with Diffusion Model,Data Privacy and Security
+10.1145/3632860,Programming-by-Demonstration for Long-Horizon Robot Tasks,Robotics and Automation
+10.1145/3623509.3633394,Tangible Diffusion: Exploring Artwork Generation via Tangible Elements and AI Generative Models in Arts and Design Education,Human-Computer Interaction
+10.1145/3583780.3615317,Generative AI and the Future of Information Access,Information Retrieval
+10.1145/3661904.3661918,SPringBoard:AI-powered Ideation System for Technopreneurship,Technopreneurship
+10.1145/3660853.3660923,A Novel End-to-End Framework for Story Generation Using Deep Neural Networks,Natural Language Processing
+10.1145/3587399.3587462,Interaction Design as Project-Based Learning: Perspectives for Unsolved Challenges,Human-Computer Interaction
+10.1145/3631700.3665231,LLMs for Knowledge Modeling: NLP Approach to Constructing User Knowledge Models for Personalized Education,Natural Language Processing (NLP)
+10.1145/3610978.3640559,Adaptive Second Language Tutoring Using Generative AI and a Social Robot,Human-Computer Interaction
+10.1145/3573051.3593399,Introducing an Open-source Adaptive Tutoring System to Accelerate Learning Sciences Experimentation,Educational Technology
+10.1145/3625704.3625732,The impacts and responses of ChatGPT on education,Human-Computer Interaction
+10.1145/3669754.3669806,Do Human Beliefs and Traits Influence the Adoption of ChatGPT among Programming Students?,Human-Computer Interaction
+10.1145/3670691,A Reasoning and Value Alignment Test to Assess Advanced GPT Reasoning,Artificial Intelligence Ethics
+10.1145/3644713.3644797,Lecturers perceptions of using Artificial Intelligence in Tertiary Education in Uzbekistan,Educational Technology
+10.1145/3610977.3638459,Social-Digital Vulnerability,Human-Computer Interaction
+10.1145/3663649.3664375,What Teaching Databases Taught Us about Researching Databases: Extended Talk Abstract,Databases
+10.1145/3585088.3593867,Design implications of generative AI systems for visual storytelling for young learners,Human-Computer Interaction
+10.1145/3675812.3675877,Investigating Factors Influencing University Students' Use of intelligent Audio Reading Platform for Reading and Learning,Human-Computer Interaction
+10.1145/3675416,Toward Effective AI Support for Developers: A survey of desires and concerns,Software Engineering
+10.1145/3696952.3696985,Profiling Chinese Student Interpreters’ Usage Intention of ChatGPT-assisted Translation by Q Methodology Based on Technology Acceptance Model,Human-Computer Interaction
+10.1145/3630106.3659023,Responsible Adoption of Generative AI in Higher Education: Developing a “Points to Consider” Approach Based on Faculty Perspectives,Ethics in Technology
+10.1145/3656650.3656663,Responsible Design of Socio-Technical Solutions with Social Design Students: a Case Study,Human-Computer Interaction
+10.1145/3700297.3700306,The Effects of ChatGPT on English Language Learning in Regards to Language Proficiency and Learning Motivation,Educational Technology
+10.1145/3689040,The Choreographer-Performer Continuum: A Diffraction Tool to Illuminate Authorship in More Than Human Co-Performances,Human-Computer Interaction
+10.1145/3637208,Teaching Transformed,Software Engineering
+10.1145/3597434,Unifying Dual-Attention and Siamese Transformer Network for Full-Reference Image Quality Assessment,Computer Vision
+10.1145/3580305.3599412,Learning to Schedule in Diffusion Probabilistic Models,Machine Learning
+10.1145/3589334.3649116,"AI Deepfakes on the Web: The 'Wicked' Challenges for AI Ethics, Law and Technology",AI Ethics and Policy
+10.1145/3643834.3661498,Exploring Aesthetic Qualities of Deep Generative Models through Technological (Art) Mediation,Human-Computer Interaction
+10.1145/3613904.3642677,Exploring Collaborative Movement Improvisation Towards the Design of LuminAI—a Co-Creative AI Dance Partner,Human-Computer Interaction
+10.1145/3510361,SUMMER: Bias-aware Prediction of Graduate Employment Based on Educational Big Data,Machine Learning
+10.1145/3610978.3638374,Shaping Relatable Robots: A Child-Centered Approach to Social Personalization,Human-Computer Interaction
+10.1145/3658644.3691418,Poster: Unmasking Label Errors: A need for Robust Cybersecurity Benchmarks,Computer Security
+10.1145/3531146.3533138,Robots Enact Malignant Stereotypes,Ethics in AI and Robotics
+10.1145/3502181.3531457,Machine Learning Assisted HPC Workload Trace Generation for Leadership Scale Storage Systems,High-Performance Computing (HPC)
+10.1109/TNET.2023.3270565,Realizing Fine-Grained Inference of AS Path With a Generative Measurable Process,Computer Networks
+10.1145/3591196.3593363,NEEDLE WORK-Revealing relational agency aesthetics of craft through human/robot interaction,Human-Computer Interaction
+10.1145/3620666.3655589,Societal infrastructure in the age of Artificial General Intelligence,Computer Architecture and Infrastructure
+10.1145/3677892.3677941,A Bibliometric Comparison of Chinese and International Research in the Field of Generative AI,Artificial Intelligence
+10.1145/3689783,QuAC: Quick Attribute-Centric Type Inference for Python,Programming Languages
+10.1145/3686852.3687066,Beyond the Code: The Role of Non-Traditional Sectors in Shaping Generative AI Innovations and Transforming Global Industries,Artificial Intelligence and Society
+10.1145/3544549.3574172,DOIT: The Design of Interactive Things. Selected methods for quickly and effectively designing interactive systems from the user’s perspective,Human-Computer Interaction
+10.1145/3640471.3680462,mobiCHAI - 1st International Workshop on Mobile Cognition-Altering Technologies (CAT) using Human-Centered AI,Human-Computer Interaction
+10.1145/3626641.3626926,Mutual Information for Learning Context Representation on RNN-Attention Based Models in Open Domain Generative Chatbot,Natural Language Processing
+10.1145/3588432.3591492,Bidirectional GaitNet: A Bidirectional Prediction Model of Human Gait and Anatomical Conditions,Machine Learning
+10.1145/3544548.3581408,AutomataStage: an AR-mediated Creativity Support Tool for Hands-on Multidisciplinary Learning,Human-Computer Interaction
+10.1145/3615522.3615557,Naturality: A Natural Reflection of Chinese Calligraphy,Human-Computer Interaction
+10.1145/3485447.3512067,Outlier Detection for Streaming Task Assignment in Crowdsourcing,Machine Learning
+10.1145/3543507.3583286,Contrastive Collaborative Filtering for Cold-Start Item Recommendation,Recommender Systems
+10.1145/3575828.3575834,Research and Analysis of Knee Joint Prosthesis Design Based on 3D Simulation Technology Based on Computer Method,Computer Graphics
+10.1145/3641554.3701863,Large Language Models in Computer Science Education: A Systematic Literature Review,Computer Science Education
+10.1145/3641554.3701844,"Integrating Small Language Models with Retrieval-Augmented Generation in Computing Education: Key Takeaways, Setup, and Practical Insights",Introductory Programming
+10.1145/3641555.3705121,A Systematic Literature Mapping of Early Generative AI Research is CS Education,CS Education
+10.1145/3641554.3701841,Enhancing Accessibility in Software Engineering Projects with Large Language Models (LLMs),Software Engineering
+10.1145/3641554.3701873,What Can Computer Science Educators Learn From the Failures of Top-Down Pedagogy?,Computer Science Education
+10.1145/3716640.3716647,LLM-itation is the Sincerest Form of Data: Generating Synthetic Buggy Code Submissions for Computing Education,Computing Education Research
+10.1145/3641554.3701829,Iterative Design of a Teaching Assistant Training Program in Computer Science Using the Agile Method,Computing Education
+10.1145/3706599.3720282,"""I Would Never Trust Anything Western"": Kumu (Educator) Perspectives on Use of LLMs for Culturally Revitalizing CS Education in Hawaiian Schools",Human-Computer Interaction
+10.1145/3641555.3705080,Prompt-Engineering Strategies for Minimizing Bias in Large Language Model Outputs: Applications in Computing Education,Ethics in Artificial Intelligence
+10.1145/3641554.3701917,Quantitative Evaluation of Using Large Language Models and Retrieval-Augmented Generation in Computer Science Education,Educational Technology in Computer Science
+10.1145/3641555.3704749,Building AI-Powered Responsible Workforce by Integrating Large Language Models into Computer Science Curriculum,Software Engineering
+10.1145/3702163.3702188,Exploring the Adoption of Generative AI Tools in Computer Science Education: A Student Survey,Educational Technology in Computer Science
+10.1145/3722228,Design Principles for Authentically Embedding Computer Science in Sports,Human-Computer Interaction
+10.1145/3717383.3721236,Seventh Workshop on Emerging Software Engineering Education(WESEE 2025),Software Engineering
+10.1145/3641555.3705277,Using LLMs to Detect the Presence of Learning Outcomes in Submitted Work Within Computing Ethics Courses,Computing Ethics
+10.1145/3706598.3713644,Playing Dumb to Get Smart: Creating and Evaluating an LLM-based Teachable Agent within University Computer Science Classes,Educational Technology in Computer Science
+10.1145/3716640.3716658,From Automation to Cognition: Redefining the Roles of Educators and Generative AI in Computing Education,Computing Education
+10.1145/3641554.3701872,Designing LLM-Resistant Programming Assignments: Insights and Strategies for CS Educators,Computer Science Education
+10.1145/3641555.3705236,RAFIKI: Leveraging Large Language Models to Increase AP Computer Science A Enrollment among Disadvantaged High School Females,Educational Technology
+10.1145/3702163.3702182,A Novel Framework using Large Language Models to Automate Coursework Feedback for Computer Science modules,Educational Technology
+10.1145/3641555.3705250,Simulating Requirement Elicitation: Development and Evaluation of a Persona-Based Tool,Databases
+10.1145/3716640.3716654,Seeing the Forest and the Trees: Solving Visual Graph and Tree Based Data Structure Problems using Large Multimodal Models,Algorithms and Data Structures
+10.1145/3641554.3701946,"Investigating the Capabilities of Generative AI in Solving Data Structures, Algorithms, and Computability Problems",Algorithms and Data Structures
+10.1145/3641555.3705125,"An LLM-Based Framework for Simulating, Classifying, and Correcting Students' Programming Knowledge with the SOLO Taxonomy",Introductory Programming
+10.1145/3736407,CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences,Machine Learning
+10.1145/3641555.3705282,Finding Misleading Identifiers in Novice Code Using LLMs,Introductory Programming
+10.1145/3641555.3705215,LLM-KCI: Leveraging Large Language Models to Identify Programming Knowledge Components,Computer Science Education
+10.1145/3706468.3706529,Generating Effective Distractors for Introductory Programming Challenges: LLMs vs Humans,Introductory Programming
+10.1145/3716640.3716651,Oversight in Action: Experiences with Instructor-Moderated LLM Responses in an Online Discussion Forum,Software Engineering
+10.1145/3641554.3701858,Can GPT Help? Supporting Teachers to Brainstorm Customized Instructional Scratch Projects,Educational Technology
+10.1145/3641554.3701859,"Unlocking Potential with Generative AI Instruction: Investigating Mid-level Software Development Student Perceptions, Behavior, and Adoption",Software Engineering
+10.1145/3709026.3709030,On Automated Essay Grading using Large Language Models,Natural Language Processing
+10.1145/3716640.3716652,On the Opportunities of Large Language Models for Programming Process Data,Introductory Programming
+10.1145/3641555.3705132,Assessing the Influence of ChatGPT on Student Outcomes in a Models of Computing Course,Theory of Computation
+10.1145/3723010.3723021,Evaluation of a Node-based Automatic Short Answer Tool “NodeGrade”,Software Engineering
+10.1145/3641555.3705064,Evolution of Students' Attitudes Towards the Use of Generative AI Tools in a CS1 Course: Implications for Instructors,Introductory Programming
+10.1145/3702212.3702214,Learning without Limits: Analysing the Usage of Generative AI in a Summative Assessment,Software Engineering
+10.1145/3723010.3723012,Generative AI in Student Software Development Projects: A User Study on Experiences and Self-Assessment,Software Engineering
+10.1145/3641555.3705178,"Experiences Teaching A Course On Algorithms, Ethics, and Society",Ethics in Computing
+10.1145/3708394.3708437,English Composition Image Automatic Scoring Based on Multi-modal Large Language Models,Natural Language Processing
+10.1145/3641554.3701800,Students' Use of GitHub Copilot for Working with Large Code Bases,Software Engineering
+10.1145/3641554.3701785,Understanding the Impact of Using Generative AI Tools in a Database Course,Databases
+10.1145/3641554.3701940,LLM-Driven Feedback for Enhancing Conceptual Design Learning in Database Systems Courses,Databases
+10.1145/3641554.3701957,ASCI: AI-Smart Classroom Initiative,Educational Technology in Computer Science
+10.1145/3641555.3705235,Quack! Configuring Large Language Models to Serve as Rubber Duck Coding Assistants,Introductory Programming
+10.1145/3641555.3705074,Empowering Future Software Engineers: Integrating AI Tools into Advanced CS Curriculum,Software Engineering
+10.1145/3641554.3701867,Bridging Novice Programmers and LLMs with Interactivity,Introductory Programming
+10.1145/3641554.3701953,Enhancing University Curricula with Integrated AI Ethics Education: A Comprehensive Approach,AI Ethics
+10.1145/3716640.3716657,Analyzing LLM Usage in an Advanced Computing Class in India,Distributed Systems
+10.1145/3641555.3705183,Exploring LLMs Impact on Student-Created User Stories and Acceptance Testing in Software Development,Software Engineering
+10.1145/3706890.3707043,React Agent-Based Question Answering Method for Biology in National College Entrance Examination,Natural Language Processing
+10.1145/3715669.3725868,Design of An Eye-Tracking Study Towards Assessing the Impact of Generative AI Use on Code Summarization,Human-Computer Interaction
+10.1145/3706468.3706530,Does Multiple Choice Have a Future in the Age of Generative AI? A Posttest-only RCT,Educational Technology
+10.1145/3689187.3709614,"Beyond the Hype: A Comprehensive Review of Current Trends in Generative AI Research, Teaching Practices, and Tools",Computing Education
+10.1145/3689187.3709607,AI Integration in the IT Professional Workplace: A Scoping Review and Interview Study with Implications for Education and Professional Competencies,Artificial Intelligence in IT Education
+10.1145/3641555.3705266,The Evolving Usage of GenAI by Computing Students,Computing Education
+10.1145/3641554.3701913,Design and Evaluation of an AI-Assisted Grading Tool for Introductory Programming Assignments: An Experience Report,Introductory Programming
+10.1145/3641554.3701864,61A Bot Report: AI Assistants in CS1 Save Students Homework Time and Reduce Demands on Staff. (Now What?),Introductory Programming
+10.1145/3672608.3707736,Assessing the Real-World Impact of Disagreement Between Human Graders and LLMs,Educational Technology
+10.1145/3737885,Howzat? Appealing to Expert Judgement for Evaluating Human and AI Next-Step Hints for Novice Programmers,Introductory Programming
+10.1145/3641554.3701883,Midterm Exam Outliers Efficiently Highlight Potential Cheaters on Programming Assignments,Introductory Programming
+10.1145/3641555.3705195,How Good are Large Language Models at Generating Subgoal Labels?,Introductory Programming
+10.1145/3706599.3720291,Utilizing ChatGPT in a Data Structures and Algorithms Course: A Teaching Assistant's Perspective,Algorithms and Data Structures
+10.1145/3641554.3701965,Analyzing Pedagogical Quality and Efficiency of LLM Responses with TA Feedback to Live Student Questions,Educational Technology
+10.1145/3704739,A Metric-Based Detection System for Large Language Model Texts,Natural Language Processing
+10.1145/3641555.3704769,Modernizing the CS Introductory Sequence with Parallel and Distributed Computing (and some AI),Introductory Programming
+10.1145/3641555.3705061,Assessment in CS50 with AI: Leveraging Generative Artificial Intelligence for Personalized Student Evaluation,Introductory Programming
+10.1145/3641555.3705189,Generating AI Literacy MCQs: A Multi-Agent LLM Approach,AI Literacy
+10.1145/3641555.3705252,Sociotechnical AI Education Course Design for CS Majors and Non-Majors,Artificial Intelligence Education
+10.1145/3641554.3701791,Evaluating Language Models for Generating and Judging Programming Feedback,Introductory Programming
+10.1145/3641554.3701853,Fostering Creativity: Student-Generative AI Teaming in an Open-Ended CS0 Assignment,Introductory Computing
+10.1145/3705734,Unraveling the Impact of ChatGPT as a Knowledge Anchor in Business Education,Human-Computer Interaction
+10.1145/3641555.3705076,Early Adoption of Custom Generative AI Bots in Online Forums for CS Courses,Educational Technology in Computer Science
+10.1145/3641554.3701827,"Compiler-Integrated, Conversational AI for Debugging CS1 Programs",Introductory Programming
+10.1145/3709025.3712220,If You Give an LLM a Legal Practice Guide,Natural Language Processing
+10.1145/3677389.3702596,JCDL 2024 Workshop: Generative AI for Resource Discovery in Libraries,Human-Computer Interaction
+10.1145/3702386.3702388,Comparative Analysis of GPT-4o and GPT-4.0 in Business Ethics Role-Play Simulations,Educational Technology
+10.1145/3641555.3705051,TA Buddy: AI-Assisted Grading Tool for Introductory Programming Assignments,Introductory Programming
+10.1145/3706598.3713728,Artificial Intimacy: Exploring Normativity and Personalization Through Fine-tuning LLM Chatbots,Human-Computer Interaction
+10.1145/3641554.3701906,On Teaching Novices Computational Thinking by Utilizing Large Language Models Within Assessments,Introductory Programming
+10.1145/3706468.3706481,Automatic Short Answer Grading in the LLM Era: Does GPT-4 with Prompt Engineering beat Traditional Models?,Natural Language Processing
+10.1145/3722229,Nurturing Code Quality: Leveraging Static Analysis and Large Language Models for Software Quality in Education,Software Engineering
+10.1145/3641555.3705066,Leveraging or Limiting: Strategies and Implications of ChatGPT Use by Undergraduate TAs in Large CS2 Courses,Teaching Assistant Training in Computer Science
+10.1145/3715112,With Great Power Comes Great Responsibility: The Role of Software Engineers,Software Engineering
+10.1145/3641555.3705208,Investigating Autograder Usage in the Post- Pandemic and LLM Era,Introductory Programming
+10.1145/3680256.3721324,Retrieval Augmented Generation Fine-Tuned LLM Model for Code Recommendations to Mitigate Lock Contention,Software Engineering
+10.1145/3641554.3701972,Feasibility Study of Augmenting Teaching Assistants with AI for CS1 Programming Feedback,Introductory Programming
+10.1145/3641554.3701945,Improving AI in CS50: Leveraging Human Feedback for Better Learning,Educational Technology
+10.1145/3641555.3705237,Raising the Bar: Automating Consistent and Equitable Student Support with LLMs,Educational Technology
+10.1145/3706599.3719287,Boosting Diary Study Outcomes with a Fine-Tuned Large Language Model,Human-Computer Interaction
+10.1145/3641555.3705171,Empowering CS1 Educators: Enhancing Automated Feedback Instruction with Cognitive Load Theory,Introductory Programming
+10.1145/3706599.3720203,SPHERE: Supporting Personalized Feedback at Scale in Programming Classrooms with Structured Review of Generative AI Outputs,Introductory Programming
+10.1145/3641555.3704765,Teaching with AI (GPT),Educational Technology
+10.1145/3706468.3706500,Test Case-Informed Knowledge Tracing for Open-ended Coding Tasks,Introductory Programming
+10.1145/3641554.3701810,Enhancing CS1 Education through Experiential Learning with Robotics Projects,Introductory Programming
+10.1145/3641555.3705212,Leveraging LLM for Detecting and Explaining LLM-generated Code in Python Programming Courses,Introductory Programming
+10.1145/3706599.3720278,Prompt it Colorful with Rainbow Bot: Enhancing Video-Based Collaborative Learning by using a Multi-Party AI-Driven Chatbot,Human-Computer Interaction
+10.1145/3641554.3701974,BugSpotter: Automated Generation of Code Debugging Exercises,Introductory Programming
+10.1145/3641555.3705201,Implementing the AI-Lab Framework: Enhancing Introductory Programming Education for CS Majors,Introductory Programming
+10.1145/3641554.3701934,Exploring Student Reactions to LLM-Generated Feedback on Explain in Plain English Problems,Introductory Programming
+10.1145/3706598.3713731,TutorCraftEase: Enhancing Pedagogical Question Creation with Large Language Models,Educational Technology
+10.1145/3641555.3705278,Using Peer Tutoring to Bolster Retention Rates and Student Performance in CS1 Courses,Introductory Programming
+10.1145/3706598.3713513,From Passive Watching to Active Learning: Empowering Proactive Participation in Digital Classrooms with AI Video Assistant,Educational Technology
+10.1145/3641555.3705040,LLM+RAG Driven Topic Modeling,Educational Technology
+10.1145/3641555.3705044,Optimizing Prompt Engineering for Automated Text Summarization of Student Reflections: A Comparative Study Using GPT-4 LLM,Natural Language Processing
+10.1145/3641555.3705253,Spotting AI Missteps: Students Take on LLM Errors in CS1,Introductory Programming
+10.1145/3641555.3705187,From Code to Concepts: Textbook-Driven Knowledge Tracing with LLMs in CS1,Introductory Programming
+10.1145/3705300,Distinguishing LLM-Generated from Human-Written Code by Contrastive Learning,Machine Learning
+10.1145/3706468.3706479,Feedback on Feedback: Student’s Perceptions for Feedback from Teachers and Few-Shot LLMs,Educational Technology
+10.1145/3706598.3713447,How Do Hackathons Foster Creativity? Towards Automated Evaluation of Creativity at Scale,Human-Computer Interaction
+10.1145/3708359.3712156,CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk Generation for Large Language Model Applications,Human-Computer Interaction
+10.1145/3712301,Matching GPT-simulated Populations with Real Ones in Psychological Studies—The Case of the EPQR-A Personality Test,Artificial Intelligence
+10.1145/3641554.3701910,Evaluating GPT for use in K-12 Block Based CS Instruction Using a Transpiler and Prompt Engineering,Educational Technology
+10.1145/3641554.3701932,A Critical Approach to ChatGPT: An Experience in SQL Learning,Databases
+10.1145/3641555.3705245,Scaling Academic Decision-Making with NLP: Automating Transfer Credit Evaluations,Natural Language Processing (NLP)
+10.1145/3732784,TencentLLMEval: A Hierarchical Evaluation of Real-World Capabilities for Human-Aligned LLMs,Natural Language Processing
+10.1145/3716640.3716656,Achievement Goals in CS1-LLM,Introductory Programming
+10.1145/3641555.3705025,Edugator: An AI-enabled Tool for Creating and Delivering Interactive Computing Content,Introductory Programming
+10.1145/3641554.3701801,SENSAI: Large Language Models as Applied Cybersecurity Tutors,Computer Security
+10.1145/3641555.3705141,ChatGPT Comes to Campus: Unveiling Core Themes in AI Policies Across U.S. Universities with Large Language Models,Artificial Intelligence Policy and Ethics
+10.1145/3706598.3713773,Classroom Simulacra: Building Contextual Student Generative Agents in Online Education for Learning Behavioral Simulation,Educational Technology
+10.1145/3706598.3714261,AutoPBL: An LLM-powered Platform to Guide and Support Individual Learners Through Self Project-based Learning,Educational Technology
+10.1145/3706599.3720240,Improving User Engagement and Learning Outcomes in LLM-Based Python Tutor: A Study of PACE,Introductory Programming
+10.1145/3641554.3701806,Code Interviews: Design and Evaluation of a More Authentic Assessment for Introductory Programming Assignments,Introductory Programming
+10.1145/3641555.3705281,What Gets Them Talking? Identifying Catalysts for Student Engagement Within a Computing Ethics Course,Computing Ethics
+10.1145/3641554.3701960,Case Study 2: Mapping between an E-Voting Curriculum and the DHS/NSA CAE Knowledge Units,Cybersecurity Curriculum Development
+10.1145/3716640.3716649,Breaking the Programming Language Barrier: Multilingual Prompting to Empower Non-Native English Learners,Introductory Programming
+10.1145/3641555.3705227,Personalized Parsons Puzzles as Scaffolding Enhance Practice Engagement Over Just Showing LLM-Powered Solutions,Introductory Programming
+10.1145/3676536.3699507,Are LLMs Any Good for High-Level Synthesis?,Computer Architecture
+10.1145/3722237.3722354,Generative AI in Education: Developing Personalized Learning Experiences with Hyperspherical Variational Self-Attention Autoencoder,Machine Learning
+10.1145/3709025.3712219,A Reasoning-Focused Legal Retrieval Benchmark,Information Retrieval
+10.1145/3723010.3723036,Towards a Semantic Representation of Framework Recommendations for Curricular Specifications in Higher Education,Educational Technology
+10.1145/3641555.3705180,Exploring ChatGPT as a Qualitative Research Assistant,Human-Computer Interaction
+10.1145/3701716.3715199,SortingHat: Redefining Operating Systems Education with a Tailored Digital Teaching Assistant,Operating Systems
+10.1145/3708359.3712104,Exploring the Design Space of Cognitive Engagement Techniques with AI-Generated Code for Enhanced Learning,Human-Computer Interaction
+10.1145/3641555.3705166,Detecting Programming Plans in Open-ended Code Submissions,Introductory Programming
+10.1145/3723010.3723034,The Power of Context: An LLM-based Programming Tutor with Focused and Proactive Feedback,Introductory Programming
+10.1145/3641555.3705272,Traversing New Horizons: An Exploration of Educational Policies on Generative AI,Ethics in AI and Technology
+10.1145/3706598.3713582,Promoting Cognitive Health in Elder Care with Large Language Model-Powered Socially Assistive Robots,Human-Computer Interaction
+10.1145/3708036.3708178,The Role of Generative AI in Higher Education: A Decade of Current Status and Future Prospects,Educational Technology
+10.1145/3689050.3704429,Stage Wizard: Enhancing Tangible Storytelling with Multimodal LLMs,Human-Computer Interaction
+10.1145/3641554.3701959,How Novices Use Program Visualizations to Understand Code that Manipulates Data Tables,Human-Computer Interaction
+10.1145/3722237.3722310,Research on Steganography Course with Large Language Model ChatGPT Assisted Learning,Steganography
+10.1145/3705754.3705758,Empowering Multimodal Large Language Models for Solving Cognitive Puzzles,Artificial Intelligence
+10.1145/3706599.3720081,Aptly: Making Mobile Apps from Natural Language,Human-Computer Interaction
+10.1145/3706468.3706533,Configuring and Monitoring Students' Interactions with Generative AI Tools: Supporting Teacher Autonomy,Educational Technology
+10.1145/3706598.3713460,PAIGE: Examining Learning Outcomes and Experiences with Personalized AI-Generated Educational Podcasts,Educational Technology
+10.1145/3641554.3701942,Detecting AI-Generated Pseudocode in High School Online Programming Courses Using an Explainable Approach,Educational Technology in Computer Science
+10.1145/3696410.3714768,SymAgent: A Neural-Symbolic Self-Learning Agent Framework for Complex Reasoning over Knowledge Graphs,Artificial Intelligence
+10.1145/3696410.3714858,"A LLM-based Controllable, Scalable, Human-Involved User Simulator Framework for Conversational Recommender Systems",Human-Computer Interaction
+10.1145/3708557.3716146,Evaluation Workflows for Large Language Models (LLMs) that Integrate Domain Expertise for Complex Knowledge Tasks,Natural Language Processing
+10.1145/3706598.3713275,Characterizing LLM-Empowered Personalized Story Reading and Interaction for Children: Insights From Multi-Stakeholder Perspectives,Human-Computer Interaction
+10.1145/3706598.3713971,Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators,Educational Technology
+10.1145/3701716.3717527,One Size doesn't Fit All: A Personalized Conversational Tutoring Agent for Mathematics Instruction,Educational Technology
+10.1145/3731445,A Systematic Survey of Text Summarization: From Statistical Methods to Large Language Models,Natural Language Processing
+10.1145/3641555.3705144,"Coding Pathfinder: A Platform for Creative, Self-Guided Mastery in Programming",Introductory Programming
+10.1145/3706598.3714054,TeachTune: Reviewing Pedagogical Agents Against Diverse Student Profiles with Simulated Students,Human-Computer Interaction
+10.1145/3727877,Challenges and Experiences in Data Integration to Support Research on Nonprofit Organizations,Databases
+10.1145/3729605.3729648,NexaNota: An AI-Powered Smart Linked Lecture Note-Taking System Leveraging Large Language Models,Human-Computer Interaction
+10.1145/3641555.3704754,Integrating Data Science for Social Justice: A Tutorial on Developing Non-Traditional Pathways for Non-CS Majors,Data Science for Social Justice
+10.1145/3706598.3713714,"""Here the GPT made a choice, and every choice can be biased"": How Students Critically Engage with LLMs through End-User Auditing Activity",Human-Computer Interaction
+10.1145/3708036.3708256,Visual analytics of the current status and trends in artificial intelligence education based on big data,Artificial Intelligence in Education
+10.1145/3641555.3705175,Evaluating GenAI's Effectiveness for Students with Varied Programming Backgrounds in a Software Development Course,Software Engineering
+10.1145/3729219,Privacy Preserving Prompt Engineering: A Survey,Natural Language Processing
+10.1145/3722237.3722268,Agent4EDU: Advancing AI for Education with Agentic Workflows,Educational Technology
+10.1145/3706598.3714146,Exploring Multimodal Generative AI for Education through Co-design Workshops with Students,Human-Computer Interaction
+10.1145/3722237.3722245,ChatGPT Empowers Higher Education: —Research Topics Hotspots and Quantitative Visual Analysis,Educational Technology
+10.1145/3723178.3723268,Generative AI for Programming Education: Can ChatGPT Facilitate the Acquisition of Fundamental Programming Skills for Novices?,Introductory Programming
+10.1145/3704137.3704182,Metrics of Success: Evaluating User Satisfaction in AI Chatbots,Human-Computer Interaction
+10.1145/3716895.3716958,Civil Aviation Legal Retrieval and Analysis Based on RAG,Natural Language Processing
+10.1145/3711000,'I'm Categorizing LLM as a Productivity Tool': Examining Ethics of LLM Use in HCI Research Practices,Human-Computer Interaction
+10.1145/3641555.3704762,Creating in-IDE Programming Courses,Introductory Programming
+10.1145/3641554.3701823,Analysis of Generative AI Policies in Computing Course Syllabi,Educational Technology in Computing
+10.1145/3706468.3706487,A Novel Approach to Scalable and Automatic Topic-Controlled Question Generation in Education,Natural Language Processing
+10.1145/3641555.3705037,Infinite Story,Introductory Programming
+10.1145/3706598.3713832,PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at Scale,Introductory Programming
+10.1145/3696673.3723069,Integrating Prompt Structures Using LLM Embeddings for Cybersecurity Threats,Computer Security
+10.1145/3641555.3705031,"Exploring Undergraduate AI Perceptions: Knowledge, Enthusiasm, and Concerns",Artificial Intelligence Ethics and Education
+10.1145/3672608.3707798,Supporting Software Engineers in IT Security and Privacy through Automated Knowledge Discovery,Software Engineering
+10.1145/3701716.3717810,EdgePrompt: Engineering Guardrail Techniques for Offline LLMs in K-12 Educational Settings,Human-Computer Interaction
+10.1145/3702386.3702391,Investigating AI-Integrated Ecological Civilization Education: Opportunities and Challenges in a Qualitative Study,Educational Technology
+10.1145/3708557.3716159,Adaptive XAI: Advancing Intelligent Interfaces for Tailored AI Explanations (2nd Edition),Human-Computer Interaction
+10.1145/3706598.3713589,TutorUp: What If Your Students Were Simulated? Training Tutors to Address Engagement Challenges in Online Learning,Educational Technology
+10.1145/3704289.3704302,Exploration of Engineering and Design Fusion in 3E of Digital Media Technology Major Empowered by AIGC,Digital Media Technology
+10.1145/3713081.3731745,On Benchmarking Code LLMs for Android Malware Analysis,Computer Security
+10.1145/3711012,Improving Emotional Support Delivery in Text-Based Community Safety Reporting Using Large Language Models,Human-Computer Interaction
+10.1145/3711857,Efficient and Effective Role Player: A Compact Knowledge-grounded Persona-based Dialogue Model Enhanced by LLM Distillation,Natural Language Processing
+10.1145/3706599.3720099,Privacy Meets Explainability: Managing Confidential Data and Transparency Policies in LLM-Empowered Science,Computer Security
+10.1145/3641555.3705263,The AI-Enhanced Software Engineer: A Snapshot of the Profession,Software Engineering
+10.1145/3704289.3704293,Interdisciplinary Perspectives on Generative Artificial Intelligence Adoption in Higher Education: A Theoretical Framework Review,Human-Computer Interaction
+10.1145/3704289.3704301,"A Systematic Literature Review of the Opportunities and Advantages for AIGC (OpenAI ChatGPT, Copilot, Codex) in Programming Course",Introductory Programming
+10.1145/3641555.3705242,Scaffolding Collaborative Software Design with Serious Games,Software Engineering
+10.1145/3696410.3714889,WebCode2M: A Real-World Dataset for Code Generation from Webpage Designs,Web Development
+10.1145/3641555.3705038,Leveraging Generative AI for Personalized Learning Experiences,Educational Technology
+10.1145/3717512.3717515,Understanding Misunderstandings: Evaluating LLMs on Networking Questions,Computer Networks
+10.1145/3706599.3706732,Resisting AI Solutionism: Where Do We Go From Here?,Human-Computer Interaction
+10.1145/3701716.3715599,FMDLlama: Financial Misinformation Detection Based on Large Language Models,Natural Language Processing
+10.1145/3641555.3705241,SAFARI-P: Swahili-Focused Adaptive Framework for Accelerated Reinforcement in Intelligent Python Education,Introductory Programming
+10.1145/3732285,Policy-Space Diffusion for Physics-Based Character Animation,Computer Graphics
+10.1145/3706598.3713724,What Social Media Use Do People Regret? An Analysis of 34K Smartphone Screenshots with Multimodal LLM,Human-Computer Interaction
+10.1145/3706598.3714121,"""I'd Never Actually Realized How Big An Impact It Had Until Now"": Perspectives of University Students with Disabilities on Generative Artificial Intelligence",Human-Computer Interaction
+10.1145/3706598.3713109,Exploring LLM-Powered Role and Action-Switching Pedagogical Agents for History Education in Virtual Reality,Human-Computer Interaction
+10.1145/3706598.3714111,LitLinker: Supporting the Ideation of Interdisciplinary Contexts with Large Language Models for Teaching Literature in Elementary Schools,Educational Technology
+10.1145/3708359.3712125,Mental Models of Generative AI Chatbot Ecosystems,Human-Computer Interaction
+10.1145/3701716.3715467,Evaluating Llama 3 for Text Simplification: A Study on Wikipedia Lead Sections,Natural Language Processing
+10.1145/3676536.3676766,ConSmax: Hardware-Friendly Alternative Softmax with Learnable Parameters,Computer Architecture
+10.1145/3706599.3719708,GPTFootprint: Increasing Consumer Awareness of the Environmental Impacts of LLMs,Human-Computer Interaction
+10.1145/3724393,JailGuard: A Universal Detection Framework for Prompt-based Attacks on LLM Systems,Computer Security
+10.1145/3706468.3706501,Exploring Knowledge Tracing in Tutor-Student Dialogues using LLMs,Educational Technology
+10.1145/3706598.3713456,Exploring the Impact of Avatar Representations in AI Chatbot Tutors on Learning Experiences,Human-Computer Interaction
+10.1145/3710947,Collecting Qualitative Data at Scale with Large Language Models: A Case Study,Human-Computer Interaction
+10.1145/3698204.3716446,Search+Chat: Integrating Search and GenAI to Support Users with Learning-oriented Search Tasks,Human-Computer Interaction
+10.1145/3702212.3702217,Themes in the Declared Use of Generative Artificial Intelligence in Assessment,Educational Technology
+10.1145/3723420.3723428,Application analysis of generative artificial intelligence in basic education,Educational Technology
+10.1145/3706599.3720266,PolicyPulse: LLM-Synthesis Tool for Policy Researchers,Human-Computer Interaction
+10.1145/3713081.3731731,Kitten: A Simple Yet Effective Baseline for Evaluating LLM-Based Compiler Testing Techniques,Compilers
+10.1145/3736408,Exploring Fine-Grained Bug Report Categorization with Large Language Models and Prompt Engineering: An Empirical Study,Software Engineering
+10.1145/3711403.3711410,Behavioral Analysis of Classroom Interactions Supported by Generative Artificial Intelligence,Educational Technology
+10.1145/3735635,Do Current Language Models Support Code Intelligence for R Programming Language?,Software Engineering
+10.1145/3711403.3711428,Digital Human Techniques for Education Reform,Human-Computer Interaction
+10.1145/3708036.3708151,Analysis and Research on Generative Artificial Intelligence in the Field of International Library and Information Science,Artificial Intelligence Applications in Information Science
+10.1145/3708557.3716358,Interactive Visualization of LSST Quantum Graph,Data Visualization
+10.1145/3706598.3714322,"Initiating the Global AI Dialogues: Laypeople Perspectives on the Future Role of genAI in Society from Nigeria, Germany and Japan",Ethics in Technology
+10.1145/3706599.3719787,Museum in the Classroom: Engaging Students with Augmented Reality Museum Artifacts and Generative AI,Human-Computer Interaction
+10.1145/3736720,Indic-ST: A Large-Scale Multilingual Corpus for Low-Resource Speech-to-Text Translation,Natural Language Processing
+10.1145/3708359.3712149,Simulating Cooperative Prosocial Behavior with Multi-Agent LLMs: Evidence and Mechanisms for AI Agents to Inform Policy Decisions,Multi-Agent Systems
+10.1145/3706599.3719841,Generative AI Tools in Higher Education: A Meta-Analysis of Cognitive Impact,Educational Technology
+10.1145/3700794.3700817,"Near Feasibility, Distant Practicality: Empirical Analysis of Deploying and Using LLMs on Resource-Constrained Smartphones",Mobile Computing
+10.1145/3729605.3729620,Deep Learning Based Knowledge Tracing: A Review of the Literature,Educational Data Mining
+10.1145/3706598.3713283,OSINT Clinic: Co-designing AI-Augmented Collaborative OSINT Investigations for Vulnerability Assessment,Computer Security
+10.1145/3724504.3724537,Generation and Evaluation of International Chinese Teaching Resources by Generative Artificial Intelligence,Artificial Intelligence in Education
+10.1145/3711403.3711435,A Review of the Role and Impact of Generative Artificial Intelligence on Education,Educational Technology and AI Integration
+10.1145/3706598.3714051,PromptHive: Bringing Subject Matter Experts Back to the Forefront with Collaborative Prompt Engineering for Educational Content Creation,Human-Computer Interaction
+10.1145/3706598.3713853,Breaking Barriers or Building Dependency? Exploring Team-LLM Collaboration in AI-infused Classroom Debate,Human-Computer Interaction
+10.1145/3722237.3722260,Generative AI Integrated Educational Model for User-Centered Design,Human-Computer Interaction
+10.1145/3711026,Making ChatGPT Work for Me,Human-Computer Interaction
+10.1145/3706598.3713233,Catalyst for Creativity or a Hollow Trend?: A Cross-Level Perspective on The Role of Generative AI in Design,Human-Computer Interaction
+10.1145/3701551.3705708,Disinformation and Misinformation in the Age of Generative AI,Artificial Intelligence Ethics
+10.1145/3716554.3716575,Using ChatGPT for developing and simulating a circuit in VHDL,Digital Design and Computer Architecture
+10.1145/3706599.3719878,"""Hello, Mr Tree"": Toying with Playful Conversational AI in the Early Years",Human-Computer Interaction
+10.1145/3685680,Generative AI Literacy: Twelve Defining Competencies,Artificial Intelligence Literacy
+10.1145/3702163.3702409,"User Study on the Trustworthiness, Usability and Explainability of Intent-based and Large Language Model-based Career Planning Conversational Agents",Human-Computer Interaction
+10.1145/3735548.3729174,"Beyond Detection: Why faculty should focus on AI literacy, not AI policing",AI Ethics and Literacy
+10.1145/3742939.3742941,It Is Time to Care for Ada!,Programming Languages
+10.1145/3702163.3702185,Heutagogical Learning and the Use of ChatGPT in the pre-professional practice of university students,Educational Technology
+10.1145/3708557.3716158,HAI-GEN 2025: 6th Workshop on Human-AI Co-Creation with Generative Models,Human-Computer Interaction
+10.1145/3701551.3703563,Improving FIM Code Completions via Context &amp; Curriculum Based Learning,Software Engineering
+10.1145/3702163.3702179,Beyond the Textbook: A Study of ChatGPT Patterns of Use Perceptions and Experiences Among Students in Higher Education,Educational Technology
+10.1145/3706598.3713748,DBox: Scaffolding Algorithmic Programming Learning through Learner-LLM Co-Decomposition,Introductory Programming
+10.1145/3711403.3711436,Generative Artificial Intelligence Enables Multiple Learning Environments and Implementation Paths,Educational Technology
+10.1145/3713081.3732931,Patch the Leak: Strengthening CodeLLMs Against Privacy Extraction Threats,Computer Security
+10.1145/3716167,Towards Reliable Evaluation of Neural Program Repair with Natural Robustness Testing,Software Engineering
+10.1145/3710953,Customizing Generated Signs and Voices of AI Avatars: Deaf-Centric Mixed-Reality Design for Deaf-Hearing Communication,Human-Computer Interaction
+10.1145/3706598.3714233,DreamGarden: A Designer Assistant for Growing Games from a Single Prompt,Human-Computer Interaction
+10.1145/3706599.3720120,Generative AI in Virtual Reality Communities: A Preliminary Analysis of the VRChat Discord Community,Human-Computer Interaction
+10.1145/3710911,From Data Activism to Activism in a Time of Data-Centrism: Affirming Epistemological Heterogeneity in Social Movements,Social Informatics
+10.1145/3672608.3707909,AI-Enhanced Learning: Comparing Outcomes in Introductory and Advanced Programming Courses,Introductory Programming
+10.1145/3706599.3720244,Can LLMs be used to Quantify the Emotional Salience of Text Statements using an Elo Rating System?,Natural Language Processing
+10.1145/3711403.3711438,Artificial Intelligence Helps Teachers Personalise Their Teaching--Take ChatGPT as an Example,Artificial Intelligence in Education
+10.1145/3702386.3702392,A Comparative Study of Gender Differences in the Utilization and Effectiveness of AI-Assisted Learning Tools in Programming Among University Students,Introductory Programming
+10.1145/3708359.3712080,FretMate: ChatGPT-Powered Adaptive Guitar Learning Assistant,Human-Computer Interaction
+10.1145/3708359.3712134,Can an AI Partner Empower Learners to Ask Critical Questions?,Educational Technology
+10.1145/3706599.3719736,Empowering Social Service with AI: Insights from a Participatory Design Study with Practitioners,Human-Computer Interaction
+10.1145/3706599.3720032,"""We need to avail ourselves of [GenAI] to enhance knowledge distribution"": Empowering Older Adults through GenAI Literacy",Human-Computer Interaction
+10.1145/3711403.3711457,The Application of Generative Artificial Intelligence in the Teaching of Engineering Courses in Chinese Universities,Educational Technology
+10.1145/3706599.3719728,"""Ask Sir Oliver Ingham"": LLM-based Social Simulations for History Education",Human-Computer Interaction
+10.1145/3706598.3713393,Examining Student and Teacher Perspectives on Undisclosed Use of Generative AI in Academic Work,Ethics in Technology
+10.1613/jair.1.17403,Generative Curricula for Multi-Agent Path Finding via Unsupervised and Reinforcement Learning,Artificial Intelligence
+10.1145/3731756,What Should We Engineer in Prompts? Training Humans in Requirement-Driven LLM Use,Human-Computer Interaction
+10.1145/3706598.3713510,"""Ethics is not neutral"": Understanding Ethical and Responsible AI Design from the Lenses of Black Youth",Ethics in Technology
+10.1145/3708394.3708455,Research on the Cultivation of Teacher Candidates from the Perspective of AI Empowerment with Sentiment analysis,Artificial Intelligence
+10.1145/3701198,Generative Co-Learners: Enhancing Cognitive and Social Presence of Students in Asynchronous Learning with Generative AI,Educational Technology
+10.1145/3672608.3707992,Generative AI in Rural High Schools: Challenges and Opportunities,Educational Technology
+10.1145/3721846,Exploring Generative AI’s Impact on Research: Perspectives from Senior Scholars in Management Information Systems,Management Information Systems
+10.1145/3711403.3711445,An Exploration of the Impact of Generalized Big Model Programming Educational Applications of Artificial Intelligence,Artificial Intelligence in Education
+10.1145/3706599.3706713,"New Frontiers of Human-centered Explainable AI (HCXAI): Participatory Civic AI, Benchmarking LLMs, XAI Hallucinations, and Responsible AI Audits",Human-Computer Interaction
+10.1145/3706599.3719957,"An Explorative Diary Study of AI-Generated Podcasts in University Education: Benefits, Challenges, and Future Directions",Educational Technology
+10.1145/3706598.3713574,Ethics Reflexivity Canvas: Resourcing Ethical Sensitivity for HCI Educators,Human-Computer Interaction
+10.1145/3706468.3706559,Turning Real-Time Analytics into Adaptive Scaffolds for Self-Regulated Learning Using Generative Artificial Intelligence,Educational Technology
+10.1145/3708359.3712131,How Dynamic vs. Static Presentation Shapes User Perception and Emotional Connection to Text-Based AI,Human-Computer Interaction
+10.1145/3706468.3706474,Scaling Up Collaborative Dialogue Analysis: An AI-driven Approach to Understanding Dialogue Patterns in Computational Thinking Education,Educational Technology
+10.1145/3723498.3723817,"Routine, Twisty, and Queer: Pasts and Futures of Games Programming Pedagogy with No and Low Code Tools",Game Development Pedagogy
+10.1145/3672608.3707842,Unlearn and Protect: Selective Identity Removal in Diffusion Models for Privacy Preservation,Machine Learning
+10.1145/3706598.3713804,Generative AI and News Consumption: Design Fictions and Critical Analysis,Human-Computer Interaction
+10.1145/3706598.3713634,The Sky is the Limit: Understanding How Generative AI can Enhance Screen Reader Users' Experience with Productivity Applications,Human-Computer Interaction
+10.1145/3706599.3719971,When AI Tells Their Story: Researchers’ Reactions to AI-Generated Podcasts as a Tool for Communicating Research,Human-Computer Interaction
+10.1145/3717867.3717891,Exploring Stance on Affirmative Action Through Reddit Narratives,Natural Language Processing
+10.1145/3718098,Generative AI in Fashion: Overview,Machine Learning
+10.1145/3731754,LogUpdater: Automated Detection and Repair of Specific Defects in Logging Statements,Software Engineering
