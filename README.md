@@ -74,7 +74,7 @@ Based on the 1106 results returned from executing the search string on the ACM D
 
 Based on the 805 results returned from executing the search string on the IEEE Xplore. See [`bibfiles/ieee_search_string.bib`](bibfiles/ieee_search_string.bib). We get the following vibe:
 
-<img src="output/acm_subject_vibe.png" alt="ACM Subject Vibe Count" width="800"/>
+<img src="output/ieee_subject_vibe.png" alt="ACM Subject Vibe Count" width="800"/>
 
 > Note: This chart shows the distribution of papers across computer science course subjects as classified by OpenAI's GPT-4o model. The classification is based on paper titles and abstracts, providing insights into which CS education areas are most represented in the literature on generative AI.
 
