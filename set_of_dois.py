@@ -34,17 +34,17 @@ Requirements:
 - Directory containing BibTeX (.bib) files with DOI fields
 
 Usage Examples:
-    # Extract DOIs from current directory
+    # Extract DOIs from current directory with detailed summary
     python set_of_dois.py
 
-    # Process specific directory with verbose output
+    # Process specific directory with file-by-file processing info
     python set_of_dois.py -d bibfiles/ -v
 
-    # Save unique DOIs to file
-    python set_of_dois.py -d bibfiles/ -o unique_dois.txt -v
+    # Save unique DOIs to file with comprehensive statistics
+    python set_of_dois.py -d bibfiles/ -o unique_dois.txt
 
     # Analyze large bibliography collection
-    python set_of_dois.py -d /path/to/papers/ -o master_doi_list.txt
+    python set_of_dois.py -d /path/to/papers/ -o master_doi_list.txt -v
 
 Input Requirements:
     BibTeX files (.bib) containing entries with DOI fields:
@@ -69,9 +69,11 @@ Processing Details:
 
 Statistics Provided:
     - Total number of BibTeX files processed
-    - Number of unique DOIs found across all files
-    - Per-file DOI counts (in verbose mode)
-    - Sample DOIs for verification
+    - DOI counts per individual file (always shown)
+    - Total DOIs found across all files (with duplicates)
+    - Number of unique DOIs after deduplication
+    - Number and percentage of duplicate DOIs removed
+    - Sample of unique DOIs for verification
 
 Error Handling:
     - File encoding issues (uses UTF-8 with error tolerance)
@@ -140,15 +142,25 @@ def main():
         file_doi_counts[bib_file.name] = len(dois)
         all_dois.update(dois)
     
+    # Calculate total DOIs (with duplicates)
+    total_dois_with_duplicates = sum(file_doi_counts.values())
+    
     # Print results
     print(f"\nResults Summary:")
-    print(f"----------------")
-    print(f"Total unique DOIs found: {len(all_dois)}")
+    print(f"================")
+    print(f"Files processed: {len(bibtex_files)}")
+    print(f"\nDOIs per file:")
+    for filename, count in sorted(file_doi_counts.items()):
+        print(f"  {filename}: {count} DOIs")
     
-    if args.verbose:
-        print("\nDOIs per file:")
-        for filename, count in sorted(file_doi_counts.items()):
-            print(f"  {filename}: {count} DOIs")
+    print(f"\nOverall Statistics:")
+    print(f"------------------")
+    print(f"Total DOIs found (with duplicates): {total_dois_with_duplicates}")
+    print(f"Unique DOIs across all files: {len(all_dois)}")
+    if total_dois_with_duplicates > 0:
+        duplicate_count = total_dois_with_duplicates - len(all_dois)
+        duplicate_percentage = (duplicate_count / total_dois_with_duplicates) * 100
+        print(f"Duplicate DOIs removed: {duplicate_count} ({duplicate_percentage:.1f}%)")
     
     # Output to file if requested
     if args.output:
@@ -161,11 +173,14 @@ def main():
             print(f"Error writing to output file: {e}")
     
     # Print first few DOIs as a sample
-    if all_dois and args.verbose:
+    if all_dois:
         sample_size = min(5, len(all_dois))
-        print(f"\nSample of DOIs (first {sample_size}):")
+        print(f"\nSample of unique DOIs (first {sample_size}):")
         for doi in sorted(list(all_dois))[:sample_size]:
             print(f"  {doi}")
+        
+        if len(all_dois) > sample_size:
+            print(f"  ... and {len(all_dois) - sample_size} more DOIs")
 
 if __name__ == "__main__":
     main()
