@@ -9,15 +9,23 @@ The SRL is driven by the following search string:
 
 Domain:
 ```sql
-("computer science" OR "computer engineering" OR "software engineering" OR "computing education" OR "cs education" OR "csed" OR "cse")
+("computer science" OR "computer engineering" OR "software engineering" OR "computing education" 
+OR "cs education" OR "csed" OR "cse")
 ```
 Generative AI:
 ```sql
-AND ("generative" OR "large language model" OR "large language models" OR "llm" OR "llms" OR "gpt" OR "gpt-3" OR "gpt-3.5" OR "gpt-4" OR "gpt-4o" OR "o1" OR "o3" OR "chatgpt" OR "openai" OR "gemini" OR "bard" OR "claude" OR "copilot" OR "llama" OR "mixtral" OR "deepseek" OR "codex")
+AND ("generative" OR "large language model" OR "large language models" OR "llm" OR "llms" 
+OR "gpt" OR "gpt-3" OR "gpt-3.5" OR "gpt-4" OR "gpt-4o" OR "o1" OR "o3" OR "chatgpt" OR "openai" 
+OR "gemini" OR "bard" OR "claude" OR "copilot" OR "llama" OR "mixtral" OR "deepseek" OR "codex")
 ```
 Pedagogical:
 ```sql
-AND ("education" OR "teaching" OR "pedagogy" OR "student" OR "students" OR "learner" OR "learners" OR "teacher" OR "teachers" OR "curriculum" OR "course" OR "courses" OR "course design" OR "assignment" OR "homework" OR "project" OR "capstone" OR "coursework" OR "assessment" OR "grading" OR "examination" OR "exam" OR "learning outcome" OR "learning outcomes" OR "learning objective" OR "learning objectives" OR "competence" OR "competency" OR "competencies" OR "policy" or "policies")
+AND ("education" OR "teaching" OR "pedagogy" OR "student" OR "students" OR "learner" OR "learners" 
+OR "teacher" OR "teachers" OR "curriculum" OR "course" OR "courses" OR "course design" 
+OR "assignment" OR "homework" OR "project" OR "capstone" OR "coursework" OR "assessment" 
+OR "grading" OR "examination" OR "exam" OR "learning outcome" OR "learning outcomes" 
+OR "learning objective" OR "learning objectives" OR "competence" OR "competency" OR "competencies" 
+OR "policy" or "policies")
 ```
 
 > Note see the [`query.md`](query.md) file for the full query development and its varients and the results of the search against the validation set.
