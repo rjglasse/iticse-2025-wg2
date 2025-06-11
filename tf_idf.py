@@ -32,6 +32,7 @@ Use Cases:
 
 Requirements:
 - Python 3.6+
+- bibtexparser (for robust BibTeX parsing): pip install bibtexparser
 - BibTeX files with title, abstract, or keyword fields
 
 Usage Examples:
@@ -82,71 +83,66 @@ from collections import defaultdict, Counter
 import math
 from pathlib import Path
 import string
+import bibtexparser
 
 def extract_text_from_bibtex(bibtex_path):
-    """Extract text content from BibTeX entries."""
+    """Extract text content from BibTeX entries using bibtexparser."""
     documents = []
-    current_entry = {}
-    current_key = None
-    in_entry = False
     
     try:
         with open(bibtex_path, 'r', encoding='utf-8', errors='ignore') as f:
-            for line in f:
-                line = line.strip()
+            # Parse the BibTeX file using bibtexparser
+            bib_database = bibtexparser.load(f)
+        
+        print(f"Found {len(bib_database.entries)} total BibTeX entries")
+        
+        # Process each entry
+        for entry in bib_database.entries:
+            current_entry = {}
+            
+            # Extract citation key
+            if 'ID' in entry:
+                current_entry['key'] = entry['ID']
+            
+            # Extract title
+            if 'title' in entry:
+                current_entry['title'] = clean_text(entry['title'])
+            
+            # Extract abstract
+            if 'abstract' in entry:
+                current_entry['abstract'] = clean_text(entry['abstract'])
+            
+            # Extract keywords
+            if 'keywords' in entry:
+                current_entry['keywords'] = clean_text(entry['keywords'])
+            
+            # Extract DOI
+            if 'doi' in entry:
+                doi = entry['doi'].strip()
+                # Clean up DOI by removing common prefixes
+                if doi.startswith('https://doi.org/'):
+                    doi = doi[16:]
+                elif doi.startswith('http://dx.doi.org/'):
+                    doi = doi[18:]
+                elif doi.startswith('dx.doi.org/'):
+                    doi = doi[11:]
+                current_entry['doi'] = doi
+            
+            # Only include entries with title or abstract
+            if current_entry.get('title') or current_entry.get('abstract'):
+                # Combine all text content
+                text_parts = []
+                if current_entry.get('title'):
+                    text_parts.append(current_entry['title'])
+                if current_entry.get('abstract'):
+                    text_parts.append(current_entry['abstract'])
+                if current_entry.get('keywords'):
+                    text_parts.append(current_entry['keywords'])
                 
-                # Check for entry start
-                if re.match(r'^@\w+\s*\{', line):
-                    in_entry = True
-                    current_entry = {'content': ''}
-                    # Extract citation key
-                    match = re.search(r'^@\w+\s*\{\s*([^,]+)', line)
-                    if match:
-                        current_key = match.group(1).strip()
-                        current_entry['key'] = current_key
-                
-                # Process content within entry
-                elif in_entry:
-                    # Extract title
-                    title_match = re.search(r'title\s*=\s*["{]([^}"]+)["}]', line, re.IGNORECASE)
-                    if title_match:
-                        current_entry['title'] = clean_text(title_match.group(1))
-                    
-                    # Extract abstract
-                    abstract_match = re.search(r'abstract\s*=\s*["{]([^}"]+)["}]', line, re.IGNORECASE)
-                    if abstract_match:
-                        current_entry['abstract'] = clean_text(abstract_match.group(1))
-                    
-                    # Extract keywords
-                    keywords_match = re.search(r'keywords\s*=\s*["{]([^}"]+)["}]', line, re.IGNORECASE)
-                    if keywords_match:
-                        current_entry['keywords'] = clean_text(keywords_match.group(1))
-                    
-                    # Extract DOI
-                    doi_match = re.search(r'doi\s*=\s*["{]([^}"]+)["}]', line, re.IGNORECASE)
-                    if doi_match:
-                        doi = doi_match.group(1).strip()
-                        if doi.startswith('https://doi.org/'):
-                            doi = doi[16:]
-                        current_entry['doi'] = doi
-                    
-                    # Check for entry end
-                    if line == '}':
-                        in_entry = False
-                        if current_entry.get('title') or current_entry.get('abstract'):
-                            # Combine all text content
-                            text_parts = []
-                            if current_entry.get('title'):
-                                text_parts.append(current_entry['title'])
-                            if current_entry.get('abstract'):
-                                text_parts.append(current_entry['abstract'])
-                            if current_entry.get('keywords'):
-                                text_parts.append(current_entry['keywords'])
-                            
-                            current_entry['content'] = ' '.join(text_parts)
-                            documents.append(current_entry)
-                        current_entry = {}
-                        current_key = None
+                current_entry['content'] = ' '.join(text_parts)
+                documents.append(current_entry)
+        
+        print(f"Found {len(documents)} documents with text content")
     
     except Exception as e:
         print(f"Error reading BibTeX file {bibtex_path}: {e}")

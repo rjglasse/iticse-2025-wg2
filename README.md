@@ -9,7 +9,7 @@ The SRL is driven by the following search string:
 
 Domain:
 ```sql
-("computer science" OR "computer engineering" OR "software engineering" OR "cs education" OR "csed" OR "cse")
+("computer science" OR "computer engineering" OR "software engineering" OR "computing education" OR "cs education" OR "csed" OR "cse")
 ```
 Generative AI:
 ```sql
@@ -22,47 +22,101 @@ AND ("education" OR "teaching" OR "pedagogy" OR "student" OR "students" OR "lear
 
 > Note see the [`query.md`](query.md) file for the full query development and its varients and the results of the search against the validation set.
 
-## Frequency of CS Subjects in paper collection
+## ACM Subject Vibe and TF-IDF Analysis
 
-<img src="output/topic_frequency_chart.png" alt="Topic Frequency Chart" width="800"/>
+Based on the 1106 results returned from executing the search string on the ACM DL. See [`bibfiles/acm_search_string.bib`](bibfiles/acm_search_string.bib). We get the following vibe::
 
-> Note: The chart above shows the frequency of various computer science subjects in the collected papers. However, this is the unfiltered set of papers, so there are many papers that are not relevant to the working group. The topics are simply extracted from the paper abstracts and titles using our curated list of computing topics (see: [`resources/topics.txt`](resources/topics.txt)).
-
-## CS Subject Classification Results
-
-<img src="output/subject_vibes.png" alt="CS Subject Vibe Count" width="800"/>
+<img src="output/acm_subject_vibe.png" alt="ACM Subject Vibe Count" width="800"/>
 
 > Note: This chart shows the distribution of papers across computer science course subjects as classified by OpenAI's GPT-4o model. The classification is based on paper titles and abstracts, providing insights into which CS education areas are most represented in the literature on generative AI.
 
-## TF-IDF Analysis of most relevant topics
+### TF-IDF Analysis: Top 50 Terms
 
-Found 987 documents with text content
-Calculating TF-IDF scores...
-Vocabulary size after filtering: 5539 terms
-Min document frequency: 2
-Max document frequency: 789
+**Dataset:** 1,106 documents with text content  
+**Vocabulary:** 5,837 terms (after filtering)  
+**Min document frequency:** 2  
+**Max document frequency:** 884  
 
-| Rank | Term | TF-IDF Score | Rank | Term | TF-IDF Score | Rank | Term | TF-IDF Score |
-|------|------|--------------|------|------|--------------|------|------|--------------|
-| 1 | code | 8.8914 | 18 | design | 4.8275 | 35 | artificial | 4.1858 |
-| 2 | programming | 8.3993 | 19 | model | 4.7928 | 36 | large | 4.1127 |
-| 3 | students | 7.5580 | 20 | use | 4.7757 | 37 | human | 3.8371 |
-| 4 | llms | 7.5478 | 21 | llm | 4.7130 | 38 | system | 3.7961 |
-| 5 | chatgpt | 7.4681 | 22 | models | 4.6398 | 39 | technology | 3.7376 |
-| 6 | software | 7.2976 | 23 | research | 4.5720 | 40 | using | 3.7318 |
-| 7 | learning | 6.4626 | 24 | their | 4.5305 | 41 | educational | 3.7253 |
-| 8 | education | 6.2118 | 25 | our | 4.5176 | 42 | paper | 3.7157 |
-| 9 | generative | 6.0853 | 26 | student | 4.5047 | 43 | development | 3.6996 |
-| 10 | genai | 5.8253 | 27 | language | 4.4863 | 44 | knowledge | 3.6426 |
-| 11 | data | 5.6778 | 28 | questions | 4.4420 | 45 | analysis | 3.6318 |
-| 12 | tools | 5.3515 | 29 | study | 4.3863 | 46 | challenges | 3.6221 |
-| 13 | science | 5.0773 | 30 | course | 4.2925 | 47 | acm | 3.6214 |
-| 14 | computer | 5.0335 | 31 | systems | 4.2775 | 48 | cs1 | 3.5846 |
-| 15 | engineering | 4.9939 | 32 | generation | 4.2599 | 49 | international | 3.5729 |
-| 16 | feedback | 4.9457 | 33 | intelligence | 4.2381 | 50 | symposium | 3.5362 |
-| 17 | computing | 4.8788 | 34 | teaching | 4.2044 |  |  |  |
+#### Top Terms by TF-IDF Score
 
-> Note: The table above shows the top 25 terms with the highest TF-IDF scores from the analysis of the collected papers. This indicates their relevance and importance in the context of generative AI in computer science education. The BibTeX file used for this is the best performing on the ACM DL, which is [`bibfiles/acm_searcH_string.bib`](bibfiles/acm_search_string.bib).
+| Rank | Term | Score | Rank | Term | Score | Rank | Term | Score |
+|------|------|-------|------|------|-------|------|------|-------|
+| 1 | code | 9.7183 | 18 | use | 5.5085 | 35 | systems | 4.6954 |
+| 2 | programming | 9.2468 | 19 | engineering | 5.3970 | 36 | generation | 4.6441 |
+| 3 | chatgpt | 8.8855 | 20 | model | 5.3665 | 37 | technology | 4.6138 |
+| 4 | students | 8.4705 | 21 | models | 5.2540 | 38 | educational | 4.4898 |
+| 5 | llms | 8.3420 | 22 | language | 5.2222 | 39 | knowledge | 4.2949 |
+| 6 | software | 7.8715 | 23 | llm | 5.2182 | 40 | system | 4.2472 |
+| 7 | learning | 7.4829 | 24 | our | 5.1079 | 41 | development | 4.2402 |
+| 8 | education | 7.1350 | 25 | intelligence | 5.0963 | 42 | human | 4.2257 |
+| 9 | generative | 7.0596 | 26 | study | 5.0895 | 43 | using | 4.1822 |
+| 10 | data | 6.3777 | 27 | their | 5.0543 | 44 | international | 4.1758 |
+| 11 | genai | 6.3265 | 28 | research | 5.0467 | 45 | paper | 4.1602 |
+| 12 | tools | 6.1179 | 29 | artificial | 5.0408 | 46 | challenges | 4.1576 |
+| 13 | science | 5.7816 | 30 | teaching | 4.9981 | 47 | acm | 4.0448 |
+| 14 | feedback | 5.7647 | 31 | student | 4.9966 | 48 | analysis | 4.0221 |
+| 15 | design | 5.7542 | 32 | questions | 4.9779 | 49 | work | 3.9596 |
+| 16 | computing | 5.6562 | 33 | large | 4.7570 | 50 | user | 3.9300 |
+| 17 | computer | 5.6202 | 34 | course | 4.6959 |  |  |  |
+
+#### Top Tier Terms (Score > 7.0)
+- **code** (9.72) - Highest scoring term, indicating strong focus on programming implementation
+- **programming** (9.25) - Fundamental programming concepts and practices
+- **chatgpt** (8.89) - Specific AI tool prominence in the literature
+- **students** (8.47) - Educational context emphasis
+- **llms** (8.34) - Large Language Models as a key research area
+- **software** (7.87) - Software development and engineering focus
+- **learning** (7.48) - Learning processes and methodologies
+- **education** (7.14) - Educational research and applications
+- **generative** (7.06) - Generative AI technologies
+
+## IEEE Subject Vibe Results and TF-IDF Analysis
+
+Based on the 805 results returned from executing the search string on the IEEE Xplore. See [`bibfiles/ieee_search_string.bib`](bibfiles/ieee_search_string.bib). We get the following vibe:
+
+<img src="output/acm_subject_vibe.png" alt="ACM Subject Vibe Count" width="800"/>
+
+> Note: This chart shows the distribution of papers across computer science course subjects as classified by OpenAI's GPT-4o model. The classification is based on paper titles and abstracts, providing insights into which CS education areas are most represented in the literature on generative AI.
+
+### TF-IDF Analysis: IEEE Dataset - Top 50 Terms
+
+**Dataset:** 805 documents with text content  
+**Vocabulary:** 5,652 terms (after filtering)  
+**Min document frequency:** 2  
+**Max document frequency:** 644  
+
+#### Top Terms by TF-IDF Score
+
+| Rank | Term | Score | Rank | Term | Score | Rank | Term | Score |
+|------|------|-------|------|------|-------|------|------|-------|
+| 1 | chatgpt | 7.0275 | 18 | use | 3.5937 | 35 | its | 3.0815 |
+| 2 | software | 5.9490 | 19 | computer | 3.5516 | 36 | challenges | 3.0717 |
+| 3 | llms | 5.4597 | 20 | our | 3.5301 | 37 | large | 3.0311 |
+| 4 | programming | 5.3056 | 21 | intelligence | 3.5048 | 38 | using | 3.0078 |
+| 5 | students | 5.2686 | 22 | research | 3.5005 | 39 | academic | 2.9444 |
+| 6 | generative | 5.1358 | 23 | model | 3.4551 | 40 | questions | 2.9424 |
+| 7 | code | 5.1048 | 24 | student | 3.4416 | 41 | assessment | 2.9159 |
+| 8 | engineering | 5.0626 | 25 | course | 3.4380 | 42 | tasks | 2.8857 |
+| 9 | language | 5.0371 | 26 | study | 3.4312 | 43 | performance | 2.8435 |
+| 10 | education | 4.8521 | 27 | their | 3.4264 | 44 | knowledge | 2.8255 |
+| 11 | learning | 4.6852 | 28 | educational | 3.4196 | 45 | framework | 2.8215 |
+| 12 | models | 4.0405 | 29 | science | 3.4102 | 46 | text | 2.8012 |
+| 13 | tools | 4.0017 | 30 | generation | 3.3247 | 47 | paper | 2.7995 |
+| 14 | artificial | 3.9266 | 31 | teaching | 3.2548 | 48 | feedback | 2.7910 |
+| 15 | development | 3.9159 | 32 | system | 3.2539 | 49 | potential | 2.7335 |
+| 16 | data | 3.9048 | 33 | analysis | 3.2292 | 50 | information | 2.7175 |
+| 17 | genai | 3.7834 | 34 | design | 3.1726 |  |  |  |
+
+#### Top Tier Terms (Score > 5.0)
+- **chatgpt** (7.03) - Highest scoring term, showing ChatGPT's dominance in IEEE literature
+- **software** (5.95) - Strong software engineering focus
+- **llms** (5.46) - Large Language Models prominence
+- **programming** (5.31) - Programming education and practice
+- **students** (5.27) - Educational context emphasis
+- **generative** (5.14) - Generative AI technologies
+- **code** (5.10) - Programming implementation focus
+- **engineering** (5.06) - Engineering approaches and methodologies
+- **language** (5.04) - Natural and programming language processing
 
 ## Tools Overview
 
