@@ -1,0 +1,325 @@
+import csv
+import time
+import random
+import argparse
+import os
+from pathlib import Path
+from typing import List, Dict, Optional, Tuple
+import re
+
+import bibtexparser
+import openai
+from openai import OpenAI
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+class Colors:
+    """ANSI color codes for terminal output."""
+    GREEN = '\033[92m'
+    RED = '\033[91m'
+    YELLOW = '\033[93m'
+    BLUE = '\033[94m'
+    BOLD = '\033[1m'
+    END = '\033[0m'
+
+class PaperRelevanceClassifier:
+    def __init__(self, api_key: Optional[str] = None, rate_limit_delay: float = 1.0):
+        # Get API key from environment if not provided
+        if not api_key:
+            api_key = os.getenv('OPENAI_API_KEY')
+            if not api_key:
+                raise ValueError("OpenAI API key must be provided via --api-key argument or OPENAI_API_KEY environment variable")
+        
+        self.client = OpenAI(api_key=api_key)
+        self.rate_limit_delay = rate_limit_delay
+        self.session = self._create_session()
+        
+    def _create_session(self):
+        session = requests.Session()
+        retry_strategy = Retry(
+            total=3,
+            backoff_factor=1,
+            status_forcelist=[429, 500, 502, 503, 504],
+        )
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        session.mount("http://", adapter)
+        session.mount("https://", adapter)
+        return session
+
+    def load_dois_from_file(self, filepath: str) -> List[str]:
+        """Load DOIs from a text file, one per line."""
+        with open(filepath, 'r') as f:
+            dois = [line.strip() for line in f if line.strip()]
+        return dois
+
+    def load_bibtex_file(self, filepath: str) -> List[Dict]:
+        """Load and parse BibTeX file."""
+        with open(filepath, 'r', encoding='utf-8') as f:
+            bib_database = bibtexparser.load(f)
+        return bib_database.entries
+
+    def extract_doi_from_entry(self, entry: Dict) -> Optional[str]:
+        """Extract DOI from BibTeX entry."""
+        doi = entry.get('doi', '').strip()
+        if doi:
+            # Clean up DOI format
+            doi = re.sub(r'^(https?://)?(dx\.)?doi\.org/', '', doi)
+            return doi
+        return None
+
+    def match_entries_to_dois(self, entries: List[Dict], dois: List[str]) -> List[Dict]:
+        """Match BibTeX entries to DOI list."""
+        matched_entries = []
+        doi_set = set(dois)
+        
+        for entry in entries:
+            entry_doi = self.extract_doi_from_entry(entry)
+            if entry_doi and entry_doi in doi_set:
+                matched_entries.append(entry)
+        
+        return matched_entries
+
+    def extract_paper_info(self, entry: Dict) -> Tuple[str, str, str]:
+        """Extract title, abstract, and DOI from BibTeX entry."""
+        title = entry.get('title', '').strip()
+        abstract = entry.get('abstract', '').strip()
+        doi = self.extract_doi_from_entry(entry) or ''
+        
+        # Clean up title (remove braces)
+        title = re.sub(r'[{}]', '', title)
+        
+        return title, abstract, doi
+
+    def classify_relevance_batch(self, papers: List[Tuple[str, str, str]]) -> List[Dict]:
+        """Classify multiple papers in a single API call."""
+        if not papers:
+            return []
+
+        # Prepare batch content
+        batch_content = "Context: A senior researcher has marked this paper not relevant for a systematic literature review on the use of generative ai in computer science education. Please perform a sanity check and classify the following papers for relevance to generative AI in computer science education:\n\n"
+        
+        for i, (title, abstract, doi) in enumerate(papers, 1):
+            batch_content += f"Paper {i}:\n"
+            batch_content += f"Title: {title}\n"
+            if abstract:
+                batch_content += f"Abstract: {abstract}\n"
+            batch_content += f"DOI: {doi}\n\n"
+
+        prompt = f"""Based on the title and abstract, does this paper strictly mention a lower or upper computing course that students are involved with and that generative ai has been used in some way.
+
+        For each paper, please respond in the following format:
+        Paper X: [relevant/not relevant] - [lower-computing/upper-computing] - [name of course]
+
+        Categories:
+        - lower-computing: introductory programming, basic CS concepts, etc
+        - upper-computing: advanced CS topics, software engineering, algorithms, databases, etc
+
+        {batch_content}"""
+
+        try:
+            response = self.client.chat.completions.create(
+                model="gpt-4o",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1
+            )
+            
+            return self._parse_batch_response(response.choices[0].message.content, papers)
+            
+        except Exception as e:
+            print(f"Error in API call: {e}")
+            # Return default responses
+            return [{"doi": doi, "title": title, "relevance": "ERROR", "category": "", "explanation": str(e)} 
+                   for title, abstract, doi in papers]
+
+    def _parse_batch_response(self, response_text: str, papers: List[Tuple[str, str, str]]) -> List[Dict]:
+        """Parse the batch response from GPT-4o."""
+        results = []
+        lines = response_text.split('\n')
+        
+        paper_responses = {}
+        current_paper = None
+        
+        for line in lines:
+            line = line.strip()
+            if line.startswith('Paper '):
+                # Extract paper number and response
+                match = re.match(r'Paper (\d+):\s*(.*)', line)
+                if match:
+                    paper_num = int(match.group(1))
+                    response_part = match.group(2)
+                    paper_responses[paper_num] = response_part
+        
+        # Match responses to papers
+        for i, (title, abstract, doi) in enumerate(papers, 1):
+            if i in paper_responses:
+                response_part = paper_responses[i]
+                relevance, category, explanation = self._parse_single_response(response_part)
+            else:
+                relevance, category, explanation = "UNKNOWN", "", "No response found"
+            
+            results.append({
+                "doi": doi,
+                "title": title,
+                "relevance": relevance,
+                "category": category,
+                "explanation": explanation
+            })
+        
+        return results
+
+    def _parse_single_response(self, response_text: str) -> Tuple[str, str, str]:
+        """Parse a single paper response."""
+        # Look for RELEVANT/NOT_RELEVANT
+        relevance = "UNKNOWN"
+        if "RELEVANT" in response_text.upper():
+            relevance = "NOT_RELEVANT" if "NOT RELEVANT" in response_text.upper() else "RELEVANT"
+        
+        # Extract category
+        category = ""
+        if "lower-computing" in response_text.lower():
+            category = "lower-computing"
+        elif "upper-computing" in response_text.lower():
+            category = "upper-computing"
+        elif "other" in response_text.lower():
+            category = "other"
+        
+        # Extract explanation (everything after the last dash)
+        explanation = response_text.split('-')[-1].strip() if '-' in response_text else response_text
+        
+        return relevance, category, explanation
+
+    def process_papers(self, doi_file: Optional[str], bibtex_file: str, output_file: Optional[str], 
+                      batch_size: int = 5, random_sample: Optional[int] = None):
+        """Main processing function."""
+        print("Loading BibTeX file...")
+        all_entries = self.load_bibtex_file(bibtex_file)
+        print(f"Loaded {len(all_entries)} BibTeX entries")
+        
+        if random_sample:
+            print(f"Taking random sample of {random_sample} entries...")
+            matched_entries = random.sample(all_entries, min(random_sample, len(all_entries)))
+            print(f"Selected {len(matched_entries)} random entries")
+        else:
+            if not doi_file:
+                raise ValueError("DOI file is required when not using random sampling")
+            
+            print("Loading DOIs...")
+            dois = self.load_dois_from_file(doi_file)
+            print(f"Loaded {len(dois)} DOIs")
+            
+            # Match entries to DOIs
+            matched_entries = self.match_entries_to_dois(all_entries, dois)
+            print(f"Matched {len(matched_entries)} entries to DOIs")
+        
+        # Process in batches
+        all_results = []
+        for i in range(0, len(matched_entries), batch_size):
+            batch = matched_entries[i:i+batch_size]
+            print(f"Processing batch {i//batch_size + 1}/{(len(matched_entries)-1)//batch_size + 1}")
+            
+            # Extract paper info
+            papers = [self.extract_paper_info(entry) for entry in batch]
+            
+            # Classify relevance
+            results = self.classify_relevance_batch(papers)
+            all_results.extend(results)
+            
+            # Rate limiting
+            if i + batch_size < len(matched_entries):
+                time.sleep(self.rate_limit_delay)
+        
+        # Export results
+        if output_file:
+            self.export_to_csv(all_results, output_file)
+            print(f"Results exported to {output_file}")
+        else:
+            self.print_results_to_terminal(all_results)
+
+    def export_to_csv(self, results: List[Dict], output_file: str):
+        """Export results to CSV file."""
+        fieldnames = ['doi', 'title', 'relevance', 'category', 'explanation']
+        
+        with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(results)
+
+    def print_results_to_terminal(self, results: List[Dict]):
+        """Print results to terminal in a formatted way."""
+        print("\n" + "="*80)
+        print("RELEVANCE CLASSIFICATION RESULTS")
+        print("="*80)
+        
+        for i, result in enumerate(results, 1):
+            print(f"\nPaper {i}:")
+            print(f"DOI: {result['doi']}")
+            print(f"Title: {result['title']}")
+            
+            # Color code the relevance
+            relevance = result['relevance']
+            if relevance == 'RELEVANT':
+                colored_relevance = f"{Colors.GREEN}{Colors.BOLD}RELEVANT{Colors.END}"
+            elif relevance == 'NOT_RELEVANT':
+                colored_relevance = f"{Colors.RED}{Colors.BOLD}NOT RELEVANT{Colors.END}"
+            elif relevance == 'ERROR':
+                colored_relevance = f"{Colors.YELLOW}{Colors.BOLD}ERROR{Colors.END}"
+            else:
+                colored_relevance = f"{Colors.BLUE}UNKNOWN{Colors.END}"
+            
+            print(f"Relevance: {colored_relevance}")
+            if result['category']:
+                print(f"Category: {result['category']}")
+            print(f"Explanation: {result['explanation']}")
+            print("-" * 60)
+        
+        # Summary statistics with colors
+        relevant_count = sum(1 for r in results if r['relevance'] == 'RELEVANT')
+        not_relevant_count = sum(1 for r in results if r['relevance'] == 'NOT_RELEVANT')
+        error_count = sum(1 for r in results if r['relevance'] == 'ERROR')
+        
+        print(f"\nSUMMARY:")
+        print(f"Total papers: {len(results)}")
+        print(f"Relevant: {Colors.GREEN}{relevant_count}{Colors.END}")
+        print(f"Not relevant: {Colors.RED}{not_relevant_count}{Colors.END}")
+        if error_count > 0:
+            print(f"Errors: {Colors.YELLOW}{error_count}{Colors.END}")
+        
+        if relevant_count > 0:
+            categories = {}
+            for r in results:
+                if r['relevance'] == 'RELEVANT' and r['category']:
+                    categories[r['category']] = categories.get(r['category'], 0) + 1
+            
+            if categories:
+                print(f"Category breakdown:")
+                for category, count in categories.items():
+                    print(f"  {category}: {Colors.GREEN}{count}{Colors.END}")
+
+def main():
+    parser = argparse.ArgumentParser(description='Classify paper relevance using GPT-4o')
+    parser.add_argument('--doi-file', help='Path to DOI text file (optional if using random sample)')
+    parser.add_argument('--bibtex-file', required=True, help='Path to BibTeX file')
+    parser.add_argument('--output-file', help='Output CSV file path (prints to terminal if not specified)')
+    parser.add_argument('--api-key', help='OpenAI API key (uses OPENAI_API_KEY env var if not specified)')
+    parser.add_argument('--batch-size', type=int, default=5, help='Batch size for API requests')
+    parser.add_argument('--rate-limit-delay', type=float, default=1.0, help='Delay between API calls (seconds)')
+    parser.add_argument('--random-sample', type=int, help='Random sample size from BibTeX file')
+    
+    args = parser.parse_args()
+    
+    # Validate arguments
+    if not args.random_sample and not args.doi_file:
+        parser.error("Either --doi-file or --random-sample must be specified")
+    
+    classifier = PaperRelevanceClassifier(args.api_key, args.rate_limit_delay)
+    classifier.process_papers(
+        args.doi_file,
+        args.bibtex_file,
+        args.output_file,
+        args.batch_size,
+        args.random_sample
+    )
+
+if __name__ == "__main__":
+    main()
