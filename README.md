@@ -152,6 +152,16 @@ Extracts all unique DOIs from multiple BibTeX files in a directory and creates a
 python set_of_dois.py -d bibfiles/ -o unique_dois.txt -v
 ```
 
+### Relevance Sanity Check
+Uses GPT-4o to perform sanity checks on paper relevance classifications for generative AI in CS education.
+```bash
+# Check specific DOIs with CSV output
+python not_relevant_sanity_check.py --doi-file dois.txt --bibtex-file papers.bib --output-file results.csv
+
+# Random sample with colored terminal output
+python not_relevant_sanity_check.py --bibtex-file papers.bib --random-sample 10
+```
+
 ### Topic Frequency Analysis
 Analyzes the frequency of specific topics within BibTeX files and generates horizontal bar charts for visualization.
 ```bash
@@ -197,17 +207,19 @@ python subject_chart.py -f data.csv -v --max-subjects 20
 - matplotlib (for plotting): `pip install matplotlib`
 - requests (for API calls): `pip install requests`
 - openai (for subject classification): `pip install openai`
+- bibtexparser (for BibTeX processing): `pip install bibtexparser`
 
-> Note: You need your own OpenAI API key for the subject classification tool. Set it in your environment variables as `OPENAI_API_KEY`.
+> Note: You need your own OpenAI API key for the subject classification and relevance sanity check tools. Set it in your environment variables as `OPENAI_API_KEY`.
 
 ## Sample Workflow
 0. Find DOIs from paper titles: `python find_dois.py -f paper_titles.txt`
 1. Extract DOIs from your bibliography: `python set_of_dois.py -d bibfiles/`
 2. Validate the DOIs: `python check_dois_valid.py -f unique_dois.txt`
-3. Analyze topic frequencies with charts: `python topic_frequency.py -t topics.txt -b bibfiles/acm_final.bib -p`
-4. Perform TF-IDF analysis: `python tf_idf.py -f bibfiles/acm_final.bib -v`
-5. Classify papers by CS course subject with visualization: `python subject_vibe.py -f bibfiles/acm_final.bib -o course_classifications.csv -n 20 -p`
-6. Generate standalone subject charts: `python subject_chart.py -f course_classifications.csv -v`
-7. Analyze coverage against a validation set: `python doi_overlap.py -d target_dois.txt -b bibfiles/acm_final.bib`
+3. Perform relevance sanity checks: `python not_relevant_sanity_check.py --bibtex-file bibfiles/acm_final.bib --random-sample 20`
+4. Analyze topic frequencies with charts: `python topic_frequency.py -t topics.txt -b bibfiles/acm_final.bib -p`
+5. Perform TF-IDF analysis: `python tf_idf.py -f bibfiles/acm_final.bib -v`
+6. Classify papers by CS course subject with visualization: `python subject_vibe.py -f bibfiles/acm_final.bib -o course_classifications.csv -n 20 -p`
+7. Generate standalone subject charts: `python subject_chart.py -f course_classifications.csv -v`
+8. Analyze coverage against a validation set: `python doi_overlap.py -d target_dois.txt -b bibfiles/acm_final.bib`
 
 
