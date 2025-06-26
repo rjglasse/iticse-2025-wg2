@@ -45,7 +45,29 @@ import numpy as np
 from openai import OpenAI
 import bibtexparser
 
-def extract_papers_from_bibtex(bibtex_path):
+def load_dois_from_file(dois_file):
+    """Load DOIs from a text file (one DOI per line)."""
+    dois = set()
+    try:
+        with open(dois_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                doi = line.strip()
+                if doi:
+                    # Clean up DOI by removing common prefixes
+                    if doi.startswith('https://doi.org/'):
+                        doi = doi[16:]
+                    elif doi.startswith('http://dx.doi.org/'):
+                        doi = doi[18:]
+                    elif doi.startswith('dx.doi.org/'):
+                        doi = doi[11:]
+                    dois.add(doi)
+        print(f"Loaded {len(dois)} DOIs from filter file: {dois_file}")
+        return dois
+    except Exception as e:
+        print(f"Error reading DOI filter file {dois_file}: {e}")
+        return set()
+
+def extract_papers_from_bibtex(bibtex_path, doi_filter=None):
     """Extract paper information from BibTeX file using bibtexparser."""
     papers = []
     
@@ -87,9 +109,14 @@ def extract_papers_from_bibtex(bibtex_path):
             
             # Only include papers with at least title and DOI
             if paper.get('title') and paper.get('doi'):
-                papers.append(paper)
+                # Apply DOI filter if provided
+                if doi_filter is None or paper['doi'] in doi_filter:
+                    papers.append(paper)
         
-        print(f"Found {len(papers)} papers with both title and DOI")
+        if doi_filter:
+            print(f"Found {len(papers)} papers matching DOI filter")
+        else:
+            print(f"Found {len(papers)} papers with both title and DOI")
     
     except Exception as e:
         print(f"Error reading BibTeX file {bibtex_path}: {e}")
@@ -332,6 +359,8 @@ def main():
                        help='Maximum number of subjects to display in chart (default: 20)')
     parser.add_argument('--chart', action='store_true', help='Generate a chart of classification results')
     parser.add_argument('--output-chart', help='Output file for the chart (PNG format)')
+    parser.add_argument('--doi-file', 
+                       help='Text file containing DOIs to filter (one DOI per line)')
     
     args = parser.parse_args()
     
@@ -354,10 +383,23 @@ def main():
         print(f"Error: File '{args.file}' not found.")
         return
     
+    # Load DOI filter if provided
+    doi_filter = None
+    if args.doi_file:
+        if not os.path.exists(args.doi_file):
+            print(f"Error: DOI filter file '{args.doi_file}' not found.")
+            return
+        doi_filter = load_dois_from_file(args.doi_file)
+        if not doi_filter:
+            print("Error: No valid DOIs found in filter file.")
+            return
+    
     print(f"Extracting papers from: {args.file}")
+    if args.doi_file:
+        print(f"Filtering by DOIs from: {args.doi_file}")
     
     # Extract papers from BibTeX
-    papers = extract_papers_from_bibtex(args.file)
+    papers = extract_papers_from_bibtex(args.file, doi_filter)
     if not papers:
         print("No papers with titles and DOIs found.")
         return
