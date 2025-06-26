@@ -1,0 +1,7 @@
+10.1145/3597503.3639201, Software Engineering, Students use of custom chat bot for SE tasks
+10.1145/3649217.3653557, Database, Students develop a chatbot as activity
+10.1145/3678726.3678745, Computer Graphics, Students generating images as activity
+10.1109/FIE61694.2024.10893499, cybersecurity, model performance
+10.1109/FIE61694.2024.10892995, computer ehtics, novel LLM assessment
+10.1109/ICSTW58534.2023.00078, Softwre Testing, model performance
+10.1109/EDUCON62633.2025.11016479, Computer Networks + Computer Ethics, student use, but they adapted chat bots to different courses

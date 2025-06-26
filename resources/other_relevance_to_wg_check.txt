@@ -1,0 +1,6 @@
+10.1145/3638067.3638100, Human-computer Interaction, Use in exam ok
+10.1145/3664476.3670446, Cyber Security, Influence on Performance
+10.1145/3658619.3658627, Human-computer Interaction, Students develop personas
+10.1145/3722229, Software Engineering, Activity with PMD v ChatGPT
+10.1109/ACCESS.2025.3545882, Software/Capstone Project, Testing actvity
+10.1109/CSEET62301.2024.10663028, Software Engineering, Activity with PMD v ChatGPT
