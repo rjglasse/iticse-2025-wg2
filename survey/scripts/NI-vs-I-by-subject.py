@@ -47,7 +47,7 @@ data = [
 ]
 
 # Create DataFrame
-df = pd.DataFrame(data, columns=["Subject", "Count", "Type"])
+df = pd.DataFrame(data, columns=["Subject", "Count", "Category"])
 
 # Combine Distributed Computing and Distributed Systems
 df["Subject"] = df["Subject"].replace({
@@ -55,7 +55,7 @@ df["Subject"] = df["Subject"].replace({
 })
 
 # Pivot to wide format
-pivot_df = df.pivot_table(index="Subject", columns="Type", values="Count", fill_value=0)
+pivot_df = df.pivot_table(index="Subject", columns="Category", values="Count", fill_value=0)
 
 # Sort by total count
 pivot_df["Total"] = pivot_df.sum(axis=1)
@@ -73,10 +73,13 @@ pivot_df[["NI", "I"]].plot(
     color=viridis_colors,
     edgecolor="none"
 )
-ax.set_xlabel("Count")
-ax.set_ylabel("Subject")
-ax.legend(["Non-Integrating", "Integrating"], title="Type")
-ax.set_title("Counts of Subjects by Educator Type")
+# Remove frame around the chart while keeping axes
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+# ax.set_xlabel("Count")
+ax.set_ylabel("")
+ax.legend(["Non-Integrating", "Integrating"], title="Category of Educator", frameon=False)
+# ax.set_title("Counts of Subjects by IntegratiEducator")
 ax.grid(False)  # Remove grid lines
 plt.tight_layout()
 
