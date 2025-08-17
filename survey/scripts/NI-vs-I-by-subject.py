@@ -65,13 +65,14 @@ pivot_df = pivot_df.sort_values("Total", ascending=True)
 viridis_colors = [cm.viridis(0.2), cm.viridis(0.8)]
 
 # Plot
-fig, ax = plt.subplots(figsize=(8, 10))
+fig, ax = plt.subplots(figsize=(6, 9))
 pivot_df[["NI", "I"]].plot(
     kind="barh",
     stacked=True,
     ax=ax,
     color=viridis_colors,
-    edgecolor="none"
+    edgecolor="none",
+    width=0.6
 )
 # Remove frame around the chart while keeping axes
 ax.spines['top'].set_visible(False)
@@ -81,8 +82,13 @@ ax.set_ylabel("")
 ax.legend(["Non-Integrating", "Integrating"], title="Category of Educator", frameon=False)
 # ax.set_title("Counts of Subjects by IntegratiEducator")
 ax.grid(False)  # Remove grid lines
+
+# Add totals at the end of bars
+for i, total in enumerate(pivot_df["Total"]):
+    ax.text(total + 0.6, i, str(int(total)), va='center', ha='left', fontsize=9)
+
 plt.tight_layout()
 
 # Save to charts directory as high-resolution PNG
-plt.savefig("../charts/NI-vs-I-by-subject.png", dpi=300, bbox_inches='tight')
+plt.savefig("../charts/ni-vs-i-by-subject.png", dpi=300, bbox_inches='tight')
 plt.show()
