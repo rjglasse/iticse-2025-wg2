@@ -61,8 +61,8 @@ pivot_df = df.pivot_table(index="Subject", columns="Category", values="Count", f
 pivot_df["Total"] = pivot_df.sum(axis=1)
 pivot_df = pivot_df.sort_values("Total", ascending=True)
 
-# Get two distinct colors from viridis palette
-viridis_colors = [cm.viridis(0.2), cm.viridis(0.8)]
+# Get two distinct colors - lavender and viridis
+viridis_colors = [cm.viridis(0.2), "#B19CD9"]
 
 # Plot
 fig, ax = plt.subplots(figsize=(6, 9))

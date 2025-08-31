@@ -26,7 +26,7 @@ df["OptionWrapped"] = df["Option"].apply(lambda t: "\n".join(wrap(t, width=29)))
 df = df.set_index("OptionWrapped")
 
 # Single color for integrators
-color = cm.viridis(0.8)
+color = "#B19CD9"
 
 # Plot
 fig, ax = plt.subplots(figsize=(6, 5))

@@ -30,7 +30,7 @@ wide["OptionWrapped"] = wide["Option"].apply(lambda t: "\n".join(wrap(t, width=2
 wide = wide.set_index("OptionWrapped")
 
 # Colors (Integration darker, Non-Integration lighter)
-colors_swapped = [cm.viridis(0.8), cm.viridis(0.2)]
+colors_swapped = ["#B19CD9", cm.viridis(0.2)]
 
 # Plot
 fig, ax = plt.subplots(figsize=(6, 6))

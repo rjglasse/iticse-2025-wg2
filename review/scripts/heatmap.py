@@ -8,28 +8,31 @@ from matplotlib.colors import LinearSegmentedColormap  # for older Matplotlib us
 
 # ---- Data ---------------------------------------------------------------
 data = {
-    "Subject": ["SE", "DB", "HCI", "ADS", "DSV"],
-    "Generate":     [50, 50, 41, 14, 32],
-    "Interpret":    [50, 50,  5, 36, 18],
-    "Refine":       [ 0,  0,  5, 21,  5],
-    "Evaluate":     [ 0,  0,  9,  7, 14],
-    "Get Feedback": [ 0,  0, 14, 21,  0],
-    "Brainstorm":   [ 0,  0,  9,  0, 14],
-    "Design":       [ 0,  0,  5,  0,  0],
-    "Simulate":     [ 0,  0, 14,  0,  0],
-    "Reflect":      [ 0,  0,  0,  0, 18],
-    "Checksum (%)": [100,100,100,100,100],
+    "Subject": ["SE", "DB", "HCI", "ADS", "DSV", "OOP", "SEC", "ML", "NET", "TCS"],
+    "Generate": [38, 44, 39, 14, 32, 33, 0, 22, 17, 50],
+    "Evaluate": [13, 4, 9, 7, 14, 33, 73, 44, 17, 25],
+    "Interpret": [12, 20, 4, 36, 18, 17, 27, 11, 67, 25],
+    "Refine": [13, 4, 4, 21, 5, 0, 0, 22, 0, 0],
+    "Get Feedback": [8, 4, 13, 21, 0, 17, 0, 0, 0, 0],
+    "Reflect": [6, 16, 4, 0, 18, 0, 0, 0, 0, 0],
+    "Brainstorm": [2, 0, 9, 0, 14, 0, 0, 0, 0, 0],
+    "Simulate": [6, 4, 13, 0, 0, 0, 0, 0, 0, 0],
+    "Design": [2, 4, 4, 0, 0, 0, 0, 0, 0, 0]
 }
-df = pd.DataFrame(data).set_index("Subject")
-df_heatmap = df.drop(columns=["Checksum (%)"])
+df_heatmap = pd.DataFrame(data).set_index("Subject")
 
 # Map abbreviations to full names
 subject_map = {
     "SE":  "Software Engineering",
     "DB":  "Databases",
     "HCI": "Human–Computer Interaction",
-    "ADS": "Algorithms and Data Structures",
+    "ADS": "Algorithms & Data Structures",
     "DSV": "Data Science & Visualization",
+    "OOP": "Object-oriented Programming",
+    "SEC": "Security",
+    "ML": "Machine Learning",
+    "NET": "Networks",
+    "TCS": "Theoretical Computer Science"
 }
 df_heatmap = df_heatmap.rename(index=subject_map)
 
@@ -62,9 +65,9 @@ colors = [
 cmap_wpb = LinearSegmentedColormap.from_list("white_purple_blue", colors, N=256)
 
 # ---- Plot --------------------------------------------------------------
-fig, ax = plt.subplots(figsize=(14, 4))  # landscape for two-column float
+fig, ax = plt.subplots(figsize=(14, 5))  # landscape for two-column float
 
-im = ax.imshow(df_heatmap.values, cmap=cmap_wpb, aspect="auto", vmin=0, vmax=50)
+im = ax.imshow(df_heatmap.values, cmap=cmap_wpb, aspect="auto", vmin=0, vmax=75)
 
 # Ticks & wrapped labels
 ax.set_xticks(np.arange(df_heatmap.shape[1]))

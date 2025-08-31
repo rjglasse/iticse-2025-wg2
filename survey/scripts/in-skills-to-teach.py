@@ -31,7 +31,7 @@ for option in df["Option"]:
     if "None of the above" in option:
         colors.append(cm.viridis(0.2))  # Dark color for negative
     else:
-        colors.append(cm.viridis(0.8))  # Light color for positive
+        colors.append("#B19CD9")  # Light color for positive
 
 # Plot
 fig, ax = plt.subplots(figsize=(6, 5))
